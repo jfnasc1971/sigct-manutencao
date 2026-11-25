@@ -1,0 +1,60 @@
+package com.example;
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.annotation.*;
+import javax.servlet.http.*;
+
+@MultipartConfig(
+    fileSizeThreshold = 1024 * 1024 * 1, // 1MB buffer
+    maxFileSize = 1024 * 1024 * 10,      // 10MB max per file
+    maxRequestSize = 1024 * 1024 * 20    // 20MB total
+)
+public class UploadServlet extends HttpServlet {
+    
+    private static final String UPLOAD_DIR = "uploads";
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        // Caminho onde salvar os arquivos
+        String uploadPath = getServletContext().getRealPath("") + File.separator + UPLOAD_DIR;
+        File uploadDir = new File(uploadPath);
+        if (!uploadDir.exists()) uploadDir.mkdir();
+
+        for (Part part : request.getParts()) {
+            String fileName = extractFileName(part);
+            if (fileName != null && !fileName.isEmpty()) {
+                part.write(uploadPath + File.separator + fileName);
+            }
+        }
+
+        response.getWriter().println("Upload concluído com sucesso.");
+    }
+
+    private String extractFileName(Part part) {
+        for (String cd : part.getHeader("content-disposition").split(";")) {
+            if (cd.trim().startsWith("filename")) {
+                return cd.substring(cd.indexOf('=') + 1).trim().replace("\"", "");
+            }
+        }
+        return null;
+    }
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload de Arquivo</title>
+</head>
+<body>
+    <form method="post" action="upload" enctype="multipart/form-data">
+        Selecione o arquivo: <input type="file" name="file"><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
+
+String uploadPath = "/var/uploads";

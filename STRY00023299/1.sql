@@ -1,580 +1,3695 @@
-begin;
 
-insert into gct.gcttb192_servico_contratado values(64,719,19,435);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,105);
-insert into gct.gcttb191_servico_entregue values(10,201,44,105);
-insert into gct.gcttb191_servico_entregue values(70,899,23,493);
-insert into gct.gcttb191_servico_entregue values(10,1029,36,493);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,105);
-insert into gct.gcttb193_servico_atraso values(84,609,23,493);
-insert into gct.gcttb192_servico_contratado values(10,202,36,602);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,603);
-insert into gct.gcttb192_servico_contratado values(136,997,19,602);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,435);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,602);
-insert into gct.gcttb192_servico_contratado values(10,205,36,604);
-insert into gct.gcttb192_servico_contratado values(11,204,37,602);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,603);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,105);
-insert into gct.gcttb193_servico_atraso values(84,629,23,493);
-insert into gct.gcttb192_servico_contratado values(10,206,36,602);
-insert into gct.gcttb191_servico_entregue values(11,1017,37,493);
-insert into gct.gcttb191_servico_entregue values(64,899,23,105);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,604);
-insert into gct.gcttb192_servico_contratado values(10,204,43,602);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,533);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,435);
-insert into gct.gcttb192_servico_contratado values(64,719,19,487);
-insert into gct.gcttb192_servico_contratado values(65,719,19,602);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,602);
-insert into gct.gcttb192_servico_contratado values(70,899,22,603);
-insert into gct.gcttb192_servico_contratado values(119,889,19,533);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,105);
-insert into gct.gcttb191_servico_entregue values(11,204,37,493);
-insert into gct.gcttb192_servico_contratado values(65,719,19,435);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,435);
-insert into gct.gcttb192_servico_contratado values(10,202,43,105);
-insert into gct.gcttb192_servico_contratado values(10,205,36,493);
-insert into gct.gcttb191_servico_entregue values(10,206,36,493);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,603);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,602);
-insert into gct.gcttb192_servico_contratado values(10,204,43,435);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,603);
-insert into gct.gcttb191_servico_entregue values(10,203,44,105);
-insert into gct.gcttb191_servico_entregue values(10,204,43,493);
-insert into gct.gcttb192_servico_contratado values(11,202,37,105);
-insert into gct.gcttb192_servico_contratado values(10,206,36,435);
-insert into gct.gcttb192_servico_contratado values(11,204,37,435);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,105);
-insert into gct.gcttb191_servico_entregue values(11,205,37,105);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,435);
-insert into gct.gcttb192_servico_contratado values(10,204,36,105);
-insert into gct.gcttb192_servico_contratado values(10,204,44,603);
-insert into gct.gcttb193_servico_atraso values(83,619,23,493);
-insert into gct.gcttb192_servico_contratado values(11,206,37,105);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,602);
-insert into gct.gcttb192_servico_contratado values(10,202,36,435);
-insert into gct.gcttb191_servico_entregue values(10,202,36,493);
-insert into gct.gcttb191_servico_entregue values(10,205,43,105);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,493);
-insert into gct.gcttb192_servico_contratado values(10,206,43,105);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,603);
-insert into gct.gcttb191_servico_entregue values(11,1030,37,493);
-insert into gct.gcttb192_servico_contratado values(64,719,19,602);
-insert into gct.gcttb192_servico_contratado values(65,719,19,487);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,105);
-insert into gct.gcttb191_servico_entregue values(11,202,37,493);
-insert into gct.gcttb192_servico_contratado values(84,629,22,602);
-insert into gct.gcttb194_servico_devolvido values(70,899,24,105);
-insert into gct.gcttb192_servico_contratado values(83,619,22,487);
-insert into gct.gcttb192_servico_contratado values(10,204,43,105);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,602);
-insert into gct.gcttb192_servico_contratado values(84,619,22,603);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,603);
-insert into gct.gcttb192_servico_contratado values(64,899,22,533);
-insert into gct.gcttb194_servico_devolvido values(83,629,24,487);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,604);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,602);
-insert into gct.gcttb192_servico_contratado values(10,202,43,435);
-insert into gct.gcttb192_servico_contratado values(10,201,44,604);
-insert into gct.gcttb191_servico_entregue values(10,1030,36,493);
-insert into gct.gcttb192_servico_contratado values(63,719,19,435);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,105);
-insert into gct.gcttb191_servico_entregue values(10,205,36,105);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,435);
-insert into gct.gcttb191_servico_entregue values(10,202,43,493);
-insert into gct.gcttb192_servico_contratado values(11,204,37,105);
-insert into gct.gcttb192_servico_contratado values(10,206,36,105);
-insert into gct.gcttb192_servico_contratado values(10,206,44,603);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,602);
-insert into gct.gcttb192_servico_contratado values(11,202,37,435);
-insert into gct.gcttb192_servico_contratado values(10,203,44,493);
-insert into gct.gcttb192_servico_contratado values(10,202,44,603);
-insert into gct.gcttb192_servico_contratado values(10,205,43,493);
-insert into gct.gcttb192_servico_contratado values(10,202,36,105);
-insert into gct.gcttb192_servico_contratado values(136,997,19,105);
-insert into gct.gcttb194_servico_devolvido values(83,609,24,487);
-insert into gct.gcttb191_servico_entregue values(10,206,43,493);
-insert into gct.gcttb194_servico_devolvido values(64,899,24,493);
-insert into gct.gcttb192_servico_contratado values(11,206,37,435);
-insert into gct.gcttb192_servico_contratado values(10,204,36,435);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,533);
-insert into gct.gcttb192_servico_contratado values(135,997,19,604);
-insert into gct.gcttb192_servico_contratado values(84,609,22,602);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,105);
-insert into gct.gcttb191_servico_entregue values(10,204,36,493);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,435);
-insert into gct.gcttb192_servico_contratado values(63,719,19,487);
-insert into gct.gcttb192_servico_contratado values(11,205,37,493);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,602);
-insert into gct.gcttb191_servico_entregue values(11,206,37,493);
-insert into gct.gcttb192_servico_contratado values(10,206,43,435);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,602);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,603);
-insert into gct.gcttb192_servico_contratado values(83,619,22,435);
-insert into gct.gcttb192_servico_contratado values(10,203,44,604);
-insert into gct.gcttb192_servico_contratado values(84,629,22,487);
-insert into gct.gcttb192_servico_contratado values(83,619,22,602);
-insert into gct.gcttb192_servico_contratado values(83,629,22,603);
-insert into gct.gcttb192_servico_contratado values(10,206,43,602);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,435);
-insert into gct.gcttb194_servico_devolvido values(84,619,24,487);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,602);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,435);
-insert into gct.gcttb192_servico_contratado values(84,609,22,435);
-insert into gct.gcttb192_servico_contratado values(10,201,44,493);
-insert into gct.gcttb192_servico_contratado values(10,204,36,602);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,105);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,603);
-insert into gct.gcttb192_servico_contratado values(11,206,37,602);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,493);
-insert into gct.gcttb191_servico_entregue values(10,1017,36,493);
-insert into gct.gcttb192_servico_contratado values(11,202,37,602);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,603);
-insert into gct.gcttb192_servico_contratado values(83,609,22,603);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,435);
-insert into gct.gcttb192_servico_contratado values(84,609,22,487);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,602);
-insert into gct.gcttb192_servico_contratado values(11,205,37,604);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,435);
-insert into gct.gcttb192_servico_contratado values(10,202,43,602);
-insert into gct.gcttb192_servico_contratado values(135,997,19,493);
-insert into gct.gcttb192_servico_contratado values(63,719,19,602);
-insert into gct.gcttb191_servico_entregue values(11,1029,37,493);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,105);
-insert into gct.gcttb192_servico_contratado values(84,629,22,435);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,435);
-insert into gct.gcttb192_servico_contratado values(10,205,43,604);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,493);
-insert into gct.gcttb191_servico_entregue values(10,203,36,493);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,604);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,602);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,493);
-insert into gct.gcttb191_servico_entregue values(10,206,44,105);
-insert into gct.gcttb192_servico_contratado values(10,205,36,603);
-insert into gct.gcttb192_servico_contratado values(10,205,44,105);
-insert into gct.gcttb191_servico_entregue values(11,1019,37,105);
-insert into gct.gcttb192_servico_contratado values(64,719,19,533);
-insert into gct.gcttb192_servico_contratado values(10,203,36,435);
-insert into gct.gcttb192_servico_contratado values(119,889,19,435);
-insert into gct.gcttb192_servico_contratado values(11,203,37,105);
-insert into gct.gcttb191_servico_entregue values(11,1027,37,105);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,602);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,435);
-insert into gct.gcttb192_servico_contratado values(70,899,22,604);
-insert into gct.gcttb193_servico_atraso values(84,619,23,487);
-insert into gct.gcttb192_servico_contratado values(10,201,36,602);
-insert into gct.gcttb192_servico_contratado values(10,204,44,493);
-insert into gct.gcttb192_servico_contratado values(10,203,43,105);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,604);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,602);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,602);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,493);
-insert into gct.gcttb191_servico_entregue values(10,202,44,105);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,603);
-insert into gct.gcttb193_servico_atraso values(83,609,23,487);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,435);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,105);
-insert into gct.gcttb191_servico_entregue values(10,1025,36,493);
-insert into gct.gcttb191_servico_entregue values(11,1028,37,105);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,435);
-insert into gct.gcttb191_servico_entregue values(10,201,36,493);
-insert into gct.gcttb193_servico_atraso values(64,899,23,493);
-insert into gct.gcttb192_servico_contratado values(10,201,36,435);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,602);
-insert into gct.gcttb191_servico_entregue values(11,1026,37,493);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,493);
-insert into gct.gcttb191_servico_entregue values(11,1018,37,493);
-insert into gct.gcttb192_servico_contratado values(64,899,22,105);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,435);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,604);
-insert into gct.gcttb192_servico_contratado values(65,719,19,533);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,533);
-insert into gct.gcttb192_servico_contratado values(119,889,19,602);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,604);
-insert into gct.gcttb192_servico_contratado values(10,203,36,602);
-insert into gct.gcttb193_servico_atraso values(70,899,23,105);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,105);
-insert into gct.gcttb191_servico_entregue values(10,1016,36,493);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,604);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,493);
-insert into gct.gcttb192_servico_contratado values(11,201,37,105);
-insert into gct.gcttb193_servico_atraso values(83,629,23,487);
-insert into gct.gcttb192_servico_contratado values(70,899,22,493);
-insert into gct.gcttb192_servico_contratado values(10,204,44,604);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,105);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,435);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,105);
-insert into gct.gcttb192_servico_contratado values(10,201,43,105);
-insert into gct.gcttb192_servico_contratado values(10,203,43,602);
-insert into gct.gcttb191_servico_entregue values(83,609,22,487);
-insert into gct.gcttb191_servico_entregue values(84,619,24,487);
-insert into gct.gcttb192_servico_contratado values(10,206,44,604);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,105);
-insert into gct.gcttb191_servico_entregue values(64,899,22,493);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,105);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,435);
-insert into gct.gcttb192_servico_contratado values(63,719,19,533);
-insert into gct.gcttb192_servico_contratado values(11,203,37,602);
-insert into gct.gcttb192_servico_contratado values(64,899,22,435);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,105);
-insert into gct.gcttb191_servico_entregue values(11,1016,37,493);
-insert into gct.gcttb192_servico_contratado values(84,619,22,604);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,604);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,493);
-insert into gct.gcttb191_servico_entregue values(84,609,23,487);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,603);
-insert into gct.gcttb192_servico_contratado values(10,201,44,603);
-insert into gct.gcttb192_servico_contratado values(10,201,36,105);
-insert into gct.gcttb192_servico_contratado values(11,201,37,435);
-insert into gct.gcttb191_servico_entregue values(70,899,22,105);
-insert into gct.gcttb192_servico_contratado values(83,619,22,533);
-insert into gct.gcttb191_servico_entregue values(10,1026,36,493);
-insert into gct.gcttb191_servico_entregue values(83,629,22,487);
-insert into gct.gcttb191_servico_entregue values(10,1018,36,493);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,493);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,435);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,604);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,533);
-insert into gct.gcttb191_servico_entregue values(10,201,43,493);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,435);
-insert into gct.gcttb192_servico_contratado values(10,202,44,604);
-insert into gct.gcttb192_servico_contratado values(10,201,43,435);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,105);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,435);
-insert into gct.gcttb191_servico_entregue values(11,1025,37,493);
-insert into gct.gcttb191_servico_entregue values(84,629,23,487);
-insert into gct.gcttb191_servico_entregue values(10,1028,36,105);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,435);
-insert into gct.gcttb192_servico_contratado values(10,205,44,602);
-insert into gct.gcttb192_servico_contratado values(135,997,19,603);
-insert into gct.gcttb191_servico_entregue values(11,201,37,493);
-insert into gct.gcttb192_servico_contratado values(10,205,44,435);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,604);
-insert into gct.gcttb191_servico_entregue values(83,629,24,487);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,602);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,602);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,493);
-insert into gct.gcttb191_servico_entregue values(70,899,24,105);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,602);
-insert into gct.gcttb192_servico_contratado values(84,609,22,533);
-insert into gct.gcttb192_servico_contratado values(10,201,43,602);
-insert into gct.gcttb192_servico_contratado values(10,203,44,603);
-insert into gct.gcttb192_servico_contratado values(10,203,36,105);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,533);
-insert into gct.gcttb191_servico_entregue values(10,1027,36,105);
-insert into gct.gcttb192_servico_contratado values(83,629,22,604);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,602);
-insert into gct.gcttb192_servico_contratado values(10,206,44,493);
-insert into gct.gcttb191_servico_entregue values(10,205,44,493);
-insert into gct.gcttb192_servico_contratado values(11,201,37,602);
-insert into gct.gcttb192_servico_contratado values(84,629,22,533);
-insert into gct.gcttb191_servico_entregue values(10,203,43,493);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,533);
-insert into gct.gcttb191_servico_entregue values(64,899,24,493);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,105);
-insert into gct.gcttb191_servico_entregue values(10,1019,36,105);
-insert into gct.gcttb192_servico_contratado values(64,899,22,602);
-insert into gct.gcttb191_servico_entregue values(84,619,22,487);
-insert into gct.gcttb191_servico_entregue values(83,609,24,487);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,533);
-insert into gct.gcttb192_servico_contratado values(119,889,19,105);
-insert into gct.gcttb192_servico_contratado values(11,203,37,435);
-insert into gct.gcttb192_servico_contratado values(10,202,44,493);
-insert into gct.gcttb192_servico_contratado values(10,205,43,603);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,493);
-insert into gct.gcttb191_servico_entregue values(11,203,37,493);
-insert into gct.gcttb191_servico_entregue values(83,619,23,487);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,604);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,602);
-insert into gct.gcttb192_servico_contratado values(83,609,22,604);
-insert into gct.gcttb191_servico_entregue values(10,204,44,105);
-insert into gct.gcttb192_servico_contratado values(10,203,43,435);
-insert into gct.gcttb192_servico_contratado values(11,205,37,603);
-insert into gct.gcttb191_servico_entregue values(10,206,36,105);
-insert into gct.gcttb191_servico_entregue values(11,204,37,105);
-insert into gct.gcttb192_servico_contratado values(63,719,19,493);
-insert into gct.gcttb192_servico_contratado values(10,202,43,493);
-insert into gct.gcttb192_servico_contratado values(10,205,44,603);
-insert into gct.gcttb192_servico_contratado values(135,997,19,602);
-insert into gct.gcttb192_servico_contratado values(84,609,22,604);
-insert into gct.gcttb192_servico_contratado values(10,205,36,105);
-insert into gct.gcttb191_servico_entregue values(10,203,44,493);
-insert into gct.gcttb191_servico_entregue values(84,619,23,487);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,604);
-insert into gct.gcttb191_servico_entregue values(83,619,22,487);
-insert into gct.gcttb191_servico_entregue values(10,204,43,105);
-insert into gct.gcttb191_servico_entregue values(84,609,24,487);
-insert into gct.gcttb192_servico_contratado values(11,202,37,493);
-insert into gct.gcttb192_servico_contratado values(10,203,44,435);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,604);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,493);
-insert into gct.gcttb192_servico_contratado values(83,629,22,533);
-insert into gct.gcttb192_servico_contratado values(11,206,37,493);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,602);
-insert into gct.gcttb191_servico_entregue values(11,205,37,493);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,604);
-insert into gct.gcttb192_servico_contratado values(10,201,44,602);
-insert into gct.gcttb192_servico_contratado values(10,204,36,493);
-insert into gct.gcttb192_servico_contratado values(10,205,43,435);
-insert into gct.gcttb192_servico_contratado values(11,203,37,603);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,604);
-insert into gct.gcttb192_servico_contratado values(84,629,22,604);
-insert into gct.gcttb192_servico_contratado values(10,206,43,493);
-insert into gct.gcttb192_servico_contratado values(83,609,22,533);
-insert into gct.gcttb191_servico_entregue values(10,202,36,105);
-insert into gct.gcttb191_servico_entregue values(10,205,43,493);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,105);
-insert into gct.gcttb191_servico_entregue values(11,1030,37,105);
-insert into gct.gcttb192_servico_contratado values(11,205,37,435);
-insert into gct.gcttb191_servico_entregue values(84,629,24,487);
-insert into gct.gcttb192_servico_contratado values(10,203,43,603);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,493);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,533);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,604);
-insert into gct.gcttb191_servico_entregue values(70,899,23,105);
-insert into gct.gcttb191_servico_entregue values(10,1029,36,105);
-insert into gct.gcttb192_servico_contratado values(11,205,37,602);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,493);
-insert into gct.gcttb191_servico_entregue values(10,201,44,493);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,604);
-insert into gct.gcttb191_servico_entregue values(83,629,23,487);
-insert into gct.gcttb192_servico_contratado values(11,202,37,604);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,493);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,603);
-insert into gct.gcttb192_servico_contratado values(64,899,22,603);
-insert into gct.gcttb192_servico_contratado values(10,205,43,602);
-insert into gct.gcttb191_servico_entregue values(84,629,22,487);
-insert into gct.gcttb192_servico_contratado values(63,719,19,604);
-insert into gct.gcttb192_servico_contratado values(10,202,43,604);
-insert into gct.gcttb192_servico_contratado values(10,201,44,435);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,435);
-insert into gct.gcttb192_servico_contratado values(84,619,22,533);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,493);
-insert into gct.gcttb191_servico_entregue values(83,609,23,487);
-insert into gct.gcttb192_servico_contratado values(11,201,37,603);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,604);
-insert into gct.gcttb191_servico_entregue values(64,899,23,493);
-insert into gct.gcttb192_servico_contratado values(83,619,22,604);
-insert into gct.gcttb192_servico_contratado values(10,203,44,602);
-insert into gct.gcttb192_servico_contratado values(10,206,43,604);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,603);
-insert into gct.gcttb191_servico_entregue values(11,1017,37,105);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,603);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,493);
-insert into gct.gcttb192_servico_contratado values(10,201,43,603);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,603);
-insert into gct.gcttb191_servico_entregue values(84,609,22,487);
-insert into gct.gcttb191_servico_entregue values(83,619,24,487);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,493);
-insert into gct.gcttb192_servico_contratado values(10,204,36,604);
-insert into gct.gcttb192_servico_contratado values(11,206,37,604);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,603);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,603);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,602);
-insert into gct.gcttb192_servico_contratado values(11,204,37,604);
-insert into gct.gcttb192_servico_contratado values(64,719,19,493);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,603);
-insert into gct.gcttb192_servico_contratado values(10,206,36,604);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,533);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,493);
-insert into gct.gcttb193_servico_atraso values(84,629,23,487);
-insert into gct.gcttb192_servico_contratado values(10,201,36,603);
-insert into gct.gcttb192_servico_contratado values(10,201,44,105);
-insert into gct.gcttb192_servico_contratado values(65,719,19,604);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,604);
-insert into gct.gcttb192_servico_contratado values(10,204,43,604);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,603);
-insert into gct.gcttb191_servico_entregue values(10,1017,36,105);
-insert into gct.gcttb191_servico_entregue values(11,1029,37,105);
-insert into gct.gcttb192_servico_contratado values(10,205,36,602);
-insert into gct.gcttb192_servico_contratado values(135,997,19,105);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,604);
-insert into gct.gcttb192_servico_contratado values(10,202,36,604);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,603);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,493);
-insert into gct.gcttb192_servico_contratado values(136,997,19,604);
-insert into gct.gcttb193_servico_atraso values(84,609,23,487);
-insert into gct.gcttb191_servico_entregue values(11,202,37,105);
-insert into gct.gcttb194_servico_devolvido values(70,899,24,493);
-insert into gct.gcttb192_servico_contratado values(10,204,43,493);
-insert into gct.gcttb191_servico_entregue values(10,1030,36,105);
-insert into gct.gcttb192_servico_contratado values(10,205,36,435);
-insert into gct.gcttb192_servico_contratado values(65,719,19,493);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,493);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,604);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,533);
-insert into gct.gcttb192_servico_contratado values(10,206,36,493);
-insert into gct.gcttb193_servico_atraso values(83,619,23,487);
-insert into gct.gcttb191_servico_entregue values(10,205,36,493);
-insert into gct.gcttb191_servico_entregue values(10,202,43,105);
-insert into gct.gcttb192_servico_contratado values(64,719,19,604);
-insert into gct.gcttb192_servico_contratado values(11,204,37,493);
-insert into gct.gcttb192_servico_contratado values(10,203,36,603);
-insert into gct.gcttb192_servico_contratado values(10,203,44,105);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,604);
-insert into gct.gcttb192_servico_contratado values(136,997,19,493);
-insert into gct.gcttb191_servico_entregue values(10,206,43,105);
-insert into gct.gcttb192_servico_contratado values(10,205,43,105);
-insert into gct.gcttb192_servico_contratado values(70,899,22,533);
-insert into gct.gcttb192_servico_contratado values(119,889,19,603);
-insert into gct.gcttb192_servico_contratado values(10,202,36,493);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,493);
-insert into gct.gcttb194_servico_devolvido values(64,899,24,105);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,603);
-insert into gct.gcttb191_servico_entregue values(11,206,37,105);
-insert into gct.gcttb191_servico_entregue values(10,204,36,105);
-insert into gct.gcttb192_servico_contratado values(11,205,37,105);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,435);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,493);
-insert into gct.gcttb192_servico_contratado values(10,1017,36,603);
-insert into gct.gcttb192_servico_contratado values(83,629,22,435);
-insert into gct.gcttb191_servico_entregue values(10,1025,36,105);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,602);
-insert into gct.gcttb192_servico_contratado values(64,1004,19,603);
-insert into gct.gcttb191_servico_entregue values(10,201,36,105);
-insert into gct.gcttb193_servico_atraso values(64,899,23,105);
-insert into gct.gcttb191_servico_entregue values(11,1028,37,493);
-insert into gct.gcttb191_servico_entregue values(11,1026,37,105);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,435);
-insert into gct.gcttb192_servico_contratado values(83,609,22,487);
-insert into gct.gcttb192_servico_contratado values(10,205,44,604);
-insert into gct.gcttb192_servico_contratado values(84,609,22,603);
-insert into gct.gcttb192_servico_contratado values(10,202,44,602);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,105);
-insert into gct.gcttb191_servico_entregue values(11,1018,37,105);
-insert into gct.gcttb192_servico_contratado values(64,899,22,493);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,435);
-insert into gct.gcttb193_servico_atraso values(70,899,23,493);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,493);
-insert into gct.gcttb191_servico_entregue values(10,1016,36,105);
-insert into gct.gcttb192_servico_contratado values(11,201,37,493);
-insert into gct.gcttb192_servico_contratado values(10,203,43,604);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,105);
-insert into gct.gcttb192_servico_contratado values(11,1029,37,603);
-insert into gct.gcttb192_servico_contratado values(83,609,22,435);
-insert into gct.gcttb192_servico_contratado values(10,206,44,602);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,493);
-insert into gct.gcttb192_servico_contratado values(70,899,22,105);
-insert into gct.gcttb194_servico_devolvido values(83,619,24,487);
-insert into gct.gcttb192_servico_contratado values(63,1012,19,603);
-insert into gct.gcttb192_servico_contratado values(10,201,43,493);
-insert into gct.gcttb192_servico_contratado values(11,203,37,604);
-insert into gct.gcttb192_servico_contratado values(154,1006,19,603);
-insert into gct.gcttb192_servico_contratado values(84,629,22,603);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,493);
-insert into gct.gcttb192_servico_contratado values(84,619,22,602);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,602);
-insert into gct.gcttb192_servico_contratado values(83,629,22,487);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,493);
-insert into gct.gcttb192_servico_contratado values(84,619,22,435);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,435);
-insert into gct.gcttb192_servico_contratado values(152,1021,19,533);
-insert into gct.gcttb192_servico_contratado values(64,899,22,604);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,105);
-insert into gct.gcttb191_servico_entregue values(10,203,36,105);
-insert into gct.gcttb192_servico_contratado values(63,719,19,603);
-insert into gct.gcttb192_servico_contratado values(10,202,43,603);
-insert into gct.gcttb192_servico_contratado values(10,205,44,493);
-insert into gct.gcttb191_servico_entregue values(10,206,44,493);
-insert into gct.gcttb192_servico_contratado values(10,206,44,435);
-insert into gct.gcttb192_servico_contratado values(83,609,22,602);
-insert into gct.gcttb192_servico_contratado values(10,1030,36,603);
-insert into gct.gcttb192_servico_contratado values(11,202,37,603);
-insert into gct.gcttb194_servico_devolvido values(84,609,24,487);
-insert into gct.gcttb191_servico_entregue values(11,1019,37,493);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,602);
-insert into gct.gcttb192_servico_contratado values(11,1016,37,604);
-insert into gct.gcttb192_servico_contratado values(10,1018,36,604);
-insert into gct.gcttb192_servico_contratado values(11,203,37,493);
-insert into gct.gcttb192_servico_contratado values(10,202,44,435);
-insert into gct.gcttb192_servico_contratado values(10,201,43,604);
-insert into gct.gcttb191_servico_entregue values(11,1027,37,493);
-insert into gct.gcttb192_servico_contratado values(152,1006,19,604);
-insert into gct.gcttb192_servico_contratado values(10,204,44,105);
-insert into gct.gcttb192_servico_contratado values(10,204,36,603);
-insert into gct.gcttb192_servico_contratado values(11,206,37,603);
-insert into gct.gcttb192_servico_contratado values(10,1026,36,604);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,602);
-insert into gct.gcttb192_servico_contratado values(10,203,43,493);
-insert into gct.gcttb192_servico_contratado values(11,201,37,604);
-insert into gct.gcttb192_servico_contratado values(170,1044,19,603);
-insert into gct.gcttb194_servico_devolvido values(84,629,24,487);
-insert into gct.gcttb191_servico_entregue values(10,202,44,493);
-insert into gct.gcttb192_servico_contratado values(83,619,22,603);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,435);
-insert into gct.gcttb192_servico_contratado values(10,206,43,603);
-insert into gct.gcttb192_servico_contratado values(11,1025,37,604);
-insert into gct.gcttb192_servico_contratado values(84,619,22,487);
-insert into gct.gcttb192_servico_contratado values(83,629,22,602);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,105);
-insert into gct.gcttb192_servico_contratado values(10,201,36,604);
-insert into gct.gcttb192_servico_contratado values(65,719,19,603);
-insert into gct.gcttb192_servico_contratado values(63,1004,19,603);
-insert into gct.gcttb192_servico_contratado values(70,899,22,602);
-insert into gct.gcttb191_servico_entregue values(70,899,24,493);
-insert into gct.gcttb192_servico_contratado values(10,204,43,603);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,435);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,604);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,435);
-insert into gct.gcttb192_servico_contratado values(11,1019,37,105);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,604);
-insert into gct.gcttb192_servico_contratado values(10,203,36,493);
-insert into gct.gcttb191_servico_entregue values(10,1027,36,493);
-insert into gct.gcttb191_servico_entregue values(10,205,44,105);
-insert into gct.gcttb192_servico_contratado values(11,204,37,603);
-insert into gct.gcttb193_servico_atraso values(84,619,23,493);
-insert into gct.gcttb192_servico_contratado values(10,206,44,105);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,604);
-insert into gct.gcttb192_servico_contratado values(10,206,36,603);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,602);
-insert into gct.gcttb191_servico_entregue values(64,899,24,105);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,493);
-insert into gct.gcttb192_servico_contratado values(10,204,44,435);
-insert into gct.gcttb192_servico_contratado values(11,1030,37,603);
-insert into gct.gcttb191_servico_entregue values(10,203,43,105);
-insert into gct.gcttb192_servico_contratado values(119,889,19,493);
-insert into gct.gcttb192_servico_contratado values(10,202,36,603);
-insert into gct.gcttb192_servico_contratado values(10,202,44,105);
-insert into gct.gcttb191_servico_entregue values(10,1019,36,493);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,604);
-insert into gct.gcttb192_servico_contratado values(136,997,19,603);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,602);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,435);
-insert into gct.gcttb192_servico_contratado values(11,1027,37,105);
-insert into gct.gcttb191_servico_entregue values(11,203,37,105);
-insert into gct.gcttb191_servico_entregue values(10,204,44,493);
-insert into gct.gcttb192_servico_contratado values(11,1026,37,493);
-insert into gct.gcttb192_servico_contratado values(64,719,19,603);
-insert into gct.gcttb192_servico_contratado values(10,203,36,604);
-insert into gct.gcttb192_servico_contratado values(10,1019,36,602);
-insert into gct.gcttb191_servico_entregue values(64,899,22,105);
-insert into gct.gcttb192_servico_contratado values(11,1018,37,493);
-insert into gct.gcttb192_servico_contratado values(10,1025,36,493);
-insert into gct.gcttb192_servico_contratado values(163,1042,19,435);
-insert into gct.gcttb191_servico_entregue values(11,1016,37,105);
-insert into gct.gcttb193_servico_atraso values(83,629,23,493);
-insert into gct.gcttb192_servico_contratado values(10,201,36,493);
-insert into gct.gcttb192_servico_contratado values(10,204,44,602);
-insert into gct.gcttb192_servico_contratado values(10,1029,36,603);
-insert into gct.gcttb192_servico_contratado values(11,1028,37,105);
-insert into gct.gcttb191_servico_entregue values(10,1026,36,105);
-insert into gct.gcttb192_servico_contratado values(10,1028,36,435);
-insert into gct.gcttb192_servico_contratado values(62,1002,19,533);
-insert into gct.gcttb191_servico_entregue values(70,899,22,493);
-insert into gct.gcttb191_servico_entregue values(10,201,43,105);
-insert into gct.gcttb191_servico_entregue values(10,1018,36,105);
-insert into gct.gcttb192_servico_contratado values(62,1012,19,105);
-insert into gct.gcttb192_servico_contratado values(153,1006,19,602);
-insert into gct.gcttb192_servico_contratado values(11,1017,37,603);
-insert into gct.gcttb192_servico_contratado values(10,1016,36,493);
-insert into gct.gcttb191_servico_entregue values(11,1025,37,105);
-insert into gct.gcttb193_servico_atraso values(83,609,23,493);
-insert into gct.gcttb192_servico_contratado values(119,889,19,604);
-insert into gct.gcttb192_servico_contratado values(10,1027,36,602);
-insert into gct.gcttb192_servico_contratado values(70,899,22,435);
-insert into gct.gcttb191_servico_entregue values(11,201,37,105);
-insert into gct.gcttb191_servico_entregue values(10,1028,36,493);
-insert into gct.gcttb192_servico_contratado values(63,1002,19,604);
+##################################################################################################
+# LOCALHOST:ragnarok SERVER:localhost DATABASE:gctprd01 USERNAME:postgres PASSWORD:************
+##################################################################################################
 
-rollback;
+Output format is unaligned.
+?column?
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1016
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1016
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1017
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1017
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1018
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1018
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1019
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1019
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1025
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1025
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1026
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1026
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1027
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1027
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1028
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1028
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1029
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1029
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1030
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=1030
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1016
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1016
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1017
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1017
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1018
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1018
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1019
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1019
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1025
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1025
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1026
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1026
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1027
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1027
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1028
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1028
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1029
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1029
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1030
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=1030
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=201
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=201
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=202
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=202
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=203
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=203
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=204
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=204
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=205
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=205
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=206
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=11
+  and nu_contrato=206
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb191_servico_entregue
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1016
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1016
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1016
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1017
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1017
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1017
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1018
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1018
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1018
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1019
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1019
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1019
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1025
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1025
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1025
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1026
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1026
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1026
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1027
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1027
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1027
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1028
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1028
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1028
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1029
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1029
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1029
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1030
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1030
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=1030
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=201
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=202
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=203
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=204
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=205
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=36
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=43
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=10
+  and nu_contrato=206
+  and nu_tipo_indicador=44
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=119
+  and nu_contrato=889
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=119
+  and nu_contrato=889
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=119
+  and nu_contrato=889
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=119
+  and nu_contrato=889
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1016
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1016
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1016
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1017
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1017
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1017
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1018
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1018
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1018
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1019
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1019
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1019
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1025
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1025
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1025
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1026
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1026
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1026
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1027
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1027
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1027
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1028
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1028
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1028
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1029
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1029
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1029
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1030
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1030
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=1030
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=201
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=201
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=201
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=202
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=202
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=202
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=203
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=203
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=203
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=204
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=204
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=204
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=205
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=205
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=205
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=206
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=206
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=11
+  and nu_contrato=206
+  and nu_tipo_indicador=37
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=135
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=135
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=135
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=136
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=136
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=136
+  and nu_contrato=997
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1021
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1021
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=152
+  and nu_contrato=1021
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=153
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=153
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=153
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=154
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=154
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=154
+  and nu_contrato=1006
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=163
+  and nu_contrato=1042
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=163
+  and nu_contrato=1042
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=163
+  and nu_contrato=1042
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=163
+  and nu_contrato=1042
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=170
+  and nu_contrato=1044
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=170
+  and nu_contrato=1044
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=170
+  and nu_contrato=1044
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=170
+  and nu_contrato=1044
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=62
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1002
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=1012
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=63
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=1004
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=65
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=65
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=65
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=65
+  and nu_contrato=719
+  and nu_tipo_indicador=19
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Preparado')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb192_servico_contratado
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=22
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Testando')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb193_servico_atraso
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=23
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=64
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Concluído')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=70
+  and nu_contrato=899
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Rejeitado')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=83
+  and nu_contrato=609
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=83
+  and nu_contrato=619
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=83
+  and nu_contrato=629
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=84
+  and nu_contrato=609
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=84
+  and nu_contrato=619
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+delete from gct.gcttb194_servico_devolvido
+where nu_tipo_grupo=84
+  and nu_contrato=629
+  and nu_tipo_indicador=24
+  and nu_situacao_atendimento=(
+      select sa.nu_situacao_atendimento
+      from gct.gcttb092_situacao_atendimento sa
+      where sa.no_situacao_atendimento in ('Pronto')
+  );
+
+(368 rows)
+
+-------------------------------------------------------
+-- Resultados
+-------------------------------------------------------
+Log: logs/retornar_situacoes.sql.messages
+Tudo certo :)
+-------------------------------------------------------

@@ -1,0 +1,95 @@
+git filter-repo --path-glob '*.xls' --path-glob '*.xlsx' --path-glob '*.zip' --invert-paths --force
+
+
+
+git remote add gitlab git@gitlab.com:caixades/sigct.git
+git config --global http.postBuffer 524288000
+git push gitlab HEAD:refs/heads/main
+git push -uf gitlab --tags
+
+git remote add gitlab git@gitlab.com:caixades/sigct.git
+git config --global http.postBuffer 524288000
+git push gitlab HEAD:refs/heads/main
+git push -uf gitlab --tags
+
+git verify-pack -v .git/objects/pack/*.idx | sort -k3 -n | tail -20
+git count-objects -vH
+
+1. Clone normal
+
+Não use --mirror.
+
+git clone git@ssh.dev.azure.com:v3/QintessCaixaControladoria/SIGCT/SIGCT sigct-3m
+cd sigct-3m
+
+2. Descubra o primeiro commit que deseja manter
+
+Liste os commits dos últimos 3 meses:
+
+git log --since="3 months ago" --reverse --oneline
+git rev-list -n 1 --before="3 months ago" main
+
+O primeiro da lista será algo como:
+
+a1b2c3d Primeira alteração dos últimos 3 meses
+
+Guarde esse SHA (a1b2c3d).
+
+3. Descubra o commit imediatamente anterior
+git rev-parse a1b2c3d^
+
+Suponha que retorne:
+
+9876543
+4. Crie uma nova branch órfã
+
+Agora sim:
+
+git checkout --orphan nova-main
+5. Limpe o índice
+git rm -rf .
+6. Restaure o conteúdo do commit anterior
+
+Queremos que o novo commit raiz represente exatamente o estado do projeto antes dos últimos 3 meses.
+
+git restore --source 9876543 .
+
+Se sua versão do Git não aceitar restore, use:
+
+git checkout 9876543 -- .
+7. Crie o novo commit raiz
+git add .
+git commit -m "Novo commit raiz - histórico preservado a partir de abril/2026"
+8. Reaplique os commits dos últimos 3 meses
+git cherry-pick a1b2c3d..main
+
+ou, se preferir incluir explicitamente o primeiro commit:
+
+git cherry-pick a1b2c3d^..main
+
+Caso haja conflitos, resolva-os normalmente e continue:
+
+git cherry-pick --continue
+9. Substitua a branch principal
+git branch -D main
+git branch -m main
+10. Verifique
+git log --graph --oneline
+
+Você deverá ver algo como:
+
+Novo commit raiz
+|
++-- Commit de abril
+|
++-- Commit de maio
+|
++-- Commit de junho
+|
++-- Commit atual
+
+Todo o histórico anterior desapareceu.
+
+11. Publique
+git remote add gitlab git@gitlab.com:caixades/sigct.git
+git push --force -u gitlab main

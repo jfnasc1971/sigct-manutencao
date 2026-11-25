@@ -5,7 +5,7 @@ HOST="$(hostname)"
 if [ "$HOST" == "DF7390NX1302" ];then
   source /c/caixa/manutencao/setenv
 else
-  source /projetos/caixa/sigct/manutencao/setenv
+  source /projetos/caixa/sigct/Manutencao/setenv
 fi
 
 if [ -z "$1" ];then

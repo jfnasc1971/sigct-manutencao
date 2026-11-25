@@ -1,0 +1,116 @@
+#!/bin/bash
+clear
+
+if [ ! -f "Readme.md" ];then
+  echo
+  echo "Erro! O arquivo Readme.md não foi encontrado."
+  echo
+  exit
+fi
+
+if [ -z "$(cat Readme.md |grep '^RTC [0-9]\+ -')" ];then
+  echo
+  echo "Erro! O arquivo Readme.md não possui o formato esperado. \"RTC 000000 - RESUMO DO ATENDIMENTO\""
+  echo 
+  echo "Exemplo:"
+  echo "RTC 20783895 - SIGCT -  Análise do cálculo de indicadores WIPRO (Referente à implantação do RTC 17882046)"
+  echo
+  exit
+fi
+
+RTC_NUMBER="$(cat Readme.md |grep -io '^RTC [0-9]\+'|sed -e 's| ||')"
+
+echo "-----------------------------------------------------------"
+echo "Atualizando o código-fonte [$(echo "/projetos/caixa/sigct/scm/src/release_4.29.2"|awk -F '/' '{print $NF}')]"
+echo "-----------------------------------------------------------"
+cd /projetos/caixa/sigct/scm/src/release_4.29.2
+pwd
+git pull --rebase
+git status
+echo
+
+echo "-----------------------------------------------------------"
+echo "Area de trabalho"
+echo "-----------------------------------------------------------"
+WORK_DIR="/projetos/caixa/sigct/Manutencao/${RTC_NUMBER}"
+echo $WORK_DIR
+echo
+cd $WORK_DIR
+
+NAME="${RTC_NUMBER}_01_DDL.sql"
+echo "-----------------------------------------------------------"
+echo "Arquivo de entrega"
+echo "-----------------------------------------------------------"
+echo "$WORK_DIR/$NAME"
+rm "$WORK_DIR/$NAME"
+echo
+
+cat $WORK_DIR/pre_ddl_01.sql >> $WORK_DIR/$NAME
+
+cat << EOF >> $WORK_DIR/$NAME
+
+--
+-- INICIO
+--
+
+EOF
+
+echo "-----------------------------------------------------------"
+echo "Lista de objetos"
+echo "-----------------------------------------------------------"
+for f in $(cat $WORK_DIR/objetos.txt);do 
+  echo $f
+done
+
+for f in $(cat $WORK_DIR/objetos.txt);do 
+  cat src/$f;echo -e "\n";
+  done >> $WORK_DIR/$NAME
+echo
+
+cat << EOF >> $WORK_DIR/$NAME
+
+--
+-- FIM
+--
+
+EOF
+
+cat $WORK_DIR/pos_ddl_01.sql >> $WORK_DIR/$NAME
+
+#
+# PLANO DE RETORNO
+#
+#
+PLANO_RETORNO="${RTC_NUMBER}_RETORNO_01_DDL.sql";
+
+echo "-----------------------------------------------------------"
+echo "Plano de retorno"
+echo "-----------------------------------------------------------"
+echo "$WORK_DIR/$PLANO_RETORNO"
+rm "$WORK_DIR/$PLANO_RETORNO"
+
+cat $WORK_DIR/pre_ddl_01.sql >> $WORK_DIR/$PLANO_RETORNO
+
+cat << EOF >> $WORK_DIR/$PLANO_RETORNO
+
+--
+-- INICIO
+--
+
+EOF
+
+cd /projetos/caixa/sigct/src/develop
+
+for f in $(cat $WORK_DIR/objetos.txt);do
+  id="$(git log --oneline --pretty=format:"%h%d" | grep "origin/develop" | head -n 1 | awk '{print $1}')"
+  git show $id:"$(echo $f | sed 's|/projetos/caixa/sigct/src/hotfix/|./|')" >> $WORK_DIR/$PLANO_RETORNO
+  echo -e "\n"
+done 
+
+cat << EOF >> $WORK_DIR/$PLANO_RETORNO
+--
+-- FIM
+--
+EOF
+
+cat $WORK_DIR/pos_ddl_01.sql >> $WORK_DIR/$PLANO_RETORNO

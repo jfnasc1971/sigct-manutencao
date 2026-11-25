@@ -1,0 +1,3031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="38777156-786c-4d96-9700-81a795847ea0" activeEnvironment="Default" name="SIGCT" resourceRoot="" soapui-version="5.9.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="d85efa76-9d36-4866-b0c6-dea93f8f27ec" wsaVersion="NONE" name="DemandaIntegracaoServiceSoapBinding" type="wsdl" bindingName="{http://client.sigct.caixa.gov.br/}DemandaIntegracaoServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://sigct.caixa.gov.br/DemandaIntegracao?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="CreateWsdlDocumentationAction@report-directory">/projetos/caixa/sigct/Sustentacao/WebServices</con:setting></con:settings><con:definitionCache type="TEXT" rootPart="http://sigct.caixa.gov.br/DemandaIntegracao?wsdl"><con:part><con:url>http://sigct.caixa.gov.br/DemandaIntegracao?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="DemandaIntegracaoService" targetNamespace="http://client.sigct.caixa.gov.br/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://client.sigct.caixa.gov.br/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://client.sigct.caixa.gov.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xmime="http://www.w3.org/2005/05/xmlmime">
+      <xs:import namespace="http://www.w3.org/2005/05/xmlmime"/>
+      <xs:element name="AlterarSenha" type="tns:AlterarSenha"/>
+      <xs:element name="AlterarSenhaResponse" type="tns:AlterarSenhaResponse"/>
+      <xs:element name="AmostraRetencaoLiberacaoTaLN" type="tns:AmostraRetencaoLiberacaoTaLN"/>
+      <xs:element name="AmostraRetencaoLiberacaoTaLNResponse" type="tns:AmostraRetencaoLiberacaoTaLNResponse"/>
+      <xs:element name="AvaliacoesContratadasLN" type="tns:AvaliacoesContratadasLN"/>
+      <xs:element name="AvaliacoesContratadasLNResponse" type="tns:AvaliacoesContratadasLNResponse"/>
+      <xs:element name="ContratacaoEmPendenciaLN" type="tns:ContratacaoEmPendenciaLN"/>
+      <xs:element name="ContratacaoEmPendenciaLNResponse" type="tns:ContratacaoEmPendenciaLNResponse"/>
+      <xs:element name="ContratacoesEquipe" type="tns:ContratacoesEquipe"/>
+      <xs:element name="ContratacoesEquipeAlterada" type="tns:ContratacoesEquipeAlterada"/>
+      <xs:element name="ContratacoesEquipeAlteradaResponse" type="tns:ContratacoesEquipeAlteradaResponse"/>
+      <xs:element name="ContratacoesEquipeResponse" type="tns:ContratacoesEquipeResponse"/>
+      <xs:element name="FormalizaEntregaContratadaLN" type="tns:FormalizaEntregaContratadaLN"/>
+      <xs:element name="FormalizaEntregaContratadaLNResponse" type="tns:FormalizaEntregaContratadaLNResponse"/>
+      <xs:element name="IndicadoresDetalhadoLN" type="tns:IndicadoresDetalhadoLN"/>
+      <xs:element name="IndicadoresDetalhadoLNResponse" type="tns:IndicadoresDetalhadoLNResponse"/>
+      <xs:element name="IndicadoresEquipeLN" type="tns:IndicadoresEquipeLN"/>
+      <xs:element name="IndicadoresEquipeLNResponse" type="tns:IndicadoresEquipeLNResponse"/>
+      <xs:element name="IndicadoresLN" type="tns:IndicadoresLN"/>
+      <xs:element name="IndicadoresLNResponse" type="tns:IndicadoresLNResponse"/>
+      <xs:element name="OrdemServicoContratadasLN" type="tns:OrdemServicoContratadasLN"/>
+      <xs:element name="OrdemServicoContratadasLNResponse" type="tns:OrdemServicoContratadasLNResponse"/>
+      <xs:element name="OrdemServicoContratadasLNV2" type="tns:OrdemServicoContratadasLNV2"/>
+      <xs:element name="OrdemServicoContratadasLNV2Response" type="tns:OrdemServicoContratadasLNV2Response"/>
+      <xs:element name="OrdemServicoContratadasLN_Parcial" type="tns:OrdemServicoContratadasLN_Parcial"/>
+      <xs:element name="OrdemServicoContratadasLN_ParcialResponse" type="tns:OrdemServicoContratadasLN_ParcialResponse"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasLN" type="tns:SolicitacaoOrdemServicoContratadasLN"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasLNResponse" type="tns:SolicitacaoOrdemServicoContratadasLNResponse"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasLN_Parcial" type="tns:SolicitacaoOrdemServicoContratadasLN_Parcial"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasLN_ParcialResponse" type="tns:SolicitacaoOrdemServicoContratadasLN_ParcialResponse"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasPeriodoLN" type="tns:SolicitacaoOrdemServicoContratadasPeriodoLN"/>
+      <xs:element name="SolicitacaoOrdemServicoContratadasPeriodoLNResponse" type="tns:SolicitacaoOrdemServicoContratadasPeriodoLNResponse"/>
+      <xs:element name="TermosEquipeLN" type="tns:TermosEquipeLN"/>
+      <xs:element name="TermosEquipeLNResponse" type="tns:TermosEquipeLNResponse"/>
+      <xs:element name="TermosLN" type="tns:TermosLN"/>
+      <xs:element name="TermosLNResponse" type="tns:TermosLNResponse"/>
+      <xs:element name="TermosLNv2" type="tns:TermosLNv2"/>
+      <xs:element name="TermosLNv2Response" type="tns:TermosLNv2Response"/>
+      <xs:element name="arquivoEmpenhoEquipe" type="tns:arquivoEmpenhoEquipe"/>
+      <xs:element name="arquivoEmpenhoEquipeResponse" type="tns:arquivoEmpenhoEquipeResponse"/>
+      <xs:element name="arquivoEmpenhoLN" type="tns:arquivoEmpenhoLN"/>
+      <xs:element name="arquivoEmpenhoLNResponse" type="tns:arquivoEmpenhoLNResponse"/>
+      <xs:element name="arquivoEmpenhoRepactuacaoLN" type="tns:arquivoEmpenhoRepactuacaoLN"/>
+      <xs:element name="arquivoEmpenhoRepactuacaoLNResponse" type="tns:arquivoEmpenhoRepactuacaoLNResponse"/>
+      <xs:element name="itemTrabalhoPorPeriodoFaturamento" type="tns:itemTrabalhoPorPeriodoFaturamento"/>
+      <xs:element name="itemTrabalhoPorPeriodoFaturamentoDataHora" type="tns:itemTrabalhoPorPeriodoFaturamentoDataHora"/>
+      <xs:element name="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse" type="tns:itemTrabalhoPorPeriodoFaturamentoDataHoraResponse"/>
+      <xs:element name="itemTrabalhoPorPeriodoFaturamentoResponse" type="tns:itemTrabalhoPorPeriodoFaturamentoResponse"/>
+      <xs:element name="ordemServicoContratadasLNV2_Parcial" type="tns:ordemServicoContratadasLNV2_Parcial"/>
+      <xs:element name="ordemServicoContratadasLNV2_ParcialResponse" type="tns:ordemServicoContratadasLNV2_ParcialResponse"/>
+      <xs:element name="ordemServicoContratoSite" type="tns:ordemServicoContratoSite"/>
+      <xs:element name="ordemServicoContratoSiteParcial" type="tns:ordemServicoContratoSiteParcial"/>
+      <xs:element name="ordemServicoContratoSiteParcialResponse" type="tns:ordemServicoContratoSiteParcialResponse"/>
+      <xs:element name="ordemServicoContratoSitePeriodoDataPrevistaEntrega" type="tns:ordemServicoContratoSitePeriodoDataPrevistaEntrega"/>
+      <xs:element name="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse" type="tns:ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse"/>
+      <xs:element name="ordemServicoContratoSiteResponse" type="tns:ordemServicoContratoSiteResponse"/>
+      <xs:element name="version" type="tns:version"/>
+      <xs:element name="versionResponse" type="tns:versionResponse"/>
+      <xs:complexType name="IndicadoresLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IndicadoresLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Indicador" type="tns:indicadorContratoLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicadorContratoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dhGeracaoIndicador" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="indicadorLNs" nillable="true" type="tns:indicadorLN"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoGrupo" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoIndicador" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicadorLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="deProcessamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIAE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIEE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIPP" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIQP" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoITE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhGeracaoIndicador" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuTipoGrupo" type="xs:long"/>
+          <xs:element minOccurs="0" name="vrDesconto" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIAEIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIAERedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIEEIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIEERedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIPPIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIPPRedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIQPIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIQPRedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrITEIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrITERedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrRedutor" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IndicadoresDetalhadoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IndicadoresDetalhadoLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Indicador" type="tns:indicadorContratoDetalhadoLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicadorContratoDetalhadoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dhGeracaoIndicador" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="indicadorLNs" nillable="true" type="tns:indicadorDetalhadoLN"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoGrupo" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoIndicador" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="indicadorDetalhadoLN">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="amostrasIndicadores" nillable="true" type="tns:amostraIndicadorView"/>
+          <xs:element minOccurs="0" name="deProcessamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIAE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIEE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIPP" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoIQP" type="xs:string"/>
+          <xs:element minOccurs="0" name="deProcessamentoITE" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhGeracaoIndicador" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoGrupo" type="xs:long"/>
+          <xs:element minOccurs="0" name="sgTipoIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrDesconto" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFNS" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIAEIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIAERedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIEEIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIEERedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIPPIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIPPRedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIQPIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIQPRedutor" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIndicador" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrIntervalo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrRedutor" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="amostraIndicadorView">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaResponsavelPagamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="coAgrupamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="coAgrupamento01" type="xs:string"/>
+          <xs:element minOccurs="0" name="coAgrupamento02" type="xs:string"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coSitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="deIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="deSituacaoEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAcionamento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhCdstoOrdemServico" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="grupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="icEntregue" type="xs:string"/>
+          <xs:element minOccurs="0" name="icRecebido" type="xs:string"/>
+          <xs:element minOccurs="0" name="icValidado" type="xs:string"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="pcExecutado" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtDiaPendenteCaixa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroAplicacao" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroArtefato" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSiteParcial">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSiteParcialResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:contratoDemandaLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoDemandaLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="contrato" type="tns:contratoLNv2"/>
+          <xs:element minOccurs="0" name="demanda" type="tns:demandaLNv2"/>
+          <xs:element minOccurs="0" name="qtLimiteContratacao" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coCompromisso" type="xs:string"/>
+          <xs:element minOccurs="0" name="coContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="coLicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="coProcesso" type="xs:string"/>
+          <xs:element minOccurs="0" name="deContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhCadastro" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtAssinaturaContrato" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtFinalCompromisso" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtFinalFatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtInicioCompromisso" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtInicioFatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="demandaLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="catalogoSistemaIntegrado" type="tns:catalogoSistemaIntegradoLN"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="deDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhCdstoDemanda" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="modulo" type="tns:moduloLN"/>
+          <xs:element minOccurs="0" name="nuTipoSituacaoDemanda" type="xs:long"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ordemServicos" nillable="true" type="tns:ordemServicoLNv2"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="solicitacoesDemanda" nillable="true" type="tns:solicitacaoDemandaLN"/>
+          <xs:element minOccurs="0" name="tipoSituacaoDemanda" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="areaInternaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="noAreaInterna" type="xs:string"/>
+          <xs:element minOccurs="0" name="noCxPostal" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSiglaArea" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="catalogoSistemaIntegradoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="noSistemaIntgo" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuSistemaIntgo" type="xs:long"/>
+          <xs:element minOccurs="0" name="sgSistemaIntgo" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="moduloLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="noModulo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="sgSistema" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coRubrica" type="xs:string"/>
+          <xs:element minOccurs="0" name="deOrdemServico" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="etapaContratacaos" nillable="true" type="tns:etapaContratacaoLNv2"/>
+          <xs:element minOccurs="0" name="icAcionamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuForma" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuOrdemServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuSituacaoOrdemServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoCategoriaForma" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoFormaContrato" type="xs:long"/>
+          <xs:element name="qtOrdemServico" type="xs:double"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="qtSolicitacao" nillable="true" type="tns:quantidadeSolicitacaoLNv2"/>
+          <xs:element minOccurs="0" name="tipoCategoriaForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoGrupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoSituacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoTipoFormaContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrEstmoOrdemServico" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="etapaContratacaoLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dhCdstoEtapa" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="entregas" nillable="true" type="tns:entregaLNv2"/>
+          <xs:element minOccurs="0" name="id" type="tns:etapaContratacaoPKLN"/>
+          <xs:element minOccurs="0" name="nuTipoEtapa" type="xs:long"/>
+          <xs:element minOccurs="0" name="tipoEtapa" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="entregaLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="deEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAcionamento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noTipoPreco" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoPreco" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoSituacaoEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="pcExecutado" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="tipoSituacaoEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrPreco" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="etapaContratacaoPKLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="nuEtapaContratacao" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuOrdemServico" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="quantidadeSolicitacaoLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoQuantidade" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrQuantidade" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitacaoDemandaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="pcAtendimentoSlcto" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="solicitacao" type="tns:solicitacaoLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitacaoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coSiplo" type="xs:string"/>
+          <xs:element minOccurs="0" name="coSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deOrigemSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoManutencao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuNaturalCusto" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuSolicitacao" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuUnidadeCusto" type="xs:long"/>
+          <xs:element minOccurs="0" name="pcAtendimentoSlcto" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="pontoFuncaoAlterado" type="xs:string"/>
+          <xs:element minOccurs="0" name="pontoFuncaoExcluido" type="xs:string"/>
+          <xs:element minOccurs="0" name="pontoFuncaoIncluido" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosEquipeLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosEquipeLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:fornecedorWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="fornecedorWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoFornecedor" type="xs:long"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="contratos" nillable="true" type="tns:contratoWS"/>
+          <xs:element minOccurs="0" name="dataFim" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dataInicio" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="mensagem" type="xs:string"/>
+          <xs:element minOccurs="0" name="nomeFornecedor" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoContrato" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="equipes" nillable="true" type="tns:equipeWS"/>
+          <xs:element minOccurs="0" name="nomeContrato" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="termosEquipe" nillable="true" type="tns:termoEquipeWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="equipeWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoEquipe" type="xs:string"/>
+          <xs:element minOccurs="0" name="contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="grupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuEquipe" type="xs:long"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="termos" nillable="true" type="tns:termoEquipeWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="termoEquipeWS">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ajustes" nillable="true" type="tns:dadosTermoAjustadoWS"/>
+          <xs:element minOccurs="0" name="area" type="xs:string"/>
+          <xs:element minOccurs="0" name="coTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="codigoEquipe" type="xs:string"/>
+          <xs:element minOccurs="0" name="codigoTermoAjustado" type="xs:string"/>
+          <xs:element minOccurs="0" name="contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="dataEmissao" type="xs:string"/>
+          <xs:element minOccurs="0" name="dataFatura" type="xs:string"/>
+          <xs:element minOccurs="0" name="dataFaturaGerada" type="xs:string"/>
+          <xs:element minOccurs="0" name="faturaGerada" type="xs:string"/>
+          <xs:element minOccurs="0" name="faturaPaga" type="xs:string"/>
+          <xs:element minOccurs="0" name="fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="grupo" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="indicadores" nillable="true" type="tns:detalheIndicadorEquipeWS"/>
+          <xs:element minOccurs="0" name="motivoAjuste" type="xs:string"/>
+          <xs:element minOccurs="0" name="numeroAjuste" type="xs:string"/>
+          <xs:element minOccurs="0" name="numeroTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="numeroTermoAjustado" type="xs:string"/>
+          <xs:element minOccurs="0" name="preco" type="xs:decimal"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="precosPorPerfil" nillable="true" type="tns:precoTermoPorPerfilWS"/>
+          <xs:element minOccurs="0" name="quantidadeDiasAusencia" type="xs:string"/>
+          <xs:element minOccurs="0" name="quantidadeDiasExtra" type="xs:string"/>
+          <xs:element minOccurs="0" name="quantidadeMembros" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="quantidadeMembrosPorPerfil" nillable="true" type="tns:quantidadeMembrosPorPerfilDiasAusencieExtraordinarioWS"/>
+          <xs:element minOccurs="0" name="sitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="situacao" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="termosAjustados" nillable="true" type="tns:termoEquipeWS"/>
+          <xs:element minOccurs="0" name="tipoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="titularArea" type="xs:string"/>
+          <xs:element minOccurs="0" name="valorAcrescimo" type="xs:string"/>
+          <xs:element minOccurs="0" name="valorDecrescimo" type="xs:string"/>
+          <xs:element minOccurs="0" name="valorPrevisto" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFNS" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoTermoOriginal" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="dadosTermoAjustadoWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ajustesAnteriores" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="codigoTermoAjustado" type="xs:string"/>
+          <xs:element minOccurs="0" name="diferenca" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="numeroTermoAjustado" type="xs:long"/>
+          <xs:element minOccurs="0" name="valorFinanceiro" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="valorTermoAjustado" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="detalheIndicadorEquipeWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoAjuste" type="xs:long"/>
+          <xs:element minOccurs="0" name="codigoIndicador" type="xs:long"/>
+          <xs:element minOccurs="0" name="dataFatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dataIndicador" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="fatura" type="xs:string"/>
+          <xs:element minOccurs="0" name="nomeIndicador" type="xs:string"/>
+          <xs:element minOccurs="0" name="numeroIndicador" type="xs:long"/>
+          <xs:element minOccurs="0" name="pesoIndicador" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="termo" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="termosAjustados" nillable="true" type="tns:termoEquipeWS"/>
+          <xs:element minOccurs="0" name="valorFaixaFNS" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="valorIndicador" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="precoTermoPorPerfilWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="nomePerfil" type="xs:string"/>
+          <xs:element minOccurs="0" name="valorPerfil" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="quantidadeMembrosPorPerfilDiasAusencieExtraordinarioWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="perfilProfissional" type="xs:string"/>
+          <xs:element minOccurs="0" name="perfilProfissionalAusenciaExtraordinario" type="xs:string"/>
+          <xs:element minOccurs="0" name="quantidadeDiasAusenciaPerfil" type="xs:double"/>
+          <xs:element minOccurs="0" name="quantidadeDiasExtraPerfil" type="xs:double"/>
+          <xs:element minOccurs="0" name="quantidadeMembros" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLNV2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLNV2Response">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ContratoDemandaV2" type="tns:contratoDemandaLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosLNv2Response">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="TermoV2" type="tns:termoLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="termoLNv2">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="coTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="codigoSitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="deAvaliacaoOs" type="xs:string"/>
+          <xs:element minOccurs="0" name="deCancelamentoSuspencao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deFaturaGerada" type="xs:string"/>
+          <xs:element minOccurs="0" name="deFaturaPaga" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="demanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAvaliacaoEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhCancelamentoSuspencao" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEmissaoTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhValidacaoTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtLimiteAjusteTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtLimiteTransferencia" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtTransferenciaConhecimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="entrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="icCulpaExclusivaContratada" type="xs:string"/>
+          <xs:element minOccurs="0" name="icEntregaValidado" type="xs:string"/>
+          <xs:element minOccurs="0" name="icHouveTransferenciaCnhco" type="xs:string"/>
+          <xs:element minOccurs="0" name="icTesteAplicacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafProdutividade" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFaqEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFaqForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFraForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFreForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuOrdemServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoEtapa" type="xs:long"/>
+          <xs:element minOccurs="0" name="ordemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="pcExcecutado" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtDiaPendenteCaixa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtDiasAtrasoTransferencia" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroAplicacao" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroArtefato" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtIndicePontoDefeito" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtSolicitacao" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="sistema" type="tns:moduloLN"/>
+          <xs:element minOccurs="0" name="tipoSituacaoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="vrDescontoAtraso" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrDescontoErro" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafEtapa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafProdutividade" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafServico" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFaqEtapa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFaqForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIAE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIEE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIPP" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIQP" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsITE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFraForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFreForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermoOriginal" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrLiquidoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrLiquidoOs" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPagoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPagoTermoRecebimento" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrecoForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoOs" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrRetidoTermoAceite" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrTotalCancelSusp" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AmostraRetencaoLiberacaoTaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AmostraRetencaoLiberacaoTaLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:amostraTALN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="amostraTALN">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="liberados" nillable="true" type="tns:amostraRetencaoTaView"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="retidos" nillable="true" type="tns:amostraRetencaoTaView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="amostraRetencaoTaView">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="coDemandaRetida" type="xs:string"/>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="coFatura" type="xs:string"/>
+          <xs:element minOccurs="0" name="coFaturaLiberacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="coMotivo" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServicoRetida" type="xs:string"/>
+          <xs:element minOccurs="0" name="coTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhLiberacao" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuDemanda" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="vrFinanceiraoTermo" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoRepactuacaoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoRepactuacaoLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="teste" type="xs:base64Binary" xmime:expectedContentTypes="application/excel"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSitePeriodoDataPrevistaEntrega">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataPrevistaInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataPrevistaFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:contratoDemandaLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FormalizaEntregaContratadaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="NuContratacaoOs" type="xs:string"/>
+          <xs:element minOccurs="0" name="Entrega" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FormalizaEntregaContratadaLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="version">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="versionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IndicadoresEquipeLN">
+        <xs:sequence>
+          <xs:element name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IndicadoresEquipeLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:fornecedorWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSite">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratoSiteResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:contratoDemandaLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itemTrabalhoPorPeriodoFaturamento">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itemTrabalhoPorPeriodoFaturamentoResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:contratoItemTrabalho"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoItemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="co_contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="no_contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="nu_contrato" type="xs:long"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="sitios" nillable="true" type="tns:sitioItemTrabalho"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sitioItemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="co_sitio" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="faturas" nillable="true" type="tns:faturaItemTrabalho"/>
+          <xs:element minOccurs="0" name="no_sitio" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="faturaItemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dt_final_fatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_inicio_fatura" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="itens_trabalho" nillable="true" type="tns:itemTrabalho"/>
+          <xs:element minOccurs="0" name="no_fatura" type="xs:string"/>
+          <xs:element minOccurs="0" name="nu_fatura" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="co_rtc" type="xs:string"/>
+          <xs:element minOccurs="0" name="co_rtc_pai" type="xs:string"/>
+          <xs:element minOccurs="0" name="de_situacao_entrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="de_tipo_forma" type="xs:string"/>
+          <xs:element minOccurs="0" name="dt_acionamento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_cadastro" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_efetiva_entrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_inicio_atendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_prevista_entrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dt_resolucao_entrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="no_area_interna" type="xs:string"/>
+          <xs:element minOccurs="0" name="no_sistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="no_tipo_grupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="no_tipo_servico" type="xs:string"/>
+          <xs:element minOccurs="0" name="nu_area_interna" type="xs:long"/>
+          <xs:element minOccurs="0" name="nu_sistema" type="xs:long"/>
+          <xs:element minOccurs="0" name="nu_situacao_entrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="nu_tipo_forma" type="xs:long"/>
+          <xs:element minOccurs="0" name="nu_tipo_grupo" type="xs:long"/>
+          <xs:element minOccurs="0" name="nu_tipo_servico" type="xs:long"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="pendencias" nillable="true" type="tns:pendenciaItemTrabalho"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="rejeicoes" nillable="true" type="tns:reijeicaoItemTrabalho"/>
+          <xs:element minOccurs="0" name="ts_modificacao" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="pendenciaItemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ts_final_pendencia" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="ts_inicio_pendencia" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="reijeicaoItemTrabalho">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ts_modificacao" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratadasLNV2_Parcial">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoContratadasLNV2_ParcialResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ContratoDemandaV2" type="tns:contratoDemandaLNv2"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacaoEmPendenciaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="NuContratacaoOs" type="xs:string"/>
+          <xs:element minOccurs="0" name="Entrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="TxtJustPend" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacaoEmPendenciaLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacoesEquipe">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacoesEquipeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:relContratacoesEquipesWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipesWS">
+        <xs:complexContent>
+          <xs:extension base="tns:modelBase">
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="equipe" nillable="true" type="tns:relContratacoesEquipeWS"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="modelBase">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeWS">
+        <xs:complexContent>
+          <xs:extension base="tns:modelBase">
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="ausencia" nillable="true" type="tns:relContratacoesEquipeAusenciaWS"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="ciclo" nillable="true" type="tns:relContratacoesEquipeCicloWS"/>
+              <xs:element minOccurs="0" name="coEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="coSitio" type="xs:string"/>
+              <xs:element minOccurs="0" name="deEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="dhInclusaoInformacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtFinalAtendimento" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtInicioAtendimento" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtSolicitacaoAlocacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="noAreaInterna" type="xs:string"/>
+              <xs:element minOccurs="0" name="noSiglaArea" type="xs:string"/>
+              <xs:element minOccurs="0" name="noSituacaoEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="noTipoGrupo" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuAreaInterna" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuContrato" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuSituacaoEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuTipoGrupo" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="servicoExtra" nillable="true" type="tns:relContratacoesEquipeServicoExtraWS"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="solicitacao" nillable="true" type="tns:relContratacoesEquipeSolicitacaoWS"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="vigencia" nillable="true" type="tns:relContratacoesEquipeVigenciaWS"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeAusenciaWS">
+        <xs:complexContent>
+          <xs:extension base="tns:modelBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="dtFinalFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtInicioFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="noPerfilAusencia" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuCicloTrabalho" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuPerfilAusencia" type="xs:string"/>
+              <xs:element minOccurs="0" name="qtDiaAusencia" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeCicloWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coFalhaCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="deCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="dtAlvoCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="dtFinalCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="dtInicioCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSituacaoCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuSituacaoCicloTrabalho" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrNotaQualidadeProduto" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrQuestionarioAvaliacao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeServicoExtraWS">
+        <xs:complexContent>
+          <xs:extension base="tns:modelBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="dtFinalFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtInicioFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="noPerfilServicoExtra" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuCicloTrabalho" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuFatura" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuPerfilServicoExtra" type="xs:string"/>
+              <xs:element minOccurs="0" name="qtDiaServicoExtra" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeSolicitacaoWS">
+        <xs:complexContent>
+          <xs:extension base="tns:modelBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="coFalhaCicloTrabalho" type="xs:string"/>
+              <xs:element minOccurs="0" name="coFalhaSolicitacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="coSolicitacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="deModulo" type="xs:string"/>
+              <xs:element minOccurs="0" name="deSolicitacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtEfetiva" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtInicio" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtPrevista" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtPrevistaAddPendencia" type="xs:string"/>
+              <xs:element minOccurs="0" name="dtResolucao" type="xs:string"/>
+              <xs:element minOccurs="0" name="noSiglaSistema" type="xs:string"/>
+              <xs:element minOccurs="0" name="noSituacaoAtendimento" type="xs:string"/>
+              <xs:element minOccurs="0" name="noTipoServico" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuCicloTrabalho" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuDemanda" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuItemPortfolio" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuSolicitacao" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuSolicitacaoEquipe" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuTamanhoServico" type="xs:string"/>
+              <xs:element minOccurs="0" name="nuTipoServico" type="xs:string"/>
+              <xs:element minOccurs="0" name="vrNotaQualidadeProduto" type="xs:string"/>
+              <xs:element minOccurs="0" name="vrQuestionarioAvaliacao" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeVigenciaWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dtFinalVigenciaMembros" type="xs:string"/>
+          <xs:element minOccurs="0" name="dtInicioVigenciaMembros" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="membros" nillable="true" type="tns:relContratacoesEquipeMembroWS"/>
+          <xs:element minOccurs="0" name="quantidadeMembros" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="relContratacoesEquipeMembroWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dePerfil" type="xs:string"/>
+          <xs:element minOccurs="0" name="icAtivo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noMembro" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuMatricula" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuMembro" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuPerfil" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuPosicao" type="xs:string"/>
+          <xs:element minOccurs="0" name="tpMatricula" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLN_Parcial">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLN_ParcialResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ContratoDemanda" type="tns:contratoDemandaLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoDemandaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="contrato" type="tns:contratoLN"/>
+          <xs:element minOccurs="0" name="demanda" type="tns:demandaLN"/>
+          <xs:element minOccurs="0" name="qtLimiteContratacao" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coCompromisso" type="xs:string"/>
+          <xs:element minOccurs="0" name="coContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="coLicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="coProcesso" type="xs:string"/>
+          <xs:element minOccurs="0" name="deContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhCadastro" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtAssinaturaContrato" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtFinalCompromisso" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtFinalFatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtInicioCompromisso" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtInicioFatura" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="demandaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="catalogoSistemaIntegrado" type="tns:catalogoSistemaIntegradoLN"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="deDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhCdstoDemanda" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="modulo" type="tns:moduloLN"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ordemServicos" nillable="true" type="tns:ordemServicoLN"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="solicitacoesDemanda" nillable="true" type="tns:solicitacaoDemandaLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ordemServicoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coRubrica" type="xs:string"/>
+          <xs:element minOccurs="0" name="deOrdemServico" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="etapaContratacaos" nillable="true" type="tns:etapaContratacaoLN"/>
+          <xs:element minOccurs="0" name="icAcionamento" type="xs:string"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuForma" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoCategoriaForma" type="xs:long"/>
+          <xs:element name="qtOrdemServico" type="xs:double"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="qtSolicitacao" nillable="true" type="tns:quantidadeSolicitacaoLN"/>
+          <xs:element minOccurs="0" name="tipoCategoriaForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoGrupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoSituacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoTipoFormaContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrEstmoOrdemServico" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="etapaContratacaoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dhCdstoEtapa" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="entregas" nillable="true" type="tns:entregaLN"/>
+          <xs:element minOccurs="0" name="id" type="tns:etapaContratacaoPKLN"/>
+          <xs:element minOccurs="0" name="nuTipoEtapa" type="xs:long"/>
+          <xs:element minOccurs="0" name="tipoEtapa" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="entregaLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="deEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="nuEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="pcExecutado" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="tipoSituacaoEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="quantidadeSolicitacaoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coSolicitacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoQuantidade" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrQuantidade" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoEquipe">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Usuario" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoEquipeResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary" xmime:expectedContentTypes="application/excel"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AlterarSenha">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ProvedorExterno" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="NovaSenha" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AlterarSenhaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasPeriodoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataPrevistaInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataPrevistaFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasPeriodoLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Table" type="tns:visaoSolicitacaoOrdemServicoContratada"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="visaoSolicitacaoOrdemServicoContratada">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CO_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="CO_SITUACAO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_AREA_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_ENTREGA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_MODULO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_PROVEDOR_EXTERNO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_SISTEMA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_SITUACAO_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_SITUACAO_ENTREGA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_DEMANDA_SISOL" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_FASE" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_FORMA_CONTRATACAO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_PROVEDOR_SOLUCAO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DE_TIPO_SERVICO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DT_ACIONAMENTO_ENTREGA" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_ACIONAMENTO_OS" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_AGENDAMENTO" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_CANCELAMENTO" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_CRIACAO_ENTREGA" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_CRIACAO_OS_SERVICO" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_EFETIVA_ENTREGA" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_INCLUSAO_DEMANDA" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_PRAZO_EXECUCAO" type="xs:string"/>
+          <xs:element minOccurs="0" name="DT_PREVISTA_ENTREGA" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="DT_VALIDACAO" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="IC_CONSUMO_WEB_SERVICE" type="xs:string"/>
+          <xs:element name="IC_DEMANDA_EMERGENCIAL" type="xs:boolean"/>
+          <xs:element name="IC_EXCLUSAO" type="xs:boolean"/>
+          <xs:element name="IC_FECHAMENTO_OS" type="xs:boolean"/>
+          <xs:element name="IC_OS_CANCELADA" type="xs:boolean"/>
+          <xs:element name="IC_RECEBIMENTO_ENTREGA" type="xs:boolean"/>
+          <xs:element name="IC_VALIDADO" type="xs:boolean"/>
+          <xs:element name="ID_LOG_ACESSO" type="xs:long"/>
+          <xs:element name="ID_WEB_CONTRATACAO_OS" type="xs:long"/>
+          <xs:element minOccurs="0" name="NO_SIGLA_AREA_DEMANDA" type="xs:string"/>
+          <xs:element minOccurs="0" name="NO_SIGLA_SISTEMA" type="xs:string"/>
+          <xs:element minOccurs="0" name="NU_AREA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_CONTRATACAO_OS" type="xs:string"/>
+          <xs:element minOccurs="0" name="NU_DEMANDA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_MODULO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_PROVEDOR_SOLUCAO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SEQ_ENTREGA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SEQ_ORDEM_SERVICO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SEQ_SERVICO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SIMDP" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SISOLWEB" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SISTEMA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_SITUACAO_DEMANDA" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="NU_SITUACAO_ENTREGA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_DEMANDA" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_DEMANDA_SISOL" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_FASE" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_FORMA_CONTRATACAO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_PROVEDOR_SOLUCAO" type="xs:long"/>
+          <xs:element minOccurs="0" name="NU_TIPO_SERVICO" type="xs:long"/>
+          <xs:element minOccurs="0" name="PC_ENTREGA" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="PC_ESFORCO_ENTREGA" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="PC_SISOLWEB" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="QTD_DIAS_ATRASO" type="xs:long"/>
+          <xs:element minOccurs="0" name="QTD_ERROS" type="xs:long"/>
+          <xs:element minOccurs="0" name="QT_SISOLWEB_ALTERACAO" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="QT_SISOLWEB_EXCLUSAO" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="QT_SISOLWEB_INCLUSAO" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="QT_TOTAL_PF" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="TA_EMITIDO" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TermosLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Termo" type="tns:termoLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="termoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="areaInterna" type="tns:areaInternaLN"/>
+          <xs:element minOccurs="0" name="coTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="codigoSitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="deAvaliacaoOs" type="xs:string"/>
+          <xs:element minOccurs="0" name="deCancelamentoSuspencao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="demanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAvaliacaoEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhCancelamentoSuspencao" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEmissaoTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhValidacaoTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtLimiteAjusteTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtLimiteTransferencia" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtTransferenciaConhecimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="entrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="icCulpaExclusivaContratada" type="xs:string"/>
+          <xs:element minOccurs="0" name="icEntregaValidado" type="xs:string"/>
+          <xs:element minOccurs="0" name="icHouveTransferenciaCnhco" type="xs:string"/>
+          <xs:element minOccurs="0" name="icTesteAplicacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafProdutividade" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFafServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFaqEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFaqForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFraForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noFaixaFreForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuOrdemServico" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTipoEtapa" type="xs:long"/>
+          <xs:element minOccurs="0" name="ordemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="pcExcecutado" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtDiaPendenteCaixa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtDiasAtrasoTransferencia" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroAplicacao" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtErroArtefato" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtIndicePontoDefeito" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="qtSolicitacao" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="sistema" type="tns:moduloLN"/>
+          <xs:element minOccurs="0" name="tipoSituacaoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="tipoTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="vrDescontoAtraso" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrDescontoErro" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafEtapa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafProdutividade" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFafServico" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFaqEtapa" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFaqForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIAE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIEE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIPP" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsIQP" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFnsITE" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFraForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFaixaFreForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermo" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermoOriginal" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrLiquidoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrLiquidoOs" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPagoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPagoTermoRecebimento" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrecoForma" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrPrevistoOs" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrRetidoTermoAceite" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vrTotalCancelSusp" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasLN_Parcial">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasLN_ParcialResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Table" type="tns:visaoSolicitacaoOrdemServicoContratada"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itemTrabalhoPorPeriodoFaturamentoDataHora">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:contratoItemTrabalho"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OrdemServicoContratadasLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ContratoDemanda" type="tns:contratoDemandaLN"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AvaliacoesContratadasLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AvaliacoesContratadasLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:contratoAvaliacaoContratadaWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratoAvaliacaoContratadaWS">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="grupos" nillable="true" type="tns:tipoGrupoAvaliacaoContratadaWS"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta1" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta2" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta3" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta4" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tipoGrupoAvaliacaoContratadaWS">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="listaMediaAvaliacaoContratada" nillable="true" type="tns:mediaAvaliacaoContratadaWS"/>
+          <xs:element minOccurs="0" name="noTipoGrupo" type="xs:string"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta1" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta2" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta3" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta4" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="mediaAvaliacaoContratadaWS">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="listaDemandas" nillable="true" type="tns:demandaAvaliacaoContratadaWS"/>
+          <xs:element minOccurs="0" name="mesAno" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="nuListaAvaliacoesOS" nillable="true" type="xs:long"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta1" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta2" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta3" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlMediaPergunta4" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="demandaAvaliacaoContratadaWS">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coContratacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuSolicitacao" type="xs:long"/>
+          <xs:element minOccurs="0" name="sgSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="vlPesoPergunta1" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlPesoPergunta2" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlPesoPergunta3" type="xs:decimal"/>
+          <xs:element minOccurs="0" name="vlPesoPergunta4" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fornecedor" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataInicio" type="xs:string"/>
+          <xs:element minOccurs="0" name="DataFim" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="arquivoEmpenhoLNResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary" xmime:expectedContentTypes="application/excel"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasLN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="ProvedorSolucao" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SolicitacaoOrdemServicoContratadasLNResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Table" type="tns:visaoSolicitacaoOrdemServicoContratada"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacoesEquipeAlterada">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ContratacoesEquipeAlteradaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:relContratacoesEquipesWS"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Exception" type="tns:Exception"/>
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="DemandaIntegracaoException" type="tns:DemandaIntegracaoException"/>
+      <xs:complexType name="DemandaIntegracaoException">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mensagem" type="xs:string"/>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="arquivoEmpenhoEquipeResponse">
+    <wsdl:part element="tns:arquivoEmpenhoEquipeResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresDetalhadoLN">
+    <wsdl:part element="tns:IndicadoresDetalhadoLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSiteParcial">
+    <wsdl:part element="tns:ordemServicoContratoSiteParcial" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSiteParcialResponse">
+    <wsdl:part element="tns:ordemServicoContratoSiteParcialResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosEquipeLN">
+    <wsdl:part element="tns:TermosEquipeLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLNV2">
+    <wsdl:part element="tns:OrdemServicoContratadasLNV2" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLNResponse">
+    <wsdl:part element="tns:OrdemServicoContratadasLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLNV2Response">
+    <wsdl:part element="tns:OrdemServicoContratadasLNV2Response" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSitePeriodoDataPrevistaEntrega">
+    <wsdl:part element="tns:ordemServicoContratoSitePeriodoDataPrevistaEntrega" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacoesEquipeAlteradaResponse">
+    <wsdl:part element="tns:ContratacoesEquipeAlteradaResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="tns:Exception" name="Exception"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="FormalizaEntregaContratadaLN">
+    <wsdl:part element="tns:FormalizaEntregaContratadaLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresEquipeLN">
+    <wsdl:part element="tns:IndicadoresEquipeLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="arquivoEmpenhoLNResponse">
+    <wsdl:part element="tns:arquivoEmpenhoLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="itemTrabalhoPorPeriodoFaturamento">
+    <wsdl:part element="tns:itemTrabalhoPorPeriodoFaturamento" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="itemTrabalhoPorPeriodoFaturamentoResponse">
+    <wsdl:part element="tns:itemTrabalhoPorPeriodoFaturamentoResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratadasLNV2_Parcial">
+    <wsdl:part element="tns:ordemServicoContratadasLNV2_Parcial" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasPeriodoLNResponse">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasPeriodoLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="versionResponse">
+    <wsdl:part element="tns:versionResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacaoEmPendenciaLN">
+    <wsdl:part element="tns:ContratacaoEmPendenciaLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AlterarSenhaResponse">
+    <wsdl:part element="tns:AlterarSenhaResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLN_ParcialResponse">
+    <wsdl:part element="tns:OrdemServicoContratadasLN_ParcialResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse">
+    <wsdl:part element="tns:itemTrabalhoPorPeriodoFaturamentoDataHoraResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="arquivoEmpenhoEquipe">
+    <wsdl:part element="tns:arquivoEmpenhoEquipe" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="arquivoEmpenhoRepactuacaoLNResponse">
+    <wsdl:part element="tns:arquivoEmpenhoRepactuacaoLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AlterarSenha">
+    <wsdl:part element="tns:AlterarSenha" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasPeriodoLN">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasPeriodoLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasLNResponse">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasLN_Parcial">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasLN_Parcial" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="itemTrabalhoPorPeriodoFaturamentoDataHora">
+    <wsdl:part element="tns:itemTrabalhoPorPeriodoFaturamentoDataHora" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLN">
+    <wsdl:part element="tns:OrdemServicoContratadasLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AvaliacoesContratadasLNResponse">
+    <wsdl:part element="tns:AvaliacoesContratadasLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacoesEquipeAlterada">
+    <wsdl:part element="tns:ContratacoesEquipeAlterada" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresLNResponse">
+    <wsdl:part element="tns:IndicadoresLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresDetalhadoLNResponse">
+    <wsdl:part element="tns:IndicadoresDetalhadoLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresEquipeLNResponse">
+    <wsdl:part element="tns:IndicadoresEquipeLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IndicadoresLN">
+    <wsdl:part element="tns:IndicadoresLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosEquipeLNResponse">
+    <wsdl:part element="tns:TermosEquipeLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosLNv2Response">
+    <wsdl:part element="tns:TermosLNv2Response" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DemandaIntegracaoException">
+    <wsdl:part element="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosLNv2">
+    <wsdl:part element="tns:TermosLNv2" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AmostraRetencaoLiberacaoTaLN">
+    <wsdl:part element="tns:AmostraRetencaoLiberacaoTaLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="arquivoEmpenhoRepactuacaoLN">
+    <wsdl:part element="tns:arquivoEmpenhoRepactuacaoLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacoesEquipeResponse">
+    <wsdl:part element="tns:ContratacoesEquipeResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosLNResponse">
+    <wsdl:part element="tns:TermosLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="version">
+    <wsdl:part element="tns:version" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSite">
+    <wsdl:part element="tns:ordemServicoContratoSite" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasLN_ParcialResponse">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasLN_ParcialResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratadasLNV2_ParcialResponse">
+    <wsdl:part element="tns:ordemServicoContratadasLNV2_ParcialResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacoesEquipe">
+    <wsdl:part element="tns:ContratacoesEquipe" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="OrdemServicoContratadasLN_Parcial">
+    <wsdl:part element="tns:OrdemServicoContratadasLN_Parcial" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TermosLN">
+    <wsdl:part element="tns:TermosLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AmostraRetencaoLiberacaoTaLNResponse">
+    <wsdl:part element="tns:AmostraRetencaoLiberacaoTaLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="FormalizaEntregaContratadaLNResponse">
+    <wsdl:part element="tns:FormalizaEntregaContratadaLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSiteResponse">
+    <wsdl:part element="tns:ordemServicoContratoSiteResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse">
+    <wsdl:part element="tns:ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AvaliacoesContratadasLN">
+    <wsdl:part element="tns:AvaliacoesContratadasLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="arquivoEmpenhoLN">
+    <wsdl:part element="tns:arquivoEmpenhoLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitacaoOrdemServicoContratadasLN">
+    <wsdl:part element="tns:SolicitacaoOrdemServicoContratadasLN" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ContratacaoEmPendenciaLNResponse">
+    <wsdl:part element="tns:ContratacaoEmPendenciaLNResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="DemandaIntegracao">
+    <wsdl:operation name="IndicadoresLN">
+      <wsdl:input message="tns:IndicadoresLN" name="IndicadoresLN"></wsdl:input>
+      <wsdl:output message="tns:IndicadoresLNResponse" name="IndicadoresLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IndicadoresDetalhadoLN">
+      <wsdl:input message="tns:IndicadoresDetalhadoLN" name="IndicadoresDetalhadoLN"></wsdl:input>
+      <wsdl:output message="tns:IndicadoresDetalhadoLNResponse" name="IndicadoresDetalhadoLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSiteParcial">
+      <wsdl:input message="tns:ordemServicoContratoSiteParcial" name="ordemServicoContratoSiteParcial"></wsdl:input>
+      <wsdl:output message="tns:ordemServicoContratoSiteParcialResponse" name="ordemServicoContratoSiteParcialResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosEquipeLN">
+      <wsdl:input message="tns:TermosEquipeLN" name="TermosEquipeLN"></wsdl:input>
+      <wsdl:output message="tns:TermosEquipeLNResponse" name="TermosEquipeLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLNV2">
+      <wsdl:input message="tns:OrdemServicoContratadasLNV2" name="OrdemServicoContratadasLNV2"></wsdl:input>
+      <wsdl:output message="tns:OrdemServicoContratadasLNV2Response" name="OrdemServicoContratadasLNV2Response"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosLNv2">
+      <wsdl:input message="tns:TermosLNv2" name="TermosLNv2"></wsdl:input>
+      <wsdl:output message="tns:TermosLNv2Response" name="TermosLNv2Response"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AmostraRetencaoLiberacaoTaLN">
+      <wsdl:input message="tns:AmostraRetencaoLiberacaoTaLN" name="AmostraRetencaoLiberacaoTaLN"></wsdl:input>
+      <wsdl:output message="tns:AmostraRetencaoLiberacaoTaLNResponse" name="AmostraRetencaoLiberacaoTaLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoRepactuacaoLN">
+      <wsdl:input message="tns:arquivoEmpenhoRepactuacaoLN" name="arquivoEmpenhoRepactuacaoLN"></wsdl:input>
+      <wsdl:output message="tns:arquivoEmpenhoRepactuacaoLNResponse" name="arquivoEmpenhoRepactuacaoLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSitePeriodoDataPrevistaEntrega">
+      <wsdl:input message="tns:ordemServicoContratoSitePeriodoDataPrevistaEntrega" name="ordemServicoContratoSitePeriodoDataPrevistaEntrega"></wsdl:input>
+      <wsdl:output message="tns:ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse" name="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FormalizaEntregaContratadaLN">
+      <wsdl:input message="tns:FormalizaEntregaContratadaLN" name="FormalizaEntregaContratadaLN"></wsdl:input>
+      <wsdl:output message="tns:FormalizaEntregaContratadaLNResponse" name="FormalizaEntregaContratadaLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <wsdl:input message="tns:version" name="version"></wsdl:input>
+      <wsdl:output message="tns:versionResponse" name="versionResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IndicadoresEquipeLN">
+      <wsdl:input message="tns:IndicadoresEquipeLN" name="IndicadoresEquipeLN"></wsdl:input>
+      <wsdl:output message="tns:IndicadoresEquipeLNResponse" name="IndicadoresEquipeLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSite">
+      <wsdl:input message="tns:ordemServicoContratoSite" name="ordemServicoContratoSite"></wsdl:input>
+      <wsdl:output message="tns:ordemServicoContratoSiteResponse" name="ordemServicoContratoSiteResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="itemTrabalhoPorPeriodoFaturamento">
+      <wsdl:input message="tns:itemTrabalhoPorPeriodoFaturamento" name="itemTrabalhoPorPeriodoFaturamento"></wsdl:input>
+      <wsdl:output message="tns:itemTrabalhoPorPeriodoFaturamentoResponse" name="itemTrabalhoPorPeriodoFaturamentoResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratadasLNV2_Parcial">
+      <wsdl:input message="tns:ordemServicoContratadasLNV2_Parcial" name="ordemServicoContratadasLNV2_Parcial"></wsdl:input>
+      <wsdl:output message="tns:ordemServicoContratadasLNV2_ParcialResponse" name="ordemServicoContratadasLNV2_ParcialResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacaoEmPendenciaLN">
+      <wsdl:input message="tns:ContratacaoEmPendenciaLN" name="ContratacaoEmPendenciaLN"></wsdl:input>
+      <wsdl:output message="tns:ContratacaoEmPendenciaLNResponse" name="ContratacaoEmPendenciaLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacoesEquipe">
+      <wsdl:input message="tns:ContratacoesEquipe" name="ContratacoesEquipe"></wsdl:input>
+      <wsdl:output message="tns:ContratacoesEquipeResponse" name="ContratacoesEquipeResponse"></wsdl:output>
+      <wsdl:fault message="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLN_Parcial">
+      <wsdl:input message="tns:OrdemServicoContratadasLN_Parcial" name="OrdemServicoContratadasLN_Parcial"></wsdl:input>
+      <wsdl:output message="tns:OrdemServicoContratadasLN_ParcialResponse" name="OrdemServicoContratadasLN_ParcialResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoEquipe">
+      <wsdl:input message="tns:arquivoEmpenhoEquipe" name="arquivoEmpenhoEquipe"></wsdl:input>
+      <wsdl:output message="tns:arquivoEmpenhoEquipeResponse" name="arquivoEmpenhoEquipeResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AlterarSenha">
+      <wsdl:input message="tns:AlterarSenha" name="AlterarSenha"></wsdl:input>
+      <wsdl:output message="tns:AlterarSenhaResponse" name="AlterarSenhaResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasPeriodoLN">
+      <wsdl:input message="tns:SolicitacaoOrdemServicoContratadasPeriodoLN" name="SolicitacaoOrdemServicoContratadasPeriodoLN"></wsdl:input>
+      <wsdl:output message="tns:SolicitacaoOrdemServicoContratadasPeriodoLNResponse" name="SolicitacaoOrdemServicoContratadasPeriodoLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosLN">
+      <wsdl:input message="tns:TermosLN" name="TermosLN"></wsdl:input>
+      <wsdl:output message="tns:TermosLNResponse" name="TermosLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasLN_Parcial">
+      <wsdl:input message="tns:SolicitacaoOrdemServicoContratadasLN_Parcial" name="SolicitacaoOrdemServicoContratadasLN_Parcial"></wsdl:input>
+      <wsdl:output message="tns:SolicitacaoOrdemServicoContratadasLN_ParcialResponse" name="SolicitacaoOrdemServicoContratadasLN_ParcialResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="itemTrabalhoPorPeriodoFaturamentoDataHora">
+      <wsdl:input message="tns:itemTrabalhoPorPeriodoFaturamentoDataHora" name="itemTrabalhoPorPeriodoFaturamentoDataHora"></wsdl:input>
+      <wsdl:output message="tns:itemTrabalhoPorPeriodoFaturamentoDataHoraResponse" name="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLN">
+      <wsdl:input message="tns:OrdemServicoContratadasLN" name="OrdemServicoContratadasLN"></wsdl:input>
+      <wsdl:output message="tns:OrdemServicoContratadasLNResponse" name="OrdemServicoContratadasLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AvaliacoesContratadasLN">
+      <wsdl:input message="tns:AvaliacoesContratadasLN" name="AvaliacoesContratadasLN"></wsdl:input>
+      <wsdl:output message="tns:AvaliacoesContratadasLNResponse" name="AvaliacoesContratadasLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoLN">
+      <wsdl:input message="tns:arquivoEmpenhoLN" name="arquivoEmpenhoLN"></wsdl:input>
+      <wsdl:output message="tns:arquivoEmpenhoLNResponse" name="arquivoEmpenhoLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasLN">
+      <wsdl:input message="tns:SolicitacaoOrdemServicoContratadasLN" name="SolicitacaoOrdemServicoContratadasLN"></wsdl:input>
+      <wsdl:output message="tns:SolicitacaoOrdemServicoContratadasLNResponse" name="SolicitacaoOrdemServicoContratadasLNResponse"></wsdl:output>
+      <wsdl:fault message="tns:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacoesEquipeAlterada">
+      <wsdl:input message="tns:ContratacoesEquipeAlterada" name="ContratacoesEquipeAlterada"></wsdl:input>
+      <wsdl:output message="tns:ContratacoesEquipeAlteradaResponse" name="ContratacoesEquipeAlteradaResponse"></wsdl:output>
+      <wsdl:fault message="tns:DemandaIntegracaoException" name="DemandaIntegracaoException"></wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DemandaIntegracaoServiceSoapBinding" type="tns:DemandaIntegracao">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="IndicadoresLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="IndicadoresLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="IndicadoresLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="IndicadoresDetalhadoLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="IndicadoresDetalhadoLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="IndicadoresDetalhadoLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSiteParcial">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ordemServicoContratoSiteParcial">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ordemServicoContratoSiteParcialResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosEquipeLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="TermosEquipeLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="TermosEquipeLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DemandaIntegracaoException">
+        <soap:fault name="DemandaIntegracaoException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLNV2">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="OrdemServicoContratadasLNV2">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="OrdemServicoContratadasLNV2Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoRepactuacaoLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="arquivoEmpenhoRepactuacaoLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="arquivoEmpenhoRepactuacaoLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AmostraRetencaoLiberacaoTaLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="AmostraRetencaoLiberacaoTaLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AmostraRetencaoLiberacaoTaLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosLNv2">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="TermosLNv2">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="TermosLNv2Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSitePeriodoDataPrevistaEntrega">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ordemServicoContratoSitePeriodoDataPrevistaEntrega">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="FormalizaEntregaContratadaLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="FormalizaEntregaContratadaLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="FormalizaEntregaContratadaLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="version">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="versionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IndicadoresEquipeLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="IndicadoresEquipeLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="IndicadoresEquipeLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DemandaIntegracaoException">
+        <soap:fault name="DemandaIntegracaoException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratoSite">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ordemServicoContratoSite">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ordemServicoContratoSiteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="itemTrabalhoPorPeriodoFaturamento">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="itemTrabalhoPorPeriodoFaturamento">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="itemTrabalhoPorPeriodoFaturamentoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ordemServicoContratadasLNV2_Parcial">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ordemServicoContratadasLNV2_Parcial">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ordemServicoContratadasLNV2_ParcialResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacaoEmPendenciaLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ContratacaoEmPendenciaLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContratacaoEmPendenciaLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacoesEquipe">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ContratacoesEquipe">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContratacoesEquipeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DemandaIntegracaoException">
+        <soap:fault name="DemandaIntegracaoException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLN_Parcial">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="OrdemServicoContratadasLN_Parcial">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="OrdemServicoContratadasLN_ParcialResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoEquipe">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="arquivoEmpenhoEquipe">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="arquivoEmpenhoEquipeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AlterarSenha">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="AlterarSenha">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AlterarSenhaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasPeriodoLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="SolicitacaoOrdemServicoContratadasPeriodoLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SolicitacaoOrdemServicoContratadasPeriodoLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="TermosLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="TermosLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="TermosLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasLN_Parcial">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="SolicitacaoOrdemServicoContratadasLN_Parcial">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SolicitacaoOrdemServicoContratadasLN_ParcialResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="itemTrabalhoPorPeriodoFaturamentoDataHora">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="itemTrabalhoPorPeriodoFaturamentoDataHora">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="OrdemServicoContratadasLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="OrdemServicoContratadasLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="OrdemServicoContratadasLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AvaliacoesContratadasLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="AvaliacoesContratadasLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AvaliacoesContratadasLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DemandaIntegracaoException">
+        <soap:fault name="DemandaIntegracaoException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="arquivoEmpenhoLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="arquivoEmpenhoLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="arquivoEmpenhoLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitacaoOrdemServicoContratadasLN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="SolicitacaoOrdemServicoContratadasLN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SolicitacaoOrdemServicoContratadasLNResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ContratacoesEquipeAlterada">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ContratacoesEquipeAlterada">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ContratacoesEquipeAlteradaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DemandaIntegracaoException">
+        <soap:fault name="DemandaIntegracaoException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DemandaIntegracaoService">
+    <wsdl:port binding="tns:DemandaIntegracaoServiceSoapBinding" name="DemandaIntegracaoPort">
+      <soap:address location="http://localhost:8080/sigct-client/DemandaIntegracao"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint></con:endpoints><con:operation id="6fc7440e-bc34-4f7b-9091-0d08b03cfce7" isOneWay="false" action="" name="AlterarSenha" bindingOperationName="AlterarSenha" type="Request-Response" outputName="AlterarSenhaResponse" inputName="AlterarSenha" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="464fc45b-9b81-421a-9077-5657839f74d6" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:AlterarSenha>
+         <!--Optional:-->
+         <ProvedorExterno>?</ProvedorExterno>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <NovaSenha>?</NovaSenha>
+      </cli:AlterarSenha>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/AlterarSenha"/></con:call></con:operation><con:operation id="1dfcbf06-cb28-4483-a09e-07164c90c497" isOneWay="false" action="" name="AmostraRetencaoLiberacaoTaLN" bindingOperationName="AmostraRetencaoLiberacaoTaLN" type="Request-Response" outputName="AmostraRetencaoLiberacaoTaLNResponse" inputName="AmostraRetencaoLiberacaoTaLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0cbe6e20-7ae5-4256-a395-1ba5811b8775" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:AmostraRetencaoLiberacaoTaLN>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:AmostraRetencaoLiberacaoTaLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/AmostraRetencaoLiberacaoTaLN"/></con:call></con:operation><con:operation id="3099eddf-4e89-4e36-9879-532d0850e75b" isOneWay="false" action="" name="arquivoEmpenhoEquipe" bindingOperationName="arquivoEmpenhoEquipe" type="Request-Response" outputName="arquivoEmpenhoEquipeResponse" inputName="arquivoEmpenhoEquipe" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7764e220-26be-46e0-ac48-fd62838d8fc1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:arquivoEmpenhoEquipe>
+         <!--Optional:-->
+         <Usuario>?</Usuario>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:arquivoEmpenhoEquipe>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/arquivoEmpenhoEquipe"/></con:call></con:operation><con:operation id="8f7da778-a906-43fc-8b51-8cc07fcc5868" isOneWay="false" action="" name="arquivoEmpenhoLN" bindingOperationName="arquivoEmpenhoLN" type="Request-Response" outputName="arquivoEmpenhoLNResponse" inputName="arquivoEmpenhoLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7e544c06-044f-4fdd-a6a7-fcfc8535bba5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:arquivoEmpenhoLN>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:arquivoEmpenhoLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/arquivoEmpenhoLN"/></con:call></con:operation><con:operation id="8ddafad3-e022-4fd1-b5b7-8946537dc913" isOneWay="false" action="" name="arquivoEmpenhoRepactuacaoLN" bindingOperationName="arquivoEmpenhoRepactuacaoLN" type="Request-Response" outputName="arquivoEmpenhoRepactuacaoLNResponse" inputName="arquivoEmpenhoRepactuacaoLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8dadcc08-3abe-4cac-ae56-af90dadffe0f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:arquivoEmpenhoRepactuacaoLN>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:arquivoEmpenhoRepactuacaoLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/arquivoEmpenhoRepactuacaoLN"/></con:call></con:operation><con:operation id="286bdc2a-d052-4fb3-89c3-273f9cc4debe" isOneWay="false" action="" name="AvaliacoesContratadasLN" bindingOperationName="AvaliacoesContratadasLN" type="Request-Response" outputName="AvaliacoesContratadasLNResponse" inputName="AvaliacoesContratadasLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8ab108cc-7d81-4ee9-998b-9fcf211faed8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:AvaliacoesContratadasLN>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:AvaliacoesContratadasLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/AvaliacoesContratadasLN"/></con:call></con:operation><con:operation id="68bf6608-7c34-460b-99d3-8457bdc63569" isOneWay="false" action="" name="ContratacaoEmPendenciaLN" bindingOperationName="ContratacaoEmPendenciaLN" type="Request-Response" outputName="ContratacaoEmPendenciaLNResponse" inputName="ContratacaoEmPendenciaLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="928cfbd9-af02-4219-bf4a-bc7df3c292f2" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ContratacaoEmPendenciaLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <NuContratacaoOs>?</NuContratacaoOs>
+         <!--Optional:-->
+         <Entrega>?</Entrega>
+         <!--Optional:-->
+         <TxtJustPend>?</TxtJustPend>
+      </cli:ContratacaoEmPendenciaLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ContratacaoEmPendenciaLN"/></con:call></con:operation><con:operation id="038a2f5d-34da-4aa4-9f77-dfd84c5910e6" isOneWay="false" action="" name="ContratacoesEquipe" bindingOperationName="ContratacoesEquipe" type="Request-Response" outputName="ContratacoesEquipeResponse" inputName="ContratacoesEquipe" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9f903041-3984-46ca-b98c-1a4038217805" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ContratacoesEquipe>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+      </cli:ContratacoesEquipe>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ContratacoesEquipe"/></con:call></con:operation><con:operation id="33d05547-d31c-4455-a360-19efcc6abd9d" isOneWay="false" action="" name="ContratacoesEquipeAlterada" bindingOperationName="ContratacoesEquipeAlterada" type="Request-Response" outputName="ContratacoesEquipeAlteradaResponse" inputName="ContratacoesEquipeAlterada" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="725d15cd-7fd7-4223-aee1-0a80ea6a70c5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ContratacoesEquipeAlterada>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+      </cli:ContratacoesEquipeAlterada>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ContratacoesEquipeAlterada"/></con:call></con:operation><con:operation id="b57475f6-7f85-4df0-8212-958478a2f3e7" isOneWay="false" action="" name="FormalizaEntregaContratadaLN" bindingOperationName="FormalizaEntregaContratadaLN" type="Request-Response" outputName="FormalizaEntregaContratadaLNResponse" inputName="FormalizaEntregaContratadaLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="406303ed-ee6f-4e87-8f9b-d1ce0e8c10e8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:FormalizaEntregaContratadaLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <NuContratacaoOs>?</NuContratacaoOs>
+         <!--Optional:-->
+         <Entrega>?</Entrega>
+      </cli:FormalizaEntregaContratadaLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/FormalizaEntregaContratadaLN"/></con:call></con:operation><con:operation id="b3b1f716-c986-4ff6-9bac-68d83d2bfe7e" isOneWay="false" action="" name="IndicadoresDetalhadoLN" bindingOperationName="IndicadoresDetalhadoLN" type="Request-Response" outputName="IndicadoresDetalhadoLNResponse" inputName="IndicadoresDetalhadoLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="cb6cc995-837d-4f08-8fef-2ef7ade07ee2" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:IndicadoresDetalhadoLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:IndicadoresDetalhadoLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/IndicadoresDetalhadoLN"/></con:call></con:operation><con:operation id="d05233bb-1d79-4c94-b87a-5bbd0bf103c3" isOneWay="false" action="" name="IndicadoresEquipeLN" bindingOperationName="IndicadoresEquipeLN" type="Request-Response" outputName="IndicadoresEquipeLNResponse" inputName="IndicadoresEquipeLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b2ad1468-dc1c-4d0e-a3d1-18c250c11a0c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:IndicadoresEquipeLN>
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:IndicadoresEquipeLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/IndicadoresEquipeLN"/></con:call></con:operation><con:operation id="84793460-7f6f-45f9-86a5-c61dced9aeff" isOneWay="false" action="" name="IndicadoresLN" bindingOperationName="IndicadoresLN" type="Request-Response" outputName="IndicadoresLNResponse" inputName="IndicadoresLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ad666d93-9fe0-4bac-9214-919ee68802a9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:IndicadoresLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:IndicadoresLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/IndicadoresLN"/></con:call></con:operation><con:operation id="1f002445-03a7-4d12-ad61-b2a3e4e22370" isOneWay="false" action="" name="itemTrabalhoPorPeriodoFaturamento" bindingOperationName="itemTrabalhoPorPeriodoFaturamento" type="Request-Response" outputName="itemTrabalhoPorPeriodoFaturamentoResponse" inputName="itemTrabalhoPorPeriodoFaturamento" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="249ba40b-d020-43f1-80f9-bf11c359fbf0" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:itemTrabalhoPorPeriodoFaturamento>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:itemTrabalhoPorPeriodoFaturamento>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/itemTrabalhoPorPeriodoFaturamento"/></con:call></con:operation><con:operation id="10ff5341-0f28-458a-b3de-d9379ba2bb92" isOneWay="false" action="" name="itemTrabalhoPorPeriodoFaturamentoDataHora" bindingOperationName="itemTrabalhoPorPeriodoFaturamentoDataHora" type="Request-Response" outputName="itemTrabalhoPorPeriodoFaturamentoDataHoraResponse" inputName="itemTrabalhoPorPeriodoFaturamentoDataHora" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2ef20a9b-bcea-4f53-b844-b59d28357c7c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:itemTrabalhoPorPeriodoFaturamentoDataHora>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:itemTrabalhoPorPeriodoFaturamentoDataHora>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/itemTrabalhoPorPeriodoFaturamentoDataHora"/></con:call></con:operation><con:operation id="00690cbe-48e7-4650-b6b3-2a28cfb6ebac" isOneWay="false" action="" name="OrdemServicoContratadasLN" bindingOperationName="OrdemServicoContratadasLN" type="Request-Response" outputName="OrdemServicoContratadasLNResponse" inputName="OrdemServicoContratadasLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="413903cd-6ef3-43cc-90ba-23b12dae55e8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:OrdemServicoContratadasLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:OrdemServicoContratadasLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/OrdemServicoContratadasLN"/></con:call></con:operation><con:operation id="daa69f17-125b-41f7-abb3-893df7abcd73" isOneWay="false" action="" name="OrdemServicoContratadasLN_Parcial" bindingOperationName="OrdemServicoContratadasLN_Parcial" type="Request-Response" outputName="OrdemServicoContratadasLN_ParcialResponse" inputName="OrdemServicoContratadasLN_Parcial" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d61ebda9-c1d6-452a-89aa-02f4f0cb3f55" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:OrdemServicoContratadasLN_Parcial>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:OrdemServicoContratadasLN_Parcial>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/OrdemServicoContratadasLN_Parcial"/></con:call></con:operation><con:operation id="33f23099-49dd-4289-9b86-9c3acd12d971" isOneWay="false" action="" name="OrdemServicoContratadasLNV2" bindingOperationName="OrdemServicoContratadasLNV2" type="Request-Response" outputName="OrdemServicoContratadasLNV2Response" inputName="OrdemServicoContratadasLNV2" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="caea7a38-e6ee-41a6-8562-1e23e9b3a456" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:OrdemServicoContratadasLNV2>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:OrdemServicoContratadasLNV2>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/OrdemServicoContratadasLNV2"/></con:call></con:operation><con:operation id="bedf3ffa-afa9-41ed-b4a6-19d94c65d36d" isOneWay="false" action="" name="ordemServicoContratadasLNV2_Parcial" bindingOperationName="ordemServicoContratadasLNV2_Parcial" type="Request-Response" outputName="ordemServicoContratadasLNV2_ParcialResponse" inputName="ordemServicoContratadasLNV2_Parcial" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0c976db4-ef60-484e-9b8d-3f5a1c6adddc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ordemServicoContratadasLNV2_Parcial>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:ordemServicoContratadasLNV2_Parcial>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ordemServicoContratadasLNV2_Parcial"/></con:call></con:operation><con:operation id="74752356-6d11-4818-8b11-cff75547a588" isOneWay="false" action="" name="ordemServicoContratoSite" bindingOperationName="ordemServicoContratoSite" type="Request-Response" outputName="ordemServicoContratoSiteResponse" inputName="ordemServicoContratoSite" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a6f6043e-076f-4037-a43c-74479609a2a8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ordemServicoContratoSite>
+         <!--Optional:-->
+         <site>?</site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+      </cli:ordemServicoContratoSite>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ordemServicoContratoSite"/></con:call></con:operation><con:operation id="cbef8df1-210b-4c48-8b12-0b69ba27fcd6" isOneWay="false" action="" name="ordemServicoContratoSiteParcial" bindingOperationName="ordemServicoContratoSiteParcial" type="Request-Response" outputName="ordemServicoContratoSiteParcialResponse" inputName="ordemServicoContratoSiteParcial" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2e81f8ca-794b-4f09-a360-f77eb7ee5988" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ordemServicoContratoSiteParcial>
+         <!--Optional:-->
+         <site>?</site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+      </cli:ordemServicoContratoSiteParcial>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ordemServicoContratoSiteParcial"/></con:call></con:operation><con:operation id="fa718e0c-06ec-4c67-bc51-23c4b5414133" isOneWay="false" action="" name="ordemServicoContratoSitePeriodoDataPrevistaEntrega" bindingOperationName="ordemServicoContratoSitePeriodoDataPrevistaEntrega" type="Request-Response" outputName="ordemServicoContratoSitePeriodoDataPrevistaEntregaResponse" inputName="ordemServicoContratoSitePeriodoDataPrevistaEntrega" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="89ee1559-288c-490d-aa42-435e14ce779e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:ordemServicoContratoSitePeriodoDataPrevistaEntrega>
+         <!--Optional:-->
+         <site>?</site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <DataPrevistaInicio>?</DataPrevistaInicio>
+         <!--Optional:-->
+         <DataPrevistaFim>?</DataPrevistaFim>
+      </cli:ordemServicoContratoSitePeriodoDataPrevistaEntrega>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/ordemServicoContratoSitePeriodoDataPrevistaEntrega"/></con:call></con:operation><con:operation id="386f8d8a-6537-477f-87e9-be814dfee23f" isOneWay="false" action="" name="SolicitacaoOrdemServicoContratadasLN" bindingOperationName="SolicitacaoOrdemServicoContratadasLN" type="Request-Response" outputName="SolicitacaoOrdemServicoContratadasLNResponse" inputName="SolicitacaoOrdemServicoContratadasLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="15d146f7-c31a-4d52-a5a0-b1dd868e6777" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:SolicitacaoOrdemServicoContratadasLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:SolicitacaoOrdemServicoContratadasLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/SolicitacaoOrdemServicoContratadasLN"/></con:call></con:operation><con:operation id="befbbc4a-5d71-47fe-8788-54ca4d2da142" isOneWay="false" action="" name="SolicitacaoOrdemServicoContratadasLN_Parcial" bindingOperationName="SolicitacaoOrdemServicoContratadasLN_Parcial" type="Request-Response" outputName="SolicitacaoOrdemServicoContratadasLN_ParcialResponse" inputName="SolicitacaoOrdemServicoContratadasLN_Parcial" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="226fe4c2-7ce2-45c5-9350-114765279c21" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:SolicitacaoOrdemServicoContratadasLN_Parcial>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+      </cli:SolicitacaoOrdemServicoContratadasLN_Parcial>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/SolicitacaoOrdemServicoContratadasLN_Parcial"/></con:call></con:operation><con:operation id="cb6799d4-9c63-4074-aeaf-969fbd0ed8c9" isOneWay="false" action="" name="SolicitacaoOrdemServicoContratadasPeriodoLN" bindingOperationName="SolicitacaoOrdemServicoContratadasPeriodoLN" type="Request-Response" outputName="SolicitacaoOrdemServicoContratadasPeriodoLNResponse" inputName="SolicitacaoOrdemServicoContratadasPeriodoLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c656a7ca-87ce-4dba-b942-daef75bc77cd" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:SolicitacaoOrdemServicoContratadasPeriodoLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataPrevistaInicio>?</DataPrevistaInicio>
+         <!--Optional:-->
+         <DataPrevistaFim>?</DataPrevistaFim>
+      </cli:SolicitacaoOrdemServicoContratadasPeriodoLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/SolicitacaoOrdemServicoContratadasPeriodoLN"/></con:call></con:operation><con:operation id="71a68f9e-bbbc-4d4c-b11b-c5dfcc181eaf" isOneWay="false" action="" name="TermosEquipeLN" bindingOperationName="TermosEquipeLN" type="Request-Response" outputName="TermosEquipeLNResponse" inputName="TermosEquipeLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="961ccde2-506f-4819-95b1-1a4ce42366f1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:TermosEquipeLN>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Fornecedor>?</Fornecedor>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:TermosEquipeLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/TermosEquipeLN"/></con:call></con:operation><con:operation id="ee0554cf-0822-4248-97d6-7abafb11888b" isOneWay="false" action="" name="TermosLN" bindingOperationName="TermosLN" type="Request-Response" outputName="TermosLNResponse" inputName="TermosLN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1051c317-71f9-43bd-9256-a7561b44e622" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:TermosLN>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:TermosLN>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/TermosLN"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="eb8eacc3-f439-4c3a-880c-aec355a75fc3" isOneWay="false" action="" name="TermosLNv2" bindingOperationName="TermosLNv2" type="Request-Response" outputName="TermosLNv2Response" inputName="TermosLNv2" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="163ceabc-1638-45f2-9563-8707c921827b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:TermosLNv2>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <ProvedorSolucao>?</ProvedorSolucao>
+         <!--Optional:-->
+         <DataInicio>?</DataInicio>
+         <!--Optional:-->
+         <DataFim>?</DataFim>
+      </cli:TermosLNv2>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/TermosLNv2"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="38f5572f-403c-4e0b-8c4d-35468b07025f" isOneWay="false" action="" name="version" bindingOperationName="version" type="Request-Response" outputName="versionResponse" inputName="version" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="117bcbd8-b434-4fa7-8cf4-9f97ae4a65a6" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/DemandaIntegracao</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:version/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/DemandaIntegracao/version"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="ac473c06-fb7f-480c-88bf-91412f4f3c70" wsaVersion="NONE" name="SigctServiceServiceSoapBinding" type="wsdl" bindingName="{http://client.sigct.caixa.gov.br/}SigctServiceServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://sigct.caixa.gov.br/SigctService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://sigct.caixa.gov.br/SigctService?wsdl"><con:part><con:url>http://sigct.caixa.gov.br/SigctService?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="SigctServiceService" targetNamespace="http://client.sigct.caixa.gov.br/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://client.sigct.caixa.gov.br/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://client.sigct.caixa.gov.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getContratacoes" type="tns:getContratacoes"/>
+      <xs:element name="getContratacoesAlteradas" type="tns:getContratacoesAlteradas"/>
+      <xs:element name="getContratacoesAlteradasResponse" type="tns:getContratacoesAlteradasResponse"/>
+      <xs:element name="getContratacoesFaturamentoAtual" type="tns:getContratacoesFaturamentoAtual"/>
+      <xs:element name="getContratacoesFaturamentoAtualResponse" type="tns:getContratacoesFaturamentoAtualResponse"/>
+      <xs:element name="getContratacoesResponse" type="tns:getContratacoesResponse"/>
+      <xs:element name="getTermos" type="tns:getTermos"/>
+      <xs:element name="getTermosAlterados" type="tns:getTermosAlterados"/>
+      <xs:element name="getTermosAlteradosResponse" type="tns:getTermosAlteradosResponse"/>
+      <xs:element name="getTermosResponse" type="tns:getTermosResponse"/>
+      <xs:element name="version" type="tns:version"/>
+      <xs:element name="versionResponse" type="tns:versionResponse"/>
+      <xs:complexType name="getTermosAlterados">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTermosAlteradosResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Termo" type="tns:termosView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="termosView">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="aaReferenciaRepactuacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="coContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coSitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="coTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="coTermoAjustado" type="xs:string"/>
+          <xs:element minOccurs="0" name="deAvaliacaoEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="deFaturaGerada" type="xs:string"/>
+          <xs:element minOccurs="0" name="deFaturaPaga" type="xs:string"/>
+          <xs:element minOccurs="0" name="deRepactuacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoEtap" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAcionamento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEmissaoTermo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dtExecucaoRepactuacao" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="icRepactuacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="mmReferenciaRepactuacao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noModulo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSituacaoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoPrevo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoTermo" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuTermo" type="xs:long"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="pcExecutado" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtDiaPendenteCaixa" type="xs:int"/>
+          <xs:element minOccurs="0" name="qtEntrega" type="xs:double"/>
+          <xs:element minOccurs="0" name="qtErroAplicacao" type="xs:int"/>
+          <xs:element minOccurs="0" name="qtErroArtefato" type="xs:int"/>
+          <xs:element minOccurs="0" name="qtIndicePontoDefeito" type="xs:int"/>
+          <xs:element minOccurs="0" name="qtIndicePontoDefeitoAplicacao" type="xs:int"/>
+          <xs:element minOccurs="0" name="qtIndicePontoDefeitoDocumentacao" type="xs:int"/>
+          <xs:element minOccurs="0" name="sgSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrDescontoAtraso" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrDescontoErro" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermo" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrFinanceiroTermoOriginal" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrGlobalContratoRepactuacao" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrPrecoForma" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrPrevistoOs" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrRetidoTermoAceite" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrTotalRepactuacao" type="xs:double"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoesAlteradas">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoesAlteradasResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Contratacao" type="tns:contratacoesView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="contratacoesView">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="coContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="coDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="coEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="coOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="coSitio" type="xs:string"/>
+          <xs:element minOccurs="0" name="deDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="deOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="deSituacaoDemanda" type="xs:string"/>
+          <xs:element minOccurs="0" name="deSituacaoEntrega" type="xs:string"/>
+          <xs:element minOccurs="0" name="deStcoOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoEtapa" type="xs:string"/>
+          <xs:element minOccurs="0" name="deTipoForma" type="xs:string"/>
+          <xs:element minOccurs="0" name="deUnidadeMedida" type="xs:string"/>
+          <xs:element minOccurs="0" name="dhAcionamento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhCdstoEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhCdstoOrdemServico" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhEfetivaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaEntrega" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dhPrevistaInicioAtendimento" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="icEntregaVdp" type="xs:string"/>
+          <xs:element minOccurs="0" name="icOsVdp" type="xs:string"/>
+          <xs:element minOccurs="0" name="icPrecoPadrao" type="xs:string"/>
+          <xs:element minOccurs="0" name="noContrato" type="xs:string"/>
+          <xs:element minOccurs="0" name="noModulo" type="xs:string"/>
+          <xs:element minOccurs="0" name="noSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoPreco" type="xs:string"/>
+          <xs:element minOccurs="0" name="noTipoServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="nuContrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="nuEntrega" type="xs:long"/>
+          <xs:element minOccurs="0" name="pcEntrega" type="xs:double"/>
+          <xs:element minOccurs="0" name="pcExecutado" type="xs:double"/>
+          <xs:element minOccurs="0" name="qtAfetada" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtAlterada" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtDiasPendenciaProcedente" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtExcluida" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtIncluida" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtNa" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtOrdemServico" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtTotal" type="xs:string"/>
+          <xs:element minOccurs="0" name="qtUst" type="xs:string"/>
+          <xs:element minOccurs="0" name="sgSistema" type="xs:string"/>
+          <xs:element minOccurs="0" name="vrEstmoOrdemServico" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrPreco" type="xs:double"/>
+          <xs:element minOccurs="0" name="vrPrevistoEntrega" type="xs:double"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoes">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Pagina" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoesResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Contratacao" type="tns:contratacoesView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoesFaturamentoAtual">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContratacoesFaturamentoAtualResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Contratacao" type="tns:contratacoesView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="version">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="versionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTermos">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Login" type="xs:string"/>
+          <xs:element minOccurs="0" name="Senha" type="xs:string"/>
+          <xs:element minOccurs="0" name="Contrato" type="xs:long"/>
+          <xs:element minOccurs="0" name="Site" type="xs:string"/>
+          <xs:element minOccurs="0" name="Fatura" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTermosResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="Termo" type="tns:termosView"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SOAPException" type="tns:SOAPException"/>
+      <xs:complexType name="SOAPException">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="SOAPException">
+    <wsdl:part element="tns:SOAPException" name="SOAPException"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoesAlteradas">
+    <wsdl:part element="tns:getContratacoesAlteradas" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoesFaturamentoAtual">
+    <wsdl:part element="tns:getContratacoesFaturamentoAtual" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoesResponse">
+    <wsdl:part element="tns:getContratacoesResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="versionResponse">
+    <wsdl:part element="tns:versionResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTermosAlteradosResponse">
+    <wsdl:part element="tns:getTermosAlteradosResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTermosAlterados">
+    <wsdl:part element="tns:getTermosAlterados" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoes">
+    <wsdl:part element="tns:getContratacoes" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoesFaturamentoAtualResponse">
+    <wsdl:part element="tns:getContratacoesFaturamentoAtualResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="version">
+    <wsdl:part element="tns:version" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTermosResponse">
+    <wsdl:part element="tns:getTermosResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContratacoesAlteradasResponse">
+    <wsdl:part element="tns:getContratacoesAlteradasResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTermos">
+    <wsdl:part element="tns:getTermos" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="SigctService">
+    <wsdl:operation name="getTermosAlterados">
+      <wsdl:input message="tns:getTermosAlterados" name="getTermosAlterados"></wsdl:input>
+      <wsdl:output message="tns:getTermosAlteradosResponse" name="getTermosAlteradosResponse"></wsdl:output>
+      <wsdl:fault message="tns:SOAPException" name="SOAPException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoesAlteradas">
+      <wsdl:input message="tns:getContratacoesAlteradas" name="getContratacoesAlteradas"></wsdl:input>
+      <wsdl:output message="tns:getContratacoesAlteradasResponse" name="getContratacoesAlteradasResponse"></wsdl:output>
+      <wsdl:fault message="tns:SOAPException" name="SOAPException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoes">
+      <wsdl:input message="tns:getContratacoes" name="getContratacoes"></wsdl:input>
+      <wsdl:output message="tns:getContratacoesResponse" name="getContratacoesResponse"></wsdl:output>
+      <wsdl:fault message="tns:SOAPException" name="SOAPException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoesFaturamentoAtual">
+      <wsdl:input message="tns:getContratacoesFaturamentoAtual" name="getContratacoesFaturamentoAtual"></wsdl:input>
+      <wsdl:output message="tns:getContratacoesFaturamentoAtualResponse" name="getContratacoesFaturamentoAtualResponse"></wsdl:output>
+      <wsdl:fault message="tns:SOAPException" name="SOAPException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <wsdl:input message="tns:version" name="version"></wsdl:input>
+      <wsdl:output message="tns:versionResponse" name="versionResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTermos">
+      <wsdl:input message="tns:getTermos" name="getTermos"></wsdl:input>
+      <wsdl:output message="tns:getTermosResponse" name="getTermosResponse"></wsdl:output>
+      <wsdl:fault message="tns:SOAPException" name="SOAPException"></wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SigctServiceServiceSoapBinding" type="tns:SigctService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getTermosAlterados">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTermosAlterados">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTermosAlteradosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoesAlteradas">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContratacoesAlteradas">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContratacoesAlteradasResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoes">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContratacoes">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContratacoesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContratacoesFaturamentoAtual">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContratacoesFaturamentoAtual">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContratacoesFaturamentoAtualResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="version">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="version">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="versionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTermos">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTermos">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTermosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SigctServiceService">
+    <wsdl:port binding="tns:SigctServiceServiceSoapBinding" name="SigctServicePort">
+      <soap:address location="http://localhost:8080/sigct-client/SigctService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint></con:endpoints><con:operation id="0fb9f553-c84d-46aa-88eb-1694cc0e389e" isOneWay="false" action="" name="getContratacoes" bindingOperationName="getContratacoes" type="Request-Response" outputName="getContratacoesResponse" inputName="getContratacoes" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7c356637-d617-4192-b648-45ee8e10fcfc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:getContratacoes>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Pagina>?</Pagina>
+      </cli:getContratacoes>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/getContratacoes"/></con:call></con:operation><con:operation id="2d515e9a-e779-46a6-a46b-501a3dcc6066" isOneWay="false" action="" name="getContratacoesAlteradas" bindingOperationName="getContratacoesAlteradas" type="Request-Response" outputName="getContratacoesAlteradasResponse" inputName="getContratacoesAlteradas" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="54bde75a-c6e9-4c60-9f53-f99ebd8e9f1a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:getContratacoesAlteradas>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+      </cli:getContratacoesAlteradas>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/getContratacoesAlteradas"/></con:call></con:operation><con:operation id="2f81020c-c943-4020-a14b-221314894802" isOneWay="false" action="" name="getContratacoesFaturamentoAtual" bindingOperationName="getContratacoesFaturamentoAtual" type="Request-Response" outputName="getContratacoesFaturamentoAtualResponse" inputName="getContratacoesFaturamentoAtual" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="19bca3d6-46c1-4a84-b0d7-41786fd5db7a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:getContratacoesFaturamentoAtual>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+      </cli:getContratacoesFaturamentoAtual>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/getContratacoesFaturamentoAtual"/></con:call></con:operation><con:operation id="f2e15ca4-06fa-42ad-aa46-b85283639e7f" isOneWay="false" action="" name="getTermos" bindingOperationName="getTermos" type="Request-Response" outputName="getTermosResponse" inputName="getTermos" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2523b830-c696-4393-8c0a-2b5b5a1e65b1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:getTermos>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+         <!--Optional:-->
+         <Fatura>?</Fatura>
+      </cli:getTermos>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/getTermos"/></con:call></con:operation><con:operation id="f7caa078-74bf-4fb2-bca6-f887d767d956" isOneWay="false" action="" name="getTermosAlterados" bindingOperationName="getTermosAlterados" type="Request-Response" outputName="getTermosAlteradosResponse" inputName="getTermosAlterados" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b3b07a2f-e12b-44d8-9557-5e4e88700e92" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:getTermosAlterados>
+         <!--Optional:-->
+         <Login>?</Login>
+         <!--Optional:-->
+         <Senha>?</Senha>
+         <!--Optional:-->
+         <Contrato>?</Contrato>
+         <!--Optional:-->
+         <Site>?</Site>
+      </cli:getTermosAlterados>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/getTermosAlterados"/></con:call></con:operation><con:operation id="4b80aa80-e246-41a5-acb7-ddb35f0a8710" isOneWay="false" action="" name="version" bindingOperationName="version" type="Request-Response" outputName="versionResponse" inputName="version" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ae11d997-cf37-4c6a-9dce-8fb966ef44b0" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/sigct-client/SigctService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.sigct.caixa.gov.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:version/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.sigct.caixa.gov.br/SigctService/version"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

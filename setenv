@@ -4,13 +4,13 @@ HOST="$(hostname)"
 if [ "$HOST" == "DF7390NX1302" ];then
   export PGUSERNAME="gct"
   export PGPASSWORD="gct"  
-  export PGSERVER="sctdedadlx0012.df.caixa"  
-  export PGDATABASE="sigctdes"
+  export PGSERVER="sctdedadlx0015.df.caixa"  
+  export PGDATABASE="sigcttqs"
 else
   export PGUSERNAME="postgres"
   export PGPASSWORD="postgres"
   export PGSERVER="localhost"  
-  export PGDATABASE="gctdes01"
+  export PGDATABASE="gctprd01"
 fi
 
 echo ""

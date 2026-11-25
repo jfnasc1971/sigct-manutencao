@@ -1,0 +1,245 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "API SIGCT"
+  },
+  "basePath": "/rest",
+  "paths": {
+    "/DisponibilizaContratacaoEquipe/listarVigenciaMembrosPorPerfil": {
+      "get": {
+        "operationId": "listarVigenciaMembrosPorPerfil",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "ic_tipo_atendimento",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "co_contrato",
+            "in": "query",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    },
+    "/DisponibilizaContratacaoEquipe/listarSolicitacoes": {
+      "get": {
+        "operationId": "listarSolicitacoes",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "ic_tipo_atendimento",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "co_contrato",
+            "in": "query",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    },
+    "/DisponibilizaContratacaoEquipe/listarEquipes": {
+      "get": {
+        "operationId": "listarEquipes",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "ic_tipo_atendimento",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "co_contrato",
+            "in": "query",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    },
+    "/DisponibilizaContratacaoEquipe/listarVigenciaMembros": {
+      "get": {
+        "operationId": "listarVigenciaMembros",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "ic_tipo_atendimento",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "co_contrato",
+            "in": "query",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    },
+    "/DisponibilizaContratacaoEquipe/listarGrupos": {
+      "get": {
+        "operationId": "listarGrupos",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "nuTipoGrupo",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    },
+    "/DisponibilizaContratacaoEquipe/listarServicos": {
+      "get": {
+        "operationId": "listarServicos",
+        "consumes": [
+          "application/json; charset=UTF-8"
+        ],
+        "produces": [
+          "application/json; charset=UTF-8"
+        ],
+        "parameters": [
+          {
+            "name": "noTipoGrupo",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "headers": {},
+            "schema": {
+              "$ref": "#/definitions/DisponibilizaContratacaoEquipeResposta"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "DisponibilizaContratacaoEquipeResposta": {
+      "type": "object",
+      "properties": {
+        "codigoRetorno": {
+          "type": "string"
+        },
+        "mensagemRetorno": {
+          "type": "string"
+        },
+        "resultado": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "quantidadeRegistros": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "dataConsulta": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

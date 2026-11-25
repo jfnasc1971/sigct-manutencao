@@ -1,0 +1,40 @@
+#!/bin/bash
+IFS=$'\n'
+
+if [ -d ".git" ];then
+  git pull
+fi
+
+if [ ! -f 'README.md' ];then
+  echo "Arquivo README.md nao encontado."
+  exit
+fi
+
+# if [ -d ".git" ];then
+
+#   if [ -n "$(git ls-files --others --exclude-standard)" ];then
+#     for f in $(git ls-files --others --exclude-standard);do
+#       git add "$f"
+#     done
+#   fi
+
+#   git commit -a -m "$(cat README.md|head -n 1)"
+#   git push
+
+# end if
+
+if [ -d src ];then
+
+  cd src
+
+  if [ -n "$(git ls-files --others --exclude-standard)" ];then
+    for f in $(git ls-files --others --exclude-standard);do
+      git add "$f"
+    done
+  fi
+
+  git commit -a -m "$(cat ../README.md|head -n 1)"
+  git push
+
+fi
+

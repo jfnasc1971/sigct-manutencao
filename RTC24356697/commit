@@ -1,0 +1,41 @@
+#!/bin/bash
+IFS=$'\n'
+
+git config core.quotePath false
+git config user.name "José Flávio Lins do Nascimento"
+git config user.email "re045693@qintess.com"
+
+for d in $(ls -l|grep '^d'|grep 'RTC'|awk '{print $NF}'|sort);do
+  
+  cd $d
+
+  if [ ! -f readme.txt ];then
+    echo $d > readme.txt
+  fi
+
+  for f in $(git ls-files --others --exclude-standard);do
+    git add $f
+  done
+
+  if [ -z "$(git status --porcelain)" ];then
+    echo
+    echo
+    git commit -a -m "$(cat readme.txt)"
+    git push
+    echo
+    echo
+  fi
+
+  cd ..
+
+done
+
+for f in $(git ls-files --others --exclude-standard);do
+  git add $f
+done
+
+if [ -n "$(git status --porcelain)" ];then
+  git commit -a -m "Atualização dos artefatos"
+  git push
+fi
+

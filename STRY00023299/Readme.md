@@ -1,0 +1,1 @@
+STRY00023299: SIGCT - Adaptação de relatórios e indicadores para o Service Now ( RTC 25313232 )

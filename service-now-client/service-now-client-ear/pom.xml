@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>service-now</groupId>
+		<artifactId>service-now-client</artifactId>
+		<version>3.0.0</version>
+	</parent>
+    
+    <name>service-now-client-ear</name>
+    <artifactId>service-now-client-ear</artifactId>
+    <packaging>ear</packaging>
+    
+    <build>
+
+        <finalName>service_now_client</finalName>
+
+        <plugins>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <version>6</version>
+                    <displayName>sigct</displayName>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules>
+                        <webModule>
+                            <groupId>service-now</groupId>
+                            <artifactId>service-now-client-web</artifactId>
+                            <contextRoot>/service_now_client</contextRoot>
+                            <bundleFileName>service_now_client_web.war</bundleFileName>
+                        </webModule>
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+ 
+    <dependencies>
+        <dependency>
+            <groupId>service-now</groupId>
+            <artifactId>service-now-client-web</artifactId>
+            <version>${project.version}</version>
+            <type>war</type>
+        </dependency>
+	</dependencies>
+</project>

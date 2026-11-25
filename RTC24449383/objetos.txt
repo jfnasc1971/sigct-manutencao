@@ -1,0 +1,1 @@
+Objetos_BD/Functions/GCTFN001_GRAVAR_HSTRCO_CONTRATO_DDL.sql

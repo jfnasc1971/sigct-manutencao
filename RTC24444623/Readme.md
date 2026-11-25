@@ -1,0 +1,8 @@
+RTC 24444623 - SIGCT - (Auditoria) Criação de Funcionalidade para não permitir sprint vazias
+
+RTC24444623_01_DDL.sql
+RTC24444623_02_DDL.sql
+RTC24444623_03_DML.sql
+RTC24444623_RETORNO_01_DDL.sql
+RTC24444623_RETORNO_02_DDL.sql
+RTC24444623_RETORNO_03_DML.sql

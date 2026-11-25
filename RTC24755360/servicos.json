@@ -1,0 +1,700 @@
+{
+  "codigoRetorno": "0",
+  "mensagemRetorno": "Operação realizada com sucesso!",
+  "resultado": [
+    {
+      "noTipoGrupo": "CX/UX Writer",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviço de Apoio à Experiência do Usuário"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Catálogo de Serviços",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Aferir testabilidade de Requisitos"
+        },
+        {
+          "noTipoServico": "Alterar modelagem de testes"
+        },
+        {
+          "noTipoServico": "Alterar scripts automatizados"
+        },
+        {
+          "noTipoServico": "Auxiliar nos testes de Aceite"
+        },
+        {
+          "noTipoServico": "Capacitação, Mentoring e Treinamento – CS"
+        },
+        {
+          "noTipoServico": "Criar modelagem de testes"
+        },
+        {
+          "noTipoServico": "Criar scripts automatizados"
+        },
+        {
+          "noTipoServico": "Executar teste de acessibilidade"
+        },
+        {
+          "noTipoServico": "Executar teste de acessibilidade em protótipos"
+        },
+        {
+          "noTipoServico": "Executar teste de desempenho"
+        },
+        {
+          "noTipoServico": "Executar Testes Automatizados"
+        },
+        {
+          "noTipoServico": "Executar Testes Manuais"
+        },
+        {
+          "noTipoServico": "Gerar Massa de Dados para teste"
+        },
+        {
+          "noTipoServico": "Gerar Massa Integrada de Dados para Teste"
+        },
+        {
+          "noTipoServico": "Gerar painéis gerenciais - Mantidos pela Qualidade"
+        },
+        {
+          "noTipoServico": "Gerar painéis - Mantidos pela Governança de TI"
+        },
+        {
+          "noTipoServico": "Planejar teste de desempenho"
+        },
+        {
+          "noTipoServico": "Prestar suporte à qualidade de código"
+        },
+        {
+          "noTipoServico": "Suporte à qualidade de código - Alta plataforma"
+        },
+        {
+          "noTipoServico": "Suporte à qualidade de código - Baixa Plataforma"
+        },
+        {
+          "noTipoServico": "Validar Artefatos de Teste"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Desenvolvimento",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Squad - Contrato Especializado"
+        },
+        {
+          "noTipoServico": "Suporte - Contrato Especializado"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 01",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Desenvolvimento Assistido"
+        },
+        {
+          "noTipoServico": "Desenvolvimento de Novo Sistema"
+        },
+        {
+          "noTipoServico": "Desenvolvimento de Novos Sistemas"
+        },
+        {
+          "noTipoServico": "Documentação de Sistemas"
+        },
+        {
+          "noTipoServico": "Inovações em Tecnologia/Negócio"
+        },
+        {
+          "noTipoServico": "Manutenção Adaptativa"
+        },
+        {
+          "noTipoServico": "Manutenção Corretiva"
+        },
+        {
+          "noTipoServico": "Manutenção Corretiva em ambiente não-produtivo"
+        },
+        {
+          "noTipoServico": "Manutenção Evolutiva"
+        },
+        {
+          "noTipoServico": "Manutenção Perfectiva"
+        },
+        {
+          "noTipoServico": "Manutenções Corretivas"
+        },
+        {
+          "noTipoServico": "Migração"
+        },
+        {
+          "noTipoServico": "Migração de Dados"
+        },
+        {
+          "noTipoServico": "Migração Tecnológica"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Negócio"
+        },
+        {
+          "noTipoServico": "Serviço de Inovação e Documentação Sistema Legado"
+        },
+        {
+          "noTipoServico": "Serviço Técnico Especializado - Contrato Ágil"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 02",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Manutenção Corretiva"
+        },
+        {
+          "noTipoServico": "Pronto Atendimento"
+        },
+        {
+          "noTipoServico": "Serviço de Inovação e Documentação Sistema Legado"
+        },
+        {
+          "noTipoServico": "Serviços de Suporte"
+        },
+        {
+          "noTipoServico": "Servicos Técnicos Especializados"
+        },
+        {
+          "noTipoServico": "Serviços Técnicos Especializados"
+        },
+        {
+          "noTipoServico": "Serviço Técnico Especializado - Contrato Ágil"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 02 [UNISYS]",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Manutenção Corretiva em ambiente produtivo"
+        },
+        {
+          "noTipoServico": "Pronto Atendimento"
+        },
+        {
+          "noTipoServico": "Serviços de Ferramentas de Suporte ao Desenv."
+        },
+        {
+          "noTipoServico": "Serviços de Suporte ao Desenvolvimento"
+        },
+        {
+          "noTipoServico": "Serviços Técnicos Especializados"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 03",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Análise de Negócio"
+        },
+        {
+          "noTipoServico": "Análise de Processo"
+        },
+        {
+          "noTipoServico": "Apoio à Experiência do Usuário"
+        },
+        {
+          "noTipoServico": "Apoio à Gestão de Projetos"
+        },
+        {
+          "noTipoServico": "Apoio a Homologação"
+        },
+        {
+          "noTipoServico": "Apoio ao Desenvolvimento Seguro"
+        },
+        {
+          "noTipoServico": "Apoio Assistido"
+        },
+        {
+          "noTipoServico": "Apoio Negocial a Solução"
+        },
+        {
+          "noTipoServico": "Arquitetura/Administração de Dados e Bancos de Dad"
+        },
+        {
+          "noTipoServico": "Arquitetura de Soluções e Devops"
+        },
+        {
+          "noTipoServico": "Capacitação"
+        },
+        {
+          "noTipoServico": "Configuração e Mudanças"
+        },
+        {
+          "noTipoServico": "Consultoria Especializada"
+        },
+        {
+          "noTipoServico": "Documentação de Sistemas"
+        },
+        {
+          "noTipoServico": "Geração de Indicadores"
+        },
+        {
+          "noTipoServico": "Geração de Indicadores de Testes"
+        },
+        {
+          "noTipoServico": "Integração de software"
+        },
+        {
+          "noTipoServico": "Manutenção da Biblioteca de Testes"
+        },
+        {
+          "noTipoServico": "Manutenção de Ambientes não-produtivos"
+        },
+        {
+          "noTipoServico": "Migração de Metodologia e Ferramentas"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Banco de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio à Segurança"
+        },
+        {
+          "noTipoServico": "Serviço de Arquitetura de Software"
+        },
+        {
+          "noTipoServico": "Serviço de Configuração de Mudança"
+        },
+        {
+          "noTipoServico": "Serviço de Experiência do Usuário"
+        },
+        {
+          "noTipoServico": "Serviço de Gestão de Projetos"
+        },
+        {
+          "noTipoServico": "Serviço de Inovação e Documentação Sistema Legado"
+        },
+        {
+          "noTipoServico": "Serviço de Manutenção de Ambiente"
+        },
+        {
+          "noTipoServico": "Serviços de Coach Ágil"
+        },
+        {
+          "noTipoServico": "Serviços de Métricas"
+        },
+        {
+          "noTipoServico": "Serviços de Product Owner"
+        },
+        {
+          "noTipoServico": "Serviços de Scrum Master"
+        },
+        {
+          "noTipoServico": "Serviço Técnico Especializado - Contrato Ágil"
+        },
+        {
+          "noTipoServico": "Teste Pós Integração"
+        },
+        {
+          "noTipoServico": "Testes Eventuais"
+        },
+        {
+          "noTipoServico": "Testes Pós-integração"
+        },
+        {
+          "noTipoServico": "Verificação de Compatibilidade"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Apoio a Arquitetura de Software"
+        },
+        {
+          "noTipoServico": "Apoio à Gestão de Projetos"
+        },
+        {
+          "noTipoServico": "Apoio ao Planejamento"
+        },
+        {
+          "noTipoServico": "Mentoring em Métodos Ágeis"
+        },
+        {
+          "noTipoServico": "Serviço de Ambiente"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Banco de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Negócio"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio à Experiência do Usuário"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio ao Planejamento"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio à Segurança"
+        },
+        {
+          "noTipoServico": "Serviço de Coach Ágil"
+        },
+        {
+          "noTipoServico": "Serviço de Configuração de Mudança"
+        },
+        {
+          "noTipoServico": "Serviço de Inovação e Documentação Sistema Legado"
+        },
+        {
+          "noTipoServico": "Serviço de Manutenção de Ambiente"
+        },
+        {
+          "noTipoServico": "Serviços de Dados"
+        },
+        {
+          "noTipoServico": "Serviços de Scrum Master"
+        },
+        {
+          "noTipoServico": "Serviço Técnico Especializado - Contrato Ágil"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-A",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviços Técnicos Especializados"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-A Dados",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviço de Análise de Banco de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Análise de Dados"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio ao Desenvolvimento - Dados"
+        },
+        {
+          "noTipoServico": "Serviço Técnico Especializado - Contrato Ágil"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-B UX",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviço de Apoio à Experiência do Usuário"
+        },
+        {
+          "noTipoServico": "Serviço de Apoio ao Desenvolvimento - UX"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Experiência do Cliente (CX)",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviço de Apoio à Experiência do Usuário"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Experiência do Usuário (UX)",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Serviço de Apoio à Experiência do Usuário"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Garantia e Qualidade de Software",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Análise de desempenho"
+        },
+        {
+          "noTipoServico": "Automação de Testes"
+        },
+        {
+          "noTipoServico": "Avaliação de Mudanças - Parecer da Qualidade"
+        },
+        {
+          "noTipoServico": "Certificação"
+        },
+        {
+          "noTipoServico": "Coletar Dados, Ger. e Análise de Indic. e Painéis"
+        },
+        {
+          "noTipoServico": "Disseminação do conhecimento"
+        },
+        {
+          "noTipoServico": "Execução de Testes"
+        },
+        {
+          "noTipoServico": "Gestão de Erros"
+        },
+        {
+          "noTipoServico": "Gestão de ferramentas de testes"
+        },
+        {
+          "noTipoServico": "Homologação de sistemas"
+        },
+        {
+          "noTipoServico": "Invest. Anál. e Solução Problemas Reincidentes"
+        },
+        {
+          "noTipoServico": "Massas e interfaces"
+        },
+        {
+          "noTipoServico": "Melhoria contínua de processos/produtos"
+        },
+        {
+          "noTipoServico": "Planejamento de Testes"
+        },
+        {
+          "noTipoServico": "Sup. Avan. em Garantia e Cont. Qual. de Software"
+        },
+        {
+          "noTipoServico": "Suporte a Laboratório de Teste"
+        },
+        {
+          "noTipoServico": "Suporte à Testes em Solução de Segurança"
+        },
+        {
+          "noTipoServico": "Suporte e Execução à Teste de Auditoria Código"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Garantia e Qualidade de Software.",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Análise de desempenho"
+        },
+        {
+          "noTipoServico": "Automação de Testes"
+        },
+        {
+          "noTipoServico": "Avaliação de Mudanças - Parecer da Qualidade"
+        },
+        {
+          "noTipoServico": "Coletar Dados, Ger. e Análise de Indic. e Painéis"
+        },
+        {
+          "noTipoServico": "Disseminação do conhecimento"
+        },
+        {
+          "noTipoServico": "Execução de Testes"
+        },
+        {
+          "noTipoServico": "Gestão de Erros"
+        },
+        {
+          "noTipoServico": "Gestão de ferramentas de testes"
+        },
+        {
+          "noTipoServico": "Homologação de sistemas"
+        },
+        {
+          "noTipoServico": "Invest. Anál. e Solução Problemas Reincidentes"
+        },
+        {
+          "noTipoServico": "Massas e interfaces"
+        },
+        {
+          "noTipoServico": "Melhoria contínua de processos/produtos"
+        },
+        {
+          "noTipoServico": "Planejamento de Testes"
+        },
+        {
+          "noTipoServico": "Sup. Avan. em Garantia e Cont. Qual. de Software"
+        },
+        {
+          "noTipoServico": "Suporte a Laboratório de Teste"
+        },
+        {
+          "noTipoServico": "Suporte à Testes em Solução de Segurança"
+        },
+        {
+          "noTipoServico": "Suporte e Execução à Teste de Auditoria Código"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Grupo - Abono CCT",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Parcela Abono CCT"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Grupo 3 - Especialistas",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Consultoria em Análise de Negócio"
+        },
+        {
+          "noTipoServico": "Inovação Tecnológica"
+        },
+        {
+          "noTipoServico": "Serviços Especializados"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Parcela Negativa Rubrica 3103/03",
+      "noTipoContratacao": "Ágil",
+      "servicos": []
+    },
+    {
+      "noTipoGrupo": "Plano de Atendimento",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Análise de Dados"
+        },
+        {
+          "noTipoServico": "Apoio aos ambientes de testes"
+        },
+        {
+          "noTipoServico": "Automação de processos de qualidade"
+        },
+        {
+          "noTipoServico": "Capacitação, Mentoring e Treinamento"
+        },
+        {
+          "noTipoServico": "Criar/Alterar Interfaces Virtualizadas"
+        },
+        {
+          "noTipoServico": "Elaborar indicadores da qualidade"
+        },
+        {
+          "noTipoServico": "Gerenciar Equipes e Serviços de Qualidade"
+        },
+        {
+          "noTipoServico": "Gerir defeitos"
+        },
+        {
+          "noTipoServico": "Manutenir Laboratórios de Testes"
+        },
+        {
+          "noTipoServico": "Melhoria Contínua de Qualidade de Software"
+        },
+        {
+          "noTipoServico": "Portal de Massa Integrada"
+        },
+        {
+          "noTipoServico": "Soluções Automatizadas para Gestão da Qualidade"
+        },
+        {
+          "noTipoServico": "Suporte a Ferramentas"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Serviço de Apoio à Produção - Grupo 3",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Infraestrutura"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Serviços Especializados à Solução SAP - Grupo 2",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Análise de Impacto - SAP"
+        },
+        {
+          "noTipoServico": "Análise e Diagnóstico de Demanda - SAP"
+        },
+        {
+          "noTipoServico": "Apoio BI - SAP"
+        },
+        {
+          "noTipoServico": "Manutenção Corretiva - SAP"
+        },
+        {
+          "noTipoServico": "Pronto Atendimento - Sap"
+        },
+        {
+          "noTipoServico": "Serviços de Testes Eventuais - SAP"
+        },
+        {
+          "noTipoServico": "Serviços Técnicos Especializados - SAP"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Serviços de Arquitetura",
+      "noTipoContratacao": "Ágil",
+      "servicos": [
+        {
+          "noTipoServico": "Acompanhamento in-loco Impl. Arquitetura"
+        },
+        {
+          "noTipoServico": "Definição de  Arquiteturas"
+        },
+        {
+          "noTipoServico": "Documentação"
+        },
+        {
+          "noTipoServico": "Prospecção de Tecnologias e Experimentações"
+        },
+        {
+          "noTipoServico": "Serviços de Análise de Arquiteturas e de Negócios"
+        },
+        {
+          "noTipoServico": "Serviços de Suporte às Arquiteturas"
+        }
+      ]
+    },
+    {
+      "noTipoGrupo": "Suporte",
+      "noTipoContratacao": "Especializado",
+      "servicos": [
+        {
+          "noTipoServico": "Suporte - Contrato Especializado"
+        }
+      ]
+    }
+  ],
+  "quantidadeRegistros": 23,
+  "dataConsulta": "2026-03-31 08:58"
+}

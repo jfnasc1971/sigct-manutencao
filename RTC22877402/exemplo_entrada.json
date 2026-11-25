@@ -1,0 +1,28 @@
+{
+  "itemPortifolio": "1234",
+  "squad": "ABCDE",
+  "idSprint": "4321",
+  "nomeSprint": "Sprint de Integração com Serviços Externos",
+  "idContagem": "0000123456",
+  "versaoContagem": "v2",
+  "tipo": "C",
+  "dataContagem": "2025-08-06",
+  "origem": "RTC123456",
+  "numeroIB": "IB987654",
+  "qtTotalPF": 24.50,
+  "tiposPF": {
+    "incluidoPF": 12.50,
+    "alteradoPF": 3.25,
+    "excluidoPF": 0.00,
+    "incluidoConvertido": 7.00,
+    "alteradoConvertido": 1.75,
+    "excluidoConvertido": 0.00
+  },
+  "codigoRetorno": 0,
+  "mensagens": [
+    {
+      "campo": "squad",
+      "mensagem": "NAO INFORMADO"
+    }
+  ]
+}

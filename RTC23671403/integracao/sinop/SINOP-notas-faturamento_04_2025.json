@@ -1,0 +1,2512 @@
+[
+  {
+    "sigla": "SIABE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIABM",
+    "ciclo": "04/2025",
+    "nota": 9.28
+  },
+  {
+    "sigla": "SIACC",
+    "ciclo": "04/2025",
+    "nota": 9.73
+  },
+  {
+    "sigla": "SIACG",
+    "ciclo": "04/2025",
+    "nota": 9.5
+  },
+  {
+    "sigla": "SIACI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIACL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIACO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIACS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIACT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIADC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIADI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIADJ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIADM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIADT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAEF",
+    "ciclo": "04/2025",
+    "nota": 9.89
+  },
+  {
+    "sigla": "SIAFC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAFF",
+    "ciclo": "04/2025",
+    "nota": 9.7
+  },
+  {
+    "sigla": "SIAFG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAFH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAGA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAGE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAGT",
+    "ciclo": "04/2025",
+    "nota": 9.93
+  },
+  {
+    "sigla": "SIALE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIALI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIALL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAMB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAMS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAOI",
+    "ciclo": "04/2025",
+    "nota": 9.13
+  },
+  {
+    "sigla": "SIAOI6",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAPX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIARA",
+    "ciclo": "04/2025",
+    "nota": 9.0
+  },
+  {
+    "sigla": "SIARB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIARC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIARG",
+    "ciclo": "04/2025",
+    "nota": 7.8
+  },
+  {
+    "sigla": "SIARM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIARP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIARR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIART",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIASA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIASC",
+    "ciclo": "04/2025",
+    "nota": 8.98
+  },
+  {
+    "sigla": "SIATB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATC",
+    "ciclo": "04/2025",
+    "nota": 8.65
+  },
+  {
+    "sigla": "SIATD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATQ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATW",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIATZ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAUD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAUF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAUP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAUT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIAVL",
+    "ciclo": "04/2025",
+    "nota": 9.8
+  },
+  {
+    "sigla": "SIB24",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBAC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBAN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBAR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBAT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBCN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBEC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBEN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBIC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBKO",
+    "ciclo": "04/2025",
+    "nota": 7.98
+  },
+  {
+    "sigla": "SIBLA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBNC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBSA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIBUR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICAC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICAK",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICAP",
+    "ciclo": "04/2025",
+    "nota": 9.87
+  },
+  {
+    "sigla": "SICAQ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICAR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICAS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICBP",
+    "ciclo": "04/2025",
+    "nota": 8.08
+  },
+  {
+    "sigla": "SICCF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICCP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICCR",
+    "ciclo": "04/2025",
+    "nota": 8.8
+  },
+  {
+    "sigla": "SICCX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICDB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICDC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICED",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICER",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICET",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICEX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICFD",
+    "ciclo": "04/2025",
+    "nota": 9.0
+  },
+  {
+    "sigla": "SICFG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICFM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICFW",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICGR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICIC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICID",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICIF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICLA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICLE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICLI",
+    "ciclo": "04/2025",
+    "nota": 9.38
+  },
+  {
+    "sigla": "SICMO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICMU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICNR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICNS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICNX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICON",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICOV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICPC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICPF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICPI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICPJ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICPU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICRS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICSC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICSF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICSI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICSQ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICTB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICTP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICTR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICUC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICUR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICVE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICWD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICWX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SICXC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID00",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID01",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID02",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID03",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID05",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID06",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID07",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID08",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID09",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID49",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID52",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SID53",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDAC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDAS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDBD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDCE",
+    "ciclo": "04/2025",
+    "nota": 9.25
+  },
+  {
+    "sigla": "SIDCX",
+    "ciclo": "04/2025",
+    "nota": 8.07
+  },
+  {
+    "sigla": "SIDDA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDEC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDEJ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDEM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDEO",
+    "ciclo": "04/2025",
+    "nota": 9.53
+  },
+  {
+    "sigla": "SIDEP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDGM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDIS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDIX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDMF",
+    "ciclo": "04/2025",
+    "nota": 8.95
+  },
+  {
+    "sigla": "SIDOC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDON",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDPN",
+    "ciclo": "04/2025",
+    "nota": 9.67
+  },
+  {
+    "sigla": "SIDRE",
+    "ciclo": "04/2025",
+    "nota": 9.51
+  },
+  {
+    "sigla": "SIDSC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDSP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDTF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDUC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIDUN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIECE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIECH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIECM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIECX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEDE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEFG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEGH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEMD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEMP",
+    "ciclo": "04/2025",
+    "nota": 9.24
+  },
+  {
+    "sigla": "SIEND",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIENG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEPA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEPR",
+    "ciclo": "04/2025",
+    "nota": 9.47
+  },
+  {
+    "sigla": "SIEQC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIESP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEST",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEVJ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEXE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIEZA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFAP",
+    "ciclo": "04/2025",
+    "nota": 9.8
+  },
+  {
+    "sigla": "SIFBK",
+    "ciclo": "04/2025",
+    "nota": 8.95
+  },
+  {
+    "sigla": "SIFCF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFCG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFCI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFCR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFCV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFDL",
+    "ciclo": "04/2025",
+    "nota": 9.7
+  },
+  {
+    "sigla": "SIFEC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFEP",
+    "ciclo": "04/2025",
+    "nota": 9.19
+  },
+  {
+    "sigla": "SIFGE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFGH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFGI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFGS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFGU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFIX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFLX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFMP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFOB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFPL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFPM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFRS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFSW",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIFUG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGAF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGAM",
+    "ciclo": "04/2025",
+    "nota": 9.4
+  },
+  {
+    "sigla": "SIGBC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGCB",
+    "ciclo": "04/2025",
+    "nota": 9.67
+  },
+  {
+    "sigla": "SIGCH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGCN",
+    "ciclo": "04/2025",
+    "nota": 8.38
+  },
+  {
+    "sigla": "SIGDB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGDU",
+    "ciclo": "04/2025",
+    "nota": 8.5
+  },
+  {
+    "sigla": "SIGEC",
+    "ciclo": "04/2025",
+    "nota": 9.5
+  },
+  {
+    "sigla": "SIGED",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGEL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGEP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGET",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGFA",
+    "ciclo": "04/2025",
+    "nota": 8.93
+  },
+  {
+    "sigla": "SIGFI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGHA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGIN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGIP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGIT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGLM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGMA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGMC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGMS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGOV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGPB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGPD",
+    "ciclo": "04/2025",
+    "nota": 9.5
+  },
+  {
+    "sigla": "SIGPF",
+    "ciclo": "04/2025",
+    "nota": 9.18
+  },
+  {
+    "sigla": "SIGPS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGRM",
+    "ciclo": "04/2025",
+    "nota": 8.5
+  },
+  {
+    "sigla": "SIGRR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGSJ",
+    "ciclo": "04/2025",
+    "nota": 9.79
+  },
+  {
+    "sigla": "SIGSM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGSR",
+    "ciclo": "04/2025",
+    "nota": 7.4
+  },
+  {
+    "sigla": "SIGTA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGTF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIGTS",
+    "ciclo": "04/2025",
+    "nota": 4.65
+  },
+  {
+    "sigla": "SIGUM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIHEL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIHMP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIIAF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIICA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIICO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIIDX",
+    "ciclo": "04/2025",
+    "nota": 7.2
+  },
+  {
+    "sigla": "SIIES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIIFE",
+    "ciclo": "04/2025",
+    "nota": 9.85
+  },
+  {
+    "sigla": "SIIFX",
+    "ciclo": "04/2025",
+    "nota": 9.28
+  },
+  {
+    "sigla": "SIIGZ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIINA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIINB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIINC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIINP",
+    "ciclo": "04/2025",
+    "nota": 6.33
+  },
+  {
+    "sigla": "SIINT",
+    "ciclo": "04/2025",
+    "nota": 9.7
+  },
+  {
+    "sigla": "SIIOF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIIPC",
+    "ciclo": "04/2025",
+    "nota": 9.32
+  },
+  {
+    "sigla": "SIISD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIISO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIJAD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIJOE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIJOS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIJUN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIJUR",
+    "ciclo": "04/2025",
+    "nota": 4.5
+  },
+  {
+    "sigla": "SIJUS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SILCE",
+    "ciclo": "04/2025",
+    "nota": 9.93
+  },
+  {
+    "sigla": "SILCR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SILOF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SILOI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SILTC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMAG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMAS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMAT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMCC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMCF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMCN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMEX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMIG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMIL",
+    "ciclo": "04/2025",
+    "nota": 7.4
+  },
+  {
+    "sigla": "SIMKT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMOV",
+    "ciclo": "04/2025",
+    "nota": 6.1
+  },
+  {
+    "sigla": "SIMPD",
+    "ciclo": "04/2025",
+    "nota": 9.75
+  },
+  {
+    "sigla": "SIMPF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMPI",
+    "ciclo": "04/2025",
+    "nota": 7.69
+  },
+  {
+    "sigla": "SIMPL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMQP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMRC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMRS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMSC",
+    "ciclo": "04/2025",
+    "nota": 8.5
+  },
+  {
+    "sigla": "SIMSR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMTC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIMTR",
+    "ciclo": "04/2025",
+    "nota": 9.13
+  },
+  {
+    "sigla": "SIMTX",
+    "ciclo": "04/2025",
+    "nota": 8.99
+  },
+  {
+    "sigla": "SINAC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINAD",
+    "ciclo": "04/2025",
+    "nota": 7.4
+  },
+  {
+    "sigla": "SINAF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINAT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINAU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINAV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINBM",
+    "ciclo": "04/2025",
+    "nota": 9.18
+  },
+  {
+    "sigla": "SINCE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINCH",
+    "ciclo": "04/2025",
+    "nota": 9.95
+  },
+  {
+    "sigla": "SINCR",
+    "ciclo": "04/2025",
+    "nota": 8.64
+  },
+  {
+    "sigla": "SINDA",
+    "ciclo": "04/2025",
+    "nota": 9.81
+  },
+  {
+    "sigla": "SINEB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINEP",
+    "ciclo": "04/2025",
+    "nota": 5.33
+  },
+  {
+    "sigla": "SINFP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINFS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINI2",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINIC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINIL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINLS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SINOP",
+    "ciclo": "04/2025",
+    "nota": 8.0
+  },
+  {
+    "sigla": "SINRP",
+    "ciclo": "04/2025",
+    "nota": 6.75
+  },
+  {
+    "sigla": "SINSH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIOBA",
+    "ciclo": "04/2025",
+    "nota": 9.93
+  },
+  {
+    "sigla": "SIOCR",
+    "ciclo": "04/2025",
+    "nota": 9.05
+  },
+  {
+    "sigla": "SIOGU",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIOPF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIOPI",
+    "ciclo": "04/2025",
+    "nota": 9.96
+  },
+  {
+    "sigla": "SIOPM",
+    "ciclo": "04/2025",
+    "nota": 9.7
+  },
+  {
+    "sigla": "SIOPP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIORC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIORF",
+    "ciclo": "04/2025",
+    "nota": 8.4
+  },
+  {
+    "sigla": "SIORM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIOSP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPAB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPAC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPAE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPAG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPAS",
+    "ciclo": "04/2025",
+    "nota": 8.8
+  },
+  {
+    "sigla": "SIPAT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPBF",
+    "ciclo": "04/2025",
+    "nota": 8.5
+  },
+  {
+    "sigla": "SIPBS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPCI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPCS",
+    "ciclo": "04/2025",
+    "nota": 9.27
+  },
+  {
+    "sigla": "SIPCV",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPDI",
+    "ciclo": "04/2025",
+    "nota": 8.52
+  },
+  {
+    "sigla": "SIPDM",
+    "ciclo": "04/2025",
+    "nota": 9.5
+  },
+  {
+    "sigla": "SIPEC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPEF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPEN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPER",
+    "ciclo": "04/2025",
+    "nota": 9.0
+  },
+  {
+    "sigla": "SIPES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPET",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPEX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPFB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPFC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPGC",
+    "ciclo": "04/2025",
+    "nota": 7.6
+  },
+  {
+    "sigla": "SIPGE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPGM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPGP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPGT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPIS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPLA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPLD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPLO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPLS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPNC",
+    "ciclo": "04/2025",
+    "nota": 8.7
+  },
+  {
+    "sigla": "SIPNL",
+    "ciclo": "04/2025",
+    "nota": 9.55
+  },
+  {
+    "sigla": "SIPON",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPOS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPPG",
+    "ciclo": "04/2025",
+    "nota": 9.0
+  },
+  {
+    "sigla": "SIPRD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPRG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPRI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPRO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPSC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPSQ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIPTE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIQCC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRAN",
+    "ciclo": "04/2025",
+    "nota": 9.81
+  },
+  {
+    "sigla": "SIRAS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRBI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRCA",
+    "ciclo": "04/2025",
+    "nota": 6.85
+  },
+  {
+    "sigla": "SIRCL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRCO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRDI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIREC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIREK",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIREL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIREX",
+    "ciclo": "04/2025",
+    "nota": 9.3
+  },
+  {
+    "sigla": "SIRFE",
+    "ciclo": "04/2025",
+    "nota": 9.2
+  },
+  {
+    "sigla": "SIRFF",
+    "ciclo": "04/2025",
+    "nota": 4.4
+  },
+  {
+    "sigla": "SIRFO",
+    "ciclo": "04/2025",
+    "nota": 9.6
+  },
+  {
+    "sigla": "SIRFR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRIP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRMA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRMC",
+    "ciclo": "04/2025",
+    "nota": 9.6
+  },
+  {
+    "sigla": "SIRMP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIROM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIROP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIROT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRSK",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRTI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRUC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIRUR",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISAD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISAG",
+    "ciclo": "04/2025",
+    "nota": 9.37
+  },
+  {
+    "sigla": "SISAM",
+    "ciclo": "04/2025",
+    "nota": 9.25
+  },
+  {
+    "sigla": "SISAQ",
+    "ciclo": "04/2025",
+    "nota": 9.38
+  },
+  {
+    "sigla": "SISBD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISCP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISCT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISDE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISDI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISED",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISEG",
+    "ciclo": "04/2025",
+    "nota": 9.45
+  },
+  {
+    "sigla": "SISEM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISET",
+    "ciclo": "04/2025",
+    "nota": 8.14
+  },
+  {
+    "sigla": "SISFG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISFW",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISGD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISGR",
+    "ciclo": "04/2025",
+    "nota": 6.4
+  },
+  {
+    "sigla": "SISIA",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISIB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISJS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISLP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISLS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISMC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISME",
+    "ciclo": "04/2025",
+    "nota": 6.33
+  },
+  {
+    "sigla": "SISMH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISMN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISMT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISND",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISNP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISNS",
+    "ciclo": "04/2025",
+    "nota": 7.93
+  },
+  {
+    "sigla": "SISNT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISOC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISOL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISPB",
+    "ciclo": "04/2025",
+    "nota": 9.07
+  },
+  {
+    "sigla": "SISPB6",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISPI",
+    "ciclo": "04/2025",
+    "nota": 9.37
+  },
+  {
+    "sigla": "SISPL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISPX",
+    "ciclo": "04/2025",
+    "nota": 8.62
+  },
+  {
+    "sigla": "SISRH",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISRP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISSE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISSG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISSO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISTN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISUD",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISUP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SISYS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITAE",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITAG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITAX",
+    "ciclo": "04/2025",
+    "nota": 7.75
+  },
+  {
+    "sigla": "SITCS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITEF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITEL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITES",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITEX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITIF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITLO",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITMA",
+    "ciclo": "04/2025",
+    "nota": 5.45
+  },
+  {
+    "sigla": "SITRC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRJ",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRN",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SITRR",
+    "ciclo": "04/2025",
+    "nota": 5.4
+  },
+  {
+    "sigla": "SITST",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIUMP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIUNI",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVAT",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVEP",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVHC",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVOL",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVPF",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIVPS",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIWAM",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIWEB",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIWEG",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIWFC",
+    "ciclo": "04/2025",
+    "nota": 7.4
+  },
+  {
+    "sigla": "SIX02",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  },
+  {
+    "sigla": "SIXXX",
+    "ciclo": "04/2025",
+    "nota": 10.0
+  }
+]

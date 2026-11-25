@@ -1,0 +1,118 @@
+diff --git a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/ComunicacaoRtcService.java b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/ComunicacaoRtcService.java
+index 8e0f75c03..41daaa3c5 100644
+--- a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/ComunicacaoRtcService.java
++++ b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/ComunicacaoRtcService.java
+@@ -1,5 +1,7 @@
+ package br.gov.caixa.sigct.backend.service.jobintegracaortc;
+ 
++import java.math.BigDecimal;
++import java.math.BigInteger;
+ import java.sql.Timestamp;
+ import java.util.ArrayList;
+ import java.util.Collections;
+@@ -24,6 +26,8 @@ import org.joda.time.format.DateTimeFormat;
+ import org.joda.time.format.DateTimeFormatter;
+ 
+ import com.ibm.team.Workitem;
++import com.ibm.team.repository.BooleanExtensionEntry;
++import com.ibm.team.repository.Item;
+ import com.ibm.team.rest.IRtcService;
+ import com.ibm.team.rest.RtcService;
+ import com.ibm.team.workitem.WorkItem;
+@@ -1200,4 +1204,54 @@ public class ComunicacaoRtcService {
+ 
+         return query.toString();
+     }
++    
++	public void recuperarCapex(WorkItem wi, IRtcService service, Gcttb005Solicitacao solicitacao) throws Exception {
++
++		WorkItem retorno = null;
++		
++		String query = getRtcQuerySolicitacaoCapex(wi);
++
++		do {
++
++            Workitem workitem = RtcService.getWorkitem(query, QTD_BUSCA_RTC, 0, service);
++            
++            if (!workitem.getWorkItem().isEmpty()) {
++                retorno = workitem.getWorkItem().get(0);
++            }
++            
++            if (retorno != null) {
++                
++                for(BooleanExtensionEntry item : retorno.getBooleanExtensions()) {
++                	if(item.isValue()) {
++                		solicitacao.setIcBef(SimNaoEnum.SIM.sigla);
++                		break;
++                	}
++                }
++            }
++            
++        } while (query != null && retorno != null);	
++	}
++	
++
++    private String getRtcQuerySolicitacaoCapex(WorkItem wi) {
++    	
++    	StringBuilder query = new StringBuilder();
++
++    	query.append("workitem?fields=workitem/workItem[id=" + wi.getId() + "]/");
++    	
++        // Campos a serem recuperados
++    	query.append("booleanExtensions[key=");
++        query.append("aumenta_receita_reuz_custo");
++        query.append("%20or%20key=aumenta_eficiencia_sistema");
++        query.append("%20or%20key=aumenta_tempo_uso_sistema");
++        query.append("%20or%20key=aumenta_produtividade_sistema]/*");
++
++        query.append(getQueryItemHistory());
++        query.append(")");
++
++        //LOGGER.debug("QUERY RTC: " + query.toString());
++
++        return query.toString();
++    }
++
+ }
+diff --git a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/JobAtualizaSolicitacoes.java b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/JobAtualizaSolicitacoes.java
+index 5dce9254e..cb2c8e9c1 100644
+--- a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/JobAtualizaSolicitacoes.java
++++ b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/service/jobintegracaortc/JobAtualizaSolicitacoes.java
+@@ -295,6 +295,9 @@ public class JobAtualizaSolicitacoes {
+                     // ic_bef
+                     comunicacaoRtcService.recuperarIcBef(wi, service, solicitacao);
+                     
++                    // capex
++                    comunicacaoRtcService.recuperarCapex(wi, service, solicitacao);
++                    
+                     // de_modulo
+                     WorkItemUtil.recuperarModulo(wi, solicitacao);
+                     
+diff --git a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/util/WorkItemUtil.java b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/util/WorkItemUtil.java
+index 1e12473cd..96146077b 100644
+--- a/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/util/WorkItemUtil.java
++++ b/Fontes/sigct-backend/sigct-backend-web/src/main/java/br/gov/caixa/sigct/backend/util/WorkItemUtil.java
+@@ -11,6 +11,7 @@ import java.util.regex.Pattern;
+ import org.apache.log4j.LogManager;
+ import org.apache.log4j.Logger;
+ 
++import com.ibm.team.repository.BooleanExtensionEntry;
+ import com.ibm.team.repository.TimestampExtensionEntry;
+ import com.ibm.team.workitem.ExtensionEntry;
+ import com.ibm.team.workitem.StateTransition;
+@@ -609,4 +610,15 @@ public class WorkItemUtil {
+         }
+ 
+     }
++    
++    public static boolean getAllBooleanExtensions(WorkItem wi, String key) throws SystemException {
++        if (Util.isNotEmpty(wi.getBooleanExtensions())) {
++            for (BooleanExtensionEntry e : wi.getBooleanExtensions()) {
++                if (key.equals(e.getKey())) {
++                    return e.isValue();
++                }
++            }
++        }
++        return false;
++    }
+ }

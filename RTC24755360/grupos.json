@@ -1,0 +1,100 @@
+{
+  "codigoRetorno": "0",
+  "mensagemRetorno": "Operação realizada com sucesso!",
+  "resultado": [
+    {
+      "noTipoGrupo": "CX/UX Writer",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Catálogo de Serviços",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Desenvolvimento",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 01",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 02",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 02 [UNISYS]",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 03",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-A",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-A Dados",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Equipes de Grupo 04-B UX",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Experiência do Cliente (CX)",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Experiência do Usuário (UX)",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Garantia e Qualidade de Software",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Garantia e Qualidade de Software.",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Grupo - Abono CCT",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Grupo 3 - Especialistas",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Parcela Negativa Rubrica 3103/03",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Plano de Atendimento",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Serviço de Apoio à Produção - Grupo 3",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Serviços Especializados à Solução SAP - Grupo 2",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Serviços de Arquitetura",
+      "noTipoContratacao": "Ágil"
+    },
+    {
+      "noTipoGrupo": "Suporte",
+      "noTipoContratacao": "Especializado"
+    }
+  ],
+  "quantidadeRegistros": 23,
+  "dataConsulta": "2026-03-31 08:58"
+}

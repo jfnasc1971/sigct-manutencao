@@ -1,0 +1,22 @@
+#!/bin/bash
+HOST="$(hostname)"
+
+if [ "$HOST" == "DF7390NX1302" ];then
+  export PGUSERNAME="gct"
+  export PGPASSWORD="gct"  
+  export PGSERVER="sctdedadlx0012.df.caixa"  
+  export PGDATABASE="sigctdes"
+else
+  export PGUSERNAME="postgres"
+  export PGPASSWORD="postgres"
+  export PGSERVER="localhost"  
+  export PGDATABASE="gctdes01"
+fi
+
+echo ""
+echo "##################################################################################################"
+echo "# LOCALHOST:$HOST SERVER:$PGSERVER DATABASE:$PGDATABASE USERNAME:$PGUSERNAME PASSWORD:************"
+echo "##################################################################################################"
+echo ""
+
+

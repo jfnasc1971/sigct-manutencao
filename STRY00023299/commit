@@ -1,0 +1,37 @@
+#!/bin/bash
+IFS=$'\n'
+
+if [ ! -f 'Readme.md' ];then
+  echo "Arquivo Readme.md nao encontado."
+  exit
+fi
+
+RTC_NUMBER="STRY00023299"
+
+if [ -n "$(git ls-files --others --exclude-standard)" ];then
+  for f in $(git ls-files --others --exclude-standard);do
+    git add $f
+  done
+fi
+
+git pull
+git commit -a -m "$(cat Readme.md|head -n 1)"
+git push
+
+if [ -d src ];then
+
+  cd src
+  if [ -n "$(git ls-files --others --exclude-standard)" ];then
+    for f in $(git ls-files --others --exclude-standard);do
+      git add $f
+    done
+  fi
+
+  git pull
+  git commit -a -m "$(cat ../Readme.md|head -n 1)"
+  git push
+
+  cd ..
+
+fi
+

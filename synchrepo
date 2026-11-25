@@ -1,0 +1,15 @@
+#!/bin/bash
+
+git remote rm gitlab
+git remote add gitlab git@gitlab.com:qintess-dev/sigct-manutencao.git
+
+# Nome do remoto de backup
+REMOTE="gitlab"
+
+echo "Sincronizando todos os branches com $REMOTE..."
+git push $REMOTE --all
+
+echo "Sincronizando todas as tags com $REMOTE..."
+git push $REMOTE --tags
+
+echo "Sincronização concluída com sucesso."

@@ -1,0 +1,41 @@
+#!/bin/bash
+pwd="$(pwd)"
+HOST="$(hostname)"
+
+if [ "$HOST" == "DF7390NX1302" ];then
+  source /c/caixa/manutencao/setenv
+else
+  source /projetos/caixa/sigct/manutencao/setenv
+fi
+
+if [ -z "$1" ];then
+  echo "Informe o nome do script."
+  exit
+fi
+
+filename="$(echo "$1" | awk -F '/' '{print $NF}')";
+logdir="$(echo "$1" | sed -e "s|${filename}||gi")logs";
+if [ ! -d $logdir ];then
+  mkdir -p "$logdir"
+fi
+logfile="${logdir}/${filename}.messages"
+
+psql -v VERBOSITY=terse -h $PGSERVER -U $PGUSERNAME $PGDATABASE <$1 2>&1 | tee $logfile
+
+echo -e "\n-------------------------------------------------------"
+echo "-- Resultados"
+echo "-------------------------------------------------------"
+
+op="$(cat ${logfile} | grep -i "Error")"
+
+if [ -z "$op" ];then
+  echo "Log: ${logfile}" 
+  echo "Tudo certo :)";
+else
+  echo "Log: ${logfile}" 
+  echo "ERRO:";
+  echo "$op";
+fi;
+
+echo "-------------------------------------------------------"
+

@@ -1,0 +1,1 @@
+RTC 24444760 - SIGCT - (Auditoria) O SIGCT não pode permitir preenchimento de Pontos de Função em demandas do tipo Sustentação/Serviço prestado de acordo com cada Grupo

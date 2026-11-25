@@ -1,0 +1,108 @@
+------------------------------
+APL - MULTIPLATAFORMA BANCO DE DADOS
+------------------------------
+
+Arquivos em https://fontes.caixa/SIGCT/sigct-monolito.git
+
+1. Parar a aplicação
+
+2. Executar os scripts a seguir na ordem em que se encontram listados: 
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/STRY00052468_02_DDL.sql
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/STRY00052468_01_DDL.sql
+
+3. Executar as atividades listadas na aba "MULTIPLATAFORMA BATCH"
+
+4. Executar as atividades listadas na aba "Unix / Solaris"
+
+Comunidade Contratações e Logística
+c125046 - Dayana Gomes Fernandes - 61 984290981
+c048007 - Gilberto Afonso Cavalin - 61 981541629
+
+
+------------------------------
+APL - MULTIPLATAFORMA BATCH
+------------------------------
+
+Arquivos em https://fontes.caixa/SIGCT/sigct-monolito.git
+
+1. Executar as atividades listadas na aba "MULTIPLATAFORMA BANCO DE DADOS": 
+
+2. Executar os scripts a seguir na ordem em que se encontram listados: 
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/STRY00052468_03_DML.sql
+
+3. Executar as atividades listadas na aba "Unix / Solaris"
+
+Comunidade Contratações e Logística
+c125046 - Dayana Gomes Fernandes - 61 984290981
+c048007 - Gilberto Afonso Cavalin - 61 981541629
+
+
+------------------------------
+APL - MULTIPLATAFORMA ONLINE
+------------------------------
+
+Arquivos em https://fontes.caixa/SIGCT/sigct-monolito.git
+
+1. Executar as atividades listadas na aba "MULTIPLATAFORMA BANCO DE DADOS": 
+
+2. Executar as atividades listadas na aba "MULTIPLATAFORMA BATCH"
+
+3. Efetuar o deploy dos seguintes pacotes
+
+Servidor cctdcapllx0010.df.caixa:
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/Build/sigct_4.52.0.FINAL.ear
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/Build/sigct_backend_4.52.0.FINAL.ear
+
+4. Reiniciar a aplicação
+
+Comunidade Contratações e Logística
+c125046 - Dayana Gomes Fernandes - 61 984290981
+c048007 - Gilberto Afonso Cavalin - 61 981541629
+
+
+------------------------------
+APL - VALIDAÇÃO NEGOCIAL
+------------------------------
+------------------------------
+
+GESTOR RESPONSÁVEL PELA VERIFICAÇÃO: Matheus Lino do Amaral
+
+TELEFONE DE CONTATO COM DDD (CELULAR): (61)98199.4115
+
+Arquivos em https://fontes.caixa/SIGCT/sigct-monolito.git
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/Testes/SIGCT_Evidencia_Teste_STRY00052468.docx
+
+
+------------------------------
+APL - PLANO DE RETORNO
+------------------------------
+
+Arquivos em https://fontes.caixa/SIGCT/sigct-monolito.git
+
+1. Parar a aplicação
+
+2. Executar os scripts a seguir na ordem em que se encontram listados: 
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/RETORNO/STRY00052468_RETORNO_03_DML.sql
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/RETORNO/STRY00052468_RETORNO_01_DDL.sql
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/DDL-DML/RETORNO/STRY00052468_RETORNO_02_DDL.sql
+
+3. Efetuar o deploy dos seguintes pacotes
+
+Servidor cctdcapllx0010.df.caixa:
+
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/Build/RETORNO/sigct_4.51.4.FINAL.ear
+https://fontes.caixa/SIGCT/sigct-monolito/-/raw/main/SIGCT/Build/RETORNO/sigct_backend_4.51.4.FINAL.ear
+
+4. Reiniciar a aplicação
+
+Comunidade Contratações e Logística
+c125046 - Dayana Gomes Fernandes - 61 984290981
+c048007 - Gilberto Afonso Cavalin - 61 981541629
+
+

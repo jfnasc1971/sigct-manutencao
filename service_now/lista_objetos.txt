@@ -1,0 +1,3348 @@
+
+##################################################################################################
+# LOCALHOST:DF7390NX1302 SERVER:sctdedadlx0012.df.caixa DATABASE:sigctdes USERNAME:gct PASSWORD:************
+##################################################################################################
+
+ nu_sequencial 
+---------------
+             5
+             6
+             7
+             8
+             9
+            10
+            11
+            12
+            13
+            14
+(10 rows)
+
+  a  | Prefixo  |                        View                         
+-----+----------+-----------------------------------------------------
+   1 | gctvw001 | gctvw001_sistema_area_usuario
+   2 | gctvw002 | gctvw002_modulo_area_usuario
+   3 | gctvw003 | gctvw003_contrato_fornecedor_modulo
+   4 | gctvw004 | gctvw004_areas_contratante
+   5 | gctvw005 | gctvw005_servico_contrato
+   6 | gctvw006 | gctvw006_forma_servico
+   7 | gctvw007 | gctvw007_forma_etapa
+   8 | gctvw008 | gctvw008_forma_quantidade
+   9 | gctvw009 | gctvw009_ordem_servico_demanda
+  10 | gctvw010 | gctvw010_forma_contrato
+  11 | gctvw011 | gctvw011_etapa_contrato
+  12 | gctvw012 | gctvw012_slcto_ordem_srvco_cntra
+  13 | gctvw013 | gctvw013_solitacao_preco_dfrno
+  14 | gctvw014 | gctvw014_demandas_contratadas
+  15 | gctvw015 | gctvw015_ponto_funcao_faturado
+  16 | gctvw016 | gctvw016_entrega_efetiva_forma_contratacao
+  16 | gctvw016 | gctvw016_indicadores_orcamento
+  17 | gctvw017 | gctvw017_entrega_validada
+  18 | gctvw018 | gctvw018_modalidade_contratacao
+  19 | gctvw019 | gctvw019_pagamento_consolidados
+  20 | gctvw020 | gctvw020_entregas_paciveis_vdp
+  21 | gctvw021 | gctvw021_entrega_paralizada_calculo_vdp
+  22 | gctvw022 | gctvw022_ordem_servico_paciveis_vdp
+  23 | gctvw023 | gctvw023_indicadores_contratacao
+  24 | gctvw024 | gctvw024_indicadores_orcamento
+  25 | gctvw025 | gctvw025_ordem_servico_contratada
+  25 | gctvw025 | gctvw025_relatorio_entrega
+  26 | gctvw026 | ----- DISPONIVEL -----
+  27 | gctvw027 | gctvw027_cntro_servico_forma
+  27 | gctvw027 | gctvw027_relatorio_entrega_indicadores
+  28 | gctvw028 | gctvw028_cntro_forma_etapa
+  28 | gctvw028 | gctvw028_relatorio_termo_indicadores
+  29 | gctvw029 | gctvw029_historico
+  30 | gctvw030 | gctvw030_valor_comprometido_cntro
+  31 | gctvw031 | gctvw031_controle_contrato
+  32 | gctvw032 | gctvw032_custo_sistema
+  33 | gctvw033 | gctvw033_painel_atendimento
+  34 | gctvw034 | gctvw034_valor_ultimo_ftrmo
+  35 | gctvw035 | gctvw035_media_seis_ftrmo
+  36 | gctvw036 | gctvw036_valor_ftrmo_site_contrato
+  37 | gctvw037 | gctvw037_valor_pago_contrato_fatura
+  38 | gctvw038 | gctvw038_natureza_desenvolvimento
+  39 | gctvw039 | gctvw039_excucao_financeira_cntro
+  40 | gctvw040 | gctvw040_valor_pago_cntro_rbrca_fatura
+  41 | gctvw041 | gctvw041_valores_entrega
+  42 | gctvw042 | gctvw042_valor_pago_fatura_contrato
+  43 | gctvw043 | gctvw043_atendimento_contratacao
+  44 | gctvw044 | gctvw044_indicador_sistema
+  45 | gctvw045 | gctvw045_valor_previsto_pago_contrato
+  46 | gctvw046 | gctvw046_valor_previsto_pago_os_solicitacao
+  47 | gctvw047 | gctvw047_amostra_ciclos_trabalho_empenho
+  48 | gctvw048 | gctvw048_relatorio_equipe
+  49 | gctvw049 | gctvw049_relatorio_termo_equipe
+  50 | gctvw050 | gctvw050_rel_indicador_grupo_contrato_mes
+  51 | gctvw051 | gctvw051_valor_indicador_ciclo_trabalho
+  52 | gctvw052 | gctvw052_valor_indicador_equipe
+  53 | gctvw053 | ----- DISPONIVEL -----
+  54 | gctvw054 | ----- DISPONIVEL -----
+  55 | gctvw055 | ----- DISPONIVEL -----
+  56 | gctvw056 | gctvw056_relatorio_sistema_equipe
+  57 | gctvw057 | gctvw057_relatorio_atendimento_equipe
+  58 | gctvw058 | gctvw058_amostra_entrega_indicador
+  59 | gctvw059 | gctvw059_faturamento_demanda
+  59 | gctvw059 | gctvw059_insumos_termo_ajuste
+  60 | gctvw060 | gctvw060_faturamento_equipe
+  61 | gctvw061 | gctvw061_relatorio_distribuicao_custos
+  62 | gctvw062 | ----- DISPONIVEL -----
+  63 | gctvw063 | ----- DISPONIVEL -----
+  64 | gctvw064 | ----- DISPONIVEL -----
+  65 | gctvw065 | ----- DISPONIVEL -----
+  66 | gctvw066 | ----- DISPONIVEL -----
+  67 | gctvw067 | ----- DISPONIVEL -----
+  68 | gctvw068 | ----- DISPONIVEL -----
+  69 | gctvw069 | ----- DISPONIVEL -----
+  70 | gctvw070 | gctvw070_amostra_ciclos_trabalho
+  71 | gctvw071 | gctvw071_rel_indicador_equipe_ciclo_trabalho
+  72 | gctvw072 | gctvw072_rel_indicador_equipe_ciclo_trabalho_previa
+  73 | gctvw073 | gctvw073_rel_indicador_equipe_ciclo_trabalho_ajuste
+  74 | gctvw074 | gctvw074_calcular_ordem_pagamento_previo
+  75 | gctvw075 | gctvw075_termos_ordem_pagamento_previo_fechado
+  76 | gctvw076 | gctvw076_valor_indicador_ciclo_trabalho_ajuste
+  77 | gctvw077 | ----- DISPONIVEL -----
+  78 | gctvw078 | ----- DISPONIVEL -----
+  79 | gctvw079 | ----- DISPONIVEL -----
+  80 | gctvw080 | gctvw080_vigencia_membros_equipe
+  81 | gctvw081 | ----- DISPONIVEL -----
+  82 | gctvw082 | ----- DISPONIVEL -----
+  83 | gctvw083 | ----- DISPONIVEL -----
+  84 | gctvw084 | ----- DISPONIVEL -----
+  85 | gctvw085 | ----- DISPONIVEL -----
+  86 | gctvw086 | ----- DISPONIVEL -----
+  87 | gctvw087 | ----- DISPONIVEL -----
+  88 | gctvw088 | ----- DISPONIVEL -----
+  89 | gctvw089 | ----- DISPONIVEL -----
+  90 | gctvw090 | ----- DISPONIVEL -----
+  91 | gctvw091 | ----- DISPONIVEL -----
+  92 | gctvw092 | ----- DISPONIVEL -----
+  93 | gctvw093 | ----- DISPONIVEL -----
+  94 | gctvw094 | ----- DISPONIVEL -----
+  95 | gctvw095 | ----- DISPONIVEL -----
+  96 | gctvw096 | ----- DISPONIVEL -----
+  97 | gctvw097 | ----- DISPONIVEL -----
+  98 | gctvw098 | ----- DISPONIVEL -----
+  99 | gctvw099 | ----- DISPONIVEL -----
+ 100 | gctvw100 | ----- DISPONIVEL -----
+ 101 | gctvw101 | ----- DISPONIVEL -----
+ 102 | gctvw102 | ----- DISPONIVEL -----
+ 103 | gctvw103 | ----- DISPONIVEL -----
+ 104 | gctvw104 | ----- DISPONIVEL -----
+ 105 | gctvw105 | ----- DISPONIVEL -----
+ 106 | gctvw106 | ----- DISPONIVEL -----
+ 107 | gctvw107 | ----- DISPONIVEL -----
+ 108 | gctvw108 | ----- DISPONIVEL -----
+ 109 | gctvw109 | ----- DISPONIVEL -----
+ 110 | gctvw110 | ----- DISPONIVEL -----
+ 111 | gctvw111 | ----- DISPONIVEL -----
+ 112 | gctvw112 | ----- DISPONIVEL -----
+ 113 | gctvw113 | ----- DISPONIVEL -----
+ 114 | gctvw114 | ----- DISPONIVEL -----
+ 115 | gctvw115 | ----- DISPONIVEL -----
+ 116 | gctvw116 | ----- DISPONIVEL -----
+ 117 | gctvw117 | ----- DISPONIVEL -----
+ 118 | gctvw118 | ----- DISPONIVEL -----
+ 119 | gctvw119 | ----- DISPONIVEL -----
+ 120 | gctvw120 | ----- DISPONIVEL -----
+ 121 | gctvw121 | ----- DISPONIVEL -----
+ 122 | gctvw122 | ----- DISPONIVEL -----
+ 123 | gctvw123 | ----- DISPONIVEL -----
+ 124 | gctvw124 | ----- DISPONIVEL -----
+ 125 | gctvw125 | ----- DISPONIVEL -----
+ 126 | gctvw126 | ----- DISPONIVEL -----
+ 127 | gctvw127 | ----- DISPONIVEL -----
+ 128 | gctvw128 | ----- DISPONIVEL -----
+ 129 | gctvw129 | ----- DISPONIVEL -----
+ 130 | gctvw130 | ----- DISPONIVEL -----
+ 131 | gctvw131 | ----- DISPONIVEL -----
+ 132 | gctvw132 | ----- DISPONIVEL -----
+ 133 | gctvw133 | ----- DISPONIVEL -----
+ 134 | gctvw134 | ----- DISPONIVEL -----
+ 135 | gctvw135 | ----- DISPONIVEL -----
+ 136 | gctvw136 | ----- DISPONIVEL -----
+ 137 | gctvw137 | ----- DISPONIVEL -----
+ 138 | gctvw138 | ----- DISPONIVEL -----
+ 139 | gctvw139 | ----- DISPONIVEL -----
+ 140 | gctvw140 | ----- DISPONIVEL -----
+ 141 | gctvw141 | ----- DISPONIVEL -----
+ 142 | gctvw142 | ----- DISPONIVEL -----
+ 143 | gctvw143 | ----- DISPONIVEL -----
+ 144 | gctvw144 | ----- DISPONIVEL -----
+ 145 | gctvw145 | ----- DISPONIVEL -----
+ 146 | gctvw146 | ----- DISPONIVEL -----
+ 147 | gctvw147 | ----- DISPONIVEL -----
+ 148 | gctvw148 | ----- DISPONIVEL -----
+ 149 | gctvw149 | ----- DISPONIVEL -----
+ 150 | gctvw150 | ----- DISPONIVEL -----
+ 151 | gctvw151 | ----- DISPONIVEL -----
+ 152 | gctvw152 | ----- DISPONIVEL -----
+ 153 | gctvw153 | ----- DISPONIVEL -----
+ 154 | gctvw154 | ----- DISPONIVEL -----
+ 155 | gctvw155 | ----- DISPONIVEL -----
+ 156 | gctvw156 | ----- DISPONIVEL -----
+ 157 | gctvw157 | ----- DISPONIVEL -----
+ 158 | gctvw158 | ----- DISPONIVEL -----
+ 159 | gctvw159 | ----- DISPONIVEL -----
+ 160 | gctvw160 | ----- DISPONIVEL -----
+ 161 | gctvw161 | ----- DISPONIVEL -----
+ 162 | gctvw162 | ----- DISPONIVEL -----
+ 163 | gctvw163 | ----- DISPONIVEL -----
+ 164 | gctvw164 | ----- DISPONIVEL -----
+ 165 | gctvw165 | ----- DISPONIVEL -----
+ 166 | gctvw166 | ----- DISPONIVEL -----
+ 167 | gctvw167 | ----- DISPONIVEL -----
+ 168 | gctvw168 | ----- DISPONIVEL -----
+ 169 | gctvw169 | ----- DISPONIVEL -----
+ 170 | gctvw170 | ----- DISPONIVEL -----
+ 171 | gctvw171 | ----- DISPONIVEL -----
+ 172 | gctvw172 | ----- DISPONIVEL -----
+ 173 | gctvw173 | ----- DISPONIVEL -----
+ 174 | gctvw174 | ----- DISPONIVEL -----
+ 175 | gctvw175 | ----- DISPONIVEL -----
+ 176 | gctvw176 | ----- DISPONIVEL -----
+ 177 | gctvw177 | ----- DISPONIVEL -----
+ 178 | gctvw178 | ----- DISPONIVEL -----
+ 179 | gctvw179 | ----- DISPONIVEL -----
+ 180 | gctvw180 | ----- DISPONIVEL -----
+ 181 | gctvw181 | ----- DISPONIVEL -----
+ 182 | gctvw182 | ----- DISPONIVEL -----
+ 183 | gctvw183 | ----- DISPONIVEL -----
+ 184 | gctvw184 | ----- DISPONIVEL -----
+ 185 | gctvw185 | ----- DISPONIVEL -----
+ 186 | gctvw186 | ----- DISPONIVEL -----
+ 187 | gctvw187 | ----- DISPONIVEL -----
+ 188 | gctvw188 | ----- DISPONIVEL -----
+ 189 | gctvw189 | ----- DISPONIVEL -----
+ 190 | gctvw190 | ----- DISPONIVEL -----
+ 191 | gctvw191 | ----- DISPONIVEL -----
+ 192 | gctvw192 | ----- DISPONIVEL -----
+ 193 | gctvw193 | ----- DISPONIVEL -----
+ 194 | gctvw194 | ----- DISPONIVEL -----
+ 195 | gctvw195 | ----- DISPONIVEL -----
+ 196 | gctvw196 | ----- DISPONIVEL -----
+ 197 | gctvw197 | ----- DISPONIVEL -----
+ 198 | gctvw198 | ----- DISPONIVEL -----
+ 199 | gctvw199 | ----- DISPONIVEL -----
+ 200 | gctvw200 | ----- DISPONIVEL -----
+ 201 | gctvw201 | ----- DISPONIVEL -----
+ 202 | gctvw202 | ----- DISPONIVEL -----
+ 203 | gctvw203 | ----- DISPONIVEL -----
+ 204 | gctvw204 | ----- DISPONIVEL -----
+ 205 | gctvw205 | ----- DISPONIVEL -----
+ 206 | gctvw206 | ----- DISPONIVEL -----
+ 207 | gctvw207 | ----- DISPONIVEL -----
+ 208 | gctvw208 | ----- DISPONIVEL -----
+ 209 | gctvw209 | ----- DISPONIVEL -----
+ 210 | gctvw210 | ----- DISPONIVEL -----
+ 211 | gctvw211 | ----- DISPONIVEL -----
+ 212 | gctvw212 | ----- DISPONIVEL -----
+ 213 | gctvw213 | ----- DISPONIVEL -----
+ 214 | gctvw214 | ----- DISPONIVEL -----
+ 215 | gctvw215 | ----- DISPONIVEL -----
+ 216 | gctvw216 | ----- DISPONIVEL -----
+ 217 | gctvw217 | ----- DISPONIVEL -----
+ 218 | gctvw218 | ----- DISPONIVEL -----
+ 219 | gctvw219 | ----- DISPONIVEL -----
+ 220 | gctvw220 | ----- DISPONIVEL -----
+ 221 | gctvw221 | ----- DISPONIVEL -----
+ 222 | gctvw222 | ----- DISPONIVEL -----
+ 223 | gctvw223 | ----- DISPONIVEL -----
+ 224 | gctvw224 | ----- DISPONIVEL -----
+ 225 | gctvw225 | ----- DISPONIVEL -----
+ 226 | gctvw226 | ----- DISPONIVEL -----
+ 227 | gctvw227 | ----- DISPONIVEL -----
+ 228 | gctvw228 | ----- DISPONIVEL -----
+ 229 | gctvw229 | ----- DISPONIVEL -----
+ 230 | gctvw230 | ----- DISPONIVEL -----
+ 231 | gctvw231 | ----- DISPONIVEL -----
+ 232 | gctvw232 | ----- DISPONIVEL -----
+ 233 | gctvw233 | ----- DISPONIVEL -----
+ 234 | gctvw234 | ----- DISPONIVEL -----
+ 235 | gctvw235 | ----- DISPONIVEL -----
+ 236 | gctvw236 | ----- DISPONIVEL -----
+ 237 | gctvw237 | ----- DISPONIVEL -----
+ 238 | gctvw238 | ----- DISPONIVEL -----
+ 239 | gctvw239 | ----- DISPONIVEL -----
+ 240 | gctvw240 | ----- DISPONIVEL -----
+ 241 | gctvw241 | ----- DISPONIVEL -----
+ 242 | gctvw242 | ----- DISPONIVEL -----
+ 243 | gctvw243 | ----- DISPONIVEL -----
+ 244 | gctvw244 | ----- DISPONIVEL -----
+ 245 | gctvw245 | ----- DISPONIVEL -----
+ 246 | gctvw246 | ----- DISPONIVEL -----
+ 247 | gctvw247 | ----- DISPONIVEL -----
+ 248 | gctvw248 | ----- DISPONIVEL -----
+ 249 | gctvw249 | ----- DISPONIVEL -----
+ 250 | gctvw250 | ----- DISPONIVEL -----
+ 251 | gctvw251 | ----- DISPONIVEL -----
+ 252 | gctvw252 | ----- DISPONIVEL -----
+ 253 | gctvw253 | ----- DISPONIVEL -----
+ 254 | gctvw254 | ----- DISPONIVEL -----
+ 255 | gctvw255 | ----- DISPONIVEL -----
+ 256 | gctvw256 | ----- DISPONIVEL -----
+ 257 | gctvw257 | ----- DISPONIVEL -----
+ 258 | gctvw258 | ----- DISPONIVEL -----
+ 259 | gctvw259 | ----- DISPONIVEL -----
+ 260 | gctvw260 | ----- DISPONIVEL -----
+ 261 | gctvw261 | ----- DISPONIVEL -----
+ 262 | gctvw262 | ----- DISPONIVEL -----
+ 263 | gctvw263 | ----- DISPONIVEL -----
+ 264 | gctvw264 | ----- DISPONIVEL -----
+ 265 | gctvw265 | ----- DISPONIVEL -----
+ 266 | gctvw266 | ----- DISPONIVEL -----
+ 267 | gctvw267 | ----- DISPONIVEL -----
+ 268 | gctvw268 | ----- DISPONIVEL -----
+ 269 | gctvw269 | ----- DISPONIVEL -----
+ 270 | gctvw270 | ----- DISPONIVEL -----
+ 271 | gctvw271 | ----- DISPONIVEL -----
+ 272 | gctvw272 | ----- DISPONIVEL -----
+ 273 | gctvw273 | ----- DISPONIVEL -----
+ 274 | gctvw274 | ----- DISPONIVEL -----
+ 275 | gctvw275 | ----- DISPONIVEL -----
+ 276 | gctvw276 | ----- DISPONIVEL -----
+ 277 | gctvw277 | ----- DISPONIVEL -----
+ 278 | gctvw278 | ----- DISPONIVEL -----
+ 279 | gctvw279 | ----- DISPONIVEL -----
+ 280 | gctvw280 | ----- DISPONIVEL -----
+ 281 | gctvw281 | ----- DISPONIVEL -----
+ 282 | gctvw282 | ----- DISPONIVEL -----
+ 283 | gctvw283 | ----- DISPONIVEL -----
+ 284 | gctvw284 | ----- DISPONIVEL -----
+ 285 | gctvw285 | ----- DISPONIVEL -----
+ 286 | gctvw286 | ----- DISPONIVEL -----
+ 287 | gctvw287 | ----- DISPONIVEL -----
+ 288 | gctvw288 | ----- DISPONIVEL -----
+ 289 | gctvw289 | ----- DISPONIVEL -----
+ 290 | gctvw290 | ----- DISPONIVEL -----
+ 291 | gctvw291 | ----- DISPONIVEL -----
+ 292 | gctvw292 | ----- DISPONIVEL -----
+ 293 | gctvw293 | ----- DISPONIVEL -----
+ 294 | gctvw294 | ----- DISPONIVEL -----
+ 295 | gctvw295 | ----- DISPONIVEL -----
+ 296 | gctvw296 | ----- DISPONIVEL -----
+ 297 | gctvw297 | ----- DISPONIVEL -----
+ 298 | gctvw298 | ----- DISPONIVEL -----
+ 299 | gctvw299 | ----- DISPONIVEL -----
+ 300 | gctvw300 | ----- DISPONIVEL -----
+ 301 | gctvw301 | ----- DISPONIVEL -----
+ 302 | gctvw302 | ----- DISPONIVEL -----
+ 303 | gctvw303 | ----- DISPONIVEL -----
+ 304 | gctvw304 | ----- DISPONIVEL -----
+ 305 | gctvw305 | ----- DISPONIVEL -----
+ 306 | gctvw306 | ----- DISPONIVEL -----
+ 307 | gctvw307 | ----- DISPONIVEL -----
+ 308 | gctvw308 | ----- DISPONIVEL -----
+ 309 | gctvw309 | ----- DISPONIVEL -----
+ 310 | gctvw310 | ----- DISPONIVEL -----
+ 311 | gctvw311 | ----- DISPONIVEL -----
+ 312 | gctvw312 | ----- DISPONIVEL -----
+ 313 | gctvw313 | ----- DISPONIVEL -----
+ 314 | gctvw314 | ----- DISPONIVEL -----
+ 315 | gctvw315 | ----- DISPONIVEL -----
+ 316 | gctvw316 | ----- DISPONIVEL -----
+ 317 | gctvw317 | ----- DISPONIVEL -----
+ 318 | gctvw318 | ----- DISPONIVEL -----
+ 319 | gctvw319 | ----- DISPONIVEL -----
+ 320 | gctvw320 | ----- DISPONIVEL -----
+ 321 | gctvw321 | ----- DISPONIVEL -----
+ 322 | gctvw322 | ----- DISPONIVEL -----
+ 323 | gctvw323 | ----- DISPONIVEL -----
+ 324 | gctvw324 | ----- DISPONIVEL -----
+ 325 | gctvw325 | ----- DISPONIVEL -----
+ 326 | gctvw326 | ----- DISPONIVEL -----
+ 327 | gctvw327 | ----- DISPONIVEL -----
+ 328 | gctvw328 | ----- DISPONIVEL -----
+ 329 | gctvw329 | ----- DISPONIVEL -----
+ 330 | gctvw330 | ----- DISPONIVEL -----
+ 331 | gctvw331 | ----- DISPONIVEL -----
+ 332 | gctvw332 | ----- DISPONIVEL -----
+ 333 | gctvw333 | ----- DISPONIVEL -----
+ 334 | gctvw334 | ----- DISPONIVEL -----
+ 335 | gctvw335 | ----- DISPONIVEL -----
+ 336 | gctvw336 | ----- DISPONIVEL -----
+ 337 | gctvw337 | ----- DISPONIVEL -----
+ 338 | gctvw338 | ----- DISPONIVEL -----
+ 339 | gctvw339 | ----- DISPONIVEL -----
+ 340 | gctvw340 | ----- DISPONIVEL -----
+ 341 | gctvw341 | ----- DISPONIVEL -----
+ 342 | gctvw342 | ----- DISPONIVEL -----
+ 343 | gctvw343 | ----- DISPONIVEL -----
+ 344 | gctvw344 | ----- DISPONIVEL -----
+ 345 | gctvw345 | ----- DISPONIVEL -----
+ 346 | gctvw346 | ----- DISPONIVEL -----
+ 347 | gctvw347 | ----- DISPONIVEL -----
+ 348 | gctvw348 | ----- DISPONIVEL -----
+ 349 | gctvw349 | ----- DISPONIVEL -----
+ 350 | gctvw350 | ----- DISPONIVEL -----
+ 351 | gctvw351 | ----- DISPONIVEL -----
+ 352 | gctvw352 | ----- DISPONIVEL -----
+ 353 | gctvw353 | ----- DISPONIVEL -----
+ 354 | gctvw354 | ----- DISPONIVEL -----
+ 355 | gctvw355 | ----- DISPONIVEL -----
+ 356 | gctvw356 | ----- DISPONIVEL -----
+ 357 | gctvw357 | ----- DISPONIVEL -----
+ 358 | gctvw358 | ----- DISPONIVEL -----
+ 359 | gctvw359 | ----- DISPONIVEL -----
+ 360 | gctvw360 | ----- DISPONIVEL -----
+ 361 | gctvw361 | ----- DISPONIVEL -----
+ 362 | gctvw362 | ----- DISPONIVEL -----
+ 363 | gctvw363 | ----- DISPONIVEL -----
+ 364 | gctvw364 | ----- DISPONIVEL -----
+ 365 | gctvw365 | ----- DISPONIVEL -----
+ 366 | gctvw366 | ----- DISPONIVEL -----
+ 367 | gctvw367 | ----- DISPONIVEL -----
+ 368 | gctvw368 | ----- DISPONIVEL -----
+ 369 | gctvw369 | ----- DISPONIVEL -----
+ 370 | gctvw370 | ----- DISPONIVEL -----
+ 371 | gctvw371 | ----- DISPONIVEL -----
+ 372 | gctvw372 | ----- DISPONIVEL -----
+ 373 | gctvw373 | ----- DISPONIVEL -----
+ 374 | gctvw374 | ----- DISPONIVEL -----
+ 375 | gctvw375 | ----- DISPONIVEL -----
+ 376 | gctvw376 | ----- DISPONIVEL -----
+ 377 | gctvw377 | ----- DISPONIVEL -----
+ 378 | gctvw378 | ----- DISPONIVEL -----
+ 379 | gctvw379 | ----- DISPONIVEL -----
+ 380 | gctvw380 | ----- DISPONIVEL -----
+ 381 | gctvw381 | ----- DISPONIVEL -----
+ 382 | gctvw382 | ----- DISPONIVEL -----
+ 383 | gctvw383 | ----- DISPONIVEL -----
+ 384 | gctvw384 | ----- DISPONIVEL -----
+ 385 | gctvw385 | ----- DISPONIVEL -----
+ 386 | gctvw386 | ----- DISPONIVEL -----
+ 387 | gctvw387 | ----- DISPONIVEL -----
+ 388 | gctvw388 | ----- DISPONIVEL -----
+ 389 | gctvw389 | ----- DISPONIVEL -----
+ 390 | gctvw390 | ----- DISPONIVEL -----
+ 391 | gctvw391 | ----- DISPONIVEL -----
+ 392 | gctvw392 | ----- DISPONIVEL -----
+ 393 | gctvw393 | ----- DISPONIVEL -----
+ 394 | gctvw394 | ----- DISPONIVEL -----
+ 395 | gctvw395 | ----- DISPONIVEL -----
+ 396 | gctvw396 | ----- DISPONIVEL -----
+ 397 | gctvw397 | ----- DISPONIVEL -----
+ 398 | gctvw398 | ----- DISPONIVEL -----
+ 399 | gctvw399 | ----- DISPONIVEL -----
+ 400 | gctvw400 | ----- DISPONIVEL -----
+ 401 | gctvw401 | ----- DISPONIVEL -----
+ 402 | gctvw402 | ----- DISPONIVEL -----
+ 403 | gctvw403 | ----- DISPONIVEL -----
+ 404 | gctvw404 | ----- DISPONIVEL -----
+ 405 | gctvw405 | ----- DISPONIVEL -----
+ 406 | gctvw406 | ----- DISPONIVEL -----
+ 407 | gctvw407 | ----- DISPONIVEL -----
+ 408 | gctvw408 | ----- DISPONIVEL -----
+ 409 | gctvw409 | ----- DISPONIVEL -----
+ 410 | gctvw410 | ----- DISPONIVEL -----
+ 411 | gctvw411 | ----- DISPONIVEL -----
+ 412 | gctvw412 | ----- DISPONIVEL -----
+ 413 | gctvw413 | ----- DISPONIVEL -----
+ 414 | gctvw414 | ----- DISPONIVEL -----
+ 415 | gctvw415 | ----- DISPONIVEL -----
+ 416 | gctvw416 | ----- DISPONIVEL -----
+ 417 | gctvw417 | ----- DISPONIVEL -----
+ 418 | gctvw418 | ----- DISPONIVEL -----
+ 419 | gctvw419 | ----- DISPONIVEL -----
+ 420 | gctvw420 | ----- DISPONIVEL -----
+ 421 | gctvw421 | ----- DISPONIVEL -----
+ 422 | gctvw422 | ----- DISPONIVEL -----
+ 423 | gctvw423 | ----- DISPONIVEL -----
+ 424 | gctvw424 | ----- DISPONIVEL -----
+ 425 | gctvw425 | ----- DISPONIVEL -----
+ 426 | gctvw426 | ----- DISPONIVEL -----
+ 427 | gctvw427 | ----- DISPONIVEL -----
+ 428 | gctvw428 | ----- DISPONIVEL -----
+ 429 | gctvw429 | ----- DISPONIVEL -----
+ 430 | gctvw430 | ----- DISPONIVEL -----
+ 431 | gctvw431 | ----- DISPONIVEL -----
+ 432 | gctvw432 | ----- DISPONIVEL -----
+ 433 | gctvw433 | ----- DISPONIVEL -----
+ 434 | gctvw434 | ----- DISPONIVEL -----
+ 435 | gctvw435 | ----- DISPONIVEL -----
+ 436 | gctvw436 | ----- DISPONIVEL -----
+ 437 | gctvw437 | ----- DISPONIVEL -----
+ 438 | gctvw438 | ----- DISPONIVEL -----
+ 439 | gctvw439 | ----- DISPONIVEL -----
+ 440 | gctvw440 | ----- DISPONIVEL -----
+ 441 | gctvw441 | ----- DISPONIVEL -----
+ 442 | gctvw442 | ----- DISPONIVEL -----
+ 443 | gctvw443 | ----- DISPONIVEL -----
+ 444 | gctvw444 | ----- DISPONIVEL -----
+ 445 | gctvw445 | ----- DISPONIVEL -----
+ 446 | gctvw446 | ----- DISPONIVEL -----
+ 447 | gctvw447 | ----- DISPONIVEL -----
+ 448 | gctvw448 | ----- DISPONIVEL -----
+ 449 | gctvw449 | ----- DISPONIVEL -----
+ 450 | gctvw450 | ----- DISPONIVEL -----
+ 451 | gctvw451 | ----- DISPONIVEL -----
+ 452 | gctvw452 | ----- DISPONIVEL -----
+ 453 | gctvw453 | ----- DISPONIVEL -----
+ 454 | gctvw454 | ----- DISPONIVEL -----
+ 455 | gctvw455 | ----- DISPONIVEL -----
+ 456 | gctvw456 | ----- DISPONIVEL -----
+ 457 | gctvw457 | ----- DISPONIVEL -----
+ 458 | gctvw458 | ----- DISPONIVEL -----
+ 459 | gctvw459 | ----- DISPONIVEL -----
+ 460 | gctvw460 | ----- DISPONIVEL -----
+ 461 | gctvw461 | ----- DISPONIVEL -----
+ 462 | gctvw462 | ----- DISPONIVEL -----
+ 463 | gctvw463 | ----- DISPONIVEL -----
+ 464 | gctvw464 | ----- DISPONIVEL -----
+ 465 | gctvw465 | ----- DISPONIVEL -----
+ 466 | gctvw466 | ----- DISPONIVEL -----
+ 467 | gctvw467 | ----- DISPONIVEL -----
+ 468 | gctvw468 | ----- DISPONIVEL -----
+ 469 | gctvw469 | ----- DISPONIVEL -----
+ 470 | gctvw470 | ----- DISPONIVEL -----
+ 471 | gctvw471 | ----- DISPONIVEL -----
+ 472 | gctvw472 | ----- DISPONIVEL -----
+ 473 | gctvw473 | ----- DISPONIVEL -----
+ 474 | gctvw474 | ----- DISPONIVEL -----
+ 475 | gctvw475 | ----- DISPONIVEL -----
+ 476 | gctvw476 | ----- DISPONIVEL -----
+ 477 | gctvw477 | ----- DISPONIVEL -----
+ 478 | gctvw478 | ----- DISPONIVEL -----
+ 479 | gctvw479 | ----- DISPONIVEL -----
+ 480 | gctvw480 | ----- DISPONIVEL -----
+ 481 | gctvw481 | ----- DISPONIVEL -----
+ 482 | gctvw482 | ----- DISPONIVEL -----
+ 483 | gctvw483 | ----- DISPONIVEL -----
+ 484 | gctvw484 | ----- DISPONIVEL -----
+ 485 | gctvw485 | ----- DISPONIVEL -----
+ 486 | gctvw486 | ----- DISPONIVEL -----
+ 487 | gctvw487 | ----- DISPONIVEL -----
+ 488 | gctvw488 | ----- DISPONIVEL -----
+ 489 | gctvw489 | ----- DISPONIVEL -----
+ 490 | gctvw490 | ----- DISPONIVEL -----
+ 491 | gctvw491 | ----- DISPONIVEL -----
+ 492 | gctvw492 | ----- DISPONIVEL -----
+ 493 | gctvw493 | ----- DISPONIVEL -----
+ 494 | gctvw494 | ----- DISPONIVEL -----
+ 495 | gctvw495 | ----- DISPONIVEL -----
+ 496 | gctvw496 | ----- DISPONIVEL -----
+ 497 | gctvw497 | ----- DISPONIVEL -----
+ 498 | gctvw498 | ----- DISPONIVEL -----
+ 499 | gctvw499 | ----- DISPONIVEL -----
+ 500 | gctvw500 | ----- DISPONIVEL -----
+ 501 | gctvw501 | ----- DISPONIVEL -----
+ 502 | gctvw502 | ----- DISPONIVEL -----
+ 503 | gctvw503 | ----- DISPONIVEL -----
+ 504 | gctvw504 | ----- DISPONIVEL -----
+ 505 | gctvw505 | ----- DISPONIVEL -----
+ 506 | gctvw506 | ----- DISPONIVEL -----
+ 507 | gctvw507 | ----- DISPONIVEL -----
+ 508 | gctvw508 | ----- DISPONIVEL -----
+ 509 | gctvw509 | ----- DISPONIVEL -----
+ 510 | gctvw510 | ----- DISPONIVEL -----
+ 511 | gctvw511 | ----- DISPONIVEL -----
+ 512 | gctvw512 | ----- DISPONIVEL -----
+ 513 | gctvw513 | ----- DISPONIVEL -----
+ 514 | gctvw514 | ----- DISPONIVEL -----
+ 515 | gctvw515 | ----- DISPONIVEL -----
+ 516 | gctvw516 | ----- DISPONIVEL -----
+ 517 | gctvw517 | ----- DISPONIVEL -----
+ 518 | gctvw518 | ----- DISPONIVEL -----
+ 519 | gctvw519 | ----- DISPONIVEL -----
+ 520 | gctvw520 | ----- DISPONIVEL -----
+ 521 | gctvw521 | ----- DISPONIVEL -----
+ 522 | gctvw522 | ----- DISPONIVEL -----
+ 523 | gctvw523 | ----- DISPONIVEL -----
+ 524 | gctvw524 | ----- DISPONIVEL -----
+ 525 | gctvw525 | ----- DISPONIVEL -----
+ 526 | gctvw526 | ----- DISPONIVEL -----
+ 527 | gctvw527 | ----- DISPONIVEL -----
+ 528 | gctvw528 | ----- DISPONIVEL -----
+ 529 | gctvw529 | ----- DISPONIVEL -----
+ 530 | gctvw530 | ----- DISPONIVEL -----
+ 531 | gctvw531 | ----- DISPONIVEL -----
+ 532 | gctvw532 | ----- DISPONIVEL -----
+ 533 | gctvw533 | ----- DISPONIVEL -----
+ 534 | gctvw534 | ----- DISPONIVEL -----
+ 535 | gctvw535 | ----- DISPONIVEL -----
+ 536 | gctvw536 | ----- DISPONIVEL -----
+ 537 | gctvw537 | ----- DISPONIVEL -----
+ 538 | gctvw538 | ----- DISPONIVEL -----
+ 539 | gctvw539 | ----- DISPONIVEL -----
+ 540 | gctvw540 | ----- DISPONIVEL -----
+ 541 | gctvw541 | ----- DISPONIVEL -----
+ 542 | gctvw542 | ----- DISPONIVEL -----
+ 543 | gctvw543 | ----- DISPONIVEL -----
+ 544 | gctvw544 | ----- DISPONIVEL -----
+ 545 | gctvw545 | ----- DISPONIVEL -----
+ 546 | gctvw546 | ----- DISPONIVEL -----
+ 547 | gctvw547 | ----- DISPONIVEL -----
+ 548 | gctvw548 | ----- DISPONIVEL -----
+ 549 | gctvw549 | ----- DISPONIVEL -----
+ 550 | gctvw550 | ----- DISPONIVEL -----
+ 551 | gctvw551 | ----- DISPONIVEL -----
+ 552 | gctvw552 | ----- DISPONIVEL -----
+ 553 | gctvw553 | ----- DISPONIVEL -----
+ 554 | gctvw554 | ----- DISPONIVEL -----
+ 555 | gctvw555 | ----- DISPONIVEL -----
+ 556 | gctvw556 | ----- DISPONIVEL -----
+ 557 | gctvw557 | ----- DISPONIVEL -----
+ 558 | gctvw558 | ----- DISPONIVEL -----
+ 559 | gctvw559 | ----- DISPONIVEL -----
+ 560 | gctvw560 | ----- DISPONIVEL -----
+ 561 | gctvw561 | ----- DISPONIVEL -----
+ 562 | gctvw562 | ----- DISPONIVEL -----
+ 563 | gctvw563 | ----- DISPONIVEL -----
+ 564 | gctvw564 | ----- DISPONIVEL -----
+ 565 | gctvw565 | ----- DISPONIVEL -----
+ 566 | gctvw566 | ----- DISPONIVEL -----
+ 567 | gctvw567 | ----- DISPONIVEL -----
+ 568 | gctvw568 | ----- DISPONIVEL -----
+ 569 | gctvw569 | ----- DISPONIVEL -----
+ 570 | gctvw570 | ----- DISPONIVEL -----
+ 571 | gctvw571 | ----- DISPONIVEL -----
+ 572 | gctvw572 | ----- DISPONIVEL -----
+ 573 | gctvw573 | ----- DISPONIVEL -----
+ 574 | gctvw574 | ----- DISPONIVEL -----
+ 575 | gctvw575 | ----- DISPONIVEL -----
+ 576 | gctvw576 | ----- DISPONIVEL -----
+ 577 | gctvw577 | ----- DISPONIVEL -----
+ 578 | gctvw578 | ----- DISPONIVEL -----
+ 579 | gctvw579 | ----- DISPONIVEL -----
+ 580 | gctvw580 | ----- DISPONIVEL -----
+ 581 | gctvw581 | ----- DISPONIVEL -----
+ 582 | gctvw582 | ----- DISPONIVEL -----
+ 583 | gctvw583 | ----- DISPONIVEL -----
+ 584 | gctvw584 | ----- DISPONIVEL -----
+ 585 | gctvw585 | ----- DISPONIVEL -----
+ 586 | gctvw586 | ----- DISPONIVEL -----
+ 587 | gctvw587 | ----- DISPONIVEL -----
+ 588 | gctvw588 | ----- DISPONIVEL -----
+ 589 | gctvw589 | ----- DISPONIVEL -----
+ 590 | gctvw590 | ----- DISPONIVEL -----
+ 591 | gctvw591 | ----- DISPONIVEL -----
+ 592 | gctvw592 | ----- DISPONIVEL -----
+ 593 | gctvw593 | ----- DISPONIVEL -----
+ 594 | gctvw594 | ----- DISPONIVEL -----
+ 595 | gctvw595 | ----- DISPONIVEL -----
+ 596 | gctvw596 | ----- DISPONIVEL -----
+ 597 | gctvw597 | ----- DISPONIVEL -----
+ 598 | gctvw598 | ----- DISPONIVEL -----
+ 599 | gctvw599 | ----- DISPONIVEL -----
+ 600 | gctvw600 | ----- DISPONIVEL -----
+ 601 | gctvw601 | ----- DISPONIVEL -----
+ 602 | gctvw602 | ----- DISPONIVEL -----
+ 603 | gctvw603 | ----- DISPONIVEL -----
+ 604 | gctvw604 | ----- DISPONIVEL -----
+ 605 | gctvw605 | ----- DISPONIVEL -----
+ 606 | gctvw606 | ----- DISPONIVEL -----
+ 607 | gctvw607 | ----- DISPONIVEL -----
+ 608 | gctvw608 | ----- DISPONIVEL -----
+ 609 | gctvw609 | ----- DISPONIVEL -----
+ 610 | gctvw610 | ----- DISPONIVEL -----
+ 611 | gctvw611 | ----- DISPONIVEL -----
+ 612 | gctvw612 | ----- DISPONIVEL -----
+ 613 | gctvw613 | ----- DISPONIVEL -----
+ 614 | gctvw614 | ----- DISPONIVEL -----
+ 615 | gctvw615 | ----- DISPONIVEL -----
+ 616 | gctvw616 | ----- DISPONIVEL -----
+ 617 | gctvw617 | ----- DISPONIVEL -----
+ 618 | gctvw618 | ----- DISPONIVEL -----
+ 619 | gctvw619 | ----- DISPONIVEL -----
+ 620 | gctvw620 | ----- DISPONIVEL -----
+ 621 | gctvw621 | ----- DISPONIVEL -----
+ 622 | gctvw622 | ----- DISPONIVEL -----
+ 623 | gctvw623 | ----- DISPONIVEL -----
+ 624 | gctvw624 | ----- DISPONIVEL -----
+ 625 | gctvw625 | ----- DISPONIVEL -----
+ 626 | gctvw626 | ----- DISPONIVEL -----
+ 627 | gctvw627 | ----- DISPONIVEL -----
+ 628 | gctvw628 | ----- DISPONIVEL -----
+ 629 | gctvw629 | ----- DISPONIVEL -----
+ 630 | gctvw630 | ----- DISPONIVEL -----
+ 631 | gctvw631 | ----- DISPONIVEL -----
+ 632 | gctvw632 | ----- DISPONIVEL -----
+ 633 | gctvw633 | ----- DISPONIVEL -----
+ 634 | gctvw634 | ----- DISPONIVEL -----
+ 635 | gctvw635 | ----- DISPONIVEL -----
+ 636 | gctvw636 | ----- DISPONIVEL -----
+ 637 | gctvw637 | ----- DISPONIVEL -----
+ 638 | gctvw638 | ----- DISPONIVEL -----
+ 639 | gctvw639 | ----- DISPONIVEL -----
+ 640 | gctvw640 | ----- DISPONIVEL -----
+ 641 | gctvw641 | ----- DISPONIVEL -----
+ 642 | gctvw642 | ----- DISPONIVEL -----
+ 643 | gctvw643 | ----- DISPONIVEL -----
+ 644 | gctvw644 | ----- DISPONIVEL -----
+ 645 | gctvw645 | ----- DISPONIVEL -----
+ 646 | gctvw646 | ----- DISPONIVEL -----
+ 647 | gctvw647 | ----- DISPONIVEL -----
+ 648 | gctvw648 | ----- DISPONIVEL -----
+ 649 | gctvw649 | ----- DISPONIVEL -----
+ 650 | gctvw650 | ----- DISPONIVEL -----
+ 651 | gctvw651 | ----- DISPONIVEL -----
+ 652 | gctvw652 | ----- DISPONIVEL -----
+ 653 | gctvw653 | ----- DISPONIVEL -----
+ 654 | gctvw654 | ----- DISPONIVEL -----
+ 655 | gctvw655 | ----- DISPONIVEL -----
+ 656 | gctvw656 | ----- DISPONIVEL -----
+ 657 | gctvw657 | ----- DISPONIVEL -----
+ 658 | gctvw658 | ----- DISPONIVEL -----
+ 659 | gctvw659 | ----- DISPONIVEL -----
+ 660 | gctvw660 | ----- DISPONIVEL -----
+ 661 | gctvw661 | ----- DISPONIVEL -----
+ 662 | gctvw662 | ----- DISPONIVEL -----
+ 663 | gctvw663 | ----- DISPONIVEL -----
+ 664 | gctvw664 | ----- DISPONIVEL -----
+ 665 | gctvw665 | ----- DISPONIVEL -----
+ 666 | gctvw666 | ----- DISPONIVEL -----
+ 667 | gctvw667 | ----- DISPONIVEL -----
+ 668 | gctvw668 | ----- DISPONIVEL -----
+ 669 | gctvw669 | ----- DISPONIVEL -----
+ 670 | gctvw670 | ----- DISPONIVEL -----
+ 671 | gctvw671 | ----- DISPONIVEL -----
+ 672 | gctvw672 | ----- DISPONIVEL -----
+ 673 | gctvw673 | ----- DISPONIVEL -----
+ 674 | gctvw674 | ----- DISPONIVEL -----
+ 675 | gctvw675 | ----- DISPONIVEL -----
+ 676 | gctvw676 | ----- DISPONIVEL -----
+ 677 | gctvw677 | ----- DISPONIVEL -----
+ 678 | gctvw678 | ----- DISPONIVEL -----
+ 679 | gctvw679 | ----- DISPONIVEL -----
+ 680 | gctvw680 | ----- DISPONIVEL -----
+ 681 | gctvw681 | ----- DISPONIVEL -----
+ 682 | gctvw682 | ----- DISPONIVEL -----
+ 683 | gctvw683 | ----- DISPONIVEL -----
+ 684 | gctvw684 | ----- DISPONIVEL -----
+ 685 | gctvw685 | ----- DISPONIVEL -----
+ 686 | gctvw686 | ----- DISPONIVEL -----
+ 687 | gctvw687 | ----- DISPONIVEL -----
+ 688 | gctvw688 | ----- DISPONIVEL -----
+ 689 | gctvw689 | ----- DISPONIVEL -----
+ 690 | gctvw690 | ----- DISPONIVEL -----
+ 691 | gctvw691 | ----- DISPONIVEL -----
+ 692 | gctvw692 | ----- DISPONIVEL -----
+ 693 | gctvw693 | ----- DISPONIVEL -----
+ 694 | gctvw694 | ----- DISPONIVEL -----
+ 695 | gctvw695 | ----- DISPONIVEL -----
+ 696 | gctvw696 | ----- DISPONIVEL -----
+ 697 | gctvw697 | ----- DISPONIVEL -----
+ 698 | gctvw698 | ----- DISPONIVEL -----
+ 699 | gctvw699 | ----- DISPONIVEL -----
+ 700 | gctvw700 | ----- DISPONIVEL -----
+ 701 | gctvw701 | ----- DISPONIVEL -----
+ 702 | gctvw702 | ----- DISPONIVEL -----
+ 703 | gctvw703 | ----- DISPONIVEL -----
+ 704 | gctvw704 | ----- DISPONIVEL -----
+ 705 | gctvw705 | ----- DISPONIVEL -----
+ 706 | gctvw706 | ----- DISPONIVEL -----
+ 707 | gctvw707 | ----- DISPONIVEL -----
+ 708 | gctvw708 | ----- DISPONIVEL -----
+ 709 | gctvw709 | ----- DISPONIVEL -----
+ 710 | gctvw710 | ----- DISPONIVEL -----
+ 711 | gctvw711 | ----- DISPONIVEL -----
+ 712 | gctvw712 | ----- DISPONIVEL -----
+ 713 | gctvw713 | ----- DISPONIVEL -----
+ 714 | gctvw714 | ----- DISPONIVEL -----
+ 715 | gctvw715 | ----- DISPONIVEL -----
+ 716 | gctvw716 | ----- DISPONIVEL -----
+ 717 | gctvw717 | ----- DISPONIVEL -----
+ 718 | gctvw718 | ----- DISPONIVEL -----
+ 719 | gctvw719 | ----- DISPONIVEL -----
+ 720 | gctvw720 | ----- DISPONIVEL -----
+ 721 | gctvw721 | ----- DISPONIVEL -----
+ 722 | gctvw722 | ----- DISPONIVEL -----
+ 723 | gctvw723 | ----- DISPONIVEL -----
+ 724 | gctvw724 | ----- DISPONIVEL -----
+ 725 | gctvw725 | ----- DISPONIVEL -----
+ 726 | gctvw726 | ----- DISPONIVEL -----
+ 727 | gctvw727 | ----- DISPONIVEL -----
+ 728 | gctvw728 | ----- DISPONIVEL -----
+ 729 | gctvw729 | ----- DISPONIVEL -----
+ 730 | gctvw730 | ----- DISPONIVEL -----
+ 731 | gctvw731 | ----- DISPONIVEL -----
+ 732 | gctvw732 | ----- DISPONIVEL -----
+ 733 | gctvw733 | ----- DISPONIVEL -----
+ 734 | gctvw734 | ----- DISPONIVEL -----
+ 735 | gctvw735 | ----- DISPONIVEL -----
+ 736 | gctvw736 | ----- DISPONIVEL -----
+ 737 | gctvw737 | ----- DISPONIVEL -----
+ 738 | gctvw738 | ----- DISPONIVEL -----
+ 739 | gctvw739 | ----- DISPONIVEL -----
+ 740 | gctvw740 | ----- DISPONIVEL -----
+ 741 | gctvw741 | ----- DISPONIVEL -----
+ 742 | gctvw742 | ----- DISPONIVEL -----
+ 743 | gctvw743 | ----- DISPONIVEL -----
+ 744 | gctvw744 | ----- DISPONIVEL -----
+ 745 | gctvw745 | ----- DISPONIVEL -----
+ 746 | gctvw746 | ----- DISPONIVEL -----
+ 747 | gctvw747 | ----- DISPONIVEL -----
+ 748 | gctvw748 | ----- DISPONIVEL -----
+ 749 | gctvw749 | ----- DISPONIVEL -----
+ 750 | gctvw750 | ----- DISPONIVEL -----
+ 751 | gctvw751 | ----- DISPONIVEL -----
+ 752 | gctvw752 | ----- DISPONIVEL -----
+ 753 | gctvw753 | ----- DISPONIVEL -----
+ 754 | gctvw754 | ----- DISPONIVEL -----
+ 755 | gctvw755 | ----- DISPONIVEL -----
+ 756 | gctvw756 | ----- DISPONIVEL -----
+ 757 | gctvw757 | ----- DISPONIVEL -----
+ 758 | gctvw758 | ----- DISPONIVEL -----
+ 759 | gctvw759 | ----- DISPONIVEL -----
+ 760 | gctvw760 | ----- DISPONIVEL -----
+ 761 | gctvw761 | ----- DISPONIVEL -----
+ 762 | gctvw762 | ----- DISPONIVEL -----
+ 763 | gctvw763 | ----- DISPONIVEL -----
+ 764 | gctvw764 | ----- DISPONIVEL -----
+ 765 | gctvw765 | ----- DISPONIVEL -----
+ 766 | gctvw766 | ----- DISPONIVEL -----
+ 767 | gctvw767 | ----- DISPONIVEL -----
+ 768 | gctvw768 | ----- DISPONIVEL -----
+ 769 | gctvw769 | ----- DISPONIVEL -----
+ 770 | gctvw770 | ----- DISPONIVEL -----
+ 771 | gctvw771 | ----- DISPONIVEL -----
+ 772 | gctvw772 | ----- DISPONIVEL -----
+ 773 | gctvw773 | ----- DISPONIVEL -----
+ 774 | gctvw774 | ----- DISPONIVEL -----
+ 775 | gctvw775 | ----- DISPONIVEL -----
+ 776 | gctvw776 | ----- DISPONIVEL -----
+ 777 | gctvw777 | ----- DISPONIVEL -----
+ 778 | gctvw778 | ----- DISPONIVEL -----
+ 779 | gctvw779 | ----- DISPONIVEL -----
+ 780 | gctvw780 | ----- DISPONIVEL -----
+ 781 | gctvw781 | ----- DISPONIVEL -----
+ 782 | gctvw782 | ----- DISPONIVEL -----
+ 783 | gctvw783 | ----- DISPONIVEL -----
+ 784 | gctvw784 | ----- DISPONIVEL -----
+ 785 | gctvw785 | ----- DISPONIVEL -----
+ 786 | gctvw786 | ----- DISPONIVEL -----
+ 787 | gctvw787 | ----- DISPONIVEL -----
+ 788 | gctvw788 | ----- DISPONIVEL -----
+ 789 | gctvw789 | ----- DISPONIVEL -----
+ 790 | gctvw790 | ----- DISPONIVEL -----
+ 791 | gctvw791 | ----- DISPONIVEL -----
+ 792 | gctvw792 | ----- DISPONIVEL -----
+ 793 | gctvw793 | ----- DISPONIVEL -----
+ 794 | gctvw794 | ----- DISPONIVEL -----
+ 795 | gctvw795 | ----- DISPONIVEL -----
+ 796 | gctvw796 | ----- DISPONIVEL -----
+ 797 | gctvw797 | ----- DISPONIVEL -----
+ 798 | gctvw798 | ----- DISPONIVEL -----
+ 799 | gctvw799 | ----- DISPONIVEL -----
+ 800 | gctvw800 | gctvw800_integracao_sinop
+ 801 | gctvw801 | ----- DISPONIVEL -----
+ 802 | gctvw802 | ----- DISPONIVEL -----
+ 803 | gctvw803 | ----- DISPONIVEL -----
+ 804 | gctvw804 | ----- DISPONIVEL -----
+ 805 | gctvw805 | ----- DISPONIVEL -----
+ 806 | gctvw806 | ----- DISPONIVEL -----
+ 807 | gctvw807 | ----- DISPONIVEL -----
+ 808 | gctvw808 | ----- DISPONIVEL -----
+ 809 | gctvw809 | ----- DISPONIVEL -----
+ 810 | gctvw810 | ----- DISPONIVEL -----
+ 811 | gctvw811 | ----- DISPONIVEL -----
+ 812 | gctvw812 | ----- DISPONIVEL -----
+ 813 | gctvw813 | ----- DISPONIVEL -----
+ 814 | gctvw814 | ----- DISPONIVEL -----
+ 815 | gctvw815 | ----- DISPONIVEL -----
+ 816 | gctvw816 | ----- DISPONIVEL -----
+ 817 | gctvw817 | ----- DISPONIVEL -----
+ 818 | gctvw818 | ----- DISPONIVEL -----
+ 819 | gctvw819 | ----- DISPONIVEL -----
+ 820 | gctvw820 | ----- DISPONIVEL -----
+ 821 | gctvw821 | ----- DISPONIVEL -----
+ 822 | gctvw822 | ----- DISPONIVEL -----
+ 823 | gctvw823 | ----- DISPONIVEL -----
+ 824 | gctvw824 | ----- DISPONIVEL -----
+ 825 | gctvw825 | ----- DISPONIVEL -----
+ 826 | gctvw826 | ----- DISPONIVEL -----
+ 827 | gctvw827 | ----- DISPONIVEL -----
+ 828 | gctvw828 | ----- DISPONIVEL -----
+ 829 | gctvw829 | ----- DISPONIVEL -----
+ 830 | gctvw830 | ----- DISPONIVEL -----
+ 831 | gctvw831 | ----- DISPONIVEL -----
+ 832 | gctvw832 | ----- DISPONIVEL -----
+ 833 | gctvw833 | ----- DISPONIVEL -----
+ 834 | gctvw834 | ----- DISPONIVEL -----
+ 835 | gctvw835 | ----- DISPONIVEL -----
+ 836 | gctvw836 | ----- DISPONIVEL -----
+ 837 | gctvw837 | ----- DISPONIVEL -----
+ 838 | gctvw838 | ----- DISPONIVEL -----
+ 839 | gctvw839 | ----- DISPONIVEL -----
+ 840 | gctvw840 | ----- DISPONIVEL -----
+ 841 | gctvw841 | ----- DISPONIVEL -----
+ 842 | gctvw842 | ----- DISPONIVEL -----
+ 843 | gctvw843 | ----- DISPONIVEL -----
+ 844 | gctvw844 | ----- DISPONIVEL -----
+ 845 | gctvw845 | ----- DISPONIVEL -----
+ 846 | gctvw846 | ----- DISPONIVEL -----
+ 847 | gctvw847 | ----- DISPONIVEL -----
+ 848 | gctvw848 | ----- DISPONIVEL -----
+ 849 | gctvw849 | ----- DISPONIVEL -----
+ 850 | gctvw850 | ----- DISPONIVEL -----
+ 851 | gctvw851 | ----- DISPONIVEL -----
+ 852 | gctvw852 | ----- DISPONIVEL -----
+ 853 | gctvw853 | ----- DISPONIVEL -----
+ 854 | gctvw854 | ----- DISPONIVEL -----
+ 855 | gctvw855 | ----- DISPONIVEL -----
+ 856 | gctvw856 | ----- DISPONIVEL -----
+ 857 | gctvw857 | ----- DISPONIVEL -----
+ 858 | gctvw858 | ----- DISPONIVEL -----
+ 859 | gctvw859 | ----- DISPONIVEL -----
+ 860 | gctvw860 | ----- DISPONIVEL -----
+ 861 | gctvw861 | ----- DISPONIVEL -----
+ 862 | gctvw862 | ----- DISPONIVEL -----
+ 863 | gctvw863 | ----- DISPONIVEL -----
+ 864 | gctvw864 | ----- DISPONIVEL -----
+ 865 | gctvw865 | ----- DISPONIVEL -----
+ 866 | gctvw866 | ----- DISPONIVEL -----
+ 867 | gctvw867 | ----- DISPONIVEL -----
+ 868 | gctvw868 | ----- DISPONIVEL -----
+ 869 | gctvw869 | ----- DISPONIVEL -----
+ 870 | gctvw870 | ----- DISPONIVEL -----
+ 871 | gctvw871 | ----- DISPONIVEL -----
+ 872 | gctvw872 | ----- DISPONIVEL -----
+ 873 | gctvw873 | ----- DISPONIVEL -----
+ 874 | gctvw874 | ----- DISPONIVEL -----
+ 875 | gctvw875 | ----- DISPONIVEL -----
+ 876 | gctvw876 | ----- DISPONIVEL -----
+ 877 | gctvw877 | ----- DISPONIVEL -----
+ 878 | gctvw878 | ----- DISPONIVEL -----
+ 879 | gctvw879 | ----- DISPONIVEL -----
+ 880 | gctvw880 | ----- DISPONIVEL -----
+ 881 | gctvw881 | ----- DISPONIVEL -----
+ 882 | gctvw882 | ----- DISPONIVEL -----
+ 883 | gctvw883 | ----- DISPONIVEL -----
+ 884 | gctvw884 | ----- DISPONIVEL -----
+ 885 | gctvw885 | ----- DISPONIVEL -----
+ 886 | gctvw886 | ----- DISPONIVEL -----
+ 887 | gctvw887 | ----- DISPONIVEL -----
+ 888 | gctvw888 | ----- DISPONIVEL -----
+ 889 | gctvw889 | ----- DISPONIVEL -----
+ 890 | gctvw890 | ----- DISPONIVEL -----
+ 891 | gctvw891 | ----- DISPONIVEL -----
+ 892 | gctvw892 | ----- DISPONIVEL -----
+ 893 | gctvw893 | ----- DISPONIVEL -----
+ 894 | gctvw894 | ----- DISPONIVEL -----
+ 895 | gctvw895 | ----- DISPONIVEL -----
+ 896 | gctvw896 | ----- DISPONIVEL -----
+ 897 | gctvw897 | ----- DISPONIVEL -----
+ 898 | gctvw898 | ----- DISPONIVEL -----
+ 899 | gctvw899 | ----- DISPONIVEL -----
+ 900 | gctvw900 | ----- DISPONIVEL -----
+ 901 | gctvw901 | ----- DISPONIVEL -----
+ 902 | gctvw902 | ----- DISPONIVEL -----
+ 903 | gctvw903 | ----- DISPONIVEL -----
+ 904 | gctvw904 | ----- DISPONIVEL -----
+ 905 | gctvw905 | ----- DISPONIVEL -----
+ 906 | gctvw906 | ----- DISPONIVEL -----
+ 907 | gctvw907 | ----- DISPONIVEL -----
+ 908 | gctvw908 | ----- DISPONIVEL -----
+ 909 | gctvw909 | ----- DISPONIVEL -----
+ 910 | gctvw910 | ----- DISPONIVEL -----
+ 911 | gctvw911 | ----- DISPONIVEL -----
+ 912 | gctvw912 | ----- DISPONIVEL -----
+ 913 | gctvw913 | ----- DISPONIVEL -----
+ 914 | gctvw914 | ----- DISPONIVEL -----
+ 915 | gctvw915 | ----- DISPONIVEL -----
+ 916 | gctvw916 | ----- DISPONIVEL -----
+ 917 | gctvw917 | ----- DISPONIVEL -----
+ 918 | gctvw918 | ----- DISPONIVEL -----
+ 919 | gctvw919 | ----- DISPONIVEL -----
+ 920 | gctvw920 | ----- DISPONIVEL -----
+ 921 | gctvw921 | ----- DISPONIVEL -----
+ 922 | gctvw922 | ----- DISPONIVEL -----
+ 923 | gctvw923 | ----- DISPONIVEL -----
+ 924 | gctvw924 | ----- DISPONIVEL -----
+ 925 | gctvw925 | ----- DISPONIVEL -----
+ 926 | gctvw926 | ----- DISPONIVEL -----
+ 927 | gctvw927 | ----- DISPONIVEL -----
+ 928 | gctvw928 | ----- DISPONIVEL -----
+ 929 | gctvw929 | ----- DISPONIVEL -----
+ 930 | gctvw930 | ----- DISPONIVEL -----
+ 931 | gctvw931 | ----- DISPONIVEL -----
+ 932 | gctvw932 | ----- DISPONIVEL -----
+ 933 | gctvw933 | ----- DISPONIVEL -----
+ 934 | gctvw934 | ----- DISPONIVEL -----
+ 935 | gctvw935 | ----- DISPONIVEL -----
+ 936 | gctvw936 | ----- DISPONIVEL -----
+ 937 | gctvw937 | ----- DISPONIVEL -----
+ 938 | gctvw938 | ----- DISPONIVEL -----
+ 939 | gctvw939 | ----- DISPONIVEL -----
+ 940 | gctvw940 | ----- DISPONIVEL -----
+ 941 | gctvw941 | ----- DISPONIVEL -----
+ 942 | gctvw942 | ----- DISPONIVEL -----
+ 943 | gctvw943 | ----- DISPONIVEL -----
+ 944 | gctvw944 | ----- DISPONIVEL -----
+ 945 | gctvw945 | ----- DISPONIVEL -----
+ 946 | gctvw946 | ----- DISPONIVEL -----
+ 947 | gctvw947 | ----- DISPONIVEL -----
+ 948 | gctvw948 | ----- DISPONIVEL -----
+ 949 | gctvw949 | ----- DISPONIVEL -----
+ 950 | gctvw950 | ----- DISPONIVEL -----
+ 951 | gctvw951 | ----- DISPONIVEL -----
+ 952 | gctvw952 | ----- DISPONIVEL -----
+ 953 | gctvw953 | ----- DISPONIVEL -----
+ 954 | gctvw954 | ----- DISPONIVEL -----
+ 955 | gctvw955 | ----- DISPONIVEL -----
+ 956 | gctvw956 | ----- DISPONIVEL -----
+ 957 | gctvw957 | ----- DISPONIVEL -----
+ 958 | gctvw958 | ----- DISPONIVEL -----
+ 959 | gctvw959 | ----- DISPONIVEL -----
+ 960 | gctvw960 | ----- DISPONIVEL -----
+ 961 | gctvw961 | ----- DISPONIVEL -----
+ 962 | gctvw962 | ----- DISPONIVEL -----
+ 963 | gctvw963 | ----- DISPONIVEL -----
+ 964 | gctvw964 | ----- DISPONIVEL -----
+ 965 | gctvw965 | ----- DISPONIVEL -----
+ 966 | gctvw966 | ----- DISPONIVEL -----
+ 967 | gctvw967 | ----- DISPONIVEL -----
+ 968 | gctvw968 | ----- DISPONIVEL -----
+ 969 | gctvw969 | ----- DISPONIVEL -----
+ 970 | gctvw970 | ----- DISPONIVEL -----
+ 971 | gctvw971 | ----- DISPONIVEL -----
+ 972 | gctvw972 | ----- DISPONIVEL -----
+ 973 | gctvw973 | ----- DISPONIVEL -----
+ 974 | gctvw974 | ----- DISPONIVEL -----
+ 975 | gctvw975 | ----- DISPONIVEL -----
+ 976 | gctvw976 | ----- DISPONIVEL -----
+ 977 | gctvw977 | ----- DISPONIVEL -----
+ 978 | gctvw978 | ----- DISPONIVEL -----
+ 979 | gctvw979 | ----- DISPONIVEL -----
+ 980 | gctvw980 | ----- DISPONIVEL -----
+ 981 | gctvw981 | ----- DISPONIVEL -----
+ 982 | gctvw982 | ----- DISPONIVEL -----
+ 983 | gctvw983 | ----- DISPONIVEL -----
+ 984 | gctvw984 | ----- DISPONIVEL -----
+ 985 | gctvw985 | ----- DISPONIVEL -----
+ 986 | gctvw986 | ----- DISPONIVEL -----
+ 987 | gctvw987 | ----- DISPONIVEL -----
+ 988 | gctvw988 | ----- DISPONIVEL -----
+ 989 | gctvw989 | ----- DISPONIVEL -----
+ 990 | gctvw990 | ----- DISPONIVEL -----
+ 991 | gctvw991 | ----- DISPONIVEL -----
+ 992 | gctvw992 | ----- DISPONIVEL -----
+ 993 | gctvw993 | ----- DISPONIVEL -----
+ 994 | gctvw994 | ----- DISPONIVEL -----
+ 995 | gctvw995 | ----- DISPONIVEL -----
+ 996 | gctvw996 | ----- DISPONIVEL -----
+ 997 | gctvw997 | ----- DISPONIVEL -----
+ 998 | gctvw998 | ----- DISPONIVEL -----
+ 999 | gctvw999 | ----- DISPONIVEL -----
+(1004 rows)
+
+  a  | Prefixo  |                             View                              
+-----+----------+---------------------------------------------------------------
+   1 | gctfn001 | gctfn001_fatura_hstro
+   1 | gctfn001 | gctfn001_aplicar_indicador
+   1 | gctfn001 | gctfn001_area_tipo_area_hstro
+   1 | gctfn001 | gctfn001_carteira_hstro
+   1 | gctfn001 | gctfn001_carteira_modulo_hstro
+   1 | gctfn001 | gctfn001_modulo_hstro
+   1 | gctfn001 | gctfn001_aplicar_indicador
+   1 | gctfn001 | gctfn001_aplicar_indicador
+   1 | gctfn001 | gctfn001_area_interna_hstro
+   1 | gctfn001 | gctfn001_carteira_site_hstro
+   1 | gctfn001 | gctfn001_codigo_sitio_hstro
+   1 | gctfn001 | gctfn001_contrato_demanda_hstro
+   1 | gctfn001 | gctfn001_corrigi_codigo_termo
+   1 | gctfn001 | gctfn001_ctlgo_sistema_hstro
+   1 | gctfn001 | gctfn001_demanda_historico
+   1 | gctfn001 | gctfn001_empregado_caixa_hstro
+   1 | gctfn001 | gctfn001_tipo_grupo_hstro
+   1 | gctfn001 | gctfn001_tipo_indicador_hstro
+   1 | gctfn001 | gctfn001_tipo_preco_hstro
+   1 | gctfn001 | gctfn001_tipo_quantidade_hstro
+   1 | gctfn001 | gctfn001_faturamento_hstro
+   1 | gctfn001 | gctfn001_forma_etapa_hstro
+   1 | gctfn001 | gctfn001_fornecedor_hstro
+   1 | gctfn001 | gctfn001_gerar_codigo
+   1 | gctfn001 | gctfn001_gravar_hstrco_contrato
+   1 | gctfn001 | gctfn001_gravar_hstro_milheiros
+   1 | gctfn001 | gctfn001_gravar_hstro_vinculacao_slctco_equipe
+   1 | gctfn001 | gctfn001_hstro_area_projeto_rtc
+   1 | gctfn001 | gctfn001_qntde_ordem_srvco_hstro
+   1 | gctfn001 | gctfn001_repactuacao_hstro
+   1 | gctfn001 | gctfn001_servico_forma_hstro
+   1 | gctfn001 | gctfn001_sistema_hstro
+   1 | gctfn001 | gctfn001_solicitacao_demanda_hstro
+   1 | gctfn001 | gctfn001_termo_historico
+   1 | gctfn001 | gctfn001_tipo_categoria_forma_hstro
+   1 | gctfn001 | gctfn001_tipo_categoria_hstro
+   1 | gctfn001 | gctfn001_tipo_etapa_hstro
+   1 | gctfn001 | gctfn001_tipo_faixa_hstro
+   1 | gctfn001 | gctfn001_tipo_forma_hstro
+   1 | gctfn001 | gctfn001_tipo_servico_hstro
+   1 | gctfn001 | gctfn001_unidade_medida_hstro
+   1 | gctfn001 | gctfn001_valor_faixa_hstro
+   1 | gctfn001 | gctfn001_alter_web_service
+   2 | gctfn002 | gctfn002_retornar_valor_original_termo
+   2 | gctfn002 | gctfn002_atualiza_vdp
+   2 | gctfn002 | gctfn002_entrega_historico
+   2 | gctfn002 | gctfn002_ordem_servico_historico
+   3 | gctfn003 | gctfn003_ajuste
+   3 | gctfn003 | gctfn003_gerar_vr_estimado_os_entrega
+   4 | gctfn004 | gctfn004_atualiza_fatores_termo
+   4 | gctfn004 | gctfn004_gravar_hstro_equipe
+   5 | gctfn005 | gctfn005_gravar_hstro_solicitacao
+   5 | gctfn005 | gctfn005_gravar_ciclo_trabalho
+   5 | gctfn005 | gctfn005_atualiza_pc_solicitacao_entrega
+   5 | gctfn005 | gctfn005_alterar_stco_vnclco_automatica
+   6 | gctfn006 | gctfn006_migra_area
+   6 | gctfn006 | gctfn006_gravar_hstro_ausencia_extra_equipe
+   7 | gctfn007 | gctfn007_captura_amostra_indicador
+   7 | gctfn007 | gctfn007_gravar_hstro_alt_qtd_membros_equipe_perfil
+   7 | gctfn007 | gctfn007_gravar_hstro_alt_qtd_membros_equipe
+   8 | gctfn008 | gctfn008_gravar_hstro_solicitacao_equipe
+   8 | gctfn008 | gctfn008_iae
+   9 | gctfn009 | gctfn009_gravar_hstro_frmro_prgna_rspsa_eqpe
+   9 | gctfn009 | gctfn009_ite
+  10 | gctfn010 | gctfn010_gravar_hstro_solicitacao
+  10 | gctfn010 | gctfn010_iee
+  11 | gctfn011 | gctfn011_ipp
+  11 | gctfn011 | gctfn011_gravar_hstro_dicionario_pergunta
+  12 | gctfn012 | gctfn012_iqp
+  12 | gctfn012 | gctfn012_gravar_hstro_dicionario_resposta
+  13 | gctfn013 | gctfn013_aplica_indicador
+  13 | gctfn013 | gctfn013_gravar_hstro_pendencia_solicitacao
+  14 | gctfn014 | gctfn014_aplicar_indicadores_faturamento
+  14 | gctfn014 | gctfn014_gravar_hstro_devolucao_solicitacao
+  14 | gctfn014 | gctfn014_gravar_hstro_ajuste_equipe
+  15 | gctfn015 | gctfn015_corrigir_distribuicao
+  15 | gctfn015 | gctfn015_calcular_indicadores_faturamento
+  16 | gctfn016 | gctfn016_aplicar_indicadores_faturamento
+  17 | gctfn017 | gctfn017_iaev2
+  18 | gctfn018 | gctfn018_itev2
+  19 | gctfn019 | gctfn019_ieev2
+  20 | gctfn020 | gctfn020_ippv2
+  21 | gctfn021 | gctfn021_iqpv2
+  22 | gctfn022 | gctfn022_valor_projecao_contrato
+  23 | gctfn023 | gctfn023_valor_projecao_rubrica
+  24 | gctfn024 | gctfn024_corrigir_sequence2
+  24 | gctfn024 | gctfn024_corrigir_sequence
+  24 | gctfn024 | gctfn024_repactuar_preco_forma
+  25 | gctfn025 | gctfn025_fra
+  26 | gctfn026 | gctfn026_fra_contrato
+  26 | gctfn026 | gctfn026_ws_parcialv1
+  27 | gctfn027 | gctfn027_ws_parcialv2
+  28 | gctfn028 | gctfn028_ws_periodov2
+  29 | gctfn029 | gctfn029_ws_contratov2
+  30 | gctfn030 | gctfn030_alterar_disponibilidade_webservice
+  31 | gctfn031 | gctfn031_calcular_indicador_sistema
+  32 | gctfn032 | ----- DISPONIVEL -----
+  33 | gctfn033 | ----- DISPONIVEL -----
+  34 | gctfn034 | ----- DISPONIVEL -----
+  35 | gctfn035 | ----- DISPONIVEL -----
+  36 | gctfn036 | gctfn036_calcular_indicador
+  37 | gctfn037 | ----- DISPONIVEL -----
+  38 | gctfn038 | ----- DISPONIVEL -----
+  39 | gctfn039 | gctfn039_iae_1
+  40 | gctfn040 | gctfn040_iae_2
+  41 | gctfn041 | ----- DISPONIVEL -----
+  42 | gctfn042 | ----- DISPONIVEL -----
+  43 | gctfn043 | gctfn043_ite_1
+  44 | gctfn044 | gctfn044_ite_2
+  45 | gctfn045 | ----- DISPONIVEL -----
+  46 | gctfn046 | gctfn046_gerar_codigo_termo
+  47 | gctfn047 | gctfn047_iee_1
+  48 | gctfn048 | gctfn048_iee_2
+  49 | gctfn049 | gctfn049_ipp_1
+  50 | gctfn050 | gctfn050_ipp_2
+  51 | gctfn051 | gctfn051_iqp_1
+  52 | gctfn052 | gctfn052_iqp_2
+  53 | gctfn053 | gctfn053_calc_dt_prevista_entrega
+  54 | gctfn054 | ----- DISPONIVEL -----
+  55 | gctfn055 | gctfn055_fra_1
+  56 | gctfn056 | gctfn056_fra_2
+  57 | gctfn057 | gctfn057_calcula_pendencia
+  58 | gctfn058 | gctfn058_migracao_mensalidade_sigcp
+  59 | gctfn059 | gctfn059_estorno
+  60 | gctfn060 | gctfn060_final_semana
+  61 | gctfn061 | gctfn061_feriado
+  62 | gctfn062 | gctfn062_recuperar_data_prevista_vdp
+  63 | gctfn063 | gctfn063_calc_dt_prevista_entrega_rtc
+  63 | gctfn063 | gctfn063_ws_item_trabalho
+  64 | gctfn064 | gctfn064_migra_area_demanda
+  65 | gctfn065 | gctfn065_migra_area_demanda
+  66 | gctfn066 | gctfn066_gerar_codigo_equipe
+  66 | gctfn066 | gctfn066_calc_atraso
+  67 | gctfn067 | gctfn067_config_cntrle_contratacao
+  68 | gctfn068 | gctfn068_config_permissao_contratacao
+  69 | gctfn069 | gctfn069_cntrle_stco_ordem_servico
+  70 | gctfn070 | gctfn070_cntrle_stco_entrega
+  71 | gctfn071 | ----- DISPONIVEL -----
+  72 | gctfn072 | gctfn072_gravar_hstro_preco_forma
+  73 | gctfn073 | gctfn073_gravar_hstro_preco_cntrto_equipe_perfil
+  73 | gctfn073 | gctfn073_gravar_hstro_preco_contrato_equipe
+  74 | gctfn074 | ----- DISPONIVEL -----
+  75 | gctfn075 | ----- DISPONIVEL -----
+  76 | gctfn076 | ----- DISPONIVEL -----
+  77 | gctfn077 | ----- DISPONIVEL -----
+  78 | gctfn078 | ----- DISPONIVEL -----
+  79 | gctfn079 | ----- DISPONIVEL -----
+  80 | gctfn080 | gctfn080_gerar_empenho
+  81 | gctfn081 | gctfn081_recuperar_termos_empenho
+  82 | gctfn082 | gctfn082_recuperar_indicadores_empenho
+  83 | gctfn083 | gctfn083_calcular_participacao_empenho
+  84 | gctfn084 | gctfn084_calc_participacao_ciclo_empenho
+  85 | gctfn085 | gctfn085_calc_participacao_solicitacao_empenho
+  86 | gctfn086 | gctfn086_calc_vr_participacao_equipe_empenho
+  87 | gctfn087 | gctfn087_recuperar_equipes_empenho
+  88 | gctfn088 | gctfn088_processar_empenho_zero
+  89 | gctfn089 | ----- DISPONIVEL -----
+  90 | gctfn090 | ----- DISPONIVEL -----
+  91 | gctfn091 | gctfn091_reprocessar_indicadores
+  92 | gctfn092 | gctfn092_restaurar_indicadores
+  93 | gctfn093 | ----- DISPONIVEL -----
+  94 | gctfn094 | ----- DISPONIVEL -----
+  95 | gctfn095 | ----- DISPONIVEL -----
+  96 | gctfn096 | ----- DISPONIVEL -----
+  97 | gctfn097 | gctfn097_consultar_preco_equipe
+  98 | gctfn098 | ----- DISPONIVEL -----
+  99 | gctfn099 | ----- DISPONIVEL -----
+ 100 | gctfn100 | gctfn100_calc_tamanho_ciclo
+ 101 | gctfn101 | gctfn101_calc_dias_trabalhados_ciclo
+ 102 | gctfn102 | gctfn102_calc_dias_ociosos_equipe
+ 103 | gctfn103 | gctfn103_calc_dias_trabalhados_equipe
+ 104 | gctfn104 | gctfn104_calc_tamanho_total_equipe
+ 105 | gctfn105 | gctfn105_vincular_slctco
+ 106 | gctfn106 | gctfn106_vincular_slctco_acionamento
+ 107 | gctfn107 | gctfn107_vincular_slctco_sprint
+ 108 | gctfn108 | gctfn108_registrar_erro_vinculacao
+ 108 | gctfn108 | gctfn108_registrar_erro_vinculacao
+ 108 | gctfn108 | gctfn108_registrar_erro_vinculacao
+ 109 | gctfn109 | gctfn109_recuperar_ciclo_vinculacao_automatica
+ 110 | gctfn110 | gctfn110_desvincular_slctco
+ 111 | gctfn111 | gctfn111_processar_indicadores
+ 112 | gctfn112 | gctfn112_indicador_efetividade
+ 113 | gctfn113 | gctfn113_indicador_produtividade
+ 114 | gctfn114 | gctfn114_indicador_qualidade
+ 115 | gctfn115 | gctfn115_indicador_turnover_equipe
+ 116 | gctfn116 | gctfn116_calcular_fator_nivel_servico
+ 117 | gctfn117 | ----- DISPONIVEL -----
+ 118 | gctfn118 | gctfn118_gerar_termo_indicador
+ 119 | gctfn119 | gctfn119_registrar_valor_indicador_equipe
+ 120 | gctfn120 | gctfn120_recuperar_valor_faixa
+ 121 | gctfn121 | gctfn121_copiar_termo_equipe
+ 122 | gctfn122 | gctfn122_indicador_efetividade_suporte
+ 123 | gctfn123 | gctfn123_coletar_amostra_indicadores
+ 124 | gctfn124 | gctfn124_indicador_desempenho_equipe
+ 125 | gctfn125 | gctfn125_gerar_empenho_demanda
+ 126 | gctfn126 | gctfn126_recuperar_termos_demanda
+ 127 | gctfn127 | gctfn127_recuperar_indicadores_demanda
+ 128 | gctfn128 | gctfn128_recuperar_termos_solicitacao
+ 129 | gctfn129 | gctfn129_consolidar_dstrbco_custos
+ 129 | gctfn129 | gctfn129_consolidar_dstrbco_custos
+ 129 | gctfn129 | gctfn129_consolidar_dstrbco_custos
+ 129 | gctfn129 | gctfn129_consolidar_dstrbco_custos
+ 130 | gctfn130 | gctfn130_consolidar_dstrbco_custos_demanda
+ 130 | gctfn130 | gctfn130_consolidar_dstrbco_custos_demanda
+ 131 | gctfn131 | gctfn131_consolidar_dstrbco_custos_equipe
+ 132 | gctfn132 | gctfn132_calcular_participacao_empenho
+ 133 | gctfn133 | gctfn133_calc_participacao_solicitacao_empenho
+ 134 | gctfn134 | gctfn134_calc_participacao_ciclo_empenho
+ 135 | gctfn135 | gctfn135_recuperar_rubrica
+ 136 | gctfn136 | gctfn136_registrar_solicitacoes_bef
+ 137 | gctfn137 | gctfn137_obter_dt_considerar_fns_equipe
+ 138 | gctfn138 | gctfn138_indicador_reducao_defeitos
+ 139 | gctfn139 | gctfn139_indicador_nota_codigo
+ 140 | gctfn140 | gctfn140_agendar_calculo_indicador
+ 141 | gctfn141 | gctfn141_indicador_desempenho_global
+ 142 | gctfn142 | ----- DISPONIVEL -----
+ 143 | gctfn143 | ----- DISPONIVEL -----
+ 144 | gctfn144 | ----- DISPONIVEL -----
+ 145 | gctfn145 | ----- DISPONIVEL -----
+ 146 | gctfn146 | ----- DISPONIVEL -----
+ 147 | gctfn147 | ----- DISPONIVEL -----
+ 148 | gctfn148 | ----- DISPONIVEL -----
+ 149 | gctfn149 | ----- DISPONIVEL -----
+ 150 | gctfn150 | gctfn150_calcular_valor_equipe_epzdo
+ 151 | gctfn151 | gctfn151_fechar_faturamento_epzdo
+ 152 | gctfn152 | gctfn152_coletar_amostras_epzdo
+ 153 | gctfn153 | gctfn153_gerar_termo_equipe_epzdo
+ 154 | gctfn154 | gctfn154_gerar_empenho_epzdo
+ 155 | gctfn155 | gctfn155_recuperar_termos_empenho_epzdo
+ 156 | gctfn156 | gctfn156_recuperar_equipes_empenho_epzdo
+ 157 | gctfn157 | gctfn157_recuperar_membros_eqpe_empenho_epzdo
+ 158 | gctfn158 | gctfn158_agendar_ajuste_eqpe_epzdo
+ 159 | gctfn159 | gctfn159_executar_ajuste_eqpe_epzdo
+ 160 | gctfn160 | gctfn160_simular_termo_ajuste_eqpe_epzdo
+ 161 | gctfn161 | gctfn161_gerar_termo_ajuste_eqpe_epzdo
+ 162 | gctfn162 | gctfn162_registrar_valores_ajustados_epzdo
+ 163 | gctfn163 | gctfn163_excluir_amostras_epzdo
+ 164 | gctfn164 | gctfn164_consolidar_custos_contrato_epzdo
+ 165 | gctfn165 | gctfn165_finalizar_ajuste_epzdo
+ 166 | gctfn166 | gctfn166_vincular_slctco_epzdo
+ 167 | gctfn167 | gctfn167_recuperar_ciclo_slctco_epzdo
+ 168 | gctfn168 | gctfn168_vincular_membros_epzdo
+ 169 | gctfn169 | gctfn169_alterar_membros_epzdo
+ 170 | gctfn170 | gctfn170_calcular_participacao_eqpe_epzdo_empenho
+ 171 | gctfn171 | ----- DISPONIVEL -----
+ 172 | gctfn172 | ----- DISPONIVEL -----
+ 173 | gctfn173 | gctfn173_registrar_valor_indicador
+ 174 | gctfn174 | gctfn174_indicador_turnover
+ 175 | gctfn175 | gctfn175_coletar_amsta_indcdr_ajuste
+ 176 | gctfn176 | gctfn176_simular_termo_ajuste_equipe
+ 177 | gctfn177 | gctfn177_calcular_indicador_ajuste
+ 178 | gctfn178 | gctfn178_indcdr_eftvde_ajuste
+ 179 | gctfn179 | gctfn179_indcdr_eftvde_sprte_ajuste
+ 180 | gctfn180 | gctfn180_indcdr_produtividade_ajuste
+ 181 | gctfn181 | gctfn181_indcdr_reducao_defeitos_ajuste
+ 182 | gctfn182 | gctfn182_indcdr_nota_codigo_ajuste
+ 183 | gctfn183 | gctfn183_indcdr_qualidade_ajuste
+ 184 | gctfn184 | gctfn184_indcdr_turnover_eqpe_ajuste
+ 185 | gctfn185 | gctfn185_calcular_fator_nivel_servico_ajuste
+ 186 | gctfn186 | gctfn186_registrar_valor_indcdr_equipe_ajuste
+ 187 | gctfn187 | ----- DISPONIVEL -----
+ 188 | gctfn188 | ----- DISPONIVEL -----
+ 189 | gctfn189 | ----- DISPONIVEL -----
+ 190 | gctfn190 | ----- DISPONIVEL -----
+ 191 | gctfn191 | ----- DISPONIVEL -----
+ 192 | gctfn192 | ----- DISPONIVEL -----
+ 193 | gctfn193 | ----- DISPONIVEL -----
+ 194 | gctfn194 | ----- DISPONIVEL -----
+ 195 | gctfn195 | ----- DISPONIVEL -----
+ 196 | gctfn196 | ----- DISPONIVEL -----
+ 197 | gctfn197 | ----- DISPONIVEL -----
+ 198 | gctfn198 | ----- DISPONIVEL -----
+ 199 | gctfn199 | ----- DISPONIVEL -----
+ 200 | gctfn200 | gctfn200_gerar_ordem_pagamento
+ 201 | gctfn201 | gctfn201_ordem_pagamento
+ 202 | gctfn202 | gctfn202_ordem_pagamento
+ 203 | gctfn203 | gctfn203_parametriza_indicador
+ 204 | gctfn204 | gctfn204_indicador_qualidade
+ 205 | gctfn205 | gctfn205_indicador_prazo
+ 206 | gctfn206 | gctfn206_indicador_planejamento
+ 207 | gctfn207 | gctfn207_indicador_produtividade
+ 208 | gctfn208 | gctfn208_indicador_turnover
+ 209 | gctfn209 | gctfn209_calcular_fator_nivel_servico
+ 210 | gctfn210 | gctfn210_calcular_bonus
+ 211 | gctfn211 | gctfn211_calcular_descontos
+ 212 | gctfn212 | ----- DISPONIVEL -----
+ 213 | gctfn213 | ----- DISPONIVEL -----
+ 214 | gctfn214 | gctfn214_indicador_qualidade_ajuste
+ 215 | gctfn215 | gctfn215_indicador_prazo_ajuste
+ 216 | gctfn216 | gctfn216_indicador_planejamento_ajuste
+ 217 | gctfn217 | gctfn217_indicador_produtividade_ajuste
+ 218 | gctfn218 | gctfn218_indicador_turnover_ajuste
+ 219 | gctfn219 | gctfn219_calcular_fator_nivel_servico_ajuste
+ 220 | gctfn220 | gctfn220_calcular_bonus_ajuste
+ 221 | gctfn221 | gctfn221_calcular_descontos_ajuste
+ 222 | gctfn222 | ----- DISPONIVEL -----
+ 223 | gctfn223 | ----- DISPONIVEL -----
+ 224 | gctfn224 | ----- DISPONIVEL -----
+ 225 | gctfn225 | ----- DISPONIVEL -----
+ 226 | gctfn226 | ----- DISPONIVEL -----
+ 227 | gctfn227 | ----- DISPONIVEL -----
+ 228 | gctfn228 | ----- DISPONIVEL -----
+ 229 | gctfn229 | ----- DISPONIVEL -----
+ 230 | gctfn230 | ----- DISPONIVEL -----
+ 231 | gctfn231 | ----- DISPONIVEL -----
+ 232 | gctfn232 | ----- DISPONIVEL -----
+ 233 | gctfn233 | ----- DISPONIVEL -----
+ 234 | gctfn234 | ----- DISPONIVEL -----
+ 235 | gctfn235 | ----- DISPONIVEL -----
+ 236 | gctfn236 | ----- DISPONIVEL -----
+ 237 | gctfn237 | ----- DISPONIVEL -----
+ 238 | gctfn238 | ----- DISPONIVEL -----
+ 239 | gctfn239 | ----- DISPONIVEL -----
+ 240 | gctfn240 | ----- DISPONIVEL -----
+ 241 | gctfn241 | ----- DISPONIVEL -----
+ 242 | gctfn242 | ----- DISPONIVEL -----
+ 243 | gctfn243 | ----- DISPONIVEL -----
+ 244 | gctfn244 | ----- DISPONIVEL -----
+ 245 | gctfn245 | ----- DISPONIVEL -----
+ 246 | gctfn246 | ----- DISPONIVEL -----
+ 247 | gctfn247 | ----- DISPONIVEL -----
+ 248 | gctfn248 | ----- DISPONIVEL -----
+ 249 | gctfn249 | ----- DISPONIVEL -----
+ 250 | gctfn250 | ----- DISPONIVEL -----
+ 251 | gctfn251 | ----- DISPONIVEL -----
+ 252 | gctfn252 | ----- DISPONIVEL -----
+ 253 | gctfn253 | ----- DISPONIVEL -----
+ 254 | gctfn254 | ----- DISPONIVEL -----
+ 255 | gctfn255 | ----- DISPONIVEL -----
+ 256 | gctfn256 | ----- DISPONIVEL -----
+ 257 | gctfn257 | ----- DISPONIVEL -----
+ 258 | gctfn258 | ----- DISPONIVEL -----
+ 259 | gctfn259 | ----- DISPONIVEL -----
+ 260 | gctfn260 | ----- DISPONIVEL -----
+ 261 | gctfn261 | ----- DISPONIVEL -----
+ 262 | gctfn262 | ----- DISPONIVEL -----
+ 263 | gctfn263 | ----- DISPONIVEL -----
+ 264 | gctfn264 | ----- DISPONIVEL -----
+ 265 | gctfn265 | ----- DISPONIVEL -----
+ 266 | gctfn266 | ----- DISPONIVEL -----
+ 267 | gctfn267 | ----- DISPONIVEL -----
+ 268 | gctfn268 | ----- DISPONIVEL -----
+ 269 | gctfn269 | ----- DISPONIVEL -----
+ 270 | gctfn270 | ----- DISPONIVEL -----
+ 271 | gctfn271 | ----- DISPONIVEL -----
+ 272 | gctfn272 | ----- DISPONIVEL -----
+ 273 | gctfn273 | ----- DISPONIVEL -----
+ 274 | gctfn274 | ----- DISPONIVEL -----
+ 275 | gctfn275 | ----- DISPONIVEL -----
+ 276 | gctfn276 | ----- DISPONIVEL -----
+ 277 | gctfn277 | ----- DISPONIVEL -----
+ 278 | gctfn278 | ----- DISPONIVEL -----
+ 279 | gctfn279 | ----- DISPONIVEL -----
+ 280 | gctfn280 | ----- DISPONIVEL -----
+ 281 | gctfn281 | ----- DISPONIVEL -----
+ 282 | gctfn282 | ----- DISPONIVEL -----
+ 283 | gctfn283 | ----- DISPONIVEL -----
+ 284 | gctfn284 | ----- DISPONIVEL -----
+ 285 | gctfn285 | ----- DISPONIVEL -----
+ 286 | gctfn286 | ----- DISPONIVEL -----
+ 287 | gctfn287 | ----- DISPONIVEL -----
+ 288 | gctfn288 | ----- DISPONIVEL -----
+ 289 | gctfn289 | ----- DISPONIVEL -----
+ 290 | gctfn290 | ----- DISPONIVEL -----
+ 291 | gctfn291 | ----- DISPONIVEL -----
+ 292 | gctfn292 | ----- DISPONIVEL -----
+ 293 | gctfn293 | ----- DISPONIVEL -----
+ 294 | gctfn294 | ----- DISPONIVEL -----
+ 295 | gctfn295 | ----- DISPONIVEL -----
+ 296 | gctfn296 | ----- DISPONIVEL -----
+ 297 | gctfn297 | ----- DISPONIVEL -----
+ 298 | gctfn298 | ----- DISPONIVEL -----
+ 299 | gctfn299 | ----- DISPONIVEL -----
+ 300 | gctfn300 | gctfn300_fechar_faturamento
+ 301 | gctfn301 | gctfn301_coletar_amostra_faturamento
+ 302 | gctfn302 | gctfn302_gerar_termo_equipe
+ 303 | gctfn303 | gctfn303_calcular_indicador
+ 304 | gctfn304 | gctfn304_aplicar_indicador
+ 305 | gctfn305 | gctfn305_dias_entre_data
+ 306 | gctfn306 | gctfn306_indicador_qualidade
+ 307 | gctfn307 | gctfn307_indicador_prazo
+ 308 | gctfn308 | gctfn308_indicador_estoque
+ 309 | gctfn309 | gctfn309_indicador_valor
+ 310 | gctfn310 | gctfn310_indicador_produto
+ 311 | gctfn311 | gctfn311_indicador_produtividade
+ 312 | gctfn312 | gctfn312_indicador_desenvolvimento
+ 313 | gctfn313 | gctfn313_indicador_desempenho
+ 314 | gctfn314 | gctfn314_registrar_valor_indicador_equipe
+ 315 | gctfn315 | gctfn315_registrar_valor_indicador_ciclo_trabalho
+ 316 | gctfn316 | gctfn316_calc_dt_prevista
+ 317 | gctfn317 | gctfn317_calc_fns_indic_equipe
+ 318 | gctfn318 | gctfn318_gerar_empenho
+ 319 | gctfn319 | gctfn319_recuperar_rubrica_padrao
+ 319 | gctfn319 | gctfn319_calc_qt_dias_ociosos_equipe
+ 320 | gctfn320 | gctfn320_recuperar_rubrica
+ 320 | gctfn320 | gctfn320_calc_qt_dias_faturamento
+ 321 | gctfn321 | gctfn321_calc_dias_sem_sprint
+ 321 | gctfn321 | gctfn321_calc_qt_dias_trabalhados_equipe
+ 322 | gctfn322 | gctfn322_recuperar_rubrica_padrao
+ 322 | gctfn322 | gctfn322_calc_dias_faturamento
+ 323 | gctfn323 | gctfn323_calc_dias_sprint
+ 323 | gctfn323 | gctfn323_recuperar_rubrica
+ 324 | gctfn324 | gctfn324_gerar_valor_equipe
+ 324 | gctfn324 | gctfn324_recalcular_valor_equipe
+ 325 | gctfn325 | gctfn325_gerar_valor_previsto_equipe
+ 325 | gctfn325 | gctfn325_gerar_valor_previsto_equipe
+ 326 | gctfn326 | gctfn326_simular_valor_previsto_equipe
+ 327 | gctfn327 | gctfn327_agendar_ajuste_equipe
+ 328 | gctfn328 | gctfn328_coletar_amostra_ajuste_equipe
+ 329 | gctfn329 | gctfn329_media_desempenho_equipe
+ 330 | gctfn330 | gctfn330_valor_pago_equipe
+ 331 | gctfn331 | gctfn331_atualiza_vr_previsto_equipes
+ 332 | gctfn332 | gctfn332_agendar_ajuste_contrato_equipe
+ 333 | gctfn333 | gctfn333_gerar_termo_ajuste_equipe
+ 334 | gctfn334 | gctfn334_calcular_indicador_ajuste
+ 335 | gctfn335 | gctfn335_indicador_qualidade_ajuste
+ 336 | gctfn336 | gctfn336_indicador_prazo_ajuste
+ 337 | gctfn337 | gctfn337_indicador_estoque_ajuste
+ 338 | gctfn338 | gctfn338_indicador_valor_ajuste
+ 339 | gctfn339 | gctfn339_indicador_produto_ajuste
+ 340 | gctfn340 | gctfn340_indicador_produtividade_ajuste
+ 341 | gctfn341 | gctfn341_indicador_desenvolvimento_ajuste
+ 342 | gctfn342 | gctfn342_indicador_desempenho_ajuste
+ 343 | gctfn343 | gctfn343_registrar_vl_ind_equipe_ajuste
+ 344 | gctfn344 | gctfn344_registrar_vl_ind_ciclo_trabalho_ajuste
+ 345 | gctfn345 | gctfn345_aplicar_indicador_ajuste
+ 346 | gctfn346 | gctfn346_agendar_ajuste_equipe
+ 347 | gctfn347 | gctfn347_simular_termo_ajuste_equipe
+ 348 | gctfn348 | gctfn348_agendar_ajuste_contrato
+ 349 | gctfn349 | gctfn349_executar_ajuste_equipe
+ 350 | gctfn350 | gctfn350_executar_ajuste_contrato_equipe
+ 351 | gctfn351 | gctfn351_finalizar_ajuste
+ 352 | gctfn352 | gctfn352_executar_ajuste_agendado
+ 352 | gctfn352 | gctfn352_executar_ajuste_equipe
+ 353 | gctfn353 | gctfn353_executar_ajuste_agendado
+ 354 | gctfn354 | gctfn354_gerar_questionario_padrao
+ 354 | gctfn354 | gctfn354_atualizar_rubrica_repactuacao
+ 355 | gctfn355 | gctfn355_indicador_estoque_servico
+ 356 | gctfn356 | gctfn356_indicador_prazo_servico
+ 357 | gctfn357 | gctfn357_indicador_qualidade_servico
+ 358 | gctfn358 | gctfn358_processar_insumos_ajuste_agil
+ 358 | gctfn358 | gctfn358_processar_insumos_ajuste_agil
+ 359 | gctfn359 | gctfn359_gerar_termo_retroativo
+ 360 | gctfn360 | gctfn360_indicador_estoque_servico_ajuste
+ 361 | gctfn361 | gctfn361_indicador_prazo_servico_ajuste
+ 362 | gctfn362 | gctfn362_indicador_qualidade_servico_ajuste
+ 363 | gctfn363 | gctfn363_indicador_estoque_servico_previa
+ 364 | gctfn364 | gctfn364_indicador_prazo_servico_previa
+ 365 | gctfn365 | gctfn365_indicador_qualidade_servico_previa
+ 366 | gctfn366 | gctfn366_calcular_valor_equipe_perfil
+ 366 | gctfn366 | gctfn366_recalcular_valor_equipe
+ 367 | gctfn367 | gctfn367_gerar_parcela
+ 368 | gctfn368 | gctfn368_mover_termos
+ 369 | gctfn369 | gctfn369_indicador_ciclo
+ 370 | gctfn370 | gctfn370_indicador_valor_ciclo
+ 371 | gctfn371 | gctfn371_indicador_produto_ciclo
+ 372 | gctfn372 | gctfn372_indicador_produtividade_ciclo
+ 373 | gctfn373 | gctfn373_realizar_rateio_custos
+ 373 | gctfn373 | gctfn373_realizar_rateio_custos
+ 374 | gctfn374 | gctfn374_processar_rentencao_pagamento
+ 375 | gctfn375 | gctfn375_liberar_rentencao_pagamento
+ 376 | gctfn376 | gctfn376_calcular_valor_membro_equipe
+ 377 | gctfn377 | gctfn377_indicador_capacitacao
+ 378 | gctfn378 | gctfn378_indicador_assistido
+ 379 | gctfn379 | gctfn379_indicador_disponibilidade_periodo
+ 380 | gctfn380 | gctfn380_gerar_previa_faturamento
+ 381 | gctfn381 | gctfn381_coletar_amostra_previa_faturamento
+ 382 | gctfn382 | gctfn382_calcular_indicador_previa
+ 383 | gctfn383 | gctfn383_indicador_qualidade_previa
+ 384 | gctfn384 | gctfn384_indicador_prazo_previa
+ 385 | gctfn385 | gctfn385_indicador_estoque_previa
+ 386 | gctfn386 | gctfn386_indicador_valor_previa
+ 387 | gctfn387 | gctfn387_indicador_produto_previa
+ 388 | gctfn388 | gctfn388_indicador_produtividade_previa
+ 389 | gctfn389 | gctfn389_indicador_desenvolvimento_previa
+ 390 | gctfn390 | gctfn390_indicador_desempenho_previa
+ 391 | gctfn391 | gctfn391_gerar_termo_equipe_previa
+ 392 | gctfn392 | gctfn392_gerar_termo_equipe_perfil_previa
+ 393 | gctfn393 | gctfn393_registrar_valor_indicador_equipe_previa
+ 394 | gctfn394 | gctfn394_registrar_valor_indicador_ciclo_trabalho_previa
+ 395 | gctfn395 | gctfn395_indicador_valor_agregado_sprint
+ 396 | gctfn396 | gctfn396_indicador_estoque_sprint
+ 397 | gctfn397 | ----- DISPONIVEL -----
+ 398 | gctfn398 | gctfn398_indicador_desenvolvimento_assistido
+ 399 | gctfn399 | gctfn399_limpar_ajustes_equipe
+ 400 | gctfn400 | gctfn400_executar_ajuste_rpctcao_contrato
+ 400 | gctfn400 | gctfn400_calcular_valor_equipe_perfil
+ 401 | gctfn401 | gctfn401_simular_valor_equipe_perfil
+ 401 | gctfn401 | gctfn401_simular_valor_equipe_perfil
+ 402 | gctfn402 | gctfn402_gerar_termo_equipe_perfil
+ 403 | gctfn403 | gctfn403_simular_termo_ajuste_equipe_perfil
+ 404 | gctfn404 | gctfn404_gerar_termo_retroativo_equipe
+ 405 | gctfn405 | gctfn405_obter_qntde_membros_equipe_periodo
+ 406 | gctfn406 | gctfn406_calcular_indicador_retroativo
+ 407 | gctfn407 | gctfn407_gerar_termos_retroativos_equipe
+ 408 | gctfn408 | gctfn408_obter_quantidade_atendimentos_equipe_acionamento
+ 409 | gctfn409 | gctfn409_obter_tamanho_sistemas_equipe_sprint
+ 410 | gctfn410 | gctfn410_calcl_quantidade_dias_sprint
+ 411 | gctfn411 | gctfn411_calcl_quantidade_membros_sprint
+ 412 | gctfn412 | gctfn412_calcl_quantidade_dias_sprint_previa
+ 413 | gctfn413 | gctfn413_calcl_quantidade_membros_sprint_previa
+ 414 | gctfn414 | gctfn414_calcl_quantidade_dias_sprint_ajuste
+ 415 | gctfn415 | gctfn415_calcl_quantidade_membros_sprint_ajuste
+ 416 | gctfn416 | gctfn416_gerar_ordem_pagamento
+ 417 | gctfn417 | gctfn417_calcular_vr_total_ordm_pgmno_equipe_previo
+ 417 | gctfn417 | gctfn417_calcular_vr_total_ordm_pgmno_equipe_previo
+ 418 | gctfn418 | gctfn418_reprocessar_ordem_pagamento
+ 419 | gctfn419 | ----- DISPONIVEL -----
+ 420 | gctfn420 | gctfn420_obter_qtd_equipes_atendeou_sistema_sprint
+ 421 | gctfn421 | gctfn421_obter_qtd_equipes_atendeou_sistema_atendimento
+ 422 | gctfn422 | gctfn422_gerar_termo_retroativo_equipe
+ 423 | gctfn423 | gctfn423_calcular_valor_equipe_milheiro
+ 424 | gctfn424 | gctfn424_gravar_hstro_equipe_epzdo
+ 425 | gctfn425 | gctfn425_gravar_hstro_ausencia_equipe_epzdo
+ 426 | gctfn426 | gctfn426_gravar_hstro_membro_equipe_epzdo
+ 427 | gctfn427 | ----- DISPONIVEL -----
+ 428 | gctfn428 | ----- DISPONIVEL -----
+ 429 | gctfn429 | ----- DISPONIVEL -----
+ 430 | gctfn430 | gctfn430_gerar_valor_previsto_equipe_simulacao
+ 431 | gctfn431 | gctfn431_gerar_qtd_membros_global
+ 432 | gctfn432 | gctfn432_calcular_valor_equipe_perfil_simulacao_equipe_perfil
+ 433 | gctfn433 | gctfn433_obter_qtd_equipe_perfil_simulacao
+ 434 | gctfn434 | gctfn434_calcular_membros_efetivos_sprint
+ 435 | gctfn435 | gctfn435_gerar_valor_extra_equipe_simulacao
+ 436 | gctfn436 | gctfn436_pesquisa_descr_acao_equipe
+ 437 | gctfn437 | gctfn437_calc_efetiva_alocacao_perfil_equipe
+ 438 | gctfn438 | gctfn438_calc_efetiva_alocacao_membro_equipe
+ 439 | gctfn439 | ----- DISPONIVEL -----
+ 440 | gctfn440 | ----- DISPONIVEL -----
+ 441 | gctfn441 | ----- DISPONIVEL -----
+ 442 | gctfn442 | ----- DISPONIVEL -----
+ 443 | gctfn443 | ----- DISPONIVEL -----
+ 444 | gctfn444 | ----- DISPONIVEL -----
+ 445 | gctfn445 | gctfn445_gravar_hstro_ausencia_equipe
+ 446 | gctfn446 | gctfn446_gravar_hstro_servico_extra_equipe
+ 447 | gctfn447 | gctfn447_sincronizar_ausencia_srvco_extra
+ 448 | gctfn448 | ----- DISPONIVEL -----
+ 449 | gctfn449 | ----- DISPONIVEL -----
+ 450 | gctfn450 | gctfn450_calcular_valor_equipe
+ 451 | gctfn451 | gctfn451_gerar_termo_equipe_milheiros
+ 452 | gctfn452 | gctfn452_simular_termo_ajuste_equipe_milheiros
+ 453 | gctfn453 | gctfn453_registrar_ponto_funcao
+ 454 | gctfn454 | gctfn454_gravar_hstrco_prod_min_exg
+ 455 | gctfn455 | gctfn455_gravar_hstrco_alteracao_amostra
+ 455 | gctfn455 | gctfn455_processar_ciclos_trab_pendentes
+ 456 | gctfn456 | ----- DISPONIVEL -----
+ 457 | gctfn457 | ----- DISPONIVEL -----
+ 458 | gctfn458 | ----- DISPONIVEL -----
+ 459 | gctfn459 | ----- DISPONIVEL -----
+ 460 | gctfn460 | gctfn460_gravar_hstrco_vigencia_membros_individual
+ 461 | gctfn461 | ----- DISPONIVEL -----
+ 462 | gctfn462 | ----- DISPONIVEL -----
+ 463 | gctfn463 | ----- DISPONIVEL -----
+ 464 | gctfn464 | ----- DISPONIVEL -----
+ 465 | gctfn465 | ----- DISPONIVEL -----
+ 466 | gctfn466 | ----- DISPONIVEL -----
+ 467 | gctfn467 | ----- DISPONIVEL -----
+ 468 | gctfn468 | ----- DISPONIVEL -----
+ 469 | gctfn469 | ----- DISPONIVEL -----
+ 470 | gctfn470 | ----- DISPONIVEL -----
+ 471 | gctfn471 | ----- DISPONIVEL -----
+ 472 | gctfn472 | ----- DISPONIVEL -----
+ 473 | gctfn473 | ----- DISPONIVEL -----
+ 474 | gctfn474 | ----- DISPONIVEL -----
+ 475 | gctfn475 | ----- DISPONIVEL -----
+ 476 | gctfn476 | ----- DISPONIVEL -----
+ 477 | gctfn477 | ----- DISPONIVEL -----
+ 478 | gctfn478 | ----- DISPONIVEL -----
+ 479 | gctfn479 | ----- DISPONIVEL -----
+ 480 | gctfn480 | ----- DISPONIVEL -----
+ 481 | gctfn481 | ----- DISPONIVEL -----
+ 482 | gctfn482 | ----- DISPONIVEL -----
+ 483 | gctfn483 | ----- DISPONIVEL -----
+ 484 | gctfn484 | ----- DISPONIVEL -----
+ 485 | gctfn485 | ----- DISPONIVEL -----
+ 486 | gctfn486 | ----- DISPONIVEL -----
+ 487 | gctfn487 | ----- DISPONIVEL -----
+ 488 | gctfn488 | ----- DISPONIVEL -----
+ 489 | gctfn489 | ----- DISPONIVEL -----
+ 490 | gctfn490 | ----- DISPONIVEL -----
+ 491 | gctfn491 | ----- DISPONIVEL -----
+ 492 | gctfn492 | ----- DISPONIVEL -----
+ 493 | gctfn493 | ----- DISPONIVEL -----
+ 494 | gctfn494 | ----- DISPONIVEL -----
+ 495 | gctfn495 | ----- DISPONIVEL -----
+ 496 | gctfn496 | ----- DISPONIVEL -----
+ 497 | gctfn497 | ----- DISPONIVEL -----
+ 498 | gctfn498 | ----- DISPONIVEL -----
+ 499 | gctfn499 | ----- DISPONIVEL -----
+ 500 | gctfn500 | ----- DISPONIVEL -----
+ 501 | gctfn501 | ----- DISPONIVEL -----
+ 502 | gctfn502 | ----- DISPONIVEL -----
+ 503 | gctfn503 | ----- DISPONIVEL -----
+ 504 | gctfn504 | ----- DISPONIVEL -----
+ 505 | gctfn505 | ----- DISPONIVEL -----
+ 506 | gctfn506 | ----- DISPONIVEL -----
+ 507 | gctfn507 | ----- DISPONIVEL -----
+ 508 | gctfn508 | ----- DISPONIVEL -----
+ 509 | gctfn509 | ----- DISPONIVEL -----
+ 510 | gctfn510 | ----- DISPONIVEL -----
+ 511 | gctfn511 | ----- DISPONIVEL -----
+ 512 | gctfn512 | ----- DISPONIVEL -----
+ 513 | gctfn513 | ----- DISPONIVEL -----
+ 514 | gctfn514 | ----- DISPONIVEL -----
+ 515 | gctfn515 | ----- DISPONIVEL -----
+ 516 | gctfn516 | ----- DISPONIVEL -----
+ 517 | gctfn517 | ----- DISPONIVEL -----
+ 518 | gctfn518 | ----- DISPONIVEL -----
+ 519 | gctfn519 | ----- DISPONIVEL -----
+ 520 | gctfn520 | ----- DISPONIVEL -----
+ 521 | gctfn521 | ----- DISPONIVEL -----
+ 522 | gctfn522 | ----- DISPONIVEL -----
+ 523 | gctfn523 | ----- DISPONIVEL -----
+ 524 | gctfn524 | ----- DISPONIVEL -----
+ 525 | gctfn525 | ----- DISPONIVEL -----
+ 526 | gctfn526 | ----- DISPONIVEL -----
+ 527 | gctfn527 | ----- DISPONIVEL -----
+ 528 | gctfn528 | ----- DISPONIVEL -----
+ 529 | gctfn529 | ----- DISPONIVEL -----
+ 530 | gctfn530 | ----- DISPONIVEL -----
+ 531 | gctfn531 | ----- DISPONIVEL -----
+ 532 | gctfn532 | ----- DISPONIVEL -----
+ 533 | gctfn533 | ----- DISPONIVEL -----
+ 534 | gctfn534 | ----- DISPONIVEL -----
+ 535 | gctfn535 | ----- DISPONIVEL -----
+ 536 | gctfn536 | ----- DISPONIVEL -----
+ 537 | gctfn537 | ----- DISPONIVEL -----
+ 538 | gctfn538 | ----- DISPONIVEL -----
+ 539 | gctfn539 | ----- DISPONIVEL -----
+ 540 | gctfn540 | ----- DISPONIVEL -----
+ 541 | gctfn541 | ----- DISPONIVEL -----
+ 542 | gctfn542 | ----- DISPONIVEL -----
+ 543 | gctfn543 | ----- DISPONIVEL -----
+ 544 | gctfn544 | ----- DISPONIVEL -----
+ 545 | gctfn545 | ----- DISPONIVEL -----
+ 546 | gctfn546 | ----- DISPONIVEL -----
+ 547 | gctfn547 | ----- DISPONIVEL -----
+ 548 | gctfn548 | ----- DISPONIVEL -----
+ 549 | gctfn549 | ----- DISPONIVEL -----
+ 550 | gctfn550 | ----- DISPONIVEL -----
+ 551 | gctfn551 | ----- DISPONIVEL -----
+ 552 | gctfn552 | ----- DISPONIVEL -----
+ 553 | gctfn553 | ----- DISPONIVEL -----
+ 554 | gctfn554 | ----- DISPONIVEL -----
+ 555 | gctfn555 | ----- DISPONIVEL -----
+ 556 | gctfn556 | ----- DISPONIVEL -----
+ 557 | gctfn557 | ----- DISPONIVEL -----
+ 558 | gctfn558 | ----- DISPONIVEL -----
+ 559 | gctfn559 | ----- DISPONIVEL -----
+ 560 | gctfn560 | ----- DISPONIVEL -----
+ 561 | gctfn561 | ----- DISPONIVEL -----
+ 562 | gctfn562 | ----- DISPONIVEL -----
+ 563 | gctfn563 | ----- DISPONIVEL -----
+ 564 | gctfn564 | ----- DISPONIVEL -----
+ 565 | gctfn565 | ----- DISPONIVEL -----
+ 566 | gctfn566 | ----- DISPONIVEL -----
+ 567 | gctfn567 | ----- DISPONIVEL -----
+ 568 | gctfn568 | ----- DISPONIVEL -----
+ 569 | gctfn569 | ----- DISPONIVEL -----
+ 570 | gctfn570 | ----- DISPONIVEL -----
+ 571 | gctfn571 | ----- DISPONIVEL -----
+ 572 | gctfn572 | ----- DISPONIVEL -----
+ 573 | gctfn573 | ----- DISPONIVEL -----
+ 574 | gctfn574 | ----- DISPONIVEL -----
+ 575 | gctfn575 | ----- DISPONIVEL -----
+ 576 | gctfn576 | ----- DISPONIVEL -----
+ 577 | gctfn577 | ----- DISPONIVEL -----
+ 578 | gctfn578 | ----- DISPONIVEL -----
+ 579 | gctfn579 | ----- DISPONIVEL -----
+ 580 | gctfn580 | ----- DISPONIVEL -----
+ 581 | gctfn581 | ----- DISPONIVEL -----
+ 582 | gctfn582 | ----- DISPONIVEL -----
+ 583 | gctfn583 | ----- DISPONIVEL -----
+ 584 | gctfn584 | ----- DISPONIVEL -----
+ 585 | gctfn585 | ----- DISPONIVEL -----
+ 586 | gctfn586 | ----- DISPONIVEL -----
+ 587 | gctfn587 | ----- DISPONIVEL -----
+ 588 | gctfn588 | ----- DISPONIVEL -----
+ 589 | gctfn589 | ----- DISPONIVEL -----
+ 590 | gctfn590 | ----- DISPONIVEL -----
+ 591 | gctfn591 | ----- DISPONIVEL -----
+ 592 | gctfn592 | ----- DISPONIVEL -----
+ 593 | gctfn593 | ----- DISPONIVEL -----
+ 594 | gctfn594 | ----- DISPONIVEL -----
+ 595 | gctfn595 | ----- DISPONIVEL -----
+ 596 | gctfn596 | ----- DISPONIVEL -----
+ 597 | gctfn597 | ----- DISPONIVEL -----
+ 598 | gctfn598 | ----- DISPONIVEL -----
+ 599 | gctfn599 | ----- DISPONIVEL -----
+ 600 | gctfn600 | ----- DISPONIVEL -----
+ 601 | gctfn601 | ----- DISPONIVEL -----
+ 602 | gctfn602 | ----- DISPONIVEL -----
+ 603 | gctfn603 | ----- DISPONIVEL -----
+ 604 | gctfn604 | ----- DISPONIVEL -----
+ 605 | gctfn605 | ----- DISPONIVEL -----
+ 606 | gctfn606 | ----- DISPONIVEL -----
+ 607 | gctfn607 | ----- DISPONIVEL -----
+ 608 | gctfn608 | ----- DISPONIVEL -----
+ 609 | gctfn609 | ----- DISPONIVEL -----
+ 610 | gctfn610 | ----- DISPONIVEL -----
+ 611 | gctfn611 | ----- DISPONIVEL -----
+ 612 | gctfn612 | ----- DISPONIVEL -----
+ 613 | gctfn613 | ----- DISPONIVEL -----
+ 614 | gctfn614 | ----- DISPONIVEL -----
+ 615 | gctfn615 | ----- DISPONIVEL -----
+ 616 | gctfn616 | ----- DISPONIVEL -----
+ 617 | gctfn617 | ----- DISPONIVEL -----
+ 618 | gctfn618 | ----- DISPONIVEL -----
+ 619 | gctfn619 | ----- DISPONIVEL -----
+ 620 | gctfn620 | ----- DISPONIVEL -----
+ 621 | gctfn621 | ----- DISPONIVEL -----
+ 622 | gctfn622 | ----- DISPONIVEL -----
+ 623 | gctfn623 | ----- DISPONIVEL -----
+ 624 | gctfn624 | ----- DISPONIVEL -----
+ 625 | gctfn625 | ----- DISPONIVEL -----
+ 626 | gctfn626 | ----- DISPONIVEL -----
+ 627 | gctfn627 | ----- DISPONIVEL -----
+ 628 | gctfn628 | ----- DISPONIVEL -----
+ 629 | gctfn629 | ----- DISPONIVEL -----
+ 630 | gctfn630 | ----- DISPONIVEL -----
+ 631 | gctfn631 | ----- DISPONIVEL -----
+ 632 | gctfn632 | ----- DISPONIVEL -----
+ 633 | gctfn633 | ----- DISPONIVEL -----
+ 634 | gctfn634 | ----- DISPONIVEL -----
+ 635 | gctfn635 | ----- DISPONIVEL -----
+ 636 | gctfn636 | ----- DISPONIVEL -----
+ 637 | gctfn637 | ----- DISPONIVEL -----
+ 638 | gctfn638 | ----- DISPONIVEL -----
+ 639 | gctfn639 | ----- DISPONIVEL -----
+ 640 | gctfn640 | ----- DISPONIVEL -----
+ 641 | gctfn641 | ----- DISPONIVEL -----
+ 642 | gctfn642 | ----- DISPONIVEL -----
+ 643 | gctfn643 | ----- DISPONIVEL -----
+ 644 | gctfn644 | ----- DISPONIVEL -----
+ 645 | gctfn645 | ----- DISPONIVEL -----
+ 646 | gctfn646 | ----- DISPONIVEL -----
+ 647 | gctfn647 | ----- DISPONIVEL -----
+ 648 | gctfn648 | ----- DISPONIVEL -----
+ 649 | gctfn649 | ----- DISPONIVEL -----
+ 650 | gctfn650 | ----- DISPONIVEL -----
+ 651 | gctfn651 | ----- DISPONIVEL -----
+ 652 | gctfn652 | ----- DISPONIVEL -----
+ 653 | gctfn653 | ----- DISPONIVEL -----
+ 654 | gctfn654 | ----- DISPONIVEL -----
+ 655 | gctfn655 | ----- DISPONIVEL -----
+ 656 | gctfn656 | ----- DISPONIVEL -----
+ 657 | gctfn657 | ----- DISPONIVEL -----
+ 658 | gctfn658 | ----- DISPONIVEL -----
+ 659 | gctfn659 | ----- DISPONIVEL -----
+ 660 | gctfn660 | ----- DISPONIVEL -----
+ 661 | gctfn661 | ----- DISPONIVEL -----
+ 662 | gctfn662 | ----- DISPONIVEL -----
+ 663 | gctfn663 | ----- DISPONIVEL -----
+ 664 | gctfn664 | ----- DISPONIVEL -----
+ 665 | gctfn665 | ----- DISPONIVEL -----
+ 666 | gctfn666 | ----- DISPONIVEL -----
+ 667 | gctfn667 | ----- DISPONIVEL -----
+ 668 | gctfn668 | ----- DISPONIVEL -----
+ 669 | gctfn669 | ----- DISPONIVEL -----
+ 670 | gctfn670 | ----- DISPONIVEL -----
+ 671 | gctfn671 | ----- DISPONIVEL -----
+ 672 | gctfn672 | ----- DISPONIVEL -----
+ 673 | gctfn673 | ----- DISPONIVEL -----
+ 674 | gctfn674 | ----- DISPONIVEL -----
+ 675 | gctfn675 | ----- DISPONIVEL -----
+ 676 | gctfn676 | ----- DISPONIVEL -----
+ 677 | gctfn677 | ----- DISPONIVEL -----
+ 678 | gctfn678 | ----- DISPONIVEL -----
+ 679 | gctfn679 | ----- DISPONIVEL -----
+ 680 | gctfn680 | ----- DISPONIVEL -----
+ 681 | gctfn681 | ----- DISPONIVEL -----
+ 682 | gctfn682 | ----- DISPONIVEL -----
+ 683 | gctfn683 | ----- DISPONIVEL -----
+ 684 | gctfn684 | ----- DISPONIVEL -----
+ 685 | gctfn685 | ----- DISPONIVEL -----
+ 686 | gctfn686 | ----- DISPONIVEL -----
+ 687 | gctfn687 | ----- DISPONIVEL -----
+ 688 | gctfn688 | ----- DISPONIVEL -----
+ 689 | gctfn689 | ----- DISPONIVEL -----
+ 690 | gctfn690 | ----- DISPONIVEL -----
+ 691 | gctfn691 | ----- DISPONIVEL -----
+ 692 | gctfn692 | ----- DISPONIVEL -----
+ 693 | gctfn693 | ----- DISPONIVEL -----
+ 694 | gctfn694 | ----- DISPONIVEL -----
+ 695 | gctfn695 | ----- DISPONIVEL -----
+ 696 | gctfn696 | ----- DISPONIVEL -----
+ 697 | gctfn697 | ----- DISPONIVEL -----
+ 698 | gctfn698 | ----- DISPONIVEL -----
+ 699 | gctfn699 | ----- DISPONIVEL -----
+ 700 | gctfn700 | gctfn700_gravar_amostra_entrega_indicador
+ 701 | gctfn701 | ----- DISPONIVEL -----
+ 702 | gctfn702 | ----- DISPONIVEL -----
+ 703 | gctfn703 | ----- DISPONIVEL -----
+ 704 | gctfn704 | ----- DISPONIVEL -----
+ 705 | gctfn705 | ----- DISPONIVEL -----
+ 706 | gctfn706 | ----- DISPONIVEL -----
+ 707 | gctfn707 | ----- DISPONIVEL -----
+ 708 | gctfn708 | ----- DISPONIVEL -----
+ 709 | gctfn709 | ----- DISPONIVEL -----
+ 710 | gctfn710 | ----- DISPONIVEL -----
+ 711 | gctfn711 | ----- DISPONIVEL -----
+ 712 | gctfn712 | ----- DISPONIVEL -----
+ 713 | gctfn713 | ----- DISPONIVEL -----
+ 714 | gctfn714 | ----- DISPONIVEL -----
+ 715 | gctfn715 | ----- DISPONIVEL -----
+ 716 | gctfn716 | ----- DISPONIVEL -----
+ 717 | gctfn717 | ----- DISPONIVEL -----
+ 718 | gctfn718 | ----- DISPONIVEL -----
+ 719 | gctfn719 | ----- DISPONIVEL -----
+ 720 | gctfn720 | ----- DISPONIVEL -----
+ 721 | gctfn721 | ----- DISPONIVEL -----
+ 722 | gctfn722 | ----- DISPONIVEL -----
+ 723 | gctfn723 | ----- DISPONIVEL -----
+ 724 | gctfn724 | ----- DISPONIVEL -----
+ 725 | gctfn725 | ----- DISPONIVEL -----
+ 726 | gctfn726 | ----- DISPONIVEL -----
+ 727 | gctfn727 | ----- DISPONIVEL -----
+ 728 | gctfn728 | ----- DISPONIVEL -----
+ 729 | gctfn729 | ----- DISPONIVEL -----
+ 730 | gctfn730 | ----- DISPONIVEL -----
+ 731 | gctfn731 | ----- DISPONIVEL -----
+ 732 | gctfn732 | ----- DISPONIVEL -----
+ 733 | gctfn733 | ----- DISPONIVEL -----
+ 734 | gctfn734 | ----- DISPONIVEL -----
+ 735 | gctfn735 | ----- DISPONIVEL -----
+ 736 | gctfn736 | ----- DISPONIVEL -----
+ 737 | gctfn737 | ----- DISPONIVEL -----
+ 738 | gctfn738 | ----- DISPONIVEL -----
+ 739 | gctfn739 | ----- DISPONIVEL -----
+ 740 | gctfn740 | ----- DISPONIVEL -----
+ 741 | gctfn741 | ----- DISPONIVEL -----
+ 742 | gctfn742 | ----- DISPONIVEL -----
+ 743 | gctfn743 | ----- DISPONIVEL -----
+ 744 | gctfn744 | ----- DISPONIVEL -----
+ 745 | gctfn745 | ----- DISPONIVEL -----
+ 746 | gctfn746 | ----- DISPONIVEL -----
+ 747 | gctfn747 | ----- DISPONIVEL -----
+ 748 | gctfn748 | ----- DISPONIVEL -----
+ 749 | gctfn749 | ----- DISPONIVEL -----
+ 750 | gctfn750 | ----- DISPONIVEL -----
+ 751 | gctfn751 | ----- DISPONIVEL -----
+ 752 | gctfn752 | ----- DISPONIVEL -----
+ 753 | gctfn753 | ----- DISPONIVEL -----
+ 754 | gctfn754 | ----- DISPONIVEL -----
+ 755 | gctfn755 | ----- DISPONIVEL -----
+ 756 | gctfn756 | ----- DISPONIVEL -----
+ 757 | gctfn757 | ----- DISPONIVEL -----
+ 758 | gctfn758 | ----- DISPONIVEL -----
+ 759 | gctfn759 | ----- DISPONIVEL -----
+ 760 | gctfn760 | ----- DISPONIVEL -----
+ 761 | gctfn761 | ----- DISPONIVEL -----
+ 762 | gctfn762 | ----- DISPONIVEL -----
+ 763 | gctfn763 | ----- DISPONIVEL -----
+ 764 | gctfn764 | ----- DISPONIVEL -----
+ 765 | gctfn765 | ----- DISPONIVEL -----
+ 766 | gctfn766 | ----- DISPONIVEL -----
+ 767 | gctfn767 | ----- DISPONIVEL -----
+ 768 | gctfn768 | ----- DISPONIVEL -----
+ 769 | gctfn769 | ----- DISPONIVEL -----
+ 770 | gctfn770 | ----- DISPONIVEL -----
+ 771 | gctfn771 | ----- DISPONIVEL -----
+ 772 | gctfn772 | ----- DISPONIVEL -----
+ 773 | gctfn773 | ----- DISPONIVEL -----
+ 774 | gctfn774 | ----- DISPONIVEL -----
+ 775 | gctfn775 | ----- DISPONIVEL -----
+ 776 | gctfn776 | ----- DISPONIVEL -----
+ 777 | gctfn777 | ----- DISPONIVEL -----
+ 778 | gctfn778 | ----- DISPONIVEL -----
+ 779 | gctfn779 | ----- DISPONIVEL -----
+ 780 | gctfn780 | ----- DISPONIVEL -----
+ 781 | gctfn781 | ----- DISPONIVEL -----
+ 782 | gctfn782 | ----- DISPONIVEL -----
+ 783 | gctfn783 | ----- DISPONIVEL -----
+ 784 | gctfn784 | ----- DISPONIVEL -----
+ 785 | gctfn785 | ----- DISPONIVEL -----
+ 786 | gctfn786 | ----- DISPONIVEL -----
+ 787 | gctfn787 | ----- DISPONIVEL -----
+ 788 | gctfn788 | ----- DISPONIVEL -----
+ 789 | gctfn789 | ----- DISPONIVEL -----
+ 790 | gctfn790 | ----- DISPONIVEL -----
+ 791 | gctfn791 | ----- DISPONIVEL -----
+ 792 | gctfn792 | ----- DISPONIVEL -----
+ 793 | gctfn793 | ----- DISPONIVEL -----
+ 794 | gctfn794 | ----- DISPONIVEL -----
+ 795 | gctfn795 | ----- DISPONIVEL -----
+ 796 | gctfn796 | ----- DISPONIVEL -----
+ 797 | gctfn797 | ----- DISPONIVEL -----
+ 798 | gctfn798 | ----- DISPONIVEL -----
+ 799 | gctfn799 | ----- DISPONIVEL -----
+ 800 | gctfn800 | ----- DISPONIVEL -----
+ 801 | gctfn801 | gctfn801_executar_ajuste_equipe
+ 802 | gctfn802 | gctfn802_gerar_termo_ajuste_equipe
+ 803 | gctfn803 | gctfn803_remover_termo_ajuste_equipe
+ 804 | gctfn804 | ----- DISPONIVEL -----
+ 805 | gctfn805 | gctfn805_mover_termo
+ 806 | gctfn806 | gctfn806_desfazer_movimentacao_termo
+ 807 | gctfn807 | ----- DISPONIVEL -----
+ 808 | gctfn808 | ----- DISPONIVEL -----
+ 809 | gctfn809 | ----- DISPONIVEL -----
+ 810 | gctfn810 | ----- DISPONIVEL -----
+ 811 | gctfn811 | ----- DISPONIVEL -----
+ 812 | gctfn812 | ----- DISPONIVEL -----
+ 813 | gctfn813 | ----- DISPONIVEL -----
+ 814 | gctfn814 | ----- DISPONIVEL -----
+ 815 | gctfn815 | ----- DISPONIVEL -----
+ 816 | gctfn816 | ----- DISPONIVEL -----
+ 817 | gctfn817 | ----- DISPONIVEL -----
+ 818 | gctfn818 | ----- DISPONIVEL -----
+ 819 | gctfn819 | ----- DISPONIVEL -----
+ 820 | gctfn820 | ----- DISPONIVEL -----
+ 821 | gctfn821 | ----- DISPONIVEL -----
+ 822 | gctfn822 | ----- DISPONIVEL -----
+ 823 | gctfn823 | ----- DISPONIVEL -----
+ 824 | gctfn824 | ----- DISPONIVEL -----
+ 825 | gctfn825 | ----- DISPONIVEL -----
+ 826 | gctfn826 | ----- DISPONIVEL -----
+ 827 | gctfn827 | ----- DISPONIVEL -----
+ 828 | gctfn828 | ----- DISPONIVEL -----
+ 829 | gctfn829 | ----- DISPONIVEL -----
+ 830 | gctfn830 | ----- DISPONIVEL -----
+ 831 | gctfn831 | ----- DISPONIVEL -----
+ 832 | gctfn832 | ----- DISPONIVEL -----
+ 833 | gctfn833 | ----- DISPONIVEL -----
+ 834 | gctfn834 | ----- DISPONIVEL -----
+ 835 | gctfn835 | ----- DISPONIVEL -----
+ 836 | gctfn836 | ----- DISPONIVEL -----
+ 837 | gctfn837 | ----- DISPONIVEL -----
+ 838 | gctfn838 | ----- DISPONIVEL -----
+ 839 | gctfn839 | ----- DISPONIVEL -----
+ 840 | gctfn840 | ----- DISPONIVEL -----
+ 841 | gctfn841 | ----- DISPONIVEL -----
+ 842 | gctfn842 | ----- DISPONIVEL -----
+ 843 | gctfn843 | ----- DISPONIVEL -----
+ 844 | gctfn844 | ----- DISPONIVEL -----
+ 845 | gctfn845 | ----- DISPONIVEL -----
+ 846 | gctfn846 | ----- DISPONIVEL -----
+ 847 | gctfn847 | ----- DISPONIVEL -----
+ 848 | gctfn848 | ----- DISPONIVEL -----
+ 849 | gctfn849 | ----- DISPONIVEL -----
+ 850 | gctfn850 | ----- DISPONIVEL -----
+ 851 | gctfn851 | ----- DISPONIVEL -----
+ 852 | gctfn852 | ----- DISPONIVEL -----
+ 853 | gctfn853 | ----- DISPONIVEL -----
+ 854 | gctfn854 | ----- DISPONIVEL -----
+ 855 | gctfn855 | ----- DISPONIVEL -----
+ 856 | gctfn856 | ----- DISPONIVEL -----
+ 857 | gctfn857 | ----- DISPONIVEL -----
+ 858 | gctfn858 | ----- DISPONIVEL -----
+ 859 | gctfn859 | ----- DISPONIVEL -----
+ 860 | gctfn860 | ----- DISPONIVEL -----
+ 861 | gctfn861 | ----- DISPONIVEL -----
+ 862 | gctfn862 | ----- DISPONIVEL -----
+ 863 | gctfn863 | ----- DISPONIVEL -----
+ 864 | gctfn864 | ----- DISPONIVEL -----
+ 865 | gctfn865 | ----- DISPONIVEL -----
+ 866 | gctfn866 | ----- DISPONIVEL -----
+ 867 | gctfn867 | ----- DISPONIVEL -----
+ 868 | gctfn868 | ----- DISPONIVEL -----
+ 869 | gctfn869 | ----- DISPONIVEL -----
+ 870 | gctfn870 | ----- DISPONIVEL -----
+ 871 | gctfn871 | ----- DISPONIVEL -----
+ 872 | gctfn872 | ----- DISPONIVEL -----
+ 873 | gctfn873 | ----- DISPONIVEL -----
+ 874 | gctfn874 | ----- DISPONIVEL -----
+ 875 | gctfn875 | ----- DISPONIVEL -----
+ 876 | gctfn876 | ----- DISPONIVEL -----
+ 877 | gctfn877 | ----- DISPONIVEL -----
+ 878 | gctfn878 | ----- DISPONIVEL -----
+ 879 | gctfn879 | ----- DISPONIVEL -----
+ 880 | gctfn880 | ----- DISPONIVEL -----
+ 881 | gctfn881 | ----- DISPONIVEL -----
+ 882 | gctfn882 | ----- DISPONIVEL -----
+ 883 | gctfn883 | ----- DISPONIVEL -----
+ 884 | gctfn884 | ----- DISPONIVEL -----
+ 885 | gctfn885 | ----- DISPONIVEL -----
+ 886 | gctfn886 | ----- DISPONIVEL -----
+ 887 | gctfn887 | ----- DISPONIVEL -----
+ 888 | gctfn888 | ----- DISPONIVEL -----
+ 889 | gctfn889 | ----- DISPONIVEL -----
+ 890 | gctfn890 | ----- DISPONIVEL -----
+ 891 | gctfn891 | ----- DISPONIVEL -----
+ 892 | gctfn892 | ----- DISPONIVEL -----
+ 893 | gctfn893 | ----- DISPONIVEL -----
+ 894 | gctfn894 | ----- DISPONIVEL -----
+ 895 | gctfn895 | ----- DISPONIVEL -----
+ 896 | gctfn896 | ----- DISPONIVEL -----
+ 897 | gctfn897 | ----- DISPONIVEL -----
+ 898 | gctfn898 | ----- DISPONIVEL -----
+ 899 | gctfn899 | ----- DISPONIVEL -----
+ 900 | gctfn900 | gctfn900_rtc19414662_2
+ 900 | gctfn900 | gctfn900_rtc19415145_1
+ 900 | gctfn900 | gctfn900_rtc19415145_2
+ 900 | gctfn900 | gctfn900_rtc19416562
+ 900 | gctfn900 | gctfn900_rtc19423998
+ 900 | gctfn900 | gctfn900_rtc24077824
+ 900 | gctfn900 | gctfn900_rtc24077824_retornar
+ 900 | gctfn900 | gctfn900_rtc24103544
+ 900 | gctfn900 | gctfn900_rtc24103544_retornar
+ 900 | gctfn900 | gctfn900_rtc24161898
+ 900 | gctfn900 | gctfn900_rtc24161898_retornar
+ 900 | gctfn900 | gctfn900_rtc24383953
+ 900 | gctfn900 | gctfn900_rtc24383953_retornar
+ 900 | gctfn900 | gctfn900_rtc24422638_1
+ 900 | gctfn900 | gctfn900_rtc20300896
+ 900 | gctfn900 | gctfn900_rtc20698309_cadastrar_slcto
+ 900 | gctfn900 | gctfn900_rtc20698309_excluir_slcto
+ 900 | gctfn900 | gctfn900_rtc20698309_vincular_slcto
+ 900 | gctfn900 | gctfn900_rtc20698309_vincular_slcto
+ 900 | gctfn900 | gctfn900_rtc20880625
+ 900 | gctfn900 | gctfn900_rtc21001072
+ 900 | gctfn900 | gctfn900_rtc21001072_retornar
+ 900 | gctfn900 | gctfn900_rtc21032710
+ 900 | gctfn900 | gctfn900_rtc21061728
+ 900 | gctfn900 | gctfn900_rtc21061728_retornar
+ 900 | gctfn900 | gctfn900_rtc21063148
+ 900 | gctfn900 | gctfn900_rtc21108541
+ 900 | gctfn900 | gctfn900_rtc21244842
+ 900 | gctfn900 | gctfn900_rtc21244842_retornar
+ 900 | gctfn900 | gctfn900_rtc21497333
+ 900 | gctfn900 | gctfn900_rtc21504302
+ 900 | gctfn900 | gctfn900_rtc21672718
+ 900 | gctfn900 | gctfn900_rtc21799840_1
+ 900 | gctfn900 | gctfn900_rtc21799840_retornar_1
+ 900 | gctfn900 | gctfn900_rtc21860051
+ 900 | gctfn900 | gctfn900_rtc21860051_retornar
+ 900 | gctfn900 | gctfn900_rtc21869393
+ 900 | gctfn900 | gctfn900_rtc21869393_retornar
+ 900 | gctfn900 | gctfn900_rtc22031546_1
+ 900 | gctfn900 | gctfn900_rtc22031546_retornar_1
+ 900 | gctfn900 | gctfn900_rtc22475513
+ 900 | gctfn900 | gctfn900_rtc22494311
+ 900 | gctfn900 | gctfn900_rtc22586476
+ 900 | gctfn900 | gctfn900_rtc23375701_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23375728_1
+ 900 | gctfn900 | gctfn900_rtc23375728_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23375753_1
+ 900 | gctfn900 | gctfn900_rtc23375753_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23375777_1
+ 900 | gctfn900 | gctfn900_rtc23630216_retornar_2
+ 900 | gctfn900 | gctfn900_rtc23671403_1
+ 900 | gctfn900 | gctfn900_rtc23671403_2
+ 900 | gctfn900 | gctfn900_rtc23671403_3
+ 900 | gctfn900 | gctfn900_rtc24422638_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23375777_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23375783_1
+ 900 | gctfn900 | gctfn900_rtc23375783_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23529149_1
+ 900 | gctfn900 | gctfn900_rtc23529149_2
+ 900 | gctfn900 | gctfn900_rtc23529149_3
+ 900 | gctfn900 | gctfn900_rtc23529149_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23529149_retornar_2
+ 900 | gctfn900 | gctfn900_rtc23529149_retornar_3
+ 900 | gctfn900 | gctfn900_rtc23552087
+ 900 | gctfn900 | gctfn900_rtc23552087_retornar
+ 900 | gctfn900 | gctfn900_rtc23630216_1
+ 900 | gctfn900 | gctfn900_rtc23630216_2
+ 900 | gctfn900 | gctfn900_rtc23630216_retornar_1
+ 900 | gctfn900 | gctfn900_rtc19576640
+ 900 | gctfn900 | gctfn900_rtc23671403_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23671403_retornar_2
+ 900 | gctfn900 | gctfn900_rtc23671403_retornar_3
+ 900 | gctfn900 | gctfn900_rtc23846216_01410
+ 900 | gctfn900 | gctfn900_rtc23846216_01410_retornar
+ 900 | gctfn900 | gctfn900_rtc23846216_01411
+ 900 | gctfn900 | gctfn900_rtc23846216_01411_retornar
+ 900 | gctfn900 | gctfn900_rtc23846216_01412
+ 900 | gctfn900 | gctfn900_rtc23846216_01412_retornar
+ 900 | gctfn900 | gctfn900_rtc23846216_01413
+ 900 | gctfn900 | gctfn900_rtc19553661
+ 900 | gctfn900 | gctfn900_rtc24508595_1
+ 900 | gctfn900 | gctfn900_rtc24508595_2
+ 900 | gctfn900 | gctfn900_rtc24508595_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24508595_retornar_2
+ 900 | gctfn900 | gctfn900_rtc24510375
+ 900 | gctfn900 | gctfn900_rtc24510375_retornar
+ 900 | gctfn900 | gctfn900_rtc2454406_1
+ 900 | gctfn900 | gctfn900_rtc2454406_2
+ 900 | gctfn900 | gctfn900_rtc2454406_3
+ 900 | gctfn900 | gctfn900_rtc2454406_retornar_2
+ 900 | gctfn900 | gctfn900_rtc2454406_retornar_3
+ 900 | gctfn900 | gctfn900_rtc24607006_1
+ 900 | gctfn900 | gctfn900_rtc24607006_2
+ 900 | gctfn900 | gctfn900_rtc24607006_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24607006_retornar_2
+ 900 | gctfn900 | gctfn900_rtc24641777_1
+ 900 | gctfn900 | gctfn900_rtc24641777_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24788329_1
+ 900 | gctfn900 | gctfn900_rtc24788329_2
+ 900 | gctfn900 | gctfn900_rtc24788329_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24788329_retornar_2
+ 900 | gctfn900 | gctfn900_rtc24823013_1
+ 900 | gctfn900 | gctfn900_rtc24823013_2
+ 900 | gctfn900 | gctfn900_rtc24823013_3
+ 900 | gctfn900 | gctfn900_rtc24823013_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24823013_retornar_2
+ 900 | gctfn900 | gctfn900_rtc24823013_retornar_3
+ 900 | gctfn900 | gctfn900_rtc24866868_1
+ 900 | gctfn900 | gctfn900_rtc24866868_2
+ 900 | gctfn900 | gctfn900_rtc24866868_3
+ 900 | gctfn900 | gctfn900_rtc24866868_retornar_1
+ 900 | gctfn900 | gctfn900_rtc24866868_retornar_2
+ 900 | gctfn900 | gctfn900_rtc24866868_retornar_3
+ 900 | gctfn900 | gctfn900_rtc24893609
+ 900 | gctfn900 | gctfn900_rtc24893609_retornar
+ 900 | gctfn900 | gctfn900_rtc24952924_1
+ 900 | gctfn900 | gctfn900_rtc24952924_retornar_1
+ 900 | gctfn900 | gctfn900_stry00023299_1
+ 900 | gctfn900 | gctfn900_stry00023299_retornar_1
+ 900 | gctfn900 | gctfn900_vincular_slcto
+ 900 | gctfn900 | gctfn900_save_drop_deps
+ 900 | gctfn900 | gctfn900_rtc19612888
+ 900 | gctfn900 | gctfn900_rtc20062682
+ 900 | gctfn900 | gctfn900_rtc20228937
+ 900 | gctfn900 | gctfn900_rtc20247224
+ 900 | gctfn900 | gctfn900_rtc21672718_retornar
+ 900 | gctfn900 | gctfn900_rtc21695172_1
+ 900 | gctfn900 | gctfn900_rtc21731921_1
+ 900 | gctfn900 | gctfn900_rtc22586476_retornar
+ 900 | gctfn900 | gctfn900_rtc2300305_1
+ 900 | gctfn900 | gctfn900_rtc2300305_retornar_1
+ 900 | gctfn900 | gctfn900_rtc23219381_1
+ 900 | gctfn900 | gctfn900_rtc23219381_2
+ 900 | gctfn900 | gctfn900_rtc23219381_retornar_1
+ 900 | gctfn900 | gctfn900_desvincular_slcto
+ 900 | gctfn900 | gctfn900_excluir_equipes
+ 900 | gctfn900 | gctfn900_cadastrar_slcto
+ 900 | gctfn900 | gctfn900_corrigir_vigencias_equipe
+ 900 | gctfn900 | gctfn900_excluir_slcto
+ 900 | gctfn900 | gctfn900_rtc17882046_2
+ 900 | gctfn900 | gctfn900_rtc18092936
+ 900 | gctfn900 | gctfn900_rtc18573639_rtc18573640
+ 900 | gctfn900 | gctfn900_rtc23219381_retornar_2
+ 900 | gctfn900 | gctfn900_rtc18761333_rtc18761334
+ 900 | gctfn900 | gctfn900_rtc19241155
+ 900 | gctfn900 | gctfn900_rtc19251096_rtc19251097
+ 900 | gctfn900 | gctfn900_rtc19256902_rtc19256937
+ 900 | gctfn900 | gctfn900_rtc19256902_rtc19256937_retorno
+ 900 | gctfn900 | gctfn900_rtc23219501
+ 900 | gctfn900 | gctfn900_rtc23219501_retornar
+ 900 | gctfn900 | gctfn900_rtc23247140
+ 900 | gctfn900 | gctfn900_rtc23247140_retornar
+ 900 | gctfn900 | gctfn900_rtc23356693
+ 900 | gctfn900 | gctfn900_rtc23356693_retornar
+ 900 | gctfn900 | gctfn900_rtc23375701_1
+ 900 | gctfn900 | gctfn900_rtc23846216_01417_retornar
+ 900 | gctfn900 | gctfn900_rtc23904004
+ 900 | gctfn900 | gctfn900_rtc23904004_retornar
+ 900 | gctfn900 | gctfn900_rtc17882046_1
+ 900 | gctfn900 | gctfn900_retornar_vigencias_equipe
+ 900 | gctfn900 | gctfn900_retornar_vigencias_equipe
+ 900 | gctfn900 | gctfn900_restore_deps
+ 900 | gctfn900 | gctfn900_parametro_contrato
+ 900 | gctfn900 | gctfn900_executar_atendimento
+ 900 | gctfn900 | gctfn900_rtc19537685
+ 900 | gctfn900 | gctfn900_rtc19474826
+ 900 | gctfn900 | gctfn900_rtc19423998_retornar
+ 900 | gctfn900 | gctfn900_rtc23846216_01417
+ 900 | gctfn900 | gctfn900_rtc23846216_01415_retornar
+ 900 | gctfn900 | gctfn900_rtc23846216_01415
+ 900 | gctfn900 | gctfn900_rtc23846216_01413_retornar
+ 900 | gctfn900 | gctfn900_rtc19414662_1
+ 900 | gctfn900 | gctfn900_rtc19414361
+ 900 | gctfn900 | gctfn900_rtc19381322
+ 900 | gctfn900 | gctfn900_rtc19349999_rtc19350000
+ 901 | gctfn901 | gctfn901_verificar_vigencias_equipe
+ 901 | gctfn901 | gctfn901_excluir_equipe
+ 902 | gctfn902 | ----- DISPONIVEL -----
+ 903 | gctfn903 | gctfn903_reiniciar_servicos_backend
+ 904 | gctfn904 | gctfn904_processar_insumos_ajuste_agil
+ 905 | gctfn905 | gctfn905_executar_ajuste_equipe
+ 906 | gctfn906 | gctfn906_registrar_objetodb
+ 907 | gctfn907 | ----- DISPONIVEL -----
+ 908 | gctfn908 | ----- DISPONIVEL -----
+ 909 | gctfn909 | ----- DISPONIVEL -----
+ 910 | gctfn910 | ----- DISPONIVEL -----
+ 911 | gctfn911 | ----- DISPONIVEL -----
+ 912 | gctfn912 | ----- DISPONIVEL -----
+ 913 | gctfn913 | ----- DISPONIVEL -----
+ 914 | gctfn914 | ----- DISPONIVEL -----
+ 915 | gctfn915 | ----- DISPONIVEL -----
+ 916 | gctfn916 | ----- DISPONIVEL -----
+ 917 | gctfn917 | ----- DISPONIVEL -----
+ 918 | gctfn918 | ----- DISPONIVEL -----
+ 919 | gctfn919 | ----- DISPONIVEL -----
+ 920 | gctfn920 | ----- DISPONIVEL -----
+ 921 | gctfn921 | ----- DISPONIVEL -----
+ 922 | gctfn922 | ----- DISPONIVEL -----
+ 923 | gctfn923 | ----- DISPONIVEL -----
+ 924 | gctfn924 | ----- DISPONIVEL -----
+ 925 | gctfn925 | ----- DISPONIVEL -----
+ 926 | gctfn926 | ----- DISPONIVEL -----
+ 927 | gctfn927 | ----- DISPONIVEL -----
+ 928 | gctfn928 | ----- DISPONIVEL -----
+ 929 | gctfn929 | ----- DISPONIVEL -----
+ 930 | gctfn930 | ----- DISPONIVEL -----
+ 931 | gctfn931 | ----- DISPONIVEL -----
+ 932 | gctfn932 | ----- DISPONIVEL -----
+ 933 | gctfn933 | ----- DISPONIVEL -----
+ 934 | gctfn934 | ----- DISPONIVEL -----
+ 935 | gctfn935 | ----- DISPONIVEL -----
+ 936 | gctfn936 | ----- DISPONIVEL -----
+ 937 | gctfn937 | ----- DISPONIVEL -----
+ 938 | gctfn938 | ----- DISPONIVEL -----
+ 939 | gctfn939 | ----- DISPONIVEL -----
+ 940 | gctfn940 | ----- DISPONIVEL -----
+ 941 | gctfn941 | ----- DISPONIVEL -----
+ 942 | gctfn942 | ----- DISPONIVEL -----
+ 943 | gctfn943 | ----- DISPONIVEL -----
+ 944 | gctfn944 | ----- DISPONIVEL -----
+ 945 | gctfn945 | ----- DISPONIVEL -----
+ 946 | gctfn946 | ----- DISPONIVEL -----
+ 947 | gctfn947 | ----- DISPONIVEL -----
+ 948 | gctfn948 | ----- DISPONIVEL -----
+ 949 | gctfn949 | ----- DISPONIVEL -----
+ 950 | gctfn950 | ----- DISPONIVEL -----
+ 951 | gctfn951 | ----- DISPONIVEL -----
+ 952 | gctfn952 | ----- DISPONIVEL -----
+ 953 | gctfn953 | ----- DISPONIVEL -----
+ 954 | gctfn954 | ----- DISPONIVEL -----
+ 955 | gctfn955 | ----- DISPONIVEL -----
+ 956 | gctfn956 | ----- DISPONIVEL -----
+ 957 | gctfn957 | ----- DISPONIVEL -----
+ 958 | gctfn958 | ----- DISPONIVEL -----
+ 959 | gctfn959 | ----- DISPONIVEL -----
+ 960 | gctfn960 | ----- DISPONIVEL -----
+ 961 | gctfn961 | ----- DISPONIVEL -----
+ 962 | gctfn962 | ----- DISPONIVEL -----
+ 963 | gctfn963 | ----- DISPONIVEL -----
+ 964 | gctfn964 | ----- DISPONIVEL -----
+ 965 | gctfn965 | ----- DISPONIVEL -----
+ 966 | gctfn966 | ----- DISPONIVEL -----
+ 967 | gctfn967 | ----- DISPONIVEL -----
+ 968 | gctfn968 | ----- DISPONIVEL -----
+ 969 | gctfn969 | ----- DISPONIVEL -----
+ 970 | gctfn970 | ----- DISPONIVEL -----
+ 971 | gctfn971 | ----- DISPONIVEL -----
+ 972 | gctfn972 | ----- DISPONIVEL -----
+ 973 | gctfn973 | ----- DISPONIVEL -----
+ 974 | gctfn974 | ----- DISPONIVEL -----
+ 975 | gctfn975 | ----- DISPONIVEL -----
+ 976 | gctfn976 | ----- DISPONIVEL -----
+ 977 | gctfn977 | ----- DISPONIVEL -----
+ 978 | gctfn978 | ----- DISPONIVEL -----
+ 979 | gctfn979 | ----- DISPONIVEL -----
+ 980 | gctfn980 | ----- DISPONIVEL -----
+ 981 | gctfn981 | ----- DISPONIVEL -----
+ 982 | gctfn982 | ----- DISPONIVEL -----
+ 983 | gctfn983 | ----- DISPONIVEL -----
+ 984 | gctfn984 | ----- DISPONIVEL -----
+ 985 | gctfn985 | ----- DISPONIVEL -----
+ 986 | gctfn986 | ----- DISPONIVEL -----
+ 987 | gctfn987 | ----- DISPONIVEL -----
+ 988 | gctfn988 | ----- DISPONIVEL -----
+ 989 | gctfn989 | ----- DISPONIVEL -----
+ 990 | gctfn990 | ----- DISPONIVEL -----
+ 991 | gctfn991 | ----- DISPONIVEL -----
+ 992 | gctfn992 | ----- DISPONIVEL -----
+ 993 | gctfn993 | ----- DISPONIVEL -----
+ 994 | gctfn994 | ----- DISPONIVEL -----
+ 995 | gctfn995 | ----- DISPONIVEL -----
+ 996 | gctfn996 | ----- DISPONIVEL -----
+ 997 | gctfn997 | ----- DISPONIVEL -----
+ 998 | gctfn998 | ----- DISPONIVEL -----
+ 999 | gctfn999 | ----- DISPONIVEL -----
+(1264 rows)
+
+  ?column?   | nu_sequencial 
+-------------+---------------
+ REPACTUACAO |           138
+(1 row)
+
+ tabelas_disponiveis 
+---------------------
+ gcttb328
+ gcttb329
+ gcttb330
+ gcttb331
+ gcttb332
+ gcttb333
+ gcttb334
+ gcttb335
+ gcttb336
+ gcttb337
+(10 rows)
+
+  a  | Prefixo  |                       Tabela                        
+-----+----------+-----------------------------------------------------
+   1 | gcttb001 | gcttb001_area_interna
+   2 | gcttb002 | gcttb002_contratante_EXCLUIR
+   2 | gcttb002 | gcttb002_controle_acesso
+   3 | gcttb003 | gcttb003_codigo_sitio
+   4 | gcttb004 | gcttb004_area_sistema
+   5 | gcttb005 | gcttb005_solicitacao
+   6 | gcttb006 | gcttb006_tipo_categoria
+   7 | gcttb007 | gcttb007_valor_contrato
+   8 | gcttb008 | gcttb008_tipo_situacao_demanda
+   9 | gcttb009 | gcttb009_tipo_demanda
+  10 | gcttb010 | gcttb010_contrato
+  11 | gcttb011 | gcttb011_fornecedor
+  12 | gcttb012 | gcttb012_contrato_carteira
+  13 | gcttb013 | gcttb013_forma_contrato
+  14 | gcttb014 | gcttb014_unidade_medida
+  15 | gcttb015 | gcttb015_tipo_servico
+  16 | gcttb016 | gcttb016_tipo_forma
+  17 | gcttb017 | gcttb017_servico_forma
+  18 | gcttb018 | gcttb018_uniao_servico
+  19 | gcttb019 | gcttb019_forma_etapa
+  20 | gcttb020 | gcttb020_tipo_etapa
+  20 | gcttb020 | gcttb020_unidade
+  21 | gcttb021 | gcttb021_demanda
+  22 | gcttb022 | gcttb022_solicitacao_demanda
+  23 | gcttb023 | gcttb023_ordem_servico
+  24 | gcttb024 | gcttb024_tipo_objeto
+  25 | gcttb025 | gcttb025_etapa_contratacao
+  26 | gcttb026 | gcttb026_entrega
+  27 | gcttb027 | gcttb027_movimento_entrega
+  28 | gcttb028 | gcttb028_tipo_situacao_entrega
+  29 | gcttb029 | gcttb029_carteira_modulo
+  30 | gcttb030 | gcttb030_carteira
+  31 | gcttb031 | gcttb031_sequencial_demanda
+  32 | gcttb032 | gcttb032_tipo_grupo
+  33 | gcttb033 | gcttb033_grupo_contrato
+  34 | gcttb034 | gcttb034_etapa_contrato
+  35 | gcttb035 | gcttb035_diligencia
+  36 | gcttb036 | gcttb036_extrato_contrato
+  37 | gcttb037 | gcttb037_empregado_caixa_temp
+  37 | gcttb037 | gcttb037_empregado_caixa
+  38 | gcttb038 | gcttb038_unidade_caixa
+  39 | gcttb039 | gcttb039_sistema
+  40 | gcttb040 | gcttb040_modulo
+  41 | gcttb041 | gcttb041_aval_contr_pergunta
+  42 | gcttb042 | gcttb042_pessoa
+  43 | gcttb043 | gcttb043_pessoa_fornecedor
+  44 | gcttb044 | gcttb044_tipo_situacao_os
+  45 | gcttb045 | gcttb045_uniao_forma
+  46 | gcttb046 | gcttb046_contrato_demanda
+  47 | gcttb047 | gcttb047_servico_area
+  48 | gcttb048 | gcttb048_avaliacao_entrega
+  49 | gcttb049 | gcttb049_tipo_quantidade
+  50 | gcttb050 | gcttb050_forma_quantidade
+  51 | gcttb051 | gcttb051_quantidade_ordem_serv
+  52 | gcttb052 | gcttb052_contato
+  53 | gcttb053 | gcttb053_tipo_preco
+  54 | gcttb054 | gcttb054_preco_forma
+  55 | gcttb055 | gcttb055_servico_contrato
+  56 | gcttb056 | gcttb056_tipo_faixa
+  57 | gcttb057 | gcttb057_valor_faixa
+  58 | gcttb058 | gcttb058_pendencia_entrega
+  59 | gcttb059 | gcttb059_aval_contr_resposta
+  60 | gcttb060 | gcttb060_aval_contr_perg_resp
+  61 | gcttb061 | gcttb061_produtividade
+  62 | gcttb062 | gcttb062_avaliacao_contratada_os
+  63 | gcttb063 | gcttb063_permissao_usuario
+  64 | gcttb064 | gcttb064_valor_contrato
+  65 | gcttb065 | gcttb065_item_portfolio
+  66 | gcttb066 | gcttb066_avaliacao_os
+  67 | gcttb067 | gcttb067_solicita_altera_preco
+  68 | gcttb068 | gcttb068_tipo_atlzco_contrato
+  69 | gcttb069 | gcttb069_movimento_ordem_servico
+  70 | gcttb070 | gcttb070_movimento_demanda
+  71 | gcttb071 | gcttb071_rubrica
+  72 | gcttb072 | gcttb072_tipo_contrato
+  73 | gcttb073 | gcttb073_tipo_atendimento_epzdo
+  74 | gcttb074 | gcttb074_usuario_fornecedor
+  75 | gcttb075 | gcttb075_perfil_acesso
+  76 | gcttb076 | gcttb076_acao_perfil
+  77 | gcttb077 | gcttb077_perfil_acao
+  78 | gcttb078 | gcttb078_demanda_alterada
+  79 | gcttb079 | gcttb079_encarteiramento
+  80 | gcttb080 | gcttb080_categoria_forma_contrato
+  81 | gcttb081 | gcttb081_tipo_categoria_forma
+  82 | gcttb082 | gcttb082_tipo_forma_contrato
+  83 | gcttb083 | gcttb083_tipo_tipo_forma_contrato
+  84 | gcttb084 | gcttb084_situacao_carteira_site
+  85 | gcttb085 | gcttb085_situacao_equipe
+  86 | gcttb086 | gcttb086_solicitacao_equipe
+  87 | gcttb087 | gcttb087_equipe
+  88 | gcttb088 | gcttb088_ciclo_trabalho
+  89 | gcttb089 | gcttb089_area_contrato
+  90 | gcttb090 | gcttb090_solicita_compressao_prazo
+  91 | gcttb091 | gcttb091_prazo_tipo_contagem
+  92 | gcttb092 | gcttb092_situacao_atendimento
+  93 | gcttb093 | gcttb093_sequencial_equipe
+  94 | gcttb094 | gcttb094_dicionario_pergunta
+  95 | gcttb095 | gcttb095_dicionario_resposta
+  96 | gcttb096 | gcttb096_frmro_prgna_rspsa_grpo
+  97 | gcttb097 | gcttb097_qntde_membros_equipe
+  98 | gcttb098 | gcttb098_frmro_prgna_rspsa_eqpe
+  99 | gcttb099 | gcttb099_stco_atendimento_agrupador
+ 100 | gcttb100 | gcttb100_termo
+ 101 | gcttb101 | gcttb101_solicitacao_termo
+ 102 | gcttb102 | gcttb102_fatura
+ 103 | gcttb103 | gcttb103_faturamento
+ 104 | gcttb104 | gcttb104_sequencial_termo
+ 105 | gcttb105 | gcttb105_ordem_pagamento
+ 106 | gcttb106 | gcttb106_tipo_termo
+ 107 | gcttb107 | gcttb107_tipo_motivo_termo
+ 108 | gcttb108 | gcttb108_amsta_termo_ordm_pgmno
+ 109 | gcttb109 | gcttb109_tipo_situacao_fatura
+ 110 | gcttb110 | gcttb110_tipo_situacao_termo
+ 111 | gcttb111 | gcttb111_ajuste
+ 112 | gcttb112 | gcttb112_tipo_indicador
+ 113 | gcttb113 | gcttb113_valor_indicador
+ 114 | gcttb114 | gcttb114_motivo_ajuste
+ 115 | gcttb115 | gcttb115_grupo_indicador
+ 116 | gcttb116 | gcttb116_tipo_situacao_op
+ 117 | gcttb117 | gcttb117_pendencia_termo
+ 118 | gcttb118 | gcttb118_motivo_pendencia_termo
+ 119 | gcttb119 | gcttb119_amostra_entrega_indicador
+ 120 | gcttb120 | gcttb120_amostra_indicador
+ 121 | gcttb121 | gcttb121_amostra_retencao_ta
+ 122 | gcttb122 | gcttb122_situacao_entrega_indicador
+ 123 | gcttb123 | gcttb123_funcao_agrupador
+ 124 | gcttb124 | gcttb124_amostra_termo_indicador
+ 125 | gcttb125 | gcttb125_indicador_agrupador
+ 126 | gcttb126 | gcttb126_valor_indicador_sistema
+ 127 | gcttb127 | gcttb127_situacao_termo_indicador
+ 128 | gcttb128 | gcttb128_tipo_termo_indicador
+ 129 | gcttb129 | gcttb129_integrar_area_interna
+ 130 | gcttb130 | gcttb130_integrar_sistema
+ 130 | gcttb130 | gcttb130_calculo_indicador
+ 131 | gcttb131 | gcttb131_tipo_faixa_indicador
+ 131 | gcttb131 | gcttb131_integrar_contrato
+ 132 | gcttb132 | gcttb132_integrar_tipo_servico
+ 133 | gcttb133 | gcttb133_integrar_tipo_forma
+ 134 | gcttb134 | gcttb134_integracao_externa
+ 135 | gcttb135 | gcttb135_hstro_intgo_externa
+ 136 | gcttb136 | gcttb136_ctlgo_sistema_intgo
+ 137 | gcttb137 | gcttb137_integrar_contagem
+ 138 | gcttb138 | gcttb138_codigo_agrupador_indicador
+ 139 | gcttb139 | gcttb139_area_tipo_area
+ 140 | gcttb140 | gcttb140_contrato_tipo_area
+ 141 | gcttb141 | gcttb141_tipo_area
+ 142 | gcttb142 | gcttb142_condicao_vdp
+ 143 | gcttb143 | gcttb143_stco_entrega_cndc_vdp
+ 144 | gcttb144 | gcttb144_situacao_os_cndc_vdp
+ 145 | gcttb145 | gcttb145_repactuacao
+ 146 | gcttb146 | gcttb146_preco_forma_repactuar
+ 147 | gcttb147 | gcttb147_tipo_servico_indicador
+ 148 | gcttb148 | gcttb148_tipo_contagem_indicador
+ 149 | gcttb149 | gcttb149_permissao_contratacao
+ 150 | gcttb150 | gcttb150_cntrle_stco_entrega
+ 151 | gcttb151 | gcttb151_tipo_solicitacao
+ 152 | gcttb152 | gcttb152_situacao_solicitacao
+ 153 | gcttb153 | gcttb153_cntrle_stco_ordem_servico
+ 154 | gcttb154 | gcttb154_rubrica_contrato_equipe
+ 155 | gcttb155 | gcttb155_entidade_afetada
+ 156 | gcttb156 | gcttb156_arquivo_empenho
+ 157 | gcttb157 | gcttb157_indicador_termo
+ 158 | gcttb158 | gcttb158_autorizacao_contratacao
+ 159 | gcttb159 | gcttb159_tipo_stco_atrzco_contratacao
+ 160 | gcttb160 | gcttb160_termo_aplca_indcr
+ 161 | gcttb161 | gcttb161_acionamento_aplca_indcr
+ 162 | gcttb162 | gcttb162_situacao_entrega_redutor_erro
+ 163 | gcttb163 | gcttb163_tipo_contagem
+ 164 | gcttb164 | gcttb164_grupo_cntro_fator_cnvro
+ 165 | gcttb165 | gcttb165_preco_contrato_equipe
+ 166 | gcttb166 | gcttb166_ausencia_servico_extra
+ 167 | gcttb167 | gcttb167_atendimento_item_trbho
+ 168 | gcttb168 | gcttb168_cntro_grupo_srvco_forma
+ 169 | gcttb169 | gcttb169_tipo_situacao_ajuste
+ 170 | gcttb170 | gcttb170_termo_equipe
+ 171 | gcttb171 | gcttb171_valor_indicador_ciclo_trabalho
+ 172 | gcttb172 | gcttb172_valor_indicador_equipe
+ 173 | gcttb173 | gcttb173_grupo_indicador_vinculo
+ 174 | gcttb174 | gcttb174_grupo_indicador_situacao
+ 175 | gcttb175 | gcttb175_amostra_equipe
+ 176 | gcttb176 | gcttb176_amostra_ciclo_trabalho
+ 177 | gcttb177 | gcttb177_amostra_solicitacao_equipe
+ 178 | gcttb178 | gcttb178_amostra_solicitacao
+ 179 | gcttb179 | gcttb179_amostra_solicitacao_bef
+ 180 | gcttb180 | gcttb180_amostra_ausencia_servico_extra
+ 181 | gcttb181 | gcttb181_amostra_devolucao_solicitacao
+ 182 | gcttb182 | gcttb182_amostra_pendencia_solicitacao
+ 183 | gcttb183 | gcttb183_amostra_qntde_membros_equipe
+ 184 | gcttb184 | gcttb184_ajuste_agil
+ 185 | gcttb185 | gcttb185_stco_ajuste_equipe
+ 186 | gcttb186 | gcttb186_termo_ajuste_equipe
+ 187 | gcttb187 | gcttb187_ajuste_agil_equipe
+ 188 | gcttb188 | gcttb188_stco_atrzco_movimentacao_termo
+ 189 | gcttb189 | gcttb189_movimentacao_termo
+ 190 | gcttb190 | gcttb190_tipo_stco_agendamento_movimentacao
+ 191 | gcttb191 | gcttb191_servico_entregue
+ 192 | gcttb192 | gcttb192_servico_contratado
+ 193 | gcttb193 | gcttb193_servico_atraso
+ 194 | gcttb194 | gcttb194_servico_devolvido
+ 195 | gcttb195 | gcttb195_servico_entregue_amostra
+ 196 | gcttb196 | gcttb196_servico_contratado_amostra
+ 197 | gcttb197 | gcttb197_servico_atraso_amostra
+ 198 | gcttb198 | gcttb198_servico_devolvido_amostra
+ 199 | gcttb199 | gcttb199_tarefa_vinculacao
+ 199 | gcttb199 | gcttb199_avlco_atndmnto_equipe
+ 200 | gcttb200 | gcttb200_mensuracao_rtc
+ 200 | gcttb200 | gcttb200_sistema_operacional
+ 201 | gcttb201 | gcttb201_area_projeto
+ 202 | gcttb202 | gcttb202_tipo_area_projeto
+ 203 | gcttb203 | gcttb203_amostra_externa
+ 204 | gcttb204 | gcttb204_atributo_destino
+ 205 | gcttb205 | gcttb205_atributo_origem
+ 206 | gcttb206 | gcttb206_atrto_origem_destino
+ 207 | gcttb207 | gcttb207_entidade_origem
+ 208 | gcttb208 | gcttb208_dmno_vlr_transformado
+ 209 | gcttb209 | gcttb209_amostra_entrega_extna
+ 210 | gcttb210 | gcttb210_entidade_destino
+ 211 | gcttb211 | gcttb211_ctlgo_entidade_area
+ 212 | gcttb212 | gcttb212_entde_origem_destino
+ 213 | gcttb213 | gcttb213_hstro_situacao_amsta
+ 214 | gcttb214 | gcttb214_atributo_valor_cmpmo
+ 215 | gcttb215 | gcttb215_amsta_extna_prlnr
+ 216 | gcttb216 | gcttb216_rejeicao_rtc
+ 217 | gcttb217 | gcttb217_pendencia_rtc
+ 218 | gcttb218 | gcttb218_carga_rtc
+ 219 | gcttb219 | gcttb219_contrato_sistema_rtc
+ 220 | gcttb220 | gcttb220_area_projeto_rtc
+ 221 | gcttb221 | gcttb221_erro_integracao_rtc
+ 222 | gcttb222 | gcttb222_execucao_batch
+ 223 | gcttb223 | gcttb223_tipo_execucao_batch
+ 224 | gcttb224 | gcttb224_link_demanda_pendente
+ 225 | gcttb225 | gcttb225_pendencia_solicitacao
+ 226 | gcttb226 | gcttb226_devolucao_solicitacao
+ 227 | gcttb227 | gcttb227_empregado_autenticado
+ 228 | gcttb228 | gcttb228_atributo_cntro_custo
+ 229 | gcttb229 | gcttb229_registro_atualizacao_slctco
+ 230 | gcttb230 | gcttb230_area_projeto_acesso_restrito
+ 231 | gcttb231 | gcttb231_amostra_membros
+ 232 | gcttb232 | gcttb232_amostra_parametro_grupo_contrato
+ 233 | gcttb233 | gcttb233_amostra_preco_grupo
+ 234 | gcttb234 | gcttb234_amostra_preco_perfil_grupo
+ 235 | gcttb235 | gcttb235_amostra_parametro_indicador_grupo_contrato
+ 236 | gcttb236 | gcttb236_amostra_parametro_faixa_indicador
+ 237 | gcttb237 | gcttb237_amostra_grupo_indicador_situacao
+ 238 | gcttb238 | gcttb238_preco_grupo_repactuar_agil
+ 239 | gcttb239 | gcttb239_valor_previsto_repactuar
+ 240 | gcttb240 | gcttb240_tp_frma_calculo_pgto
+ 241 | gcttb241 | gcttb241_tp_categoria_servico
+ 242 | gcttb242 | gcttb242_categoria_servico
+ 243 | gcttb243 | gcttb243_ferramenta_suporte
+ 244 | gcttb244 | gcttb244_quantidade_contratacao
+ 245 | gcttb245 | gcttb245_grupo_frmnta_suporte
+ 246 | gcttb246 | gcttb246_frmnta_sprte_equipe
+ 247 | gcttb247 | gcttb247_qntde_cntrtcao_termo
+ 248 | gcttb248 | gcttb248_frmta_suporte_termo
+ 249 | gcttb249 | gcttb249_ctgra_servico_termo
+ 250 | gcttb250 | gcttb250_equipe_epzdo
+ 251 | gcttb251 | gcttb251_vgnca_mbro_eqpe_epzdo
+ 252 | gcttb252 | gcttb252_equipe_epzdo_cntro
+ 253 | gcttb253 | gcttb253_solicitacao_eqpe_epzdo
+ 254 | gcttb254 | gcttb254_ciclo_eqpe_epzdo
+ 255 | gcttb255 | gcttb255_qntde_solicitacao
+ 256 | gcttb256 | gcttb256_ciclo_slctco_eqpe_epzdo
+ 257 | gcttb257 | gcttb257_tipo_agrupamento
+ 258 | gcttb258 | gcttb258_agrupamento
+ 259 | gcttb259 | gcttb259_ausencia_extra_epzdo
+ 260 | gcttb260 | gcttb260_tipo_lancamento
+ 261 | gcttb261 | gcttb261_agrupamento_empregado
+ 262 | gcttb262 | gcttb262_eqpe_epzdo_membro_squad
+ 263 | gcttb263 | gcttb263_nota_codigo
+ 264 | gcttb264 | gcttb264_amsta_equipe
+ 265 | gcttb265 | gcttb265_amsta_solicitacao
+ 266 | gcttb266 | gcttb266_amsta_slctco_equipe
+ 267 | gcttb267 | gcttb267_amsta_ciclo_trabalho
+ 268 | gcttb268 | gcttb268_amsta_membros_equipe
+ 269 | gcttb269 | gcttb269_valor_indicador_contratada
+ 270 | gcttb270 | gcttb270_empenho_termo_epzdo
+ 271 | gcttb271 | gcttb271_empenho_equipe_epzdo
+ 272 | gcttb272 | gcttb272_empenho_preco_eqpe_epzdo
+ 273 | gcttb273 | gcttb273_empenho_valor_area_epzdo
+ 274 | gcttb274 | gcttb274_empenho_valor_rubrica_epzdo
+ 275 | gcttb275 | gcttb275_empenho_membros_epzdo
+ 276 | gcttb276 | gcttb276_carga_squad
+ 277 | gcttb277 | gcttb277_carga_emprgdo_cntrto
+ 278 | gcttb278 | gcttb278_controle_carga
+ 279 | gcttb279 | gcttb279_hstrco_carga
+ 280 | gcttb280 | gcttb280_prtcpcao_eqpe_epzdo_empenho
+ 281 | gcttb281 | gcttb281_prtcpcao_slctco_epzdo_empenho
+ 282 | gcttb282 | gcttb282_distribucao_epzdo_empenho
+ 283 | gcttb283 | gcttb283_agendamento_indicador
+ 284 | gcttb284 | gcttb284_amsta_qntde_mbro_eqpe_prfl
+ 285 | gcttb285 | gcttb285_produtividade_min_exigida
+ 286 | gcttb286 | gcttb286_faixa
+ 287 | gcttb287 | gcttb287_faixa_valor
+ 288 | gcttb288 | gcttb288_tipo_orcamento
+ 289 | gcttb289 | gcttb289_controle_batch
+ 289 | gcttb289 | gcttb289_equipe_produtividade
+ 290 | gcttb290 | gcttb290_tipo_atendimento
+ 291 | gcttb291 | gcttb291_carga_servico_qualidade_api
+ 292 | gcttb292 | gcttb292_servico_qualidade
+ 293 | gcttb293 | gcttb293_termo_bonus
+ 294 | gcttb294 | gcttb294_termo_desconto
+ 295 | gcttb295 | ----- DISPONIVEL -----
+ 296 | gcttb296 | gcttb296_ausencia_equipe
+ 297 | gcttb297 | gcttb297_srvco_extra_equipe
+ 298 | gcttb298 | gcttb298_parametros
+ 299 | gcttb299 | gcttb299_alteracao_amostra
+ 300 | gcttb300 | gcttb300_historico
+ 301 | gcttb301 | gcttb301_historico_demanda
+ 302 | gcttb302 | gcttb302_hstro_ordem_servico
+ 303 | gcttb303 | gcttb303_historico_entrega
+ 304 | gcttb304 | gcttb304_hstro_slcto_demanda
+ 305 | gcttb305 | gcttb305_hstro_cntro_demanda
+ 306 | gcttb306 | gcttb306_hstro_termo
+ 307 | gcttb307 | gcttb307_hstro_qntde_ordem_srvco
+ 308 | gcttb308 | gcttb308_historico_equipe
+ 309 | gcttb309 | gcttb309_hstro_area_projeto_rtc
+ 310 | gcttb310 | gcttb310_justificativa_ajuste_equipe
+ 310 | gcttb310 | gcttb310_hstro_solicitacao
+ 311 | gcttb311 | gcttb311_hstro_vinculacao_solicitacao_equipe
+ 312 | gcttb312 | gcttb312_amostra_qtd_cntrtcao
+ 313 | gcttb313 | gcttb313_amostra_frmnta_sprte
+ 314 | gcttb314 | gcttb314_amostra_ctgra_srvco
+ 315 | gcttb315 | gcttb315_hstro_preco_contrato
+ 316 | gcttb316 | gcttb316_amostra_grpo_frmnta_sprte
+ 317 | gcttb317 | gcttb317_amostra_frmnta_sprte_eqpe
+ 318 | gcttb318 | gcttb318_amostra_avlco_atnto_eqpe
+ 319 | gcttb319 | gcttb319_hstrco_nota_codigo
+ 320 | gcttb320 | gcttb320_amostra_idsw
+ 321 | gcttb321 | gcttb321_carga_amostra_idsw
+ 322 | gcttb322 | gcttb322_sistema_idsw
+ 323 | gcttb323 | gcttb323_amostra_iqra
+ 324 | gcttb324 | gcttb324_situacao_iqra_indicador
+ 325 | gcttb325 | gcttb325_situacao_iqra
+ 326 | gcttb326 | gcttb326_amostra_iqsa
+ 327 | gcttb327 | gcttb327_hstro_altrcao_slctco_rtc
+ 328 | gcttb328 | ----- DISPONIVEL -----
+ 329 | gcttb329 | ----- DISPONIVEL -----
+ 330 | gcttb330 | ----- DISPONIVEL -----
+ 331 | gcttb331 | ----- DISPONIVEL -----
+ 332 | gcttb332 | ----- DISPONIVEL -----
+ 333 | gcttb333 | ----- DISPONIVEL -----
+ 334 | gcttb334 | ----- DISPONIVEL -----
+ 335 | gcttb335 | ----- DISPONIVEL -----
+ 336 | gcttb336 | ----- DISPONIVEL -----
+ 337 | gcttb337 | ----- DISPONIVEL -----
+ 338 | gcttb338 | ----- DISPONIVEL -----
+ 339 | gcttb339 | ----- DISPONIVEL -----
+ 340 | gcttb340 | ----- DISPONIVEL -----
+ 341 | gcttb341 | ----- DISPONIVEL -----
+ 342 | gcttb342 | ----- DISPONIVEL -----
+ 343 | gcttb343 | ----- DISPONIVEL -----
+ 344 | gcttb344 | ----- DISPONIVEL -----
+ 345 | gcttb345 | ----- DISPONIVEL -----
+ 346 | gcttb346 | ----- DISPONIVEL -----
+ 347 | gcttb347 | ----- DISPONIVEL -----
+ 348 | gcttb348 | ----- DISPONIVEL -----
+ 349 | gcttb349 | ----- DISPONIVEL -----
+ 350 | gcttb350 | gcttb350_amostra_equipe_epzdo
+ 351 | gcttb351 | gcttb351_amostra_vgnca_mbro_eqpe_epzdo
+ 352 | gcttb352 | gcttb352_amostra_equipe_epzdo_cntro
+ 353 | gcttb353 | gcttb353_amostra_solicitacao_eqpe_epzdo
+ 354 | gcttb354 | gcttb354_amostra_ciclo_eqpe_epzdo
+ 355 | gcttb355 | gcttb355_amostra_qntde_solicitacao
+ 356 | gcttb356 | gcttb356_amostra_ciclo_slctco_eqpe_epzdo
+ 357 | gcttb357 | gcttb357_amsta_eqpe_epzdo_membro_squad
+ 358 | gcttb358 | ----- DISPONIVEL -----
+ 359 | gcttb359 | ----- DISPONIVEL -----
+ 360 | gcttb360 | gcttb360_hstrco_equipe_epzdo
+ 361 | gcttb361 | gcttb361_hstrco_contrato
+ 362 | gcttb362 | gcttb362_produtividade_min_exigida_hstrco
+ 363 | gcttb363 | gcttb363_alteracao_amostra_hstrco
+ 364 | gcttb364 | ----- DISPONIVEL -----
+ 365 | gcttb365 | ----- DISPONIVEL -----
+ 366 | gcttb366 | ----- DISPONIVEL -----
+ 367 | gcttb367 | ----- DISPONIVEL -----
+ 368 | gcttb368 | ----- DISPONIVEL -----
+ 369 | gcttb369 | ----- DISPONIVEL -----
+ 370 | gcttb370 | ----- DISPONIVEL -----
+ 371 | gcttb371 | ----- DISPONIVEL -----
+ 372 | gcttb372 | ----- DISPONIVEL -----
+ 373 | gcttb373 | ----- DISPONIVEL -----
+ 374 | gcttb374 | ----- DISPONIVEL -----
+ 375 | gcttb375 | ----- DISPONIVEL -----
+ 376 | gcttb376 | ----- DISPONIVEL -----
+ 377 | gcttb377 | ----- DISPONIVEL -----
+ 378 | gcttb378 | ----- DISPONIVEL -----
+ 379 | gcttb379 | ----- DISPONIVEL -----
+ 380 | gcttb380 | ----- DISPONIVEL -----
+ 381 | gcttb381 | ----- DISPONIVEL -----
+ 382 | gcttb382 | ----- DISPONIVEL -----
+ 383 | gcttb383 | ----- DISPONIVEL -----
+ 384 | gcttb384 | ----- DISPONIVEL -----
+ 385 | gcttb385 | ----- DISPONIVEL -----
+ 386 | gcttb386 | ----- DISPONIVEL -----
+ 387 | gcttb387 | ----- DISPONIVEL -----
+ 388 | gcttb388 | ----- DISPONIVEL -----
+ 389 | gcttb389 | ----- DISPONIVEL -----
+ 390 | gcttb390 | ----- DISPONIVEL -----
+ 391 | gcttb391 | ----- DISPONIVEL -----
+ 392 | gcttb392 | ----- DISPONIVEL -----
+ 393 | gcttb393 | ----- DISPONIVEL -----
+ 394 | gcttb394 | ----- DISPONIVEL -----
+ 395 | gcttb395 | ----- DISPONIVEL -----
+ 396 | gcttb396 | ----- DISPONIVEL -----
+ 397 | gcttb397 | ----- DISPONIVEL -----
+ 398 | gcttb398 | ----- DISPONIVEL -----
+ 399 | gcttb399 | ----- DISPONIVEL -----
+ 400 | gcttb400 | gcttb400_extrato_financeiro_contrato
+ 401 | gcttb401 | gcttb401_amsta_termo_ordm_pgmno_equipe
+ 402 | gcttb402 | gcttb402_ordm_pgmno_ajuste
+ 403 | gcttb403 | gcttb403_termo_aceite_fiscal
+ 404 | gcttb404 | gcttb404_situacao_aceite_termo
+ 405 | gcttb405 | gcttb405_comunidade
+ 406 | gcttb406 | gcttb406_comunidade_contrato
+ 407 | gcttb407 | gcttb407_comunidade_empregado
+ 408 | gcttb408 | gcttb408_preposto
+ 409 | gcttb409 | gcttb409_preposto_contrato
+ 410 | gcttb410 | gcttb410_contrato_externo
+ 411 | gcttb411 | gcttb411_preposto_sitio
+ 412 | gcttb412 | gcttb412_cargo
+ 413 | gcttb413 | gcttb413_preposto_cargo
+ 414 | gcttb414 | gcttb414_solicitacao_profissional
+ 415 | gcttb415 | gcttb415_sistema_solicitacao
+ 416 | gcttb416 | gcttb416_profissional_desligado
+ 417 | gcttb417 | gcttb417_profissional_contratacao
+ 418 | gcttb418 | gcttb418_membros
+ 419 | gcttb419 | gcttb419_vigencia_membros_equipe
+ 420 | gcttb420 | gcttb420_amostra_vigencia_membros_equipe
+ 421 | gcttb421 | gcttb421_rprcsmnto_indicador
+ 422 | gcttb422 | gcttb422_rprcsmnto_amostra_entrega_indicador
+ 423 | gcttb423 | gcttb423_rprcsmnto_amostra_termo_indicador
+ 424 | gcttb424 | gcttb424_rprcsmnto_valor_indicador
+ 425 | gcttb425 | ----- DISPONIVEL -----
+ 426 | gcttb426 | ----- DISPONIVEL -----
+ 427 | gcttb427 | ----- DISPONIVEL -----
+ 428 | gcttb428 | ----- DISPONIVEL -----
+ 429 | gcttb429 | ----- DISPONIVEL -----
+ 430 | gcttb430 | ----- DISPONIVEL -----
+ 431 | gcttb431 | ----- DISPONIVEL -----
+ 432 | gcttb432 | ----- DISPONIVEL -----
+ 433 | gcttb433 | ----- DISPONIVEL -----
+ 434 | gcttb434 | ----- DISPONIVEL -----
+ 435 | gcttb435 | ----- DISPONIVEL -----
+ 436 | gcttb436 | ----- DISPONIVEL -----
+ 437 | gcttb437 | ----- DISPONIVEL -----
+ 438 | gcttb438 | ----- DISPONIVEL -----
+ 439 | gcttb439 | ----- DISPONIVEL -----
+ 440 | gcttb440 | ----- DISPONIVEL -----
+ 441 | gcttb441 | ----- DISPONIVEL -----
+ 442 | gcttb442 | ----- DISPONIVEL -----
+ 443 | gcttb443 | ----- DISPONIVEL -----
+ 444 | gcttb444 | ----- DISPONIVEL -----
+ 445 | gcttb445 | ----- DISPONIVEL -----
+ 446 | gcttb446 | ----- DISPONIVEL -----
+ 447 | gcttb447 | ----- DISPONIVEL -----
+ 448 | gcttb448 | ----- DISPONIVEL -----
+ 449 | gcttb449 | ----- DISPONIVEL -----
+ 450 | gcttb450 | ----- DISPONIVEL -----
+ 451 | gcttb451 | ----- DISPONIVEL -----
+ 452 | gcttb452 | ----- DISPONIVEL -----
+ 453 | gcttb453 | ----- DISPONIVEL -----
+ 454 | gcttb454 | ----- DISPONIVEL -----
+ 455 | gcttb455 | ----- DISPONIVEL -----
+ 456 | gcttb456 | ----- DISPONIVEL -----
+ 457 | gcttb457 | ----- DISPONIVEL -----
+ 458 | gcttb458 | ----- DISPONIVEL -----
+ 459 | gcttb459 | ----- DISPONIVEL -----
+ 460 | gcttb460 | ----- DISPONIVEL -----
+ 461 | gcttb461 | ----- DISPONIVEL -----
+ 462 | gcttb462 | ----- DISPONIVEL -----
+ 463 | gcttb463 | ----- DISPONIVEL -----
+ 464 | gcttb464 | ----- DISPONIVEL -----
+ 465 | gcttb465 | ----- DISPONIVEL -----
+ 466 | gcttb466 | ----- DISPONIVEL -----
+ 467 | gcttb467 | ----- DISPONIVEL -----
+ 468 | gcttb468 | ----- DISPONIVEL -----
+ 469 | gcttb469 | ----- DISPONIVEL -----
+ 470 | gcttb470 | ----- DISPONIVEL -----
+ 471 | gcttb471 | ----- DISPONIVEL -----
+ 472 | gcttb472 | ----- DISPONIVEL -----
+ 473 | gcttb473 | ----- DISPONIVEL -----
+ 474 | gcttb474 | ----- DISPONIVEL -----
+ 475 | gcttb475 | ----- DISPONIVEL -----
+ 476 | gcttb476 | ----- DISPONIVEL -----
+ 477 | gcttb477 | ----- DISPONIVEL -----
+ 478 | gcttb478 | ----- DISPONIVEL -----
+ 479 | gcttb479 | ----- DISPONIVEL -----
+ 480 | gcttb480 | ----- DISPONIVEL -----
+ 481 | gcttb481 | ----- DISPONIVEL -----
+ 482 | gcttb482 | ----- DISPONIVEL -----
+ 483 | gcttb483 | ----- DISPONIVEL -----
+ 484 | gcttb484 | ----- DISPONIVEL -----
+ 485 | gcttb485 | ----- DISPONIVEL -----
+ 486 | gcttb486 | ----- DISPONIVEL -----
+ 487 | gcttb487 | ----- DISPONIVEL -----
+ 488 | gcttb488 | ----- DISPONIVEL -----
+ 489 | gcttb489 | ----- DISPONIVEL -----
+ 490 | gcttb490 | ----- DISPONIVEL -----
+ 491 | gcttb491 | ----- DISPONIVEL -----
+ 492 | gcttb492 | ----- DISPONIVEL -----
+ 493 | gcttb493 | ----- DISPONIVEL -----
+ 494 | gcttb494 | ----- DISPONIVEL -----
+ 495 | gcttb495 | ----- DISPONIVEL -----
+ 496 | gcttb496 | ----- DISPONIVEL -----
+ 497 | gcttb497 | ----- DISPONIVEL -----
+ 498 | gcttb498 | ----- DISPONIVEL -----
+ 499 | gcttb499 | ----- DISPONIVEL -----
+ 500 | gcttb500 | gcttb500_empenho_termo
+ 501 | gcttb501 | gcttb501_empenho_rubrica
+ 502 | gcttb502 | gcttb502_empenho_indicador
+ 503 | gcttb503 | gcttb503_empenho_areas_pagamento
+ 504 | gcttb504 | gcttb504_empenho_equipe
+ 505 | gcttb505 | gcttb505_empenho_ciclo_trabalho
+ 506 | gcttb506 | gcttb506_empenho_servico
+ 507 | gcttb507 | ----- DISPONIVEL -----
+ 508 | gcttb508 | ----- DISPONIVEL -----
+ 509 | gcttb509 | ----- DISPONIVEL -----
+ 510 | gcttb510 | ----- DISPONIVEL -----
+ 511 | gcttb511 | ----- DISPONIVEL -----
+ 512 | gcttb512 | ----- DISPONIVEL -----
+ 513 | gcttb513 | ----- DISPONIVEL -----
+ 514 | gcttb514 | ----- DISPONIVEL -----
+ 515 | gcttb515 | ----- DISPONIVEL -----
+ 516 | gcttb516 | ----- DISPONIVEL -----
+ 517 | gcttb517 | ----- DISPONIVEL -----
+ 518 | gcttb518 | ----- DISPONIVEL -----
+ 519 | gcttb519 | ----- DISPONIVEL -----
+ 520 | gcttb520 | ----- DISPONIVEL -----
+ 521 | gcttb521 | gcttb521_perfil_profissional
+ 522 | gcttb522 | gcttb522_dstrbco_profissional_perfil
+ 523 | gcttb523 | gcttb523_qntde_membro_equipe_perfil
+ 524 | gcttb524 | gcttb524_preco_cntrto_equipe_perfil
+ 525 | gcttb525 | gcttb525_amostra_qntde_membros_perfil
+ 526 | gcttb526 | gcttb526_qntde_membro_termo_perfil
+ 527 | gcttb527 | gcttb527_preco_grupo_termo
+ 528 | gcttb528 | ----- DISPONIVEL -----
+ 529 | gcttb529 | ----- DISPONIVEL -----
+ 530 | gcttb530 | ----- DISPONIVEL -----
+ 531 | gcttb531 | ----- DISPONIVEL -----
+ 532 | gcttb532 | ----- DISPONIVEL -----
+ 533 | gcttb533 | ----- DISPONIVEL -----
+ 534 | gcttb534 | ----- DISPONIVEL -----
+ 535 | gcttb535 | ----- DISPONIVEL -----
+ 536 | gcttb536 | ----- DISPONIVEL -----
+ 537 | gcttb537 | ----- DISPONIVEL -----
+ 538 | gcttb538 | ----- DISPONIVEL -----
+ 539 | gcttb539 | ----- DISPONIVEL -----
+ 540 | gcttb540 | ----- DISPONIVEL -----
+ 541 | gcttb541 | ----- DISPONIVEL -----
+ 542 | gcttb542 | ----- DISPONIVEL -----
+ 543 | gcttb543 | ----- DISPONIVEL -----
+ 544 | gcttb544 | ----- DISPONIVEL -----
+ 545 | gcttb545 | ----- DISPONIVEL -----
+ 546 | gcttb546 | ----- DISPONIVEL -----
+ 547 | gcttb547 | ----- DISPONIVEL -----
+ 548 | gcttb548 | ----- DISPONIVEL -----
+ 549 | gcttb549 | ----- DISPONIVEL -----
+ 550 | gcttb550 | ----- DISPONIVEL -----
+ 551 | gcttb551 | ----- DISPONIVEL -----
+ 552 | gcttb552 | ----- DISPONIVEL -----
+ 553 | gcttb553 | ----- DISPONIVEL -----
+ 554 | gcttb554 | ----- DISPONIVEL -----
+ 555 | gcttb555 | ----- DISPONIVEL -----
+ 556 | gcttb556 | ----- DISPONIVEL -----
+ 557 | gcttb557 | ----- DISPONIVEL -----
+ 558 | gcttb558 | ----- DISPONIVEL -----
+ 559 | gcttb559 | ----- DISPONIVEL -----
+ 560 | gcttb560 | ----- DISPONIVEL -----
+ 561 | gcttb561 | ----- DISPONIVEL -----
+ 562 | gcttb562 | ----- DISPONIVEL -----
+ 563 | gcttb563 | ----- DISPONIVEL -----
+ 564 | gcttb564 | ----- DISPONIVEL -----
+ 565 | gcttb565 | ----- DISPONIVEL -----
+ 566 | gcttb566 | ----- DISPONIVEL -----
+ 567 | gcttb567 | ----- DISPONIVEL -----
+ 568 | gcttb568 | ----- DISPONIVEL -----
+ 569 | gcttb569 | ----- DISPONIVEL -----
+ 570 | gcttb570 | ----- DISPONIVEL -----
+ 571 | gcttb571 | ----- DISPONIVEL -----
+ 572 | gcttb572 | ----- DISPONIVEL -----
+ 573 | gcttb573 | ----- DISPONIVEL -----
+ 574 | gcttb574 | ----- DISPONIVEL -----
+ 575 | gcttb575 | ----- DISPONIVEL -----
+ 576 | gcttb576 | ----- DISPONIVEL -----
+ 577 | gcttb577 | ----- DISPONIVEL -----
+ 578 | gcttb578 | ----- DISPONIVEL -----
+ 579 | gcttb579 | ----- DISPONIVEL -----
+ 580 | gcttb580 | ----- DISPONIVEL -----
+ 581 | gcttb581 | ----- DISPONIVEL -----
+ 582 | gcttb582 | ----- DISPONIVEL -----
+ 583 | gcttb583 | ----- DISPONIVEL -----
+ 584 | gcttb584 | ----- DISPONIVEL -----
+ 585 | gcttb585 | ----- DISPONIVEL -----
+ 586 | gcttb586 | ----- DISPONIVEL -----
+ 587 | gcttb587 | ----- DISPONIVEL -----
+ 588 | gcttb588 | ----- DISPONIVEL -----
+ 589 | gcttb589 | ----- DISPONIVEL -----
+ 590 | gcttb590 | gcttb590_rateio_custos_demanda
+ 591 | gcttb591 | gcttb591_valor_pedido_custos_demanda
+ 592 | gcttb592 | gcttb592_valor_rateio_custos_demanda
+ 593 | gcttb593 | gcttb593_amostra_rateio_custos_demanda
+ 594 | gcttb594 | gcttb594_motivo_falha_rateio_custos_demanda
+ 595 | gcttb595 | gcttb595_amostra_rateio_custos_demanda_slcto
+ 596 | gcttb596 | gcttb596_amostra_rateio_custos_demanda_falha
+ 597 | gcttb597 | ----- DISPONIVEL -----
+ 598 | gcttb598 | ----- DISPONIVEL -----
+ 599 | gcttb599 | ----- DISPONIVEL -----
+ 600 | gcttb600 | gcttb600_dstrbco_custo
+ 601 | gcttb601 | gcttb601_dstrbco_custo_contratacao
+ 602 | gcttb602 | gcttb602_dstrbco_custo_solicitacao
+ 603 | gcttb603 | gcttb603_dstrbco_custo_arquivo
+ 604 | gcttb604 | ----- DISPONIVEL -----
+ 605 | gcttb605 | ----- DISPONIVEL -----
+ 606 | gcttb606 | ----- DISPONIVEL -----
+ 607 | gcttb607 | ----- DISPONIVEL -----
+ 608 | gcttb608 | ----- DISPONIVEL -----
+ 609 | gcttb609 | ----- DISPONIVEL -----
+ 610 | gcttb610 | ----- DISPONIVEL -----
+ 611 | gcttb611 | ----- DISPONIVEL -----
+ 612 | gcttb612 | ----- DISPONIVEL -----
+ 613 | gcttb613 | ----- DISPONIVEL -----
+ 614 | gcttb614 | ----- DISPONIVEL -----
+ 615 | gcttb615 | ----- DISPONIVEL -----
+ 616 | gcttb616 | ----- DISPONIVEL -----
+ 617 | gcttb617 | ----- DISPONIVEL -----
+ 618 | gcttb618 | ----- DISPONIVEL -----
+ 619 | gcttb619 | ----- DISPONIVEL -----
+ 620 | gcttb620 | ----- DISPONIVEL -----
+ 621 | gcttb621 | ----- DISPONIVEL -----
+ 622 | gcttb622 | ----- DISPONIVEL -----
+ 623 | gcttb623 | ----- DISPONIVEL -----
+ 624 | gcttb624 | ----- DISPONIVEL -----
+ 625 | gcttb625 | ----- DISPONIVEL -----
+ 626 | gcttb626 | ----- DISPONIVEL -----
+ 627 | gcttb627 | ----- DISPONIVEL -----
+ 628 | gcttb628 | ----- DISPONIVEL -----
+ 629 | gcttb629 | ----- DISPONIVEL -----
+ 630 | gcttb630 | ----- DISPONIVEL -----
+ 631 | gcttb631 | ----- DISPONIVEL -----
+ 632 | gcttb632 | ----- DISPONIVEL -----
+ 633 | gcttb633 | ----- DISPONIVEL -----
+ 634 | gcttb634 | ----- DISPONIVEL -----
+ 635 | gcttb635 | ----- DISPONIVEL -----
+ 636 | gcttb636 | ----- DISPONIVEL -----
+ 637 | gcttb637 | ----- DISPONIVEL -----
+ 638 | gcttb638 | ----- DISPONIVEL -----
+ 639 | gcttb639 | ----- DISPONIVEL -----
+ 640 | gcttb640 | ----- DISPONIVEL -----
+ 641 | gcttb641 | ----- DISPONIVEL -----
+ 642 | gcttb642 | ----- DISPONIVEL -----
+ 643 | gcttb643 | ----- DISPONIVEL -----
+ 644 | gcttb644 | ----- DISPONIVEL -----
+ 645 | gcttb645 | ----- DISPONIVEL -----
+ 646 | gcttb646 | ----- DISPONIVEL -----
+ 647 | gcttb647 | ----- DISPONIVEL -----
+ 648 | gcttb648 | ----- DISPONIVEL -----
+ 649 | gcttb649 | ----- DISPONIVEL -----
+ 650 | gcttb650 | ----- DISPONIVEL -----
+ 651 | gcttb651 | ----- DISPONIVEL -----
+ 652 | gcttb652 | ----- DISPONIVEL -----
+ 653 | gcttb653 | ----- DISPONIVEL -----
+ 654 | gcttb654 | ----- DISPONIVEL -----
+ 655 | gcttb655 | ----- DISPONIVEL -----
+ 656 | gcttb656 | ----- DISPONIVEL -----
+ 657 | gcttb657 | ----- DISPONIVEL -----
+ 658 | gcttb658 | ----- DISPONIVEL -----
+ 659 | gcttb659 | ----- DISPONIVEL -----
+ 660 | gcttb660 | ----- DISPONIVEL -----
+ 661 | gcttb661 | ----- DISPONIVEL -----
+ 662 | gcttb662 | ----- DISPONIVEL -----
+ 663 | gcttb663 | ----- DISPONIVEL -----
+ 664 | gcttb664 | ----- DISPONIVEL -----
+ 665 | gcttb665 | ----- DISPONIVEL -----
+ 666 | gcttb666 | ----- DISPONIVEL -----
+ 667 | gcttb667 | ----- DISPONIVEL -----
+ 668 | gcttb668 | ----- DISPONIVEL -----
+ 669 | gcttb669 | ----- DISPONIVEL -----
+ 670 | gcttb670 | ----- DISPONIVEL -----
+ 671 | gcttb671 | ----- DISPONIVEL -----
+ 672 | gcttb672 | ----- DISPONIVEL -----
+ 673 | gcttb673 | ----- DISPONIVEL -----
+ 674 | gcttb674 | ----- DISPONIVEL -----
+ 675 | gcttb675 | ----- DISPONIVEL -----
+ 676 | gcttb676 | ----- DISPONIVEL -----
+ 677 | gcttb677 | ----- DISPONIVEL -----
+ 678 | gcttb678 | ----- DISPONIVEL -----
+ 679 | gcttb679 | ----- DISPONIVEL -----
+ 680 | gcttb680 | ----- DISPONIVEL -----
+ 681 | gcttb681 | ----- DISPONIVEL -----
+ 682 | gcttb682 | ----- DISPONIVEL -----
+ 683 | gcttb683 | ----- DISPONIVEL -----
+ 684 | gcttb684 | ----- DISPONIVEL -----
+ 685 | gcttb685 | ----- DISPONIVEL -----
+ 686 | gcttb686 | ----- DISPONIVEL -----
+ 687 | gcttb687 | ----- DISPONIVEL -----
+ 688 | gcttb688 | ----- DISPONIVEL -----
+ 689 | gcttb689 | ----- DISPONIVEL -----
+ 690 | gcttb690 | ----- DISPONIVEL -----
+ 691 | gcttb691 | ----- DISPONIVEL -----
+ 692 | gcttb692 | ----- DISPONIVEL -----
+ 693 | gcttb693 | ----- DISPONIVEL -----
+ 694 | gcttb694 | ----- DISPONIVEL -----
+ 695 | gcttb695 | ----- DISPONIVEL -----
+ 696 | gcttb696 | ----- DISPONIVEL -----
+ 697 | gcttb697 | ----- DISPONIVEL -----
+ 698 | gcttb698 | ----- DISPONIVEL -----
+ 699 | gcttb699 | ----- DISPONIVEL -----
+ 700 | gcttb700 | gcttb700_empenho
+ 701 | gcttb701 | gcttb701_termo_equipe_empenho
+ 702 | gcttb702 | gcttb702_equipe_empenho
+ 703 | gcttb703 | gcttb703_qntde_membros_equipe_empenho
+ 704 | gcttb704 | gcttb704_ausencia_servico_extra_empenho
+ 705 | gcttb705 | gcttb705_grupo_contrato_empenho
+ 706 | gcttb706 | gcttb706_preco_contrato_equipe_empenho
+ 707 | gcttb707 | gcttb707_valor_indicador_equipe_empenho
+ 708 | gcttb708 | gcttb708_participacao_equipe_empenho
+ 709 | gcttb709 | gcttb709_participacao_ciclo_empenho
+ 710 | gcttb710 | gcttb710_participacao_slctco_empenho
+ 711 | gcttb711 | gcttb711_valor_solicitacao_empenho
+ 712 | gcttb712 | gcttb712_valor_ociosidade_empenho
+ 713 | gcttb713 | gcttb713_valor_ajuste_equipe
+ 714 | gcttb714 | gcttb714_empenho_rubrica_grupo
+ 715 | gcttb715 | gcttb715_valor_rubrica_empenho
+ 716 | gcttb716 | gcttb716_valor_rubrica_centro_custo_empenho
+ 717 | gcttb717 | gcttb717_valor_rubrica_sistema_empenho
+ 718 | gcttb718 | gcttb718_valor_rubrica_sistema_undde_csto_empenho
+ 719 | gcttb719 | gcttb719_valor_area_contratante_empenho
+ 720 | gcttb720 | gcttb720_valor_indicador_equipe_ciclo_empenho
+ 721 | gcttb721 | gcttb721_faturamento_retencao
+ 722 | gcttb722 | gcttb722_tipo_situacao_pagamento
+ 723 | gcttb723 | gcttb723_amostra_faturamento_retencao
+ 724 | gcttb724 | ----- DISPONIVEL -----
+ 725 | gcttb725 | gcttb725_tipo_situacao_retencao
+ 726 | gcttb726 | gcttb726_tipo_motivo_retencao
+ 727 | gcttb727 | gcttb727_faturamento_motivo_retencao
+ 728 | gcttb728 | gcttb728_vinculacao_registro_erro
+ 729 | gcttb729 | gcttb729_solicitacao_equipe_vinculacao
+ 730 | gcttb730 | gcttb730_empenho_termo
+ 731 | gcttb731 | gcttb731_empenho_termo_indicador
+ 732 | gcttb732 | gcttb732_empenho_termo_solicitacao
+ 733 | gcttb733 | gcttb733_empenho_solicitacao_termo
+ 734 | gcttb734 | gcttb734_tipo_item_demanda
+ 735 | gcttb735 | gcttb735_vinc_tipo_item_grupo
+ 736 | gcttb736 | gcttb736_carga_colaboradores_desligados_api
+ 737 | gcttb737 | gcttb737_colaboradores_desligados_api
+ 738 | gcttb738 | gcttb738_hstco_vigencia_membro_individual
+ 739 | gcttb739 | ----- DISPONIVEL -----
+ 740 | gcttb740 | ----- DISPONIVEL -----
+ 741 | gcttb741 | ----- DISPONIVEL -----
+ 742 | gcttb742 | ----- DISPONIVEL -----
+ 743 | gcttb743 | ----- DISPONIVEL -----
+ 744 | gcttb744 | ----- DISPONIVEL -----
+ 745 | gcttb745 | ----- DISPONIVEL -----
+ 746 | gcttb746 | ----- DISPONIVEL -----
+ 747 | gcttb747 | ----- DISPONIVEL -----
+ 748 | gcttb748 | ----- DISPONIVEL -----
+ 749 | gcttb749 | ----- DISPONIVEL -----
+ 750 | gcttb750 | ----- DISPONIVEL -----
+ 751 | gcttb751 | ----- DISPONIVEL -----
+ 752 | gcttb752 | ----- DISPONIVEL -----
+ 753 | gcttb753 | ----- DISPONIVEL -----
+ 754 | gcttb754 | ----- DISPONIVEL -----
+ 755 | gcttb755 | ----- DISPONIVEL -----
+ 756 | gcttb756 | ----- DISPONIVEL -----
+ 757 | gcttb757 | ----- DISPONIVEL -----
+ 758 | gcttb758 | ----- DISPONIVEL -----
+ 759 | gcttb759 | ----- DISPONIVEL -----
+ 760 | gcttb760 | ----- DISPONIVEL -----
+ 761 | gcttb761 | ----- DISPONIVEL -----
+ 762 | gcttb762 | ----- DISPONIVEL -----
+ 763 | gcttb763 | ----- DISPONIVEL -----
+ 764 | gcttb764 | ----- DISPONIVEL -----
+ 765 | gcttb765 | ----- DISPONIVEL -----
+ 766 | gcttb766 | ----- DISPONIVEL -----
+ 767 | gcttb767 | ----- DISPONIVEL -----
+ 768 | gcttb768 | ----- DISPONIVEL -----
+ 769 | gcttb769 | ----- DISPONIVEL -----
+ 770 | gcttb770 | ----- DISPONIVEL -----
+ 771 | gcttb771 | ----- DISPONIVEL -----
+ 772 | gcttb772 | ----- DISPONIVEL -----
+ 773 | gcttb773 | ----- DISPONIVEL -----
+ 774 | gcttb774 | ----- DISPONIVEL -----
+ 775 | gcttb775 | ----- DISPONIVEL -----
+ 776 | gcttb776 | ----- DISPONIVEL -----
+ 777 | gcttb777 | ----- DISPONIVEL -----
+ 778 | gcttb778 | ----- DISPONIVEL -----
+ 779 | gcttb779 | ----- DISPONIVEL -----
+ 780 | gcttb780 | ----- DISPONIVEL -----
+ 781 | gcttb781 | ----- DISPONIVEL -----
+ 782 | gcttb782 | ----- DISPONIVEL -----
+ 783 | gcttb783 | ----- DISPONIVEL -----
+ 784 | gcttb784 | ----- DISPONIVEL -----
+ 785 | gcttb785 | ----- DISPONIVEL -----
+ 786 | gcttb786 | ----- DISPONIVEL -----
+ 787 | gcttb787 | ----- DISPONIVEL -----
+ 788 | gcttb788 | ----- DISPONIVEL -----
+ 789 | gcttb789 | ----- DISPONIVEL -----
+ 790 | gcttb790 | ----- DISPONIVEL -----
+ 791 | gcttb791 | ----- DISPONIVEL -----
+ 792 | gcttb792 | ----- DISPONIVEL -----
+ 793 | gcttb793 | ----- DISPONIVEL -----
+ 794 | gcttb794 | ----- DISPONIVEL -----
+ 795 | gcttb795 | ----- DISPONIVEL -----
+ 796 | gcttb796 | ----- DISPONIVEL -----
+ 797 | gcttb797 | ----- DISPONIVEL -----
+ 798 | gcttb798 | ----- DISPONIVEL -----
+ 799 | gcttb799 | ----- DISPONIVEL -----
+ 800 | gcttb800 | ----- DISPONIVEL -----
+ 801 | gcttb801 | ----- DISPONIVEL -----
+ 802 | gcttb802 | ----- DISPONIVEL -----
+ 803 | gcttb803 | ----- DISPONIVEL -----
+ 804 | gcttb804 | ----- DISPONIVEL -----
+ 805 | gcttb805 | ----- DISPONIVEL -----
+ 806 | gcttb806 | ----- DISPONIVEL -----
+ 807 | gcttb807 | ----- DISPONIVEL -----
+ 808 | gcttb808 | ----- DISPONIVEL -----
+ 809 | gcttb809 | ----- DISPONIVEL -----
+ 810 | gcttb810 | ----- DISPONIVEL -----
+ 811 | gcttb811 | ----- DISPONIVEL -----
+ 812 | gcttb812 | ----- DISPONIVEL -----
+ 813 | gcttb813 | ----- DISPONIVEL -----
+ 814 | gcttb814 | ----- DISPONIVEL -----
+ 815 | gcttb815 | ----- DISPONIVEL -----
+ 816 | gcttb816 | ----- DISPONIVEL -----
+ 817 | gcttb817 | ----- DISPONIVEL -----
+ 818 | gcttb818 | ----- DISPONIVEL -----
+ 819 | gcttb819 | ----- DISPONIVEL -----
+ 820 | gcttb820 | ----- DISPONIVEL -----
+ 821 | gcttb821 | ----- DISPONIVEL -----
+ 822 | gcttb822 | ----- DISPONIVEL -----
+ 823 | gcttb823 | ----- DISPONIVEL -----
+ 824 | gcttb824 | ----- DISPONIVEL -----
+ 825 | gcttb825 | ----- DISPONIVEL -----
+ 826 | gcttb826 | ----- DISPONIVEL -----
+ 827 | gcttb827 | ----- DISPONIVEL -----
+ 828 | gcttb828 | ----- DISPONIVEL -----
+ 829 | gcttb829 | ----- DISPONIVEL -----
+ 830 | gcttb830 | ----- DISPONIVEL -----
+ 831 | gcttb831 | ----- DISPONIVEL -----
+ 832 | gcttb832 | ----- DISPONIVEL -----
+ 833 | gcttb833 | ----- DISPONIVEL -----
+ 834 | gcttb834 | ----- DISPONIVEL -----
+ 835 | gcttb835 | ----- DISPONIVEL -----
+ 836 | gcttb836 | ----- DISPONIVEL -----
+ 837 | gcttb837 | ----- DISPONIVEL -----
+ 838 | gcttb838 | ----- DISPONIVEL -----
+ 839 | gcttb839 | ----- DISPONIVEL -----
+ 840 | gcttb840 | ----- DISPONIVEL -----
+ 841 | gcttb841 | ----- DISPONIVEL -----
+ 842 | gcttb842 | ----- DISPONIVEL -----
+ 843 | gcttb843 | ----- DISPONIVEL -----
+ 844 | gcttb844 | ----- DISPONIVEL -----
+ 845 | gcttb845 | ----- DISPONIVEL -----
+ 846 | gcttb846 | ----- DISPONIVEL -----
+ 847 | gcttb847 | ----- DISPONIVEL -----
+ 848 | gcttb848 | ----- DISPONIVEL -----
+ 849 | gcttb849 | ----- DISPONIVEL -----
+ 850 | gcttb850 | ----- DISPONIVEL -----
+ 851 | gcttb851 | ----- DISPONIVEL -----
+ 852 | gcttb852 | ----- DISPONIVEL -----
+ 853 | gcttb853 | ----- DISPONIVEL -----
+ 854 | gcttb854 | ----- DISPONIVEL -----
+ 855 | gcttb855 | ----- DISPONIVEL -----
+ 856 | gcttb856 | ----- DISPONIVEL -----
+ 857 | gcttb857 | ----- DISPONIVEL -----
+ 858 | gcttb858 | ----- DISPONIVEL -----
+ 859 | gcttb859 | ----- DISPONIVEL -----
+ 860 | gcttb860 | ----- DISPONIVEL -----
+ 861 | gcttb861 | ----- DISPONIVEL -----
+ 862 | gcttb862 | ----- DISPONIVEL -----
+ 863 | gcttb863 | ----- DISPONIVEL -----
+ 864 | gcttb864 | ----- DISPONIVEL -----
+ 865 | gcttb865 | ----- DISPONIVEL -----
+ 866 | gcttb866 | ----- DISPONIVEL -----
+ 867 | gcttb867 | ----- DISPONIVEL -----
+ 868 | gcttb868 | ----- DISPONIVEL -----
+ 869 | gcttb869 | ----- DISPONIVEL -----
+ 870 | gcttb870 | ----- DISPONIVEL -----
+ 871 | gcttb871 | ----- DISPONIVEL -----
+ 872 | gcttb872 | ----- DISPONIVEL -----
+ 873 | gcttb873 | ----- DISPONIVEL -----
+ 874 | gcttb874 | ----- DISPONIVEL -----
+ 875 | gcttb875 | ----- DISPONIVEL -----
+ 876 | gcttb876 | ----- DISPONIVEL -----
+ 877 | gcttb877 | ----- DISPONIVEL -----
+ 878 | gcttb878 | ----- DISPONIVEL -----
+ 879 | gcttb879 | ----- DISPONIVEL -----
+ 880 | gcttb880 | ----- DISPONIVEL -----
+ 881 | gcttb881 | ----- DISPONIVEL -----
+ 882 | gcttb882 | ----- DISPONIVEL -----
+ 883 | gcttb883 | ----- DISPONIVEL -----
+ 884 | gcttb884 | ----- DISPONIVEL -----
+ 885 | gcttb885 | ----- DISPONIVEL -----
+ 886 | gcttb886 | ----- DISPONIVEL -----
+ 887 | gcttb887 | ----- DISPONIVEL -----
+ 888 | gcttb888 | ----- DISPONIVEL -----
+ 889 | gcttb889 | ----- DISPONIVEL -----
+ 890 | gcttb890 | ----- DISPONIVEL -----
+ 891 | gcttb891 | ----- DISPONIVEL -----
+ 892 | gcttb892 | ----- DISPONIVEL -----
+ 893 | gcttb893 | ----- DISPONIVEL -----
+ 894 | gcttb894 | ----- DISPONIVEL -----
+ 895 | gcttb895 | ----- DISPONIVEL -----
+ 896 | gcttb896 | ----- DISPONIVEL -----
+ 897 | gcttb897 | ----- DISPONIVEL -----
+ 898 | gcttb898 | ----- DISPONIVEL -----
+ 899 | gcttb899 | ----- DISPONIVEL -----
+ 900 | gcttb900 | gcttb900_hstco_objetos_bd
+ 900 | gcttb900 | gcttb900_rtc20980853_1
+ 900 | gcttb900 | gcttb900_rtc21071845_1
+ 900 | gcttb900 | gcttb900_rtc22586476_1
+ 900 | gcttb900 | gcttb900_rtc22586476_2
+ 900 | gcttb900 | gcttb900_rtc23904004_1
+ 900 | gcttb900 | gcttb900_rtc23904004_2
+ 900 | gcttb900 | gcttb900_rtc24422638_1
+ 900 | gcttb900 | gcttb900_rtc24422638_2
+ 900 | gcttb900 | gcttb900_rtc24422638_3
+ 900 | gcttb900 | gcttb900_rtc24422638_4
+ 900 | gcttb900 | gcttb900_rtc24508595_1
+ 900 | gcttb900 | gcttb900_rtc24508595_2
+ 900 | gcttb900 | gcttb900_rtc24508595_3
+ 900 | gcttb900 | gcttb900_rtc24508595_4
+ 900 | gcttb900 | gcttb900_carga_hmp_qualidade
+ 901 | gcttb901 | gcttb901_atendimentos_dml
+ 902 | gcttb902 | gcttb902_vigencia_membros_copia
+ 903 | gcttb903 | ----- DISPONIVEL -----
+ 904 | gcttb904 | ----- DISPONIVEL -----
+ 905 | gcttb905 | ----- DISPONIVEL -----
+ 906 | gcttb906 | ----- DISPONIVEL -----
+ 907 | gcttb907 | ----- DISPONIVEL -----
+ 908 | gcttb908 | ----- DISPONIVEL -----
+ 909 | gcttb909 | ----- DISPONIVEL -----
+ 910 | gcttb910 | gcttb910_sipgc_squad
+ 911 | gcttb911 | ----- DISPONIVEL -----
+ 912 | gcttb912 | ----- DISPONIVEL -----
+ 913 | gcttb913 | ----- DISPONIVEL -----
+ 914 | gcttb914 | ----- DISPONIVEL -----
+ 915 | gcttb915 | ----- DISPONIVEL -----
+ 916 | gcttb916 | ----- DISPONIVEL -----
+ 917 | gcttb917 | ----- DISPONIVEL -----
+ 918 | gcttb918 | ----- DISPONIVEL -----
+ 919 | gcttb919 | ----- DISPONIVEL -----
+ 920 | gcttb920 | ----- DISPONIVEL -----
+ 921 | gcttb921 | ----- DISPONIVEL -----
+ 922 | gcttb922 | ----- DISPONIVEL -----
+ 923 | gcttb923 | ----- DISPONIVEL -----
+ 924 | gcttb924 | ----- DISPONIVEL -----
+ 925 | gcttb925 | ----- DISPONIVEL -----
+ 926 | gcttb926 | ----- DISPONIVEL -----
+ 927 | gcttb927 | ----- DISPONIVEL -----
+ 928 | gcttb928 | ----- DISPONIVEL -----
+ 929 | gcttb929 | ----- DISPONIVEL -----
+ 930 | gcttb930 | ----- DISPONIVEL -----
+ 931 | gcttb931 | ----- DISPONIVEL -----
+ 932 | gcttb932 | ----- DISPONIVEL -----
+ 933 | gcttb933 | ----- DISPONIVEL -----
+ 934 | gcttb934 | ----- DISPONIVEL -----
+ 935 | gcttb935 | ----- DISPONIVEL -----
+ 936 | gcttb936 | ----- DISPONIVEL -----
+ 937 | gcttb937 | ----- DISPONIVEL -----
+ 938 | gcttb938 | ----- DISPONIVEL -----
+ 939 | gcttb939 | ----- DISPONIVEL -----
+ 940 | gcttb940 | ----- DISPONIVEL -----
+ 941 | gcttb941 | ----- DISPONIVEL -----
+ 942 | gcttb942 | ----- DISPONIVEL -----
+ 943 | gcttb943 | ----- DISPONIVEL -----
+ 944 | gcttb944 | ----- DISPONIVEL -----
+ 945 | gcttb945 | ----- DISPONIVEL -----
+ 946 | gcttb946 | ----- DISPONIVEL -----
+ 947 | gcttb947 | ----- DISPONIVEL -----
+ 948 | gcttb948 | ----- DISPONIVEL -----
+ 949 | gcttb949 | ----- DISPONIVEL -----
+ 950 | gcttb950 | ----- DISPONIVEL -----
+ 951 | gcttb951 | ----- DISPONIVEL -----
+ 952 | gcttb952 | ----- DISPONIVEL -----
+ 953 | gcttb953 | ----- DISPONIVEL -----
+ 954 | gcttb954 | ----- DISPONIVEL -----
+ 955 | gcttb955 | ----- DISPONIVEL -----
+ 956 | gcttb956 | ----- DISPONIVEL -----
+ 957 | gcttb957 | ----- DISPONIVEL -----
+ 958 | gcttb958 | ----- DISPONIVEL -----
+ 959 | gcttb959 | ----- DISPONIVEL -----
+ 960 | gcttb960 | ----- DISPONIVEL -----
+ 961 | gcttb961 | ----- DISPONIVEL -----
+ 962 | gcttb962 | ----- DISPONIVEL -----
+ 963 | gcttb963 | ----- DISPONIVEL -----
+ 964 | gcttb964 | ----- DISPONIVEL -----
+ 965 | gcttb965 | ----- DISPONIVEL -----
+ 966 | gcttb966 | ----- DISPONIVEL -----
+ 967 | gcttb967 | ----- DISPONIVEL -----
+ 968 | gcttb968 | ----- DISPONIVEL -----
+ 969 | gcttb969 | ----- DISPONIVEL -----
+ 970 | gcttb970 | ----- DISPONIVEL -----
+ 971 | gcttb971 | ----- DISPONIVEL -----
+ 972 | gcttb972 | ----- DISPONIVEL -----
+ 973 | gcttb973 | ----- DISPONIVEL -----
+ 974 | gcttb974 | ----- DISPONIVEL -----
+ 975 | gcttb975 | ----- DISPONIVEL -----
+ 976 | gcttb976 | ----- DISPONIVEL -----
+ 977 | gcttb977 | ----- DISPONIVEL -----
+ 978 | gcttb978 | ----- DISPONIVEL -----
+ 979 | gcttb979 | ----- DISPONIVEL -----
+ 980 | gcttb980 | ----- DISPONIVEL -----
+ 981 | gcttb981 | ----- DISPONIVEL -----
+ 982 | gcttb982 | ----- DISPONIVEL -----
+ 983 | gcttb983 | ----- DISPONIVEL -----
+ 984 | gcttb984 | ----- DISPONIVEL -----
+ 985 | gcttb985 | ----- DISPONIVEL -----
+ 986 | gcttb986 | ----- DISPONIVEL -----
+ 987 | gcttb987 | ----- DISPONIVEL -----
+ 988 | gcttb988 | ----- DISPONIVEL -----
+ 989 | gcttb989 | ----- DISPONIVEL -----
+ 990 | gcttb990 | ----- DISPONIVEL -----
+ 991 | gcttb991 | ----- DISPONIVEL -----
+ 992 | gcttb992 | ----- DISPONIVEL -----
+ 993 | gcttb993 | ----- DISPONIVEL -----
+ 994 | gcttb994 | ----- DISPONIVEL -----
+ 995 | gcttb995 | ----- DISPONIVEL -----
+ 996 | gcttb996 | ----- DISPONIVEL -----
+ 997 | gcttb997 | ----- DISPONIVEL -----
+ 998 | gcttb998 | ----- DISPONIVEL -----
+ 999 | gcttb999 | ----- DISPONIVEL -----
+(1023 rows)
+
+
+-------------------------------------------------------
+-- Resultados
+-------------------------------------------------------
+Log: /c/caixa/BKP_sustentacao/Diversos/logs/numeracao_objetos_disponivel.sql.messages
+Tudo certo :)
+-------------------------------------------------------

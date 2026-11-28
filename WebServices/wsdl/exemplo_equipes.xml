@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <data_consulta>27-11-2026 19:28</data_consulta>
+  <codigo_contrato>01411/2025</codigo_contrato>
+  <contrato>*ENGESOFTWARE TECNOLOGIA S.A - 01411/2025</contrato>
+  <equipes>
+    <item>
+      <equipe>BRE202500241</equipe>
+      <codigo_contrato>01411/2025</codigo_contrato>
+      <area>*SUDEA15</area>
+      <comunidade>RISCO E COMPLIANCE</comunidade>
+      <grupo>Desenvolvimento</grupo>
+      <situacao>ConcluÃ­do</situacao>
+      <data_inicio>21-05-2026</data_inicio>
+      <data_fim>31-07-2026</data_fim>
+      <vigencias>
+        <item>
+          <perfil>ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)</perfil>
+          <matricula>f685162</matricula>
+          <nome>OLIMPIO KAIO RODRIGUES SILVA</nome>
+          <data_inicio>19-05-2025</data_inicio>
+          <data_fim>19-05-2025</data_fim>
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+        <item>
+          <perfil>ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)</perfil>
+          <matricula>f729603</matricula>
+          <nome>EDUARDO FRANCISCO GOMES DE ALMEIDA</nome>
+          <data_inicio>22-05-2025</data_inicio>
+          <data_fim>09-09-2025</data_fim>
+          <excluido>N</excluido>
+          <turnover>S</turnover>
+        </item>
+        <item>
+          <perfil>ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)</perfil>
+          <matricula>f685162</matricula>
+          <nome>OLIMPIO KAIO RODRIGUES SILVA</nome>
+          <data_inicio>01-08-2026</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+      </vigencias>
+    </item>
+    <item>
+      <equipe>BRE202500251</equipe>
+      <codigo_contrato>01410/2025</codigo_contrato>
+      <area>*SUDEA09</area>
+      <comunidade>FOMENTO E DEPÃ“SITOS JUDICIAIS</comunidade>
+      <grupo>Desenvolvimento</grupo>
+      <situacao>ConcluÃ­do</situacao>
+      <data_inicio>16-07-2026</data_inicio>
+      <data_fim>07-08-2026</data_fim>
+      <vigencias>
+        <item>
+          <perfil>ANALISTA/DESENVOLVEDOR - ALTA PLATAFORMA (2-DESENVOLVIMENTO)</perfil>
+          <matricula>f625296</matricula>
+          <nome>VALDERCI SINHORINI NEGRI</nome>
+          <data_inicio>13-05-2025</data_inicio>
+          <data_fim>10-08-2025</data_fim>
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+        <item>
+          <perfil>ESPECIALISTA EM ALTA PLATAFORMA</perfil>
+          <matricula>f973553</matricula>
+          <nome>MATHEUS MAGALHAES DA SILVA</nome>
+          <data_inicio>13-05-2025</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+        <item>
+          <perfil>ANALISTA/DESENVOLVEDOR - ALTA PLATAFORMA (2-DESENVOLVIMENTO)</perfil>
+          <matricula>f736393</matricula>
+          <nome xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <data_inicio>10-11-2026</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+      </vigencias>
+    </item>
+    <item>
+      <equipe>BRE202500238</equipe>
+      <codigo_contrato>01411/2025</codigo_contrato>
+      <area>CESOB120</area>
+      <comunidade>RISCO, COMPLIANCE E ADIMPLÃŠNCIA</comunidade>
+      <grupo>Suporte</grupo>
+      <situacao xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+      <data_inicio xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+      <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+      <vigencias>
+        <item>
+          <perfil>Analista de Testes</perfil>
+          <matricula>f644559</matricula>
+          <nome>ELAINE CRISTINA SOARES NUNES</nome>
+          <data_inicio>23-11-2023</data_inicio>
+          <data_fim>20-01-2024</data_fim>
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+        <item>
+          <perfil>ENGENHEIRO DE DADOS (1-DESIGN)</perfil>
+          <matricula>f631334</matricula>
+          <nome>LEANDRO FERREIRA LIMA</nome>
+          <data_inicio>13-05-2025</data_inicio>
+          <data_fim>20-03-2026</data_fim>
+          <excluido>N</excluido>
+          <turnover>N</turnover>
+        </item>
+      </vigencias>
+    </item>
+  </equipes>
+  <resultado_da_consulta>0</resultado_da_consulta>
+</response>

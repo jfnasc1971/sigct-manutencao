@@ -1,0 +1,37 @@
+{
+  "data_consulta": "27-11-2026 19:28",
+  "ciclo_faturamento": "01/2024",
+  "notas_codigo": [
+    {
+      "ciclo_faturamento": "01/2024",
+      "sigla_sistema": "SIADJ",
+      "nota_apurada": "9,47",
+      "data_modificacao": "03-11-2026 14:09:58,709"
+    },
+    {
+      "ciclo_faturamento": "01/2024",
+      "sigla_sistema": "SIACI",
+      "nota_apurada": "10,00",
+      "data_modificacao": "03-11-2026 14:09:58,811"
+    },
+    {
+      "ciclo_faturamento": "01/2024",
+      "sigla_sistema": "SIABE",
+      "nota_apurada": "10,00",
+      "data_modificacao": "03-11-2026 14:09:59,120"
+    },
+    {
+      "ciclo_faturamento": "01/2024",
+      "sigla_sistema": "SIADI",
+      "nota_apurada": "10,00",
+      "data_modificacao": "03-11-2026 14:09:59,117"
+    },
+    {
+      "ciclo_faturamento": "01/2024",
+      "sigla_sistema": "SIACL",
+      "nota_apurada": "9,11",
+      "data_modificacao": "03-11-2026 14:09:59,210"
+    }
+  ],
+  "resultado_da_consulta": 0
+}

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:tns="http://caixa.gov.br/sigct"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+             targetNamespace="http://caixa.gov.br/sigct"
+             name="SigctService">
+
+  <types>
+    <xsd:schema targetNamespace="http://caixa.gov.br/sigct" elementFormDefault="qualified">
+
+      <!-- Estruturas comuns -->
+      <xsd:simpleType name="ResultadoConsulta">
+        <xsd:restriction base="xsd:int">
+          <xsd:enumeration value="0"/>
+          <xsd:enumeration value="1"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+
+      <xsd:complexType name="VigenciaEquipe">
+        <xsd:sequence>
+          <xsd:element name="perfil" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="matricula" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="nome" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataInicio" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataFim" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="excluido" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="turnover" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="ListaVigencias">
+        <xsd:sequence>
+          <xsd:element name="vigencia" type="tns:VigenciaEquipe" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="Equipe">
+        <xsd:sequence>
+          <xsd:element name="equipe" type="xsd:string"/>
+          <xsd:element name="codigoContrato" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="contrato" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="area" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="comunidade" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="grupo" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="situacao" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataInicio" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataFim" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="vigencias" type="tns:ListaVigencias" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="ListaEquipes">
+        <xsd:sequence>
+          <xsd:element name="equipe" type="tns:Equipe" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <!-- Consulta de equipes -->
+      <xsd:element name="consultarEquipesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="codigoEquipe" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="consultarEquipesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="dataConsulta" type="xsd:string"/>
+            <xsd:element name="codigoContrato" type="xsd:string"/>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="equipes" type="tns:ListaEquipes"/>
+            <xsd:element name="resultadoDaConsulta" type="tns:ResultadoConsulta"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- Indicadores -->
+      <xsd:element name="consultarIndicadoresRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="codigoEquipe" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="dataFatura" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:complexType name="IndicadorIE">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="qtItensComEntregues" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtItensContratados" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicadorAjustado" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadorIP">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="qtItensComContagem" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtPontosDeFuncao" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtColaboradores" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtDiasTrabalhados" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtDefeitos" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtDiasTrabalhadosDefeitos" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtDiasTrabalhadosPf" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dtInicioDesenvolvimento" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtMesesDesenvolvimento" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="produtividadeEsperada" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicadorAjustado" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadorIQ">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="defeitosCorrigidosPeriodoAnterior" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="defeitosAbertosPeriodoAnterior" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="defeitosCorrigidos" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="defeitosAbertos" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="razaoIqrd" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIqrd" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="pesoIqrd" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="somaNotas" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtSiglas" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="notaMediaIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="pesoIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicadorGravado" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="faixaFnsGravada" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadorIT">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="faixaFns" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dtInicioTrimestre" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dtFimTrimestre" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtDesligamentosPerfisTrimestreContratada" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="perfisDaContratadaAoFinalDoUltimoTrimestre" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadorFNS">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="ie" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="ip" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="iq" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="it" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="fnsAplicado" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadorIDE">
+        <xsd:sequence>
+          <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="ie" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="iePeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="ieXPeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="iq" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="iqPeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="iqXPeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="ip" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="ipPeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="ipXPeso" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="IndicadoresEquipe">
+        <xsd:sequence>
+          <xsd:element name="ie" type="tns:IndicadorIE" minOccurs="0"/>
+          <xsd:element name="ip" type="tns:IndicadorIP" minOccurs="0"/>
+          <xsd:element name="iq" type="tns:IndicadorIQ" minOccurs="0"/>
+          <xsd:element name="it" type="tns:IndicadorIT" minOccurs="0"/>
+          <xsd:element name="fns" type="tns:IndicadorFNS" minOccurs="0"/>
+          <xsd:element name="ide" type="tns:IndicadorIDE" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="EquipeIndicadores">
+        <xsd:sequence>
+          <xsd:element name="equipe" type="xsd:string"/>
+          <xsd:element name="codigoContrato" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="area" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="comunidade" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataConsiderarFns" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="indicadores" type="tns:IndicadoresEquipe"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="GrupoIndicadores">
+        <xsd:sequence>
+          <xsd:element name="grupo" type="xsd:string"/>
+          <xsd:element name="equipes">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="equipe" type="tns:EquipeIndicadores" minOccurs="0" maxOccurs="unbounded"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:element name="consultarIndicadoresResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="dataConsulta" type="xsd:string"/>
+            <xsd:element name="dataFatura" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="dtFinalFatura" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="fatura" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="codigoContrato" type="xsd:string"/>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="grupos">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="grupo" type="tns:GrupoIndicadores" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resultadoDaConsulta" type="tns:ResultadoConsulta"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- Contagens PF -->
+      <xsd:element name="consultarContagensRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="codigoEquipe" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="dataFatura" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:complexType name="ContagemPF">
+        <xsd:sequence>
+          <xsd:element name="coCicloTrabalho" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="coSolicitacao" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="deTipoSolicitacao" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="deSituacaoSolicitacao" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="nuTamanhoServico" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="EquipeContagens">
+        <xsd:sequence>
+          <xsd:element name="equipe" type="xsd:string"/>
+          <xsd:element name="codigoContrato" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="area" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="comunidade" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="contagensPf">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="contagem" type="tns:ContagemPF" minOccurs="0" maxOccurs="unbounded"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="GrupoContagens">
+        <xsd:sequence>
+          <xsd:element name="grupo" type="xsd:string"/>
+          <xsd:element name="equipes">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="equipe" type="tns:EquipeContagens" minOccurs="0" maxOccurs="unbounded"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:element name="consultarContagensResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="dataConsulta" type="xsd:string"/>
+            <xsd:element name="codigoContrato" type="xsd:string"/>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="grupos">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="grupo" type="tns:GrupoContagens" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resultadoDaConsulta" type="tns:ResultadoConsulta"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- Notas por código -->
+      <xsd:element name="consultarNotasCodigoRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="cicloFaturamento" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="siglaSistema" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:complexType name="NotaCodigo">
+        <xsd:sequence>
+          <xsd:element name="cicloFaturamento" type="xsd:string"/>
+          <xsd:element name="siglaSistema" type="xsd:string"/>
+          <xsd:element name="notaApurada" type="xsd:string"/>
+          <xsd:element name="dataModificacao" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:element name="consultarNotasCodigoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="dataConsulta" type="xsd:string"/>
+            <xsd:element name="cicloFaturamento" type="xsd:string" minOccurs="0" nillable="true"/>
+            <xsd:element name="notasCodigo">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="nota" type="tns:NotaCodigo" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resultadoDaConsulta" type="tns:ResultadoConsulta"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- Prévia de retenção -->
+      <xsd:element name="consultarPreviaRetencaoRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="codigoEquipe" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:complexType name="EquipePreviaRetencao">
+        <xsd:sequence>
+          <xsd:element name="codigoContrato" type="xsd:string" minOccurs="0"/>
+          <xsd:element name="contrato" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="area" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="comunidade" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="equipe" type="xsd:string"/>
+          <xsd:element name="dataInicio" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="dataFim" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="quantidadeAtendimentos" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="sprintsPendentes" type="xsd:string" minOccurs="0" nillable="true"/>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:complexType name="GrupoPreviaRetencao">
+        <xsd:sequence>
+          <xsd:element name="grupo" type="xsd:string"/>
+          <xsd:element name="equipes">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="equipe" type="tns:EquipePreviaRetencao" minOccurs="0" maxOccurs="unbounded"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+
+      <xsd:element name="consultarPreviaRetencaoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="dataConsulta" type="xsd:string"/>
+            <xsd:element name="codigoContrato" type="xsd:string"/>
+            <xsd:element name="contrato" type="xsd:string"/>
+            <xsd:element name="grupos">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="grupo" type="tns:GrupoPreviaRetencao" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resultadoDaConsulta" type="tns:ResultadoConsulta"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+    </xsd:schema>
+  </types>
+
+  <message name="ConsultarEquipesRequest">
+    <part name="parameters" element="tns:consultarEquipesRequest"/>
+  </message>
+  <message name="ConsultarEquipesResponse">
+    <part name="parameters" element="tns:consultarEquipesResponse"/>
+  </message>
+
+  <message name="ConsultarIndicadoresRequest">
+    <part name="parameters" element="tns:consultarIndicadoresRequest"/>
+  </message>
+  <message name="ConsultarIndicadoresResponse">
+    <part name="parameters" element="tns:consultarIndicadoresResponse"/>
+  </message>
+
+  <message name="ConsultarContagensRequest">
+    <part name="parameters" element="tns:consultarContagensRequest"/>
+  </message>
+  <message name="ConsultarContagensResponse">
+    <part name="parameters" element="tns:consultarContagensResponse"/>
+  </message>
+
+  <message name="ConsultarNotasCodigoRequest">
+    <part name="parameters" element="tns:consultarNotasCodigoRequest"/>
+  </message>
+  <message name="ConsultarNotasCodigoResponse">
+    <part name="parameters" element="tns:consultarNotasCodigoResponse"/>
+  </message>
+
+  <message name="ConsultarPreviaRetencaoRequest">
+    <part name="parameters" element="tns:consultarPreviaRetencaoRequest"/>
+  </message>
+  <message name="ConsultarPreviaRetencaoResponse">
+    <part name="parameters" element="tns:consultarPreviaRetencaoResponse"/>
+  </message>
+
+  <portType name="SigctPortType">
+    <operation name="consultarEquipes">
+      <input message="tns:ConsultarEquipesRequest"/>
+      <output message="tns:ConsultarEquipesResponse"/>
+    </operation>
+    <operation name="consultarIndicadores">
+      <input message="tns:ConsultarIndicadoresRequest"/>
+      <output message="tns:ConsultarIndicadoresResponse"/>
+    </operation>
+    <operation name="consultarContagens">
+      <input message="tns:ConsultarContagensRequest"/>
+      <output message="tns:ConsultarContagensResponse"/>
+    </operation>
+    <operation name="consultarNotasCodigo">
+      <input message="tns:ConsultarNotasCodigoRequest"/>
+      <output message="tns:ConsultarNotasCodigoResponse"/>
+    </operation>
+    <operation name="consultarPreviaRetencao">
+      <input message="tns:ConsultarPreviaRetencaoRequest"/>
+      <output message="tns:ConsultarPreviaRetencaoResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="SigctSoapBinding" type="tns:SigctPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="consultarEquipes">
+      <soap:operation soapAction="http://caixa.gov.br/sigct/consultarEquipes"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+    <operation name="consultarIndicadores">
+      <soap:operation soapAction="http://caixa.gov.br/sigct/consultarIndicadores"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+    <operation name="consultarContagens">
+      <soap:operation soapAction="http://caixa.gov.br/sigct/consultarContagens"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+    <operation name="consultarNotasCodigo">
+      <soap:operation soapAction="http://caixa.gov.br/sigct/consultarNotasCodigo"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+    <operation name="consultarPreviaRetencao">
+      <soap:operation soapAction="http://caixa.gov.br/sigct/consultarPreviaRetencao"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+  </binding>
+
+  <service name="SigctService">
+    <port name="SigctPort" binding="tns:SigctSoapBinding">
+      <soap:address location="/sigct-client/SigctService"/>
+    </port>
+  </service>
+
+</definitions>

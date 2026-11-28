@@ -1,0 +1,154 @@
+﻿ARQUIVO: SIGCT_Relatorio_Indicadores_V26.xlsx
+
+=== IE (Desenvolvimento) ===
+Linhas dados: 2595 | Colunas: 15
+Preenchidas: 38373 / 38925
+FATURA unicos= 16 | mais comuns= {'Setembro/2026': 311, 'Novembro/2026': 286, 'Outubro/2026': 282, 'Agosto/2026': 269, 'Julho/2026': 258, 'Junho/2026': 241, 'Maio/2026': 213, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'IE    ': 2595}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2595}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 302, '*SUDEA15': 196, '*SUDEA14': 174, '*SUDEA09': 152, '*SUDEB03': 151, '*SUDEB06': 139, '*SUDEB14': 137, '*SUDEA21': 114}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 302, 'RISCO E COMPLIANCE': 196, 'PROGRAMAS SOCIAIS': 174, 'FOMENTO E DEPËSITOS JUDICIAIS': 152, 'FINANCEIRO E CONTROLADORIA': 151, 'ESTRUTURANTES DE TI': 140, 'DEPËSITOS E CAPTAÃ├O': 137, 'FGTS': 114}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 390, '01415/2025': 354, '01410/2025': 351, '01413/2025': 317, '01411/2025': 316, '01417/2025': 187, '09705/2025': 140, '09709/2025': 138}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500262': 18, 'BRE202500216': 18, 'BRE202500251': 17, 'BRE202500256': 17, 'BRE202500241': 16, 'BRE202500253': 16, 'BRE202500255': 16, 'BRE202500264': 16}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== IP (Desenvolvimento) ===
+Linhas dados: 2484 | Colunas: 23
+Preenchidas: 57108 / 57132
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 286, 'Outubro/2026': 270, 'Julho/2026': 255, 'Agosto/2026': 249, 'Setembro/2026': 245, 'Junho/2026': 238, 'Maio/2026': 212, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'IP - Produtividade': 2484}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2484}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 292, '*SUDEA15': 190, '*SUDEA14': 161, '*SUDEB03': 148, '*SUDEA09': 146, '*SUDEB06': 135, '*SUDEB14': 129, '*SUDEA21': 111}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 292, 'RISCO E COMPLIANCE': 190, 'PROGRAMAS SOCIAIS': 161, 'FINANCEIRO E CONTROLADORIA': 148, 'FOMENTO E DEPËSITOS JUDICIAIS': 146, 'ESTRUTURANTES DE TI': 136, 'DEPËSITOS E CAPTAÃ├O': 129, 'FGTS': 111}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 368, '01415/2025': 337, '01410/2025': 336, '01413/2025': 308, '01411/2025': 302, '01417/2025': 187, '09709/2025': 132, '09705/2025': 132}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500241': 16, 'BRE202500251': 16, 'BRE202500253': 16, 'BRE202500255': 16, 'BRE202500256': 16, 'BRE202500262': 16, 'BRE202500264': 16, 'BRE202500270': 16}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+DT. INICIO DESENVOLVIMENTO nulos= 0 | periodo= 2023-08-31 a 2026-08-24
+
+=== IQ (Desenvolvimento) ===
+Linhas dados: 2484 | Colunas: 26
+Preenchidas: 58593 / 64584
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 286, 'Outubro/2026': 270, 'Julho/2026': 255, 'Agosto/2026': 249, 'Setembro/2026': 245, 'Junho/2026': 238, 'Maio/2026': 212, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'IQ    ': 2484}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2484}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 292, '*SUDEA15': 190, '*SUDEA14': 161, '*SUDEB03': 148, '*SUDEA09': 146, '*SUDEB06': 135, '*SUDEB14': 129, '*SUDEA21': 111}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 292, 'RISCO E COMPLIANCE': 190, 'PROGRAMAS SOCIAIS': 161, 'FINANCEIRO E CONTROLADORIA': 148, 'FOMENTO E DEPËSITOS JUDICIAIS': 146, 'ESTRUTURANTES DE TI': 136, 'DEPËSITOS E CAPTAÃ├O': 129, 'FGTS': 111}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 368, '01415/2025': 337, '01410/2025': 336, '01413/2025': 308, '01411/2025': 302, '01417/2025': 187, '09709/2025': 132, '09705/2025': 132}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500241': 16, 'BRE202500251': 16, 'BRE202500270': 16, 'BRE202500256': 16, 'BRE202500262': 16, 'BRE202500255': 16, 'BRE202500253': 16, 'BRE202500278': 16}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== IT (Desenvolvimento) ===
+Linhas dados: 2484 | Colunas: 17
+Preenchidas: 42228 / 42228
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 286, 'Outubro/2026': 270, 'Julho/2026': 255, 'Agosto/2026': 249, 'Setembro/2026': 245, 'Junho/2026': 238, 'Maio/2026': 212, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'IT    ': 2484}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2484}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 292, '*SUDEA15': 190, '*SUDEA14': 161, '*SUDEB03': 148, '*SUDEA09': 146, '*SUDEB06': 135, '*SUDEB14': 129, '*SUDEA21': 111}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 292, 'RISCO E COMPLIANCE': 190, 'PROGRAMAS SOCIAIS': 161, 'FINANCEIRO E CONTROLADORIA': 148, 'FOMENTO E DEPËSITOS JUDICIAIS': 146, 'ESTRUTURANTES DE TI': 136, 'DEPËSITOS E CAPTAÃ├O': 129, 'FGTS': 111}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 368, '01415/2025': 337, '01410/2025': 336, '01413/2025': 308, '01411/2025': 302, '01417/2025': 187, '09709/2025': 132, '09705/2025': 132}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500241': 16, 'BRE202500251': 16, 'BRE202500253': 16, 'BRE202500255': 16, 'BRE202500256': 16, 'BRE202500262': 16, 'BRE202500264': 16, 'BRE202500270': 16}
+FAIXA FNS unicos= 5 | mais comuns= {0.97: 1381, 0.95: 757, 0.99: 183, 0.93: 148, 1.0: 15}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+DT. INICIO TRIMESTRE nulos= 0 | periodo= 2025-06-19 a 2026-07-22
+DT. FIM TRIMESTRE nulos= 0 | periodo= 2025-09-18 a 2026-10-21
+
+=== FNS (Desenvolvimento) ===
+Linhas dados: 2484 | Colunas: 16
+Preenchidas: 39734 / 39744
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 286, 'Outubro/2026': 270, 'Julho/2026': 255, 'Agosto/2026': 249, 'Setembro/2026': 245, 'Junho/2026': 238, 'Maio/2026': 212, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'FNS   ': 2484}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2484}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 292, '*SUDEA15': 190, '*SUDEA14': 161, '*SUDEB03': 148, '*SUDEA09': 146, '*SUDEB06': 135, '*SUDEB14': 129, '*SUDEA21': 111}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 292, 'RISCO E COMPLIANCE': 190, 'PROGRAMAS SOCIAIS': 161, 'FINANCEIRO E CONTROLADORIA': 148, 'FOMENTO E DEPËSITOS JUDICIAIS': 146, 'ESTRUTURANTES DE TI': 136, 'DEPËSITOS E CAPTAÃ├O': 129, 'FGTS': 111}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 368, '01415/2025': 337, '01410/2025': 336, '01413/2025': 308, '01411/2025': 302, '01417/2025': 187, '09709/2025': 132, '09705/2025': 132}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500241': 16, 'BRE202500251': 16, 'BRE202500253': 16, 'BRE202500255': 16, 'BRE202500256': 16, 'BRE202500262': 16, 'BRE202500264': 16, 'BRE202500270': 16}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== IDE (Desenvolvimento) ===
+Linhas dados: 2484 | Colunas: 21
+Preenchidas: 52134 / 52164
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 286, 'Outubro/2026': 270, 'Julho/2026': 255, 'Agosto/2026': 249, 'Setembro/2026': 245, 'Junho/2026': 238, 'Maio/2026': 212, 'Abril/2026': 169}
+INDICADOR unicos= 1 | mais comuns= {'IDE   ': 2484}
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 2484}
+AREA unicos= 43 | mais comuns= {'*SUDEB02': 292, '*SUDEA15': 190, '*SUDEA14': 161, '*SUDEB03': 148, '*SUDEA09': 146, '*SUDEB06': 135, '*SUDEB14': 129, '*SUDEA21': 111}
+COMUNIDADE unicos= 42 | mais comuns= {'CLIENTES': 292, 'RISCO E COMPLIANCE': 190, 'PROGRAMAS SOCIAIS': 161, 'FINANCEIRO E CONTROLADORIA': 148, 'FOMENTO E DEPËSITOS JUDICIAIS': 146, 'ESTRUTURANTES DE TI': 136, 'DEPËSITOS E CAPTAÃ├O': 129, 'FGTS': 111}
+CODIGO CONTRATO unicos= 15 | mais comuns= {'01412/2025': 368, '01415/2025': 337, '01410/2025': 336, '01413/2025': 308, '01411/2025': 302, '01417/2025': 187, '09709/2025': 132, '09705/2025': 132}
+EQUIPE unicos= 334 | mais comuns= {'BRE202500241': 16, 'BRE202500251': 16, 'BRE202500253': 16, 'BRE202500255': 16, 'BRE202500256': 16, 'BRE202500262': 16, 'BRE202500264': 16, 'BRE202500270': 16}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== IE (Suporte) ===
+Linhas dados: 1658 | Colunas: 15
+Preenchidas: 24708 / 24870
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 161, 'Outubro/2026': 148, 'Julho/2026': 144, 'Agosto/2026': 144, 'Junho/2026': 143, 'Setembro/2026': 139, 'Maio/2026': 128, 'Fevereiro/2026': 119}
+INDICADOR unicos= 1 | mais comuns= {'IE    ': 1658}
+GRUPO unicos= 1 | mais comuns= {'Suporte': 1658}
+AREA unicos= 45 | mais comuns= {'*SUDEB02': 151, 'GECPA10': 99, '*SUDEB06': 89, '*SUDEA14': 83, '*SUDEB14': 75, '*SUDEB03': 72, '*SUDEA09': 66, '*SUDEC03': 62}
+COMUNIDADE unicos= 45 | mais comuns= {'CLIENTES': 151, 'GECPA10 - CapÝtulo de AdministraþÒo e Banco de Dados': 99, 'ESTRUTURANTES DE TI': 89, 'PROGRAMAS SOCIAIS': 83, 'DEPËSITOS E CAPTAÃ├O': 75, 'FINANCEIRO E CONTROLADORIA': 72, 'FOMENTO E DEPËSITOS JUDICIAIS': 66, 'BOX OPEN FINANCE': 62}
+CODIGO CONTRATO unicos= 16 | mais comuns= {'01410/2025': 242, '01412/2025': 193, '01411/2025': 182, '01415/2025': 174, '01413/2025': 140, '01417/2025': 132, '09708/2025': 98, '00003/2026': 77}
+EQUIPE unicos= 238 | mais comuns= {'BRE202500192': 16, 'BRE202500276': 16, 'BRE202500219': 15, 'BRE202500234': 15, 'BRE202500235': 15, 'BRE202500259': 15, 'BRE202500265': 15, 'BRE202500269': 15}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== IT (Suporte) ===
+Linhas dados: 1658 | Colunas: 17
+Preenchidas: 28186 / 28186
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 161, 'Outubro/2026': 148, 'Julho/2026': 144, 'Agosto/2026': 144, 'Junho/2026': 143, 'Setembro/2026': 139, 'Maio/2026': 128, 'Fevereiro/2026': 119}
+INDICADOR unicos= 1 | mais comuns= {'IT    ': 1658}
+GRUPO unicos= 1 | mais comuns= {'Suporte': 1658}
+AREA unicos= 45 | mais comuns= {'*SUDEB02': 151, 'GECPA10': 99, '*SUDEB06': 89, '*SUDEA14': 83, '*SUDEB14': 75, '*SUDEB03': 72, '*SUDEA09': 66, '*SUDEC03': 62}
+COMUNIDADE unicos= 45 | mais comuns= {'CLIENTES': 151, 'GECPA10 - CapÝtulo de AdministraþÒo e Banco de Dados': 99, 'ESTRUTURANTES DE TI': 89, 'PROGRAMAS SOCIAIS': 83, 'DEPËSITOS E CAPTAÃ├O': 75, 'FINANCEIRO E CONTROLADORIA': 72, 'FOMENTO E DEPËSITOS JUDICIAIS': 66, 'BOX OPEN FINANCE': 62}
+CODIGO CONTRATO unicos= 16 | mais comuns= {'01410/2025': 242, '01412/2025': 193, '01411/2025': 182, '01415/2025': 174, '01413/2025': 140, '01417/2025': 132, '09708/2025': 98, '00003/2026': 77}
+EQUIPE unicos= 238 | mais comuns= {'BRE202500192': 16, 'BRE202500276': 16, 'BRE202500219': 15, 'BRE202500234': 15, 'BRE202500235': 15, 'BRE202500259': 15, 'BRE202500265': 15, 'BRE202500269': 15}
+FAIXA FNS unicos= 5 | mais comuns= {0.97: 819, 0.95: 509, 0.99: 166, 0.93: 115, 1.0: 49}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+DT. INICIO TRIMESTRE nulos= 0 | periodo= 2025-06-19 a 2026-07-22
+DT. FIM TRIMESTRE nulos= 0 | periodo= 2025-09-18 a 2026-10-21
+
+=== FNS (Suporte) ===
+Linhas dados: 1658 | Colunas: 14
+Preenchidas: 23212 / 23212
+FATURA unicos= 16 | mais comuns= {'Novembro/2026': 161, 'Outubro/2026': 148, 'Julho/2026': 144, 'Agosto/2026': 144, 'Junho/2026': 143, 'Setembro/2026': 139, 'Maio/2026': 128, 'Fevereiro/2026': 119}
+INDICADOR unicos= 1 | mais comuns= {'FNS   ': 1658}
+GRUPO unicos= 1 | mais comuns= {'Suporte': 1658}
+AREA unicos= 45 | mais comuns= {'*SUDEB02': 151, 'GECPA10': 99, '*SUDEB06': 89, '*SUDEA14': 83, '*SUDEB14': 75, '*SUDEB03': 72, '*SUDEA09': 66, '*SUDEC03': 62}
+COMUNIDADE unicos= 45 | mais comuns= {'CLIENTES': 151, 'GECPA10 - CapÝtulo de AdministraþÒo e Banco de Dados': 99, 'ESTRUTURANTES DE TI': 89, 'PROGRAMAS SOCIAIS': 83, 'DEPËSITOS E CAPTAÃ├O': 75, 'FINANCEIRO E CONTROLADORIA': 72, 'FOMENTO E DEPËSITOS JUDICIAIS': 66, 'BOX OPEN FINANCE': 62}
+CODIGO CONTRATO unicos= 16 | mais comuns= {'01410/2025': 242, '01412/2025': 193, '01411/2025': 182, '01415/2025': 174, '01413/2025': 140, '01417/2025': 132, '09708/2025': 98, '00003/2026': 77}
+EQUIPE unicos= 238 | mais comuns= {'BRE202500192': 16, 'BRE202500276': 16, 'BRE202500219': 15, 'BRE202500234': 15, 'BRE202500235': 15, 'BRE202500259': 15, 'BRE202500265': 15, 'BRE202500269': 15}
+DT. FINAL FATURA nulos= 0 | periodo= 2025-08-20 a 2026-11-20
+DATA CONSIDERAR FNS nulos= 0 | periodo= 2025-08-01 a 2026-11-01
+
+=== Sem data efetiva ===
+Linhas dados: 1516 | Colunas: 12
+Preenchidas: 16654 / 18192
+GRUPO unicos= 2 | mais comuns= {'Suporte': 904, 'Desenvolvimento': 612}
+AREA unicos= 41 | mais comuns= {'*SUDEA10': 142, '*SUDEA06': 137, '*SUDEB03': 98, '*SUDEB02': 97, '*SUDEA03': 81, '*SUDEB06': 80, '*SUDEA14': 74, '*SUDEA21': 71}
+COMUNIDADE unicos= 39 | mais comuns= {'CANAIS PARCEIROS': 142, 'CR╔DITO COMERCIAL E AGRONEGËCIO': 137, 'FINANCEIRO E CONTROLADORIA': 98, 'CLIENTES': 97, 'ESTRUTURANTES DE TI': 82, 'PESSOAS': 81, 'PROGRAMAS SOCIAIS': 74, 'FGTS': 71}
+EQUIPE unicos= 285 | mais comuns= {'BRE202600139': 66, 'BRE202500619': 62, 'BRE202600178': 56, 'BRE202500425': 44, 'BRE202500367': 38, 'BRE202500422': 36, 'BRE202600302': 31, 'BRE202500235': 26}
+
+=== Sem data inicio ===
+Linhas dados: 246 | Colunas: 12
+Preenchidas: 2472 / 2952
+GRUPO unicos= 2 | mais comuns= {'Desenvolvimento': 126, 'Suporte': 120}
+AREA unicos= 33 | mais comuns= {'*SUDEB02': 47, '*SUDEA06': 26, '*SUDEA01': 18, '*SUDEB03': 14, '*SUDEA14': 13, '*SUDEA21': 12, '*SUDEA09': 11, '*BPPMO': 10}
+COMUNIDADE unicos= 33 | mais comuns= {'CLIENTES': 47, 'CR╔DITO COMERCIAL E AGRONEGËCIO': 26, 'CONTRATAÃıES E LOG═STICA': 18, 'FINANCEIRO E CONTROLADORIA': 14, 'PROGRAMAS SOCIAIS': 13, 'FGTS': 12, 'FOMENTO E DEPËSITOS JUDICIAIS': 11, 'BOX MORADIA PLATAFORMA': 10}
+EQUIPE unicos= 129 | mais comuns= {'BRE202500327': 12, 'BRE202500619': 11, 'BRE202500440': 8, 'BRE202600070': 8, 'BRE202500324': 8, 'BRE202600180': 6, 'BRE202500264': 4, 'BRE202500219': 4}
+
+=== Sem contagem ===
+Linhas dados: 4572 | Colunas: 13
+Preenchidas: 59106 / 59436
+GRUPO unicos= 1 | mais comuns= {'Desenvolvimento': 4572}
+AREA unicos= 42 | mais comuns= {'*SUDEB02': 437, '*SUDEA09': 338, '*SUDEA11': 307, '*SUDEB06': 242, '*SUDEB03': 235, '*SUDEA14': 225, '*SUDEA21': 221, '*BMNN': 205}
+COMUNIDADE unicos= 40 | mais comuns= {'CLIENTES': 437, 'FOMENTO E DEPËSITOS JUDICIAIS': 338, 'LOTERIAS E CANAIS PARCEIROS': 307, 'ESTRUTURANTES DE TI': 249, 'FINANCEIRO E CONTROLADORIA': 235, 'PROGRAMAS SOCIAIS': 225, 'FGTS': 221, 'BOX MORADIA NOVOS NEGËCIOS': 205}
+EQUIPE unicos= 331 | mais comuns= {'BRE202600304': 206, 'BRE202500255': 99, 'BRE202600179': 85, 'BRE202600262': 84, 'BRE202500361': 72, 'BRE202500215': 69, 'BRE202500535': 62, 'BRE202600071': 58}
+
+=== NÒo sensibilizaram IP ===
+Linhas dados: 3533 | Colunas: 7
+Preenchidas: 24731 / 24731
+EQUIPE unicos= 291 | mais comuns= {'BRE202600304': 172, 'BRE202500255': 89, 'BRE202600262': 80, 'BRE202600179': 74, 'BRE202500535': 60, 'BRE202500215': 59, 'BRE202500361': 57, 'BRE202600052': 51}

@@ -1,0 +1,63 @@
+{
+  "data_consulta": "27-11-2026 19:28",
+  "codigo_contrato": "01413/2025",
+  "contrato": "*CERTSYS TECNOLOGIA DA INFORMACAO - 01413/2025",
+  "grupos": [
+    {
+      "grupo": "Desenvolvimento",
+      "equipes": [
+        {
+          "area": "*SUDEA21",
+          "comunidade": "FGTS",
+          "equipe": "BRE202500496",
+          "data_inicio": "15-10-2025 15:06:00,000",
+          "data_fim": null,
+          "quantidade_atendimentos": null,
+          "sprints_pendentes": "0,00"
+        },
+        {
+          "area": "*SUDEB03",
+          "comunidade": "FINANCEIRO E CONTROLADORIA",
+          "equipe": "BRE202500503",
+          "data_inicio": "30-09-2025 15:28:00,000",
+          "data_fim": null,
+          "quantidade_atendimentos": null,
+          "sprints_pendentes": "0,00"
+        },
+        {
+          "area": "*SUDEB03",
+          "comunidade": "FINANCEIRO E CONTROLADORIA",
+          "equipe": "BRE202500509",
+          "data_inicio": "30-09-2025 15:35:00,000",
+          "data_fim": null,
+          "quantidade_atendimentos": "5,00",
+          "sprints_pendentes": null
+        },
+        {
+          "area": "*SUDEB03",
+          "comunidade": "FINANCEIRO E CONTROLADORIA",
+          "equipe": "BRE202600230",
+          "data_inicio": "25-02-2026 16:32:00,000",
+          "data_fim": null,
+          "quantidade_atendimentos": "15,00",
+          "sprints_pendentes": null
+        }
+      ]
+    },
+    {
+      "grupo": "Suporte",
+      "equipes": [
+        {
+          "area": "*SUDEB11",
+          "comunidade": "GESTÃO DE IDENTIDADE, ACESSO E ANTIFRAUDE",
+          "equipe": "BRE202500484",
+          "data_inicio": "21-10-2025 13:04:00,000",
+          "data_fim": null,
+          "quantidade_atendimentos": "8,00",
+          "sprints_pendentes": null
+        }
+      ]
+    }
+  ],
+  "resultado_da_consulta": 0
+}

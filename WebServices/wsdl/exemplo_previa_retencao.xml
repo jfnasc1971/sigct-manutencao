@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <data_consulta>27-11-2026 19:28</data_consulta>
+  <codigo_contrato>01413/2025</codigo_contrato>
+  <contrato>*CERTSYS TECNOLOGIA DA INFORMACAO - 01413/2025</contrato>
+  <grupos>
+    <item>
+      <grupo>Desenvolvimento</grupo>
+      <equipes>
+        <item>
+          <area>*SUDEA21</area>
+          <comunidade>FGTS</comunidade>
+          <equipe>BRE202500496</equipe>
+          <data_inicio>15-10-2025 15:06:00,000</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <quantidade_atendimentos xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <sprints_pendentes>0,00</sprints_pendentes>
+        </item>
+        <item>
+          <area>*SUDEB03</area>
+          <comunidade>FINANCEIRO E CONTROLADORIA</comunidade>
+          <equipe>BRE202500503</equipe>
+          <data_inicio>30-09-2025 15:28:00,000</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <quantidade_atendimentos xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <sprints_pendentes>0,00</sprints_pendentes>
+        </item>
+        <item>
+          <area>*SUDEB03</area>
+          <comunidade>FINANCEIRO E CONTROLADORIA</comunidade>
+          <equipe>BRE202500509</equipe>
+          <data_inicio>30-09-2025 15:35:00,000</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <quantidade_atendimentos>5,00</quantidade_atendimentos>
+          <sprints_pendentes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </item>
+        <item>
+          <area>*SUDEB03</area>
+          <comunidade>FINANCEIRO E CONTROLADORIA</comunidade>
+          <equipe>BRE202600230</equipe>
+          <data_inicio>25-02-2026 16:32:00,000</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <quantidade_atendimentos>15,00</quantidade_atendimentos>
+          <sprints_pendentes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </item>
+      </equipes>
+    </item>
+    <item>
+      <grupo>Suporte</grupo>
+      <equipes>
+        <item>
+          <area>*SUDEB11</area>
+          <comunidade>GESTÃƒO DE IDENTIDADE, ACESSO E ANTIFRAUDE</comunidade>
+          <equipe>BRE202500484</equipe>
+          <data_inicio>21-10-2025 13:04:00,000</data_inicio>
+          <data_fim xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          <quantidade_atendimentos>8,00</quantidade_atendimentos>
+          <sprints_pendentes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </item>
+      </equipes>
+    </item>
+  </grupos>
+  <resultado_da_consulta>0</resultado_da_consulta>
+</response>

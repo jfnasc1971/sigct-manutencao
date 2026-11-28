@@ -1,0 +1,350 @@
+{
+  "data_consulta": "27-11-2026 19:28",
+  "codigo_contrato": "01411/2025",
+  "contrato": "*ENGESOFTWARE TECNOLOGIA S.A - 01411/2025",
+  "grupos": [
+    {
+      "grupo": "Desenvolvimento",
+      "equipes": [
+        {
+          "equipe": "BRE202500241",
+          "codigo_contrato": "01411/2025",
+          "area": "*SUDEA15",
+          "comunidade": "RISCO E COMPLIANCE",
+          "contagens_pf": [
+            {
+              "co_ciclo_trabalho": "00016",
+              "co_solicitacao": "STRY00014694",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00017",
+              "co_solicitacao": "STRY00121193",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00018",
+              "co_solicitacao": "STRY00162942",
+              "de_tipo_solicitacao": "Manutenção Corretiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00018",
+              "co_solicitacao": "STRY00160861",
+              "de_tipo_solicitacao": "Manutenção Corretiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00018",
+              "co_solicitacao": "STRY00158724",
+              "de_tipo_solicitacao": "Serviço Técnico Especializado",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00018",
+              "co_solicitacao": "STRY00181403",
+              "de_tipo_solicitacao": "Serviço Técnico Especializado",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00018",
+              "co_solicitacao": "STRY00175743",
+              "de_tipo_solicitacao": "Manutenção Corretiva",
+              "de_situacao_solicitacao": "Trabalho em andamento",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00019",
+              "co_solicitacao": "STRY00183665",
+              "de_tipo_solicitacao": "Manutenção Corretiva",
+              "de_situacao_solicitacao": "Trabalho em andamento",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00019",
+              "co_solicitacao": "STRY00188301",
+              "de_tipo_solicitacao": "Serviço Técnico Especializado",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00019",
+              "co_solicitacao": "STRY00184840",
+              "de_tipo_solicitacao": "Serviço Técnico Especializado",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00019",
+              "co_solicitacao": "STRY00121867",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Trabalho em andamento",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00011",
+              "co_solicitacao": "24826252",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00011",
+              "co_solicitacao": "24592153",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Em Desenvolvimento",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00012",
+              "co_solicitacao": "24826319",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00012",
+              "co_solicitacao": "24826300",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00012",
+              "co_solicitacao": "24826330",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00012",
+              "co_solicitacao": "24619804",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Adiado",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00001",
+              "co_solicitacao": "22894593",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "8,00"
+            },
+            {
+              "co_ciclo_trabalho": "00001",
+              "co_solicitacao": "22827916",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "6,33"
+            },
+            {
+              "co_ciclo_trabalho": "00001",
+              "co_solicitacao": "23084885",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "14,00"
+            },
+            {
+              "co_ciclo_trabalho": "00001",
+              "co_solicitacao": "22894556",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00001",
+              "co_solicitacao": "22894619",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00002",
+              "co_solicitacao": "22733004",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "14,33"
+            },
+            {
+              "co_ciclo_trabalho": "00002",
+              "co_solicitacao": "22894577",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00003",
+              "co_solicitacao": "22145355",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00004",
+              "co_solicitacao": "21498388",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "1,14"
+            },
+            {
+              "co_ciclo_trabalho": "00004",
+              "co_solicitacao": "20400121",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Adiado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00004",
+              "co_solicitacao": "23208279",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00004",
+              "co_solicitacao": "22145334",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00004",
+              "co_solicitacao": "22145321",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00013",
+              "co_solicitacao": "STRY00014691",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00013",
+              "co_solicitacao": "STRY00032517",
+              "de_tipo_solicitacao": "Manutenção Corretiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00013",
+              "co_solicitacao": "STRY00029483",
+              "de_tipo_solicitacao": "Serviço Técnico Especializado",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00013",
+              "co_solicitacao": "24900366",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implementado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00014",
+              "co_solicitacao": "25079085",
+              "de_tipo_solicitacao": "Defeito",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00014",
+              "co_solicitacao": "24900349",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implementado",
+              "nu_tamanho_servico": "5,00"
+            },
+            {
+              "co_ciclo_trabalho": "00005",
+              "co_solicitacao": "23947277",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "10,14"
+            },
+            {
+              "co_ciclo_trabalho": "00006",
+              "co_solicitacao": "23190361",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00006",
+              "co_solicitacao": "23722596",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Aceito",
+              "nu_tamanho_servico": "1,14"
+            },
+            {
+              "co_ciclo_trabalho": "00007",
+              "co_solicitacao": "24357408",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Preparado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00007",
+              "co_solicitacao": "24357420",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Preparado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00008",
+              "co_solicitacao": "24391926",
+              "de_tipo_solicitacao": "Manutenção Perfectiva",
+              "de_situacao_solicitacao": "Preparado",
+              "nu_tamanho_servico": "8,00"
+            },
+            {
+              "co_ciclo_trabalho": "00008",
+              "co_solicitacao": "24391697",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Em Refinamento",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00009",
+              "co_solicitacao": "24632814",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implantado",
+              "nu_tamanho_servico": "4,00"
+            },
+            {
+              "co_ciclo_trabalho": "00010",
+              "co_solicitacao": "24592129",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Implementado",
+              "nu_tamanho_servico": "20,00"
+            },
+            {
+              "co_ciclo_trabalho": "00015",
+              "co_solicitacao": "STRY00014692",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            },
+            {
+              "co_ciclo_trabalho": "00015",
+              "co_solicitacao": "STRY00014697",
+              "de_tipo_solicitacao": "Manutenção Evolutiva",
+              "de_situacao_solicitacao": "Concluído",
+              "nu_tamanho_servico": "0,00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultado_da_consulta": 0
+}

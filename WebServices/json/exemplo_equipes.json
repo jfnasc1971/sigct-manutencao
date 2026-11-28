@@ -1,0 +1,116 @@
+{
+  "data_consulta": "27-11-2026 19:28",
+  "codigo_contrato": "01411/2025",
+  "contrato": "*ENGESOFTWARE TECNOLOGIA S.A - 01411/2025",
+  "equipes": [
+    {
+      "equipe": "BRE202500241",
+      "codigo_contrato": "01411/2025",
+      "area": "*SUDEA15",
+      "comunidade": "RISCO E COMPLIANCE",
+      "grupo": "Desenvolvimento",
+      "situacao": "Concluído",
+      "data_inicio": "21-05-2026",
+      "data_fim": "31-07-2026",
+      "vigencias": [
+        {
+          "perfil": "ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)",
+          "matricula": "f685162",
+          "nome": "OLIMPIO KAIO RODRIGUES SILVA",
+          "data_inicio": "19-05-2025",
+          "data_fim": "19-05-2025",
+          "excluido": "N",
+          "turnover": "N"
+        },
+        {
+          "perfil": "ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)",
+          "matricula": "f729603",
+          "nome": "EDUARDO FRANCISCO GOMES DE ALMEIDA",
+          "data_inicio": "22-05-2025",
+          "data_fim": "09-09-2025",
+          "excluido": "N",
+          "turnover": "S"
+        },
+        {
+          "perfil": "ANALISTA/DESENVOLVEDOR - PLATAFORMA BAIXA (2-DESENVOLVIMENTO)",
+          "matricula": "f685162",
+          "nome": "OLIMPIO KAIO RODRIGUES SILVA",
+          "data_inicio": "01-08-2026",
+          "data_fim": null,
+          "excluido": "N",
+          "turnover": "N"
+        }
+      ]
+    },
+    {
+      "equipe": "BRE202500251",
+      "codigo_contrato": "01410/2025",
+      "area": "*SUDEA09",
+      "comunidade": "FOMENTO E DEPÓSITOS JUDICIAIS",
+      "grupo": "Desenvolvimento",
+      "situacao": "Concluído",
+      "data_inicio": "16-07-2026",
+      "data_fim": "07-08-2026",
+      "vigencias": [
+        {
+          "perfil": "ANALISTA/DESENVOLVEDOR - ALTA PLATAFORMA (2-DESENVOLVIMENTO)",
+          "matricula": "f625296",
+          "nome": "VALDERCI SINHORINI NEGRI",
+          "data_inicio": "13-05-2025",
+          "data_fim": "10-08-2025",
+          "excluido": "N",
+          "turnover": "N"
+        },
+        {
+          "perfil": "ESPECIALISTA EM ALTA PLATAFORMA",
+          "matricula": "f973553",
+          "nome": "MATHEUS MAGALHAES DA SILVA",
+          "data_inicio": "13-05-2025",
+          "data_fim": null,
+          "excluido": "N",
+          "turnover": "N"
+        },
+        {
+          "perfil": "ANALISTA/DESENVOLVEDOR - ALTA PLATAFORMA (2-DESENVOLVIMENTO)",
+          "matricula": "f736393",
+          "nome": null,
+          "data_inicio": "10-11-2026",
+          "data_fim": null,
+          "excluido": "N",
+          "turnover": "N"
+        }
+      ]
+    },
+    {
+      "equipe": "BRE202500238",
+      "codigo_contrato": "01411/2025",
+      "area": "CESOB120",
+      "comunidade": "RISCO, COMPLIANCE E ADIMPLÊNCIA",
+      "grupo": "Suporte",
+      "situacao": null,
+      "data_inicio": null,
+      "data_fim": null,
+      "vigencias": [
+        {
+          "perfil": "Analista de Testes",
+          "matricula": "f644559",
+          "nome": "ELAINE CRISTINA SOARES NUNES",
+          "data_inicio": "23-11-2023",
+          "data_fim": "20-01-2024",
+          "excluido": "N",
+          "turnover": "N"
+        },
+        {
+          "perfil": "ENGENHEIRO DE DADOS (1-DESIGN)",
+          "matricula": "f631334",
+          "nome": "LEANDRO FERREIRA LIMA",
+          "data_inicio": "13-05-2025",
+          "data_fim": "20-03-2026",
+          "excluido": "N",
+          "turnover": "N"
+        }
+      ]
+    }
+  ],
+  "resultado_da_consulta": 0
+}

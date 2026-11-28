@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <data_consulta>27-11-2026 19:28</data_consulta>
+  <ciclo_faturamento>01/2024</ciclo_faturamento>
+  <notas_codigo>
+    <item>
+      <ciclo_faturamento>01/2024</ciclo_faturamento>
+      <sigla_sistema>SIADJ</sigla_sistema>
+      <nota_apurada>9,47</nota_apurada>
+      <data_modificacao>03-11-2026 14:09:58,709</data_modificacao>
+    </item>
+    <item>
+      <ciclo_faturamento>01/2024</ciclo_faturamento>
+      <sigla_sistema>SIACI</sigla_sistema>
+      <nota_apurada>10,00</nota_apurada>
+      <data_modificacao>03-11-2026 14:09:58,811</data_modificacao>
+    </item>
+    <item>
+      <ciclo_faturamento>01/2024</ciclo_faturamento>
+      <sigla_sistema>SIABE</sigla_sistema>
+      <nota_apurada>10,00</nota_apurada>
+      <data_modificacao>03-11-2026 14:09:59,120</data_modificacao>
+    </item>
+    <item>
+      <ciclo_faturamento>01/2024</ciclo_faturamento>
+      <sigla_sistema>SIADI</sigla_sistema>
+      <nota_apurada>10,00</nota_apurada>
+      <data_modificacao>03-11-2026 14:09:59,117</data_modificacao>
+    </item>
+    <item>
+      <ciclo_faturamento>01/2024</ciclo_faturamento>
+      <sigla_sistema>SIACL</sigla_sistema>
+      <nota_apurada>9,11</nota_apurada>
+      <data_modificacao>03-11-2026 14:09:59,210</data_modificacao>
+    </item>
+  </notas_codigo>
+  <resultado_da_consulta>0</resultado_da_consulta>
+</response>

@@ -1,0 +1,118 @@
+{
+  "data_consulta": "27-11-2026 19:28",
+  "data_fatura": "20-08-2025",
+  "dt_final_fatura": "20-08-2025",
+  "fatura": "Agosto/2025",
+  "codigo_contrato": "01411/2025",
+  "contrato": "*ENGESOFTWARE TECNOLOGIA S.A - 01411/2025",
+  "grupos": [
+    {
+      "grupo": "Desenvolvimento",
+      "equipes": [
+        {
+          "equipe": "BRE202500241",
+          "codigo_contrato": "01411/2025",
+          "area": "*SUDEA15",
+          "comunidade": "RISCO E COMPLIANCE",
+          "data_considerar_fns": "01-08-2025",
+          "indicadores": {
+            "ie": {
+              "indicador": "IE",
+              "qt_itens_com_entregues": "0,00",
+              "qt_itens_contratados": "1,00",
+              "valor_indicador": "0,00",
+              "valor_indicador_ajustado": "0,40"
+            },
+            "ip": {
+              "indicador": "IP",
+              "qt_itens_com_contagem": "1,00",
+              "qt_pontos_de_funcao": "5,00",
+              "qt_colaboradores": "3,00",
+              "qt_dias_trabalhados": "69,00",
+              "qt_defeitos": "0,00",
+              "qt_dias_trabalhados_defeitos": "0,00",
+              "qt_dias_trabalhados_pf": "69,00",
+              "dt_inicio_desenvolvimento": "14-04-2025",
+              "qt_meses_desenvolvimento": "4,00",
+              "produtividade_esperada": "0,53333",
+              "valor_indicador": "0,30",
+              "valor_indicador_ajustado": "0,30"
+            },
+            "iq": {
+              "indicador": "IQ",
+              "defeitos_corrigidos_periodo_anterior": "0,00",
+              "defeitos_abertos_periodo_anterior": "0,00",
+              "defeitos_corrigidos": "0,00",
+              "defeitos_abertos": "0,00",
+              "razao_iqrd": null,
+              "valor_iqrd": null,
+              "peso_iqrd": "0,60",
+              "soma_notas": "10,00",
+              "qt_siglas": "1,00",
+              "nota_media_iqnp": "10,00",
+              "valor_iqnp": "1,00",
+              "peso_iqnp": "0,40",
+              "valor_indicador_gravado": "1,00",
+              "faixa_fns_gravada": "1,00",
+              "valor_indicador": "1,00"
+            },
+            "it": {
+              "indicador": "IT",
+              "valor_indicador": "0,95081967",
+              "faixa_fns": "0,97",
+              "dt_inicio_trimestre": "20-06-2025",
+              "dt_fim_trimestre": "19-09-2025",
+              "qt_desligamentos_perfis_trimestre_contratada": "6,00",
+              "perfis_da_contratada_ao_final_do_ultimo_trimestre": "122,00"
+            },
+            "fns": {
+              "indicador": "FNS",
+              "ie": "0,40",
+              "ip": "0,30",
+              "iq": "1,00",
+              "it": "0,97",
+              "fns_aplicado": "0,6675"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "grupo": "Suporte",
+      "equipes": [
+        {
+          "equipe": "BRE202500238",
+          "codigo_contrato": "01411/2025",
+          "area": "CESOB120",
+          "comunidade": "RISCO, COMPLIANCE E ADIMPLÊNCIA",
+          "data_considerar_fns": "01-08-2025",
+          "indicadores": {
+            "ie": {
+              "indicador": "IE",
+              "qt_itens_com_entregues": "2,00",
+              "qt_itens_contratados": "2,00",
+              "valor_indicador": "1,00",
+              "valor_indicador_ajustado": "1,00"
+            },
+            "it": {
+              "indicador": "IT",
+              "valor_indicador": "0,95081967",
+              "faixa_fns": "0,97",
+              "dt_inicio_trimestre": "20-06-2025",
+              "dt_fim_trimestre": "19-09-2025",
+              "qt_desligamentos_perfis_trimestre_contratada": "6,00",
+              "perfis_da_contratada_ao_final_do_ultimo_trimestre": "122,00"
+            },
+            "fns": {
+              "indicador": "FNS",
+              "ie": "1,00",
+              "it": "0,97",
+              "fns_aplicado": "0,985"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "resultado_da_consulta": 0
+}

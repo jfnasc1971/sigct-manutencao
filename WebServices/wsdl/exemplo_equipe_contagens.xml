@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <data_consulta>27-11-2026 19:28</data_consulta>
+  <codigo_contrato>01411/2025</codigo_contrato>
+  <contrato>*ENGESOFTWARE TECNOLOGIA S.A - 01411/2025</contrato>
+  <grupos>
+    <item>
+      <grupo>Desenvolvimento</grupo>
+      <equipes>
+        <item>
+          <equipe>BRE202500241</equipe>
+          <codigo_contrato>01411/2025</codigo_contrato>
+          <area>*SUDEA15</area>
+          <comunidade>RISCO E COMPLIANCE</comunidade>
+          <contagens_pf>
+            <item>
+              <co_ciclo_trabalho>00016</co_ciclo_trabalho>
+              <co_solicitacao>STRY00014694</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00017</co_ciclo_trabalho>
+              <co_solicitacao>STRY00121193</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00018</co_ciclo_trabalho>
+              <co_solicitacao>STRY00162942</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Corretiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00018</co_ciclo_trabalho>
+              <co_solicitacao>STRY00160861</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Corretiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00018</co_ciclo_trabalho>
+              <co_solicitacao>STRY00158724</co_solicitacao>
+              <de_tipo_solicitacao>ServiÃ§o TÃ©cnico Especializado</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00018</co_ciclo_trabalho>
+              <co_solicitacao>STRY00181403</co_solicitacao>
+              <de_tipo_solicitacao>ServiÃ§o TÃ©cnico Especializado</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00018</co_ciclo_trabalho>
+              <co_solicitacao>STRY00175743</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Corretiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Trabalho em andamento</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00019</co_ciclo_trabalho>
+              <co_solicitacao>STRY00183665</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Corretiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Trabalho em andamento</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00019</co_ciclo_trabalho>
+              <co_solicitacao>STRY00188301</co_solicitacao>
+              <de_tipo_solicitacao>ServiÃ§o TÃ©cnico Especializado</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00019</co_ciclo_trabalho>
+              <co_solicitacao>STRY00184840</co_solicitacao>
+              <de_tipo_solicitacao>ServiÃ§o TÃ©cnico Especializado</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00019</co_ciclo_trabalho>
+              <co_solicitacao>STRY00121867</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Trabalho em andamento</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00011</co_ciclo_trabalho>
+              <co_solicitacao>24826252</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00011</co_ciclo_trabalho>
+              <co_solicitacao>24592153</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Em Desenvolvimento</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00012</co_ciclo_trabalho>
+              <co_solicitacao>24826319</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00012</co_ciclo_trabalho>
+              <co_solicitacao>24826300</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00012</co_ciclo_trabalho>
+              <co_solicitacao>24826330</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00012</co_ciclo_trabalho>
+              <co_solicitacao>24619804</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Adiado</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00001</co_ciclo_trabalho>
+              <co_solicitacao>22894593</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>8,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00001</co_ciclo_trabalho>
+              <co_solicitacao>22827916</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>6,33</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00001</co_ciclo_trabalho>
+              <co_solicitacao>23084885</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>14,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00001</co_ciclo_trabalho>
+              <co_solicitacao>22894556</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00001</co_ciclo_trabalho>
+              <co_solicitacao>22894619</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00002</co_ciclo_trabalho>
+              <co_solicitacao>22733004</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>14,33</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00002</co_ciclo_trabalho>
+              <co_solicitacao>22894577</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00003</co_ciclo_trabalho>
+              <co_solicitacao>22145355</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00004</co_ciclo_trabalho>
+              <co_solicitacao>21498388</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>1,14</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00004</co_ciclo_trabalho>
+              <co_solicitacao>20400121</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Adiado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00004</co_ciclo_trabalho>
+              <co_solicitacao>23208279</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00004</co_ciclo_trabalho>
+              <co_solicitacao>22145334</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00004</co_ciclo_trabalho>
+              <co_solicitacao>22145321</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00013</co_ciclo_trabalho>
+              <co_solicitacao>STRY00014691</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00013</co_ciclo_trabalho>
+              <co_solicitacao>STRY00032517</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Corretiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00013</co_ciclo_trabalho>
+              <co_solicitacao>STRY00029483</co_solicitacao>
+              <de_tipo_solicitacao>ServiÃ§o TÃ©cnico Especializado</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00013</co_ciclo_trabalho>
+              <co_solicitacao>24900366</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implementado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00014</co_ciclo_trabalho>
+              <co_solicitacao>25079085</co_solicitacao>
+              <de_tipo_solicitacao>Defeito</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00014</co_ciclo_trabalho>
+              <co_solicitacao>24900349</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implementado</de_situacao_solicitacao>
+              <nu_tamanho_servico>5,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00005</co_ciclo_trabalho>
+              <co_solicitacao>23947277</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>10,14</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00006</co_ciclo_trabalho>
+              <co_solicitacao>23190361</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00006</co_ciclo_trabalho>
+              <co_solicitacao>23722596</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Aceito</de_situacao_solicitacao>
+              <nu_tamanho_servico>1,14</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00007</co_ciclo_trabalho>
+              <co_solicitacao>24357408</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Preparado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00007</co_ciclo_trabalho>
+              <co_solicitacao>24357420</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Preparado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00008</co_ciclo_trabalho>
+              <co_solicitacao>24391926</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Perfectiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Preparado</de_situacao_solicitacao>
+              <nu_tamanho_servico>8,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00008</co_ciclo_trabalho>
+              <co_solicitacao>24391697</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Em Refinamento</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00009</co_ciclo_trabalho>
+              <co_solicitacao>24632814</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implantado</de_situacao_solicitacao>
+              <nu_tamanho_servico>4,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00010</co_ciclo_trabalho>
+              <co_solicitacao>24592129</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>Implementado</de_situacao_solicitacao>
+              <nu_tamanho_servico>20,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00015</co_ciclo_trabalho>
+              <co_solicitacao>STRY00014692</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+            <item>
+              <co_ciclo_trabalho>00015</co_ciclo_trabalho>
+              <co_solicitacao>STRY00014697</co_solicitacao>
+              <de_tipo_solicitacao>ManutenÃ§Ã£o Evolutiva</de_tipo_solicitacao>
+              <de_situacao_solicitacao>ConcluÃ­do</de_situacao_solicitacao>
+              <nu_tamanho_servico>0,00</nu_tamanho_servico>
+            </item>
+          </contagens_pf>
+        </item>
+      </equipes>
+    </item>
+  </grupos>
+  <resultado_da_consulta>0</resultado_da_consulta>
+</response>

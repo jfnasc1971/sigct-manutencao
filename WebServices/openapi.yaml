@@ -1,0 +1,121 @@
+openapi: 3.0.3
+info:
+  title: API SIGCT
+  version: 1.0.0
+  description: Plataforma de indicadores e faturamento SIGCT
+servers:
+  - url: https://sigct.caixa.gov.br/api/v1
+
+security:
+  - bearerAuth: []
+
+paths:
+  /equipes:
+    get:
+      tags: [Equipes]
+      summary: Consulta equipes
+      responses:
+        '200':
+          description: Sucesso
+
+  /indicadores:
+    get:
+      tags: [Indicadores]
+      summary: Consulta indicadores
+      responses:
+        '200':
+          description: Sucesso
+
+  /contagens:
+    get:
+      tags: [Contagens]
+      summary: Consulta contagens PF
+      responses:
+        '200':
+          description: Sucesso
+
+  /notas_codigo:
+    get:
+      tags: [Notas]
+      summary: Consulta notas por código
+      responses:
+        '200':
+          description: Sucesso
+
+  /previa_retencao:
+    get:
+      tags: [Retencoes]
+      summary: Consulta prévia de retenção
+      responses:
+        '200':
+          description: Sucesso
+
+  /health:
+    get:
+      summary: Health Check
+      responses:
+        '200':
+          description: OK
+
+  /version:
+    get:
+      summary: Versão da API
+      responses:
+        '200':
+          description: OK
+
+components:
+  schemas:
+    Equipe:
+      type: object
+      properties:
+        equipe: { type: string }
+        contrato: { type: string }
+        area: { type: string }
+        comunidade: { type: string }
+        grupo: { type: string }
+        situacao: { type: string }
+
+    Indicador:
+      type: object
+      properties:
+        equipe: { type: string }
+        indicador: { type: string }
+        valor: { type: number }
+        dt_final_fatura: { type: string }
+
+    ContagemPF:
+      type: object
+      properties:
+        co_ciclo_trabalho: { type: integer }
+        co_solicitacao: { type: integer }
+        nu_tamanho_servico: { type: number }
+
+    NotaCodigo:
+      type: object
+      properties:
+        ciclo_faturamento: { type: string }
+        sigla_sistema: { type: string }
+        nota_apurada: { type: number }
+
+    PreviaRetencao:
+      type: object
+      properties:
+        data_inicio: { type: string }
+        data_fim: { type: string }
+        quantidade_atendimentos: { type: integer }
+
+    Erro:
+      type: object
+      properties:
+        timestamp: { type: string }
+        status: { type: integer }
+        error: { type: string }
+        message: { type: string }
+        path: { type: string }
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

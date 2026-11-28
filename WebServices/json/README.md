@@ -79,120 +79,116 @@ Os registros das abas de indicadores possuem os seguintes campos:
 
 ### IE - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `qt_itens_entregues` | inteiro | 0 a 85 | Quantidade de itens com entregas |
-| `qt_itens_contratados` | inteiro | 1 a 86 | Quantidade de itens contratados |
-| `valor_indicador` | decimal | 0 a 1 | Valor calculado do indicador IE |
-| `valor_indicador_ajustado` | decimal | 0,4 a 1 | Valor ajustado do indicador IE |
-
-Observação: a aba possui 2595 registros. Existem 184 registros sem os campos de itens e valor não ajustado.
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `qt_itens_entregues` | inteiro | Quantidade de itens com entregas |
+| `qt_itens_contratados` | inteiro | Quantidade de itens contratados |
+| `valor_indicador` | decimal | Valor calculado do indicador IE |
+| `valor_indicador_ajustado` | decimal | Valor ajustado do indicador IE |
 
 ### IP - Produtividade - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `qt_itens_com_contagem` | inteiro | 0 a 83 | Quantidade de itens com contagem |
-| `qt_pontos_de_funcao` | decimal | 0 a 628 | Pontos de função considerados |
-| `qt_colaboradores` | decimal | 0 a 29,80952380952381 | Quantidade de colaboradores |
-| `qt_dias_trabalhados` | inteiro | 0 a 626 | Dias trabalhados no período |
-| `qt_defeitos` | inteiro | 0 a 46 | Quantidade de defeitos |
-| `qt_dias_trabalhados_defeitos` | inteiro | 0 a 124 | Dias trabalhados associados a defeitos |
-| `qt_dias_trabalhados_pf` | inteiro | 0 a 607 | Dias trabalhados associados a pontos de função |
-| `dt_inicio_desenvolvimento` | data | 31/08/2023 a 24/08/2026 | Data inicial do desenvolvimento |
-| `qt_meses_desenvolvimento` | inteiro | 4 a 19 | Quantidade de meses de desenvolvimento |
-| `produtividade_esperada` | decimal | 0,53333 a 1 | Produtividade esperada |
-| `valor_indicador` | decimal | 0,3 a 1,27 | Valor calculado do indicador IP |
-| `valor_indicador_ajustado` | decimal | 0,3 a 1,27 | Valor ajustado do indicador IP |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `qt_itens_com_contagem` | inteiro | Quantidade de itens com contagem |
+| `qt_pontos_de_funcao` | decimal | Pontos de função considerados |
+| `qt_colaboradores` | decimal | Quantidade de colaboradores |
+| `qt_dias_trabalhados` | inteiro | Dias trabalhados no período |
+| `qt_defeitos` | inteiro | Quantidade de defeitos |
+| `qt_dias_trabalhados_defeitos` | inteiro | Dias trabalhados associados a defeitos |
+| `qt_dias_trabalhados_pf` | inteiro | Dias trabalhados associados a pontos de função |
+| `dt_inicio_desenvolvimento` | data | Data inicial do desenvolvimento |
+| `qt_meses_desenvolvimento` | inteiro | Quantidade de meses de desenvolvimento |
+| `produtividade_esperada` | decimal | Produtividade esperada |
+| `valor_indicador` | decimal | Valor calculado do indicador IP |
+| `valor_indicador_ajustado` | decimal | Valor ajustado do indicador IP |
 
 ### IQ - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `defeitos_corrigidos_periodo_anterior` | inteiro | 0 a 46 | Defeitos corrigidos no período anterior |
-| `defeitos_abertos_periodo_anterior` | inteiro | 0 a 4 | Defeitos ainda abertos no período anterior |
-| `defeitos_corrigidos` | inteiro | 0 a 46 | Defeitos corrigidos no período |
-| `defeitos_abertos` | inteiro | 0 a 4 | Defeitos abertos no período |
-| `razao_iqrd` | decimal | 0 a 3 | Razão usada no cálculo do IQRD |
-| `valor_iqrd` | decimal | 0,6 a 1 | Valor calculado do IQRD |
-| `peso_iqrd` | decimal | 0,6 | Peso do IQRD |
-| `soma_notas` | decimal | 1,3 a 67,4 | Soma das notas consideradas no IQNP |
-| `qt_siglas` | inteiro | 0 a 7 | Quantidade de siglas consideradas |
-| `nota_media_iqnp` | decimal | 0,8375 a 10 | Nota média do IQNP |
-| `valor_iqnp` | decimal | 0 a 1 | Valor calculado do IQNP |
-| `peso_iqnp` | decimal | 0,4 | Peso do IQNP |
-| `faixa_fns` | decimal | 0 a 1 | Faixa FNS usada no cálculo gravado |
-| `valor_indicador` | decimal | 0 a 1 | Valor final do indicador IQ |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `defeitos_corrigidos_periodo_anterior` | inteiro | Defeitos corrigidos no período anterior |
+| `defeitos_abertos_periodo_anterior` | inteiro | Defeitos ainda abertos no período anterior |
+| `defeitos_corrigidos` | inteiro | Defeitos corrigidos no período |
+| `defeitos_abertos` | inteiro | Defeitos abertos no período |
+| `razao_iqrd` | decimal | Razão usada no cálculo do IQRD |
+| `valor_iqrd` | decimal | Valor calculado do IQRD |
+| `peso_iqrd` | decimal | Peso do IQRD |
+| `soma_notas` | decimal | Soma das notas consideradas no IQNP |
+| `qt_siglas` | inteiro | Quantidade de siglas consideradas |
+| `nota_media_iqnp` | decimal | Nota média do IQNP |
+| `valor_iqnp` | decimal | Valor calculado do IQNP |
+| `peso_iqnp` | decimal | Peso do IQNP |
+| `faixa_fns` | decimal | Faixa FNS usada no cálculo gravado |
+| `valor_indicador` | decimal | Valor final do indicador IQ |
 
 Observação: `RAZAO IQRD`, `VALOR IQRD`, `SOMA NOTAS`, `NOTA MEDIA IQNP`, `VALOR IQNP` e `VALOR INDICADOR` podem estar vazios em parte dos registros.
 
 ### IT - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `valor_indicador` | decimal | 0,8549222797927462 a 1 | Valor calculado do indicador IT |
-| `faixa_fns` | decimal | 0,93 a 1 | Faixa FNS aplicada ao indicador |
-| `dt_inicio_trimestre` | data | 19/06/2025 a 22/07/2026 | Data inicial do trimestre |
-| `dt_fim_trimestre` | data | 18/09/2025 a 21/10/2026 | Data final do trimestre |
-| `qt_desligamentos_perfis_trimestre_contratada` | inteiro | 0 a 28 | Desligamentos de perfis no trimestre da contratada |
-| `perfis_da_contratada_ao_final_do_ultimo_trimestre` | inteiro | 59 a 288 | Perfis da contratada no fim do último trimestre |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `valor_indicador` | decimal | Valor calculado do indicador IT |
+| `faixa_fns` | decimal | Faixa FNS aplicada ao indicador |
+| `dt_inicio_trimestre` | data | Data inicial do trimestre |
+| `dt_fim_trimestre` | data | Data final do trimestre |
+| `qt_desligamentos_perfis_trimestre_contratada` | inteiro | Desligamentos de perfis no trimestre da contratada |
+| `perfis_da_contratada_ao_final_do_ultimo_trimestre` | inteiro | Perfis da contratada no fim do último trimestre |
 
 ### FNS - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `ie` | decimal | 0,4 a 1 | Valor do indicador IE usado no cálculo |
-| `ip` | decimal | 0,3 a 1,27 | Valor do indicador IP usado no cálculo |
-| `iq` | decimal | 0 a 1 | Valor do indicador IQ usado no cálculo |
-| `it` | decimal | 0,93 a 1 | Valor do indicador IT usado no cálculo |
-| `fns_aplicado` | decimal | 0,4075 a 1,0675 | Fator FNS aplicado |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `ie` | decimal | Valor do indicador IE usado no cálculo |
+| `ip` | decimal | Valor do indicador IP usado no cálculo |
+| `iq` | decimal | Valor do indicador IQ usado no cálculo |
+| `it` | decimal | Valor do indicador IT usado no cálculo |
+| `fns_aplicado` | decimal | Fator FNS aplicado |
 
 ### IDE - Desenvolvimento
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `ie` | decimal | 0,4 a 1 | Valor do indicador IE usado no cálculo |
-| `ie_peso` | decimal | 0,3 | Peso aplicado ao IE |
-| `ie_x_peso` | decimal | 0,12 a 0,3 | Resultado de IE multiplicado pelo peso |
-| `iq` | decimal | 0 a 1 | Valor do indicador IQ usado no cálculo |
-| `iq_peso` | decimal | 0,35 | Peso aplicado ao IQ |
-| `iq_x_peso` | decimal | 0 a 0,35 | Resultado de IQ multiplicado pelo peso |
-| `ip` | decimal | 0,3 a 1,27 | Valor do indicador IP usado no cálculo |
-| `ip_peso` | decimal | 0,35 | Peso aplicado ao IP |
-| `ip_x_peso` | decimal | 0,105 a 0,4445 | Resultado de IP multiplicado pelo peso |
-| `valor_indicador` | decimal | 0,225 a 1,0945 | Valor final do indicador IDE |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `ie` | decimal | Valor do indicador IE usado no cálculo |
+| `ie_peso` | decimal | Peso aplicado ao IE |
+| `ie_x_peso` | decimal | Resultado de IE multiplicado pelo peso |
+| `iq` | decimal | Valor do indicador IQ usado no cálculo |
+| `iq_peso` | decimal | Peso aplicado ao IQ |
+| `iq_x_peso` | decimal | Resultado de IQ multiplicado pelo peso |
+| `ip` | decimal | Valor do indicador IP usado no cálculo |
+| `ip_peso` | decimal | Peso aplicado ao IP |
+| `ip_x_peso` | decimal | Resultado de IP multiplicado pelo peso |
+| `valor_indicador` | decimal | Valor final do indicador IDE |
 
 ## Indicadores de Suporte
 
 ### IE - Suporte
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `qt_itens_entregues` | inteiro | 0 a 156 | Quantidade de itens com entregas |
-| `qt_itens_contratados` | inteiro | 0 a 173 | Quantidade de itens contratados |
-| `valor_indicador` | decimal | 0 a 1 | Valor calculado do indicador IE |
-| `valor_indicador_ajustado` | decimal | 0,4 a 1 | Valor ajustado do indicador IE |
-
-Observação: a aba possui 1658 registros. Existem 81 registros sem os campos de valor calculado e ajustado.
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `qt_itens_entregues` | inteiro | Quantidade de itens com entregas |
+| `qt_itens_contratados` | inteiro | Quantidade de itens contratados |
+| `valor_indicador` | decimal | Valor calculado do indicador IE |
+| `valor_indicador_ajustado` | decimal | Valor ajustado do indicador IE |
 
 ### IT - Suporte
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `valor_indicador` | decimal | 0,8549222797927462 a 1 | Valor calculado do indicador IT |
-| `faixa_fns` | decimal | 0,93 a 1 | Faixa FNS aplicada ao indicador |
-| `dt_inicio_trimestre` | data | 19/06/2025 a 22/07/2026 | Data inicial do trimestre |
-| `dt_fim_trimestre` | data | 18/09/2025 a 21/10/2026 | Data final do trimestre |
-| `qt_desligamentos_perfis_trimestre_contratada` | inteiro | 0 a 28 | Desligamentos de perfis no trimestre da contratada |
-| `perfis_da_contratada_ao_final_do_ultimo_trimestre` | inteiro | 36 a 288 | Perfis da contratada no fim do último trimestre |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `valor_indicador` | decimal | Valor calculado do indicador IT |
+| `faixa_fns` | decimal | Faixa FNS aplicada ao indicador |
+| `dt_inicio_trimestre` | data | Data inicial do trimestre |
+| `dt_fim_trimestre` | data | Data final do trimestre |
+| `qt_desligamentos_perfis_trimestre_contratada` | inteiro | Desligamentos de perfis no trimestre da contratada |
+| `perfis_da_contratada_ao_final_do_ultimo_trimestre` | inteiro | Perfis da contratada no fim do último trimestre |
 
 ### FNS - Suporte
 
-| Atributo | Tipo | Faixa observada | Descrição |
-|---|---|---|---|
-| `ie` | decimal | 0,4 a 1 | Valor do indicador IE usado no cálculo |
-| `it` | decimal | 0,93 a 1 | Valor do indicador IT usado no cálculo |
-| `fns_aplicado` | decimal | 0,665 a 1 | Fator FNS aplicado |
+| Atributo | Tipo | Descrição |
+|---|---|---|
+| `ie` | decimal | Valor do indicador IE usado no cálculo |
+| `it` | decimal | Valor do indicador IT usado no cálculo |
+| `fns_aplicado` | decimal | Fator FNS aplicado |
 
 ## Endpoint 3: Contagens PF
 

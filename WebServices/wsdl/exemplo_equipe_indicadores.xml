@@ -19,7 +19,7 @@
           <indicadores>
             <ie>
               <indicador>IE</indicador>
-              <qt_itens_com_entregues>0,00</qt_itens_com_entregues>
+              <qt_itens_entregues>0,00</qt_itens_entregues>
               <qt_itens_contratados>1,00</qt_itens_contratados>
               <valor_indicador>0,00</valor_indicador>
               <valor_indicador_ajustado>0,40</valor_indicador_ajustado>
@@ -53,8 +53,7 @@
               <nota_media_iqnp>10,00</nota_media_iqnp>
               <valor_iqnp>1,00</valor_iqnp>
               <peso_iqnp>0,40</peso_iqnp>
-              <valor_indicador_gravado>1,00</valor_indicador_gravado>
-              <faixa_fns_gravada>1,00</faixa_fns_gravada>
+              <faixa_fns>1,00</faixa_fns>
               <valor_indicador>1,00</valor_indicador>
             </iq>
             <it>
@@ -90,7 +89,7 @@
           <indicadores>
             <ie>
               <indicador>IE</indicador>
-              <qt_itens_com_entregues>2,00</qt_itens_com_entregues>
+              <qt_itens_entregues>2,00</qt_itens_entregues>
               <qt_itens_contratados>2,00</qt_itens_contratados>
               <valor_indicador>1,00</valor_indicador>
               <valor_indicador_ajustado>1,00</valor_indicador_ajustado>

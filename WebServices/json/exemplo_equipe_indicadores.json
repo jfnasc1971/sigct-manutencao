@@ -18,7 +18,7 @@
           "indicadores": {
             "ie": {
               "indicador": "IE",
-              "qt_itens_com_entregues": "0,00",
+              "qt_itens_entregues": "0,00",
               "qt_itens_contratados": "1,00",
               "valor_indicador": "0,00",
               "valor_indicador_ajustado": "0,40"
@@ -52,8 +52,7 @@
               "nota_media_iqnp": "10,00",
               "valor_iqnp": "1,00",
               "peso_iqnp": "0,40",
-              "valor_indicador_gravado": "1,00",
-              "faixa_fns_gravada": "1,00",
+              "faixa_fns": "1,00",
               "valor_indicador": "1,00"
             },
             "it": {
@@ -89,7 +88,7 @@
           "indicadores": {
             "ie": {
               "indicador": "IE",
-              "qt_itens_com_entregues": "2,00",
+              "qt_itens_entregues": "2,00",
               "qt_itens_contratados": "2,00",
               "valor_indicador": "1,00",
               "valor_indicador_ajustado": "1,00"

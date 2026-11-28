@@ -93,7 +93,7 @@
       <xsd:complexType name="IndicadorIE">
         <xsd:sequence>
           <xsd:element name="indicador" type="xsd:string" minOccurs="0"/>
-          <xsd:element name="qtItensComEntregues" type="xsd:string" minOccurs="0" nillable="true"/>
+          <xsd:element name="qtItensEntregues" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="qtItensContratados" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="valorIndicadorAjustado" type="xsd:string" minOccurs="0" nillable="true"/>
@@ -133,8 +133,6 @@
           <xsd:element name="notaMediaIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="valorIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="pesoIqnp" type="xsd:string" minOccurs="0" nillable="true"/>
-          <xsd:element name="valorIndicadorGravado" type="xsd:string" minOccurs="0" nillable="true"/>
-          <xsd:element name="faixaFnsGravada" type="xsd:string" minOccurs="0" nillable="true"/>
           <xsd:element name="valorIndicador" type="xsd:string" minOccurs="0" nillable="true"/>
         </xsd:sequence>
       </xsd:complexType>

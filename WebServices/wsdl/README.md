@@ -81,7 +81,7 @@ Os registros das abas de indicadores possuem os seguintes campos:
 
 | Atributo | Tipo | Faixa observada | Descrição |
 |---|---|---|---|
-| `qt_itens_com_entregues` | inteiro | 0 a 85 | Quantidade de itens com entregas |
+| `qt_itens_entregues` | inteiro | 0 a 85 | Quantidade de itens com entregas |
 | `qt_itens_contratados` | inteiro | 1 a 86 | Quantidade de itens contratados |
 | `valor_indicador` | decimal | 0 a 1 | Valor calculado do indicador IE |
 | `valor_indicador_ajustado` | decimal | 0,4 a 1 | Valor ajustado do indicador IE |
@@ -121,8 +121,7 @@ Observação: a aba possui 2595 registros. Existem 184 registros sem os campos d
 | `nota_media_iqnp` | decimal | 0,8375 a 10 | Nota média do IQNP |
 | `valor_iqnp` | decimal | 0 a 1 | Valor calculado do IQNP |
 | `peso_iqnp` | decimal | 0,4 | Peso do IQNP |
-| `valor_indicador_gravado` | decimal | 0 a 1 | Valor gravado do indicador IQ |
-| `faixa_fns_gravada` | decimal | 0 a 1 | Faixa FNS usada no cálculo gravado |
+| `faixa_fns` | decimal | 0 a 1 | Faixa FNS usada no cálculo gravado |
 | `valor_indicador` | decimal | 0 a 1 | Valor final do indicador IQ |
 
 Observação: `RAZAO IQRD`, `VALOR IQRD`, `SOMA NOTAS`, `NOTA MEDIA IQNP`, `VALOR IQNP` e `VALOR INDICADOR` podem estar vazios em parte dos registros.
@@ -169,7 +168,7 @@ Observação: `RAZAO IQRD`, `VALOR IQRD`, `SOMA NOTAS`, `NOTA MEDIA IQNP`, `VALO
 
 | Atributo | Tipo | Faixa observada | Descrição |
 |---|---|---|---|
-| `qt_itens_com_entregues` | inteiro | 0 a 156 | Quantidade de itens com entregas |
+| `qt_itens_entregues` | inteiro | 0 a 156 | Quantidade de itens com entregas |
 | `qt_itens_contratados` | inteiro | 0 a 173 | Quantidade de itens contratados |
 | `valor_indicador` | decimal | 0 a 1 | Valor calculado do indicador IE |
 | `valor_indicador_ajustado` | decimal | 0,4 a 1 | Valor ajustado do indicador IE |

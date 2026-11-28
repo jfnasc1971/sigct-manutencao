@@ -8,23 +8,32 @@ Os períodos disponíveis vão de **20/08/2025 a 20/11/2026** para a data final 
 
 ## Padrão de filtros
 
-Os endpoints `GET /api/v1/equipes`, `GET /api/v1/indicadores`, `GET /api/v1/contagens`, `GET /api/v1/notas_codigo` e `GET /api/v1/previa_retencao` seguem a seguinte regra:
+Os parâmetros das operações SOAP seguem as seguintes regras:
 
-- `contrato`: parâmetro obrigatório nos endpoints de equipes, indicadores, contagens e prévia de retenção.
-- `codigo_equipe`: parâmetro opcional nos endpoints de equipes, indicadores, contagens e prévia de retenção.
-- `data_fatura`: parâmetro obrigatório nos endpoints de indicadores e contagens.
-- `ciclo_faturamento` e `sigla_sistema`: ao menos um deve ser informado no endpoint de notas por código.
+- `consultarEquipes`: `contrato` é obrigatório e `codigoEquipe` é opcional.
+- `consultarIndicadores`: `contrato` e `dataFatura` são obrigatórios; `codigoEquipe` é opcional.
+- `consultarContagens`: `contrato` e `dataFatura` são obrigatórios; `codigoEquipe` é opcional.
+- `consultarNotasCodigo`: `cicloFaturamento` e `siglaSistema` são condicionais; ao menos um deles deve ser informado.
+- `consultarPreviaRetencao`: `contrato` é obrigatório e `codigoEquipe` é opcional.
+
+Para `consultarNotasCodigo`:
+
+- Quando somente `cicloFaturamento` é informado, retorna todas as siglas cadastradas para o ciclo.
+- Quando somente `siglaSistema` é informada, retorna todas as notas dos ciclos cadastrados para a sigla.
+- Quando os dois parâmetros são informados, retorna somente as notas correspondentes ao ciclo e à sigla informados.
+
+As datas devem ser informadas no formato `DD-MM-YYYY`. Os parâmetros não informados devem ser omitidos da requisição SOAP, exceto aqueles que forem obrigatórios.
 
 ## Endpoint 1: Equipes
 
-`GET /api/v1/equipes`
+`consultarEquipes`
 
 ### Parâmetros
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `contrato` | `varchar` | Sim | Contrato usado para localizar as equipes |
-| `codigo_equipe` | `varchar` | Não | Código da equipe para restringir o resultado |
+| `codigoEquipe` | `varchar` | Não | Código da equipe para restringir o resultado |
 
 ### Resposta
 
@@ -47,21 +56,21 @@ Exemplo com três equipes: [exemplo_equipes.xml](exemplo_equipes.xml)
 
 ## Endpoint 2: Indicadores
 
-`GET /api/v1/indicadores`
+`consultarIndicadores`
 
 ### Parâmetros
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `contrato` | `varchar` | Sim | Contrato usado para localizar as equipes e seus indicadores |
-| `codigo_equipe` | `varchar` | Não | Código da equipe para restringir o resultado |
-| `data_fatura` | `date` | Sim | Data final da fatura no formato `DD-MM-YYYY`. Deve corresponder ao valor de `DT. FINAL FATURA` |
+| `codigoEquipe` | `varchar` | Não | Código da equipe para restringir o resultado |
+| `dataFatura` | `date` | Sim | Data final da fatura no formato `DD-MM-YYYY`. Deve corresponder ao valor de `DT. FINAL FATURA` |
 
 ### Campos comuns
 
 Os registros das abas de indicadores possuem os seguintes campos:
 
-| Atributo | Tipo extraído | Descrição |
+| Atributo | Tipo | Descrição |
 |---|---|---|
 | `equipe` | texto | Código identificador da equipe |
 | `codigo_contrato` | texto | Código do contrato |
@@ -192,15 +201,15 @@ Observação: `RAZAO IQRD`, `VALOR IQRD`, `SOMA NOTAS`, `NOTA MEDIA IQNP`, `VALO
 
 ## Endpoint 3: Contagens PF
 
-`GET /api/v1/contagens`
+`consultarContagens`
 
 ### Parâmetros
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `contrato` | `varchar` | Sim | Contrato usado para localizar as contagens |
-| `codigo_equipe` | `varchar` | Não | Código da equipe para restringir o resultado |
-| `data_fatura` | `date` | Sim | Data final da fatura no formato `DD-MM-YYYY`, usada no filtro das contagens |
+| `codigoEquipe` | `varchar` | Não | Código da equipe para restringir o resultado |
+| `dataFatura` | `date` | Sim | Data final da fatura no formato `DD-MM-YYYY`, usada no filtro das contagens |
 
 ### Resposta
 
@@ -235,22 +244,22 @@ Exemplo: [exemplo_equipe_contagens.xml](exemplo_equipe_contagens.xml)
 
 ## Endpoint 4: Notas por Código
 
-`GET /api/v1/notas_codigo`
+`consultarNotasCodigo`
 
 ### Parâmetros
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `ciclo_faturamento` | `varchar` | Condicional | Ciclo de faturamento usado no filtro, por exemplo `01/2024`. Deve ser informado caso `sigla_sistema` não seja informado |
-| `sigla_sistema` | `varchar` | Condicional | Sigla do sistema usada no filtro. Deve ser informada caso `ciclo_faturamento` não seja informado |
+| `cicloFaturamento` | `varchar` | Condicional | Ciclo de faturamento usado no filtro, por exemplo `01/2024`. Deve ser informado caso `siglaSistema` não seja informado |
+| `siglaSistema` | `varchar` | Condicional | Sigla do sistema usada no filtro. Deve ser informada caso `cicloFaturamento` não seja informado |
 
 ### Regra de filtro
 
 Ao menos um dos dois parâmetros deve ser informado:
 
-- Se somente `ciclo_faturamento` for informado, o endpoint retorna todas as siglas cadastradas para esse ciclo.
-- Se somente `sigla_sistema` for informada, o endpoint retorna todas as notas de todos os ciclos cadastrados para essa sigla.
-- Se os dois forem informados, o endpoint retorna somente as notas correspondentes ao ciclo e à sigla informados.
+- Se somente `cicloFaturamento` for informado, a operação retorna todas as siglas cadastradas para esse ciclo.
+- Se somente `siglaSistema` for informada, a operação retorna todas as notas de todos os ciclos cadastrados para essa sigla.
+- Se os dois forem informados, a operação retorna somente as notas correspondentes ao ciclo e à sigla informados.
 
 ### Resposta
 
@@ -269,14 +278,14 @@ Exemplo: [exemplo_notas_codigo.xml](exemplo_notas_codigo.xml)
 
 ## Endpoint 5: Prévia de Retenção
 
-`GET /api/v1/previa_retencao`
+`consultarPreviaRetencao`
 
 ### Parâmetros
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `contrato` | `varchar` | Sim | Contrato usado para localizar as equipes na prévia de retenção |
-| `codigo_equipe` | `varchar` | Não | Código da equipe para restringir o resultado |
+| `codigoEquipe` | `varchar` | Não | Código da equipe para restringir o resultado |
 
 ### Resposta
 
@@ -316,13 +325,13 @@ Uma segunda opção de integração está disponível em XML no arquivo [SigctSe
 O endpoint publicado deverá ser:
 
 ```text
-/sigct-client/SigctService
+https://sigct.caixa.gov.br/SigctService
 ```
 
 A descrição do serviço pode ser consultada em:
 
 ```text
-/sigct-client/SigctService?wsdl
+https://sigct.caixa.gov.br/SigctService?wsdl
 ```
 
 Os formatos de data, timestamps, números decimais, valores nulos e os filtros definidos nesta documentação permanecem válidos para a opção SOAP.
@@ -331,11 +340,11 @@ Os formatos de data, timestamps, números decimais, valores nulos e os filtros d
 
 Os exemplos completos estão armazenados em arquivos XML separados:
 
-- [Exemplo do endpoint /api/v1/equipes](exemplo_equipes.xml)
-- [Exemplo unificado de indicadores](exemplo_equipe_indicadores.xml)
-- [Exemplo do endpoint /api/v1/contagens](exemplo_equipe_contagens.xml)
-- [Exemplo do endpoint /api/v1/notas_codigo](exemplo_notas_codigo.xml)
-- [Exemplo do endpoint /api/v1/previa_retencao](exemplo_previa_retencao.xml)
+- [Exemplo da operação `consultarEquipes`](exemplo_equipes.xml)
+- [Exemplo unificado da operação `consultarIndicadores`](exemplo_equipe_indicadores.xml)
+- [Exemplo da operação `consultarContagens`](exemplo_equipe_contagens.xml)
+- [Exemplo da operação `consultarNotasCodigo`](exemplo_notas_codigo.xml)
+- [Exemplo da operação `consultarPreviaRetencao`](exemplo_previa_retencao.xml)
 
 O arquivo completo reúne uma equipe de Desenvolvimento e uma equipe de Suporte. A equipe de Desenvolvimento contém os indicadores IE, IP, IQ, IT e FNS; a equipe de Suporte contém IE, IT e FNS, todos associados à competência de agosto de 2025.
 

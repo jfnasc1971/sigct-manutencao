@@ -483,7 +483,7 @@
 
   <service name="SigctService">
     <port name="SigctPort" binding="tns:SigctSoapBinding">
-      <soap:address location="/sigct-client/SigctService"/>
+      <soap:address location="https://sigct.caixa.gov.br/SigctService"/>
     </port>
   </service>
 

@@ -61,7 +61,7 @@ Exemplo com três equipes: [exemplo_equipes.json](exemplo_equipes.json)
 
 Os registros das abas de indicadores possuem os seguintes campos:
 
-| Atributo | Tipo extraído | Descrição |
+| Atributo | Tipo | Descrição |
 |---|---|---|
 | `equipe` | texto | Código identificador da equipe |
 | `codigo_contrato` | texto | Código do contrato |

@@ -1,11 +1,26 @@
 #!/bin/bash
 HOST="$(hostname)"
 
-if [ "$HOST" == "DF7390NX1302" ];then
+if [ "$HOST" == "DF5088NX3159" ];then
+
+  ## TQS
   export PGUSERNAME="gct"
   export PGPASSWORD="gct"  
   export PGSERVER="sctdedadlx0015.df.caixa"  
   export PGDATABASE="sigcttqs"
+
+  ## DES
+  # export PGUSERNAME="gct"
+  # export PGPASSWORD="gct"  
+  # export PGSERVER="sctdedadlx0012.df.caixa"  
+  # export PGDATABASE="sigctdes"
+
+  ## LOCAL 
+  # export PGUSERNAME="postgres"
+  # export PGPASSWORD="postgres"  
+  # export PGSERVER="192.168.0.211"  
+  # export PGDATABASE="gctprd01"
+
 else
   export PGUSERNAME="postgres"
   export PGPASSWORD="postgres"
